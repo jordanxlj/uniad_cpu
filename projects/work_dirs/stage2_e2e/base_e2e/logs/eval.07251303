@@ -1,0 +1,2545 @@
+NOTE: Redirects are currently not supported in Windows or MacOs.
+/opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/distributed/launch.py:163: DeprecationWarning: The 'warn' method is deprecated, use 'warning' instead
+  logger.warn(
+The module torch.distributed.launch is deprecated and going to be removed in future.Migrate to torch.distributed.run
+WARNING:torch.distributed.run:--use_env is deprecated and will be removed in future releases.
+ Please read local_rank from `os.environ('LOCAL_RANK')` instead.
+INFO:torch.distributed.launcher.api:Starting elastic_operator with launch configs:
+  entrypoint       : ./tools/test.py
+  min_nodes        : 1
+  max_nodes        : 1
+  nproc_per_node   : 1
+  run_id           : none
+  rdzv_backend     : static
+  rdzv_endpoint    : 127.0.0.1:28596
+  rdzv_configs     : {'rank': 0, 'timeout': 900}
+  max_restarts     : 3
+  monitor_interval : 5
+  log_dir          : None
+  metrics_cfg      : {}
+
+INFO:torch.distributed.elastic.agent.server.local_elastic_agent:log directory set to: /var/folders/bl/c09z1sm91mxfb8z7mn7v4rhh0000gq/T/torchelastic_i22xgtd4/none_psvucfvu
+INFO:torch.distributed.elastic.agent.server.api:[default] starting workers for entrypoint: python
+INFO:torch.distributed.elastic.agent.server.api:[default] Rendezvous'ing worker group
+/opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/distributed/elastic/utils/store.py:52: FutureWarning: This is an experimental API and will be changed in future.
+  warnings.warn(
+INFO:torch.distributed.elastic.agent.server.api:[default] Rendezvous complete for workers. Result:
+  restart_count=0
+  master_addr=127.0.0.1
+  master_port=28596
+  group_rank=0
+  group_world_size=1
+  local_ranks=[0]
+  role_ranks=[0]
+  global_ranks=[0]
+  role_world_sizes=[1]
+  global_world_sizes=[1]
+
+INFO:torch.distributed.elastic.agent.server.api:[default] Starting worker group
+INFO:torch.distributed.elastic.multiprocessing:Setting worker0 reply file to: /var/folders/bl/c09z1sm91mxfb8z7mn7v4rhh0000gq/T/torchelastic_i22xgtd4/none_psvucfvu/attempt_0/0/error.json
+projects.mmdet3d_plugin
+======
+Loading NuScenes tables for version v1.0-trainval...
+23 category,
+8 attribute,
+4 visibility,
+64386 instance,
+12 sensor,
+10200 calibrated_sensor,
+2631083 ego_pose,
+68 log,
+850 scene,
+34149 sample,
+2631083 sample_data,
+1166187 sample_annotation,
+4 map,
+Done loading in 22.638 seconds.
+======
+Reverse indexing ...
+Done reverse indexing in 6.1 seconds.
+======
+load checkpoint from local path: ./ckpts/uniad_base_e2e.pth
+2023-07-25 13:03:56,136 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.0.conv2 is upgraded to version 2.
+2023-07-25 13:03:56,139 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.1.conv2 is upgraded to version 2.
+2023-07-25 13:03:56,141 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.2.conv2 is upgraded to version 2.
+2023-07-25 13:03:56,144 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.3.conv2 is upgraded to version 2.
+2023-07-25 13:03:56,146 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.4.conv2 is upgraded to version 2.
+2023-07-25 13:03:56,149 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.5.conv2 is upgraded to version 2.
+2023-07-25 13:03:56,151 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.6.conv2 is upgraded to version 2.
+2023-07-25 13:03:56,154 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.7.conv2 is upgraded to version 2.
+2023-07-25 13:03:56,156 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.8.conv2 is upgraded to version 2.
+2023-07-25 13:03:56,159 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.9.conv2 is upgraded to version 2.
+2023-07-25 13:03:56,161 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.10.conv2 is upgraded to version 2.
+2023-07-25 13:03:56,164 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.11.conv2 is upgraded to version 2.
+2023-07-25 13:03:56,166 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.12.conv2 is upgraded to version 2.
+2023-07-25 13:03:56,169 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.13.conv2 is upgraded to version 2.
+2023-07-25 13:03:56,171 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.14.conv2 is upgraded to version 2.
+2023-07-25 13:03:56,174 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.15.conv2 is upgraded to version 2.
+2023-07-25 13:03:56,177 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.16.conv2 is upgraded to version 2.
+2023-07-25 13:03:56,179 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.17.conv2 is upgraded to version 2.
+2023-07-25 13:03:56,182 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.18.conv2 is upgraded to version 2.
+2023-07-25 13:03:56,185 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.19.conv2 is upgraded to version 2.
+2023-07-25 13:03:56,187 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.20.conv2 is upgraded to version 2.
+2023-07-25 13:03:56,190 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.21.conv2 is upgraded to version 2.
+2023-07-25 13:03:56,192 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.22.conv2 is upgraded to version 2.
+2023-07-25 13:03:56,195 - root - INFO - ModulatedDeformConvPack img_backbone.layer4.0.conv2 is upgraded to version 2.
+2023-07-25 13:03:56,199 - root - INFO - ModulatedDeformConvPack img_backbone.layer4.1.conv2 is upgraded to version 2.
+2023-07-25 13:03:56,202 - root - INFO - ModulatedDeformConvPack img_backbone.layer4.2.conv2 is upgraded to version 2.
+The model and loaded state dict do not match exactly
+
+unexpected key in source state_dict: bbox_size_fc.weight, bbox_size_fc.bias, seg_head.transformer.level_embeds, seg_head.transformer.encoder.layers.0.attentions.0.sampling_offsets.weight, seg_head.transformer.encoder.layers.0.attentions.0.sampling_offsets.bias, seg_head.transformer.encoder.layers.0.attentions.0.attention_weights.weight, seg_head.transformer.encoder.layers.0.attentions.0.attention_weights.bias, seg_head.transformer.encoder.layers.0.attentions.0.value_proj.weight, seg_head.transformer.encoder.layers.0.attentions.0.value_proj.bias, seg_head.transformer.encoder.layers.0.attentions.0.output_proj.weight, seg_head.transformer.encoder.layers.0.attentions.0.output_proj.bias, seg_head.transformer.encoder.layers.0.ffns.0.layers.0.0.weight, seg_head.transformer.encoder.layers.0.ffns.0.layers.0.0.bias, seg_head.transformer.encoder.layers.0.ffns.0.layers.1.weight, seg_head.transformer.encoder.layers.0.ffns.0.layers.1.bias, seg_head.transformer.encoder.layers.0.norms.0.weight, seg_head.transformer.encoder.layers.0.norms.0.bias, seg_head.transformer.encoder.layers.0.norms.1.weight, seg_head.transformer.encoder.layers.0.norms.1.bias, seg_head.transformer.encoder.layers.1.attentions.0.sampling_offsets.weight, seg_head.transformer.encoder.layers.1.attentions.0.sampling_offsets.bias, seg_head.transformer.encoder.layers.1.attentions.0.attention_weights.weight, seg_head.transformer.encoder.layers.1.attentions.0.attention_weights.bias, seg_head.transformer.encoder.layers.1.attentions.0.value_proj.weight, seg_head.transformer.encoder.layers.1.attentions.0.value_proj.bias, seg_head.transformer.encoder.layers.1.attentions.0.output_proj.weight, seg_head.transformer.encoder.layers.1.attentions.0.output_proj.bias, seg_head.transformer.encoder.layers.1.ffns.0.layers.0.0.weight, seg_head.transformer.encoder.layers.1.ffns.0.layers.0.0.bias, seg_head.transformer.encoder.layers.1.ffns.0.layers.1.weight, seg_head.transformer.encoder.layers.1.ffns.0.layers.1.bias, seg_head.transformer.encoder.layers.1.norms.0.weight, seg_head.transformer.encoder.layers.1.norms.0.bias, seg_head.transformer.encoder.layers.1.norms.1.weight, seg_head.transformer.encoder.layers.1.norms.1.bias, seg_head.transformer.encoder.layers.2.attentions.0.sampling_offsets.weight, seg_head.transformer.encoder.layers.2.attentions.0.sampling_offsets.bias, seg_head.transformer.encoder.layers.2.attentions.0.attention_weights.weight, seg_head.transformer.encoder.layers.2.attentions.0.attention_weights.bias, seg_head.transformer.encoder.layers.2.attentions.0.value_proj.weight, seg_head.transformer.encoder.layers.2.attentions.0.value_proj.bias, seg_head.transformer.encoder.layers.2.attentions.0.output_proj.weight, seg_head.transformer.encoder.layers.2.attentions.0.output_proj.bias, seg_head.transformer.encoder.layers.2.ffns.0.layers.0.0.weight, seg_head.transformer.encoder.layers.2.ffns.0.layers.0.0.bias, seg_head.transformer.encoder.layers.2.ffns.0.layers.1.weight, seg_head.transformer.encoder.layers.2.ffns.0.layers.1.bias, seg_head.transformer.encoder.layers.2.norms.0.weight, seg_head.transformer.encoder.layers.2.norms.0.bias, seg_head.transformer.encoder.layers.2.norms.1.weight, seg_head.transformer.encoder.layers.2.norms.1.bias, seg_head.transformer.encoder.layers.3.attentions.0.sampling_offsets.weight, seg_head.transformer.encoder.layers.3.attentions.0.sampling_offsets.bias, seg_head.transformer.encoder.layers.3.attentions.0.attention_weights.weight, seg_head.transformer.encoder.layers.3.attentions.0.attention_weights.bias, seg_head.transformer.encoder.layers.3.attentions.0.value_proj.weight, seg_head.transformer.encoder.layers.3.attentions.0.value_proj.bias, seg_head.transformer.encoder.layers.3.attentions.0.output_proj.weight, seg_head.transformer.encoder.layers.3.attentions.0.output_proj.bias, seg_head.transformer.encoder.layers.3.ffns.0.layers.0.0.weight, seg_head.transformer.encoder.layers.3.ffns.0.layers.0.0.bias, seg_head.transformer.encoder.layers.3.ffns.0.layers.1.weight, seg_head.transformer.encoder.layers.3.ffns.0.layers.1.bias, seg_head.transformer.encoder.layers.3.norms.0.weight, seg_head.transformer.encoder.layers.3.norms.0.bias, seg_head.transformer.encoder.layers.3.norms.1.weight, seg_head.transformer.encoder.layers.3.norms.1.bias, seg_head.transformer.encoder.layers.4.attentions.0.sampling_offsets.weight, seg_head.transformer.encoder.layers.4.attentions.0.sampling_offsets.bias, seg_head.transformer.encoder.layers.4.attentions.0.attention_weights.weight, seg_head.transformer.encoder.layers.4.attentions.0.attention_weights.bias, seg_head.transformer.encoder.layers.4.attentions.0.value_proj.weight, seg_head.transformer.encoder.layers.4.attentions.0.value_proj.bias, seg_head.transformer.encoder.layers.4.attentions.0.output_proj.weight, seg_head.transformer.encoder.layers.4.attentions.0.output_proj.bias, seg_head.transformer.encoder.layers.4.ffns.0.layers.0.0.weight, seg_head.transformer.encoder.layers.4.ffns.0.layers.0.0.bias, seg_head.transformer.encoder.layers.4.ffns.0.layers.1.weight, seg_head.transformer.encoder.layers.4.ffns.0.layers.1.bias, seg_head.transformer.encoder.layers.4.norms.0.weight, seg_head.transformer.encoder.layers.4.norms.0.bias, seg_head.transformer.encoder.layers.4.norms.1.weight, seg_head.transformer.encoder.layers.4.norms.1.bias, seg_head.transformer.encoder.layers.5.attentions.0.sampling_offsets.weight, seg_head.transformer.encoder.layers.5.attentions.0.sampling_offsets.bias, seg_head.transformer.encoder.layers.5.attentions.0.attention_weights.weight, seg_head.transformer.encoder.layers.5.attentions.0.attention_weights.bias, seg_head.transformer.encoder.layers.5.attentions.0.value_proj.weight, seg_head.transformer.encoder.layers.5.attentions.0.value_proj.bias, seg_head.transformer.encoder.layers.5.attentions.0.output_proj.weight, seg_head.transformer.encoder.layers.5.attentions.0.output_proj.bias, seg_head.transformer.encoder.layers.5.ffns.0.layers.0.0.weight, seg_head.transformer.encoder.layers.5.ffns.0.layers.0.0.bias, seg_head.transformer.encoder.layers.5.ffns.0.layers.1.weight, seg_head.transformer.encoder.layers.5.ffns.0.layers.1.bias, seg_head.transformer.encoder.layers.5.norms.0.weight, seg_head.transformer.encoder.layers.5.norms.0.bias, seg_head.transformer.encoder.layers.5.norms.1.weight, seg_head.transformer.encoder.layers.5.norms.1.bias, seg_head.transformer.decoder.layers.0.attentions.0.attn.in_proj_weight, seg_head.transformer.decoder.layers.0.attentions.0.attn.in_proj_bias, seg_head.transformer.decoder.layers.0.attentions.0.attn.out_proj.weight, seg_head.transformer.decoder.layers.0.attentions.0.attn.out_proj.bias, seg_head.transformer.decoder.layers.0.attentions.1.sampling_offsets.weight, seg_head.transformer.decoder.layers.0.attentions.1.sampling_offsets.bias, seg_head.transformer.decoder.layers.0.attentions.1.attention_weights.weight, seg_head.transformer.decoder.layers.0.attentions.1.attention_weights.bias, seg_head.transformer.decoder.layers.0.attentions.1.value_proj.weight, seg_head.transformer.decoder.layers.0.attentions.1.value_proj.bias, seg_head.transformer.decoder.layers.0.attentions.1.output_proj.weight, seg_head.transformer.decoder.layers.0.attentions.1.output_proj.bias, seg_head.transformer.decoder.layers.0.ffns.0.layers.0.0.weight, seg_head.transformer.decoder.layers.0.ffns.0.layers.0.0.bias, seg_head.transformer.decoder.layers.0.ffns.0.layers.1.weight, seg_head.transformer.decoder.layers.0.ffns.0.layers.1.bias, seg_head.transformer.decoder.layers.0.norms.0.weight, seg_head.transformer.decoder.layers.0.norms.0.bias, seg_head.transformer.decoder.layers.0.norms.1.weight, seg_head.transformer.decoder.layers.0.norms.1.bias, seg_head.transformer.decoder.layers.0.norms.2.weight, seg_head.transformer.decoder.layers.0.norms.2.bias, seg_head.transformer.decoder.layers.1.attentions.0.attn.in_proj_weight, seg_head.transformer.decoder.layers.1.attentions.0.attn.in_proj_bias, seg_head.transformer.decoder.layers.1.attentions.0.attn.out_proj.weight, seg_head.transformer.decoder.layers.1.attentions.0.attn.out_proj.bias, seg_head.transformer.decoder.layers.1.attentions.1.sampling_offsets.weight, seg_head.transformer.decoder.layers.1.attentions.1.sampling_offsets.bias, seg_head.transformer.decoder.layers.1.attentions.1.attention_weights.weight, seg_head.transformer.decoder.layers.1.attentions.1.attention_weights.bias, seg_head.transformer.decoder.layers.1.attentions.1.value_proj.weight, seg_head.transformer.decoder.layers.1.attentions.1.value_proj.bias, seg_head.transformer.decoder.layers.1.attentions.1.output_proj.weight, seg_head.transformer.decoder.layers.1.attentions.1.output_proj.bias, seg_head.transformer.decoder.layers.1.ffns.0.layers.0.0.weight, seg_head.transformer.decoder.layers.1.ffns.0.layers.0.0.bias, seg_head.transformer.decoder.layers.1.ffns.0.layers.1.weight, seg_head.transformer.decoder.layers.1.ffns.0.layers.1.bias, seg_head.transformer.decoder.layers.1.norms.0.weight, seg_head.transformer.decoder.layers.1.norms.0.bias, seg_head.transformer.decoder.layers.1.norms.1.weight, seg_head.transformer.decoder.layers.1.norms.1.bias, seg_head.transformer.decoder.layers.1.norms.2.weight, seg_head.transformer.decoder.layers.1.norms.2.bias, seg_head.transformer.decoder.layers.2.attentions.0.attn.in_proj_weight, seg_head.transformer.decoder.layers.2.attentions.0.attn.in_proj_bias, seg_head.transformer.decoder.layers.2.attentions.0.attn.out_proj.weight, seg_head.transformer.decoder.layers.2.attentions.0.attn.out_proj.bias, seg_head.transformer.decoder.layers.2.attentions.1.sampling_offsets.weight, seg_head.transformer.decoder.layers.2.attentions.1.sampling_offsets.bias, seg_head.transformer.decoder.layers.2.attentions.1.attention_weights.weight, seg_head.transformer.decoder.layers.2.attentions.1.attention_weights.bias, seg_head.transformer.decoder.layers.2.attentions.1.value_proj.weight, seg_head.transformer.decoder.layers.2.attentions.1.value_proj.bias, seg_head.transformer.decoder.layers.2.attentions.1.output_proj.weight, seg_head.transformer.decoder.layers.2.attentions.1.output_proj.bias, seg_head.transformer.decoder.layers.2.ffns.0.layers.0.0.weight, seg_head.transformer.decoder.layers.2.ffns.0.layers.0.0.bias, seg_head.transformer.decoder.layers.2.ffns.0.layers.1.weight, seg_head.transformer.decoder.layers.2.ffns.0.layers.1.bias, seg_head.transformer.decoder.layers.2.norms.0.weight, seg_head.transformer.decoder.layers.2.norms.0.bias, seg_head.transformer.decoder.layers.2.norms.1.weight, seg_head.transformer.decoder.layers.2.norms.1.bias, seg_head.transformer.decoder.layers.2.norms.2.weight, seg_head.transformer.decoder.layers.2.norms.2.bias, seg_head.transformer.decoder.layers.3.attentions.0.attn.in_proj_weight, seg_head.transformer.decoder.layers.3.attentions.0.attn.in_proj_bias, seg_head.transformer.decoder.layers.3.attentions.0.attn.out_proj.weight, seg_head.transformer.decoder.layers.3.attentions.0.attn.out_proj.bias, seg_head.transformer.decoder.layers.3.attentions.1.sampling_offsets.weight, seg_head.transformer.decoder.layers.3.attentions.1.sampling_offsets.bias, seg_head.transformer.decoder.layers.3.attentions.1.attention_weights.weight, seg_head.transformer.decoder.layers.3.attentions.1.attention_weights.bias, seg_head.transformer.decoder.layers.3.attentions.1.value_proj.weight, seg_head.transformer.decoder.layers.3.attentions.1.value_proj.bias, seg_head.transformer.decoder.layers.3.attentions.1.output_proj.weight, seg_head.transformer.decoder.layers.3.attentions.1.output_proj.bias, seg_head.transformer.decoder.layers.3.ffns.0.layers.0.0.weight, seg_head.transformer.decoder.layers.3.ffns.0.layers.0.0.bias, seg_head.transformer.decoder.layers.3.ffns.0.layers.1.weight, seg_head.transformer.decoder.layers.3.ffns.0.layers.1.bias, seg_head.transformer.decoder.layers.3.norms.0.weight, seg_head.transformer.decoder.layers.3.norms.0.bias, seg_head.transformer.decoder.layers.3.norms.1.weight, seg_head.transformer.decoder.layers.3.norms.1.bias, seg_head.transformer.decoder.layers.3.norms.2.weight, seg_head.transformer.decoder.layers.3.norms.2.bias, seg_head.transformer.decoder.layers.4.attentions.0.attn.in_proj_weight, seg_head.transformer.decoder.layers.4.attentions.0.attn.in_proj_bias, seg_head.transformer.decoder.layers.4.attentions.0.attn.out_proj.weight, seg_head.transformer.decoder.layers.4.attentions.0.attn.out_proj.bias, seg_head.transformer.decoder.layers.4.attentions.1.sampling_offsets.weight, seg_head.transformer.decoder.layers.4.attentions.1.sampling_offsets.bias, seg_head.transformer.decoder.layers.4.attentions.1.attention_weights.weight, seg_head.transformer.decoder.layers.4.attentions.1.attention_weights.bias, seg_head.transformer.decoder.layers.4.attentions.1.value_proj.weight, seg_head.transformer.decoder.layers.4.attentions.1.value_proj.bias, seg_head.transformer.decoder.layers.4.attentions.1.output_proj.weight, seg_head.transformer.decoder.layers.4.attentions.1.output_proj.bias, seg_head.transformer.decoder.layers.4.ffns.0.layers.0.0.weight, seg_head.transformer.decoder.layers.4.ffns.0.layers.0.0.bias, seg_head.transformer.decoder.layers.4.ffns.0.layers.1.weight, seg_head.transformer.decoder.layers.4.ffns.0.layers.1.bias, seg_head.transformer.decoder.layers.4.norms.0.weight, seg_head.transformer.decoder.layers.4.norms.0.bias, seg_head.transformer.decoder.layers.4.norms.1.weight, seg_head.transformer.decoder.layers.4.norms.1.bias, seg_head.transformer.decoder.layers.4.norms.2.weight, seg_head.transformer.decoder.layers.4.norms.2.bias, seg_head.transformer.decoder.layers.5.attentions.0.attn.in_proj_weight, seg_head.transformer.decoder.layers.5.attentions.0.attn.in_proj_bias, seg_head.transformer.decoder.layers.5.attentions.0.attn.out_proj.weight, seg_head.transformer.decoder.layers.5.attentions.0.attn.out_proj.bias, seg_head.transformer.decoder.layers.5.attentions.1.sampling_offsets.weight, seg_head.transformer.decoder.layers.5.attentions.1.sampling_offsets.bias, seg_head.transformer.decoder.layers.5.attentions.1.attention_weights.weight, seg_head.transformer.decoder.layers.5.attentions.1.attention_weights.bias, seg_head.transformer.decoder.layers.5.attentions.1.value_proj.weight, seg_head.transformer.decoder.layers.5.attentions.1.value_proj.bias, seg_head.transformer.decoder.layers.5.attentions.1.output_proj.weight, seg_head.transformer.decoder.layers.5.attentions.1.output_proj.bias, seg_head.transformer.decoder.layers.5.ffns.0.layers.0.0.weight, seg_head.transformer.decoder.layers.5.ffns.0.layers.0.0.bias, seg_head.transformer.decoder.layers.5.ffns.0.layers.1.weight, seg_head.transformer.decoder.layers.5.ffns.0.layers.1.bias, seg_head.transformer.decoder.layers.5.norms.0.weight, seg_head.transformer.decoder.layers.5.norms.0.bias, seg_head.transformer.decoder.layers.5.norms.1.weight, seg_head.transformer.decoder.layers.5.norms.1.bias, seg_head.transformer.decoder.layers.5.norms.2.weight, seg_head.transformer.decoder.layers.5.norms.2.bias, seg_head.transformer.reference_points.weight, seg_head.transformer.reference_points.bias, seg_head.bev_embedding.weight, seg_head.cls_branches.0.weight, seg_head.cls_branches.0.bias, seg_head.cls_branches.1.weight, seg_head.cls_branches.1.bias, seg_head.cls_branches.2.weight, seg_head.cls_branches.2.bias, seg_head.cls_branches.3.weight, seg_head.cls_branches.3.bias, seg_head.cls_branches.4.weight, seg_head.cls_branches.4.bias, seg_head.cls_branches.5.weight, seg_head.cls_branches.5.bias, seg_head.reg_branches.0.0.weight, seg_head.reg_branches.0.0.bias, seg_head.reg_branches.0.2.weight, seg_head.reg_branches.0.2.bias, seg_head.reg_branches.0.4.weight, seg_head.reg_branches.0.4.bias, seg_head.reg_branches.1.0.weight, seg_head.reg_branches.1.0.bias, seg_head.reg_branches.1.2.weight, seg_head.reg_branches.1.2.bias, seg_head.reg_branches.1.4.weight, seg_head.reg_branches.1.4.bias, seg_head.reg_branches.2.0.weight, seg_head.reg_branches.2.0.bias, seg_head.reg_branches.2.2.weight, seg_head.reg_branches.2.2.bias, seg_head.reg_branches.2.4.weight, seg_head.reg_branches.2.4.bias, seg_head.reg_branches.3.0.weight, seg_head.reg_branches.3.0.bias, seg_head.reg_branches.3.2.weight, seg_head.reg_branches.3.2.bias, seg_head.reg_branches.3.4.weight, seg_head.reg_branches.3.4.bias, seg_head.reg_branches.4.0.weight, seg_head.reg_branches.4.0.bias, seg_head.reg_branches.4.2.weight, seg_head.reg_branches.4.2.bias, seg_head.reg_branches.4.4.weight, seg_head.reg_branches.4.4.bias, seg_head.reg_branches.5.0.weight, seg_head.reg_branches.5.0.bias, seg_head.reg_branches.5.2.weight, seg_head.reg_branches.5.2.bias, seg_head.reg_branches.5.4.weight, seg_head.reg_branches.5.4.bias, seg_head.query_embedding.weight, seg_head.stuff_query.weight, seg_head.reg_branches2.0.0.weight, seg_head.reg_branches2.0.0.bias, seg_head.reg_branches2.0.2.weight, seg_head.reg_branches2.0.2.bias, seg_head.reg_branches2.0.4.weight, seg_head.reg_branches2.0.4.bias, seg_head.reg_branches2.1.0.weight, seg_head.reg_branches2.1.0.bias, seg_head.reg_branches2.1.2.weight, seg_head.reg_branches2.1.2.bias, seg_head.reg_branches2.1.4.weight, seg_head.reg_branches2.1.4.bias, seg_head.reg_branches2.2.0.weight, seg_head.reg_branches2.2.0.bias, seg_head.reg_branches2.2.2.weight, seg_head.reg_branches2.2.2.bias, seg_head.reg_branches2.2.4.weight, seg_head.reg_branches2.2.4.bias, seg_head.reg_branches2.3.0.weight, seg_head.reg_branches2.3.0.bias, seg_head.reg_branches2.3.2.weight, seg_head.reg_branches2.3.2.bias, seg_head.reg_branches2.3.4.weight, seg_head.reg_branches2.3.4.bias, seg_head.cls_thing_branches.0.weight, seg_head.cls_thing_branches.0.bias, seg_head.cls_thing_branches.1.weight, seg_head.cls_thing_branches.1.bias, seg_head.cls_thing_branches.2.weight, seg_head.cls_thing_branches.2.bias, seg_head.cls_thing_branches.3.weight, seg_head.cls_thing_branches.3.bias, seg_head.cls_stuff_branches.0.weight, seg_head.cls_stuff_branches.0.bias, seg_head.cls_stuff_branches.1.weight, seg_head.cls_stuff_branches.1.bias, seg_head.cls_stuff_branches.2.weight, seg_head.cls_stuff_branches.2.bias, seg_head.cls_stuff_branches.3.weight, seg_head.cls_stuff_branches.3.bias, seg_head.cls_stuff_branches.4.weight, seg_head.cls_stuff_branches.4.bias, seg_head.cls_stuff_branches.5.weight, seg_head.cls_stuff_branches.5.bias, seg_head.things_mask_head.blocks.0.head_norm1.weight, seg_head.things_mask_head.blocks.0.head_norm1.bias, seg_head.things_mask_head.blocks.0.attn.q.weight, seg_head.things_mask_head.blocks.0.attn.q.bias, seg_head.things_mask_head.blocks.0.attn.k.weight, seg_head.things_mask_head.blocks.0.attn.k.bias, seg_head.things_mask_head.blocks.0.attn.v.weight, seg_head.things_mask_head.blocks.0.attn.v.bias, seg_head.things_mask_head.blocks.0.attn.proj.weight, seg_head.things_mask_head.blocks.0.attn.proj.bias, seg_head.things_mask_head.blocks.0.attn.linear_l1.0.weight, seg_head.things_mask_head.blocks.0.attn.linear_l1.0.bias, seg_head.things_mask_head.blocks.0.attn.linear.0.weight, seg_head.things_mask_head.blocks.0.attn.linear.0.bias, seg_head.things_mask_head.blocks.0.head_norm2.weight, seg_head.things_mask_head.blocks.0.head_norm2.bias, seg_head.things_mask_head.blocks.0.mlp.fc1.weight, seg_head.things_mask_head.blocks.0.mlp.fc1.bias, seg_head.things_mask_head.blocks.0.mlp.fc2.weight, seg_head.things_mask_head.blocks.0.mlp.fc2.bias, seg_head.things_mask_head.blocks.1.head_norm1.weight, seg_head.things_mask_head.blocks.1.head_norm1.bias, seg_head.things_mask_head.blocks.1.attn.q.weight, seg_head.things_mask_head.blocks.1.attn.q.bias, seg_head.things_mask_head.blocks.1.attn.k.weight, seg_head.things_mask_head.blocks.1.attn.k.bias, seg_head.things_mask_head.blocks.1.attn.v.weight, seg_head.things_mask_head.blocks.1.attn.v.bias, seg_head.things_mask_head.blocks.1.attn.proj.weight, seg_head.things_mask_head.blocks.1.attn.proj.bias, seg_head.things_mask_head.blocks.1.attn.linear_l1.0.weight, seg_head.things_mask_head.blocks.1.attn.linear_l1.0.bias, seg_head.things_mask_head.blocks.1.attn.linear.0.weight, seg_head.things_mask_head.blocks.1.attn.linear.0.bias, seg_head.things_mask_head.blocks.1.head_norm2.weight, seg_head.things_mask_head.blocks.1.head_norm2.bias, seg_head.things_mask_head.blocks.1.mlp.fc1.weight, seg_head.things_mask_head.blocks.1.mlp.fc1.bias, seg_head.things_mask_head.blocks.1.mlp.fc2.weight, seg_head.things_mask_head.blocks.1.mlp.fc2.bias, seg_head.things_mask_head.blocks.2.head_norm1.weight, seg_head.things_mask_head.blocks.2.head_norm1.bias, seg_head.things_mask_head.blocks.2.attn.q.weight, seg_head.things_mask_head.blocks.2.attn.q.bias, seg_head.things_mask_head.blocks.2.attn.k.weight, seg_head.things_mask_head.blocks.2.attn.k.bias, seg_head.things_mask_head.blocks.2.attn.v.weight, seg_head.things_mask_head.blocks.2.attn.v.bias, seg_head.things_mask_head.blocks.2.attn.proj.weight, seg_head.things_mask_head.blocks.2.attn.proj.bias, seg_head.things_mask_head.blocks.2.attn.linear_l1.0.weight, seg_head.things_mask_head.blocks.2.attn.linear_l1.0.bias, seg_head.things_mask_head.blocks.2.attn.linear.0.weight, seg_head.things_mask_head.blocks.2.attn.linear.0.bias, seg_head.things_mask_head.blocks.2.head_norm2.weight, seg_head.things_mask_head.blocks.2.head_norm2.bias, seg_head.things_mask_head.blocks.2.mlp.fc1.weight, seg_head.things_mask_head.blocks.2.mlp.fc1.bias, seg_head.things_mask_head.blocks.2.mlp.fc2.weight, seg_head.things_mask_head.blocks.2.mlp.fc2.bias, seg_head.things_mask_head.blocks.3.head_norm1.weight, seg_head.things_mask_head.blocks.3.head_norm1.bias, seg_head.things_mask_head.blocks.3.attn.q.weight, seg_head.things_mask_head.blocks.3.attn.q.bias, seg_head.things_mask_head.blocks.3.attn.k.weight, seg_head.things_mask_head.blocks.3.attn.k.bias, seg_head.things_mask_head.blocks.3.attn.v.weight, seg_head.things_mask_head.blocks.3.attn.v.bias, seg_head.things_mask_head.blocks.3.attn.proj.weight, seg_head.things_mask_head.blocks.3.attn.proj.bias, seg_head.things_mask_head.blocks.3.attn.linear_l1.0.weight, seg_head.things_mask_head.blocks.3.attn.linear_l1.0.bias, seg_head.things_mask_head.blocks.3.attn.linear.0.weight, seg_head.things_mask_head.blocks.3.attn.linear.0.bias, seg_head.things_mask_head.blocks.3.head_norm2.weight, seg_head.things_mask_head.blocks.3.head_norm2.bias, seg_head.things_mask_head.blocks.3.mlp.fc1.weight, seg_head.things_mask_head.blocks.3.mlp.fc1.bias, seg_head.things_mask_head.blocks.3.mlp.fc2.weight, seg_head.things_mask_head.blocks.3.mlp.fc2.bias, seg_head.things_mask_head.attnen.q.weight, seg_head.things_mask_head.attnen.q.bias, seg_head.things_mask_head.attnen.k.weight, seg_head.things_mask_head.attnen.k.bias, seg_head.things_mask_head.attnen.linear_l1.0.weight, seg_head.things_mask_head.attnen.linear_l1.0.bias, seg_head.things_mask_head.attnen.linear.0.weight, seg_head.things_mask_head.attnen.linear.0.bias, seg_head.stuff_mask_head.blocks.0.head_norm1.weight, seg_head.stuff_mask_head.blocks.0.head_norm1.bias, seg_head.stuff_mask_head.blocks.0.attn.q.weight, seg_head.stuff_mask_head.blocks.0.attn.q.bias, seg_head.stuff_mask_head.blocks.0.attn.k.weight, seg_head.stuff_mask_head.blocks.0.attn.k.bias, seg_head.stuff_mask_head.blocks.0.attn.v.weight, seg_head.stuff_mask_head.blocks.0.attn.v.bias, seg_head.stuff_mask_head.blocks.0.attn.proj.weight, seg_head.stuff_mask_head.blocks.0.attn.proj.bias, seg_head.stuff_mask_head.blocks.0.attn.linear_l1.0.weight, seg_head.stuff_mask_head.blocks.0.attn.linear_l1.0.bias, seg_head.stuff_mask_head.blocks.0.attn.linear.0.weight, seg_head.stuff_mask_head.blocks.0.attn.linear.0.bias, seg_head.stuff_mask_head.blocks.0.head_norm2.weight, seg_head.stuff_mask_head.blocks.0.head_norm2.bias, seg_head.stuff_mask_head.blocks.0.mlp.fc1.weight, seg_head.stuff_mask_head.blocks.0.mlp.fc1.bias, seg_head.stuff_mask_head.blocks.0.mlp.fc2.weight, seg_head.stuff_mask_head.blocks.0.mlp.fc2.bias, seg_head.stuff_mask_head.blocks.0.self_attention.qkv.weight, seg_head.stuff_mask_head.blocks.0.self_attention.qkv.bias, seg_head.stuff_mask_head.blocks.0.self_attention.proj.weight, seg_head.stuff_mask_head.blocks.0.self_attention.proj.bias, seg_head.stuff_mask_head.blocks.0.norm3.weight, seg_head.stuff_mask_head.blocks.0.norm3.bias, seg_head.stuff_mask_head.blocks.1.head_norm1.weight, seg_head.stuff_mask_head.blocks.1.head_norm1.bias, seg_head.stuff_mask_head.blocks.1.attn.q.weight, seg_head.stuff_mask_head.blocks.1.attn.q.bias, seg_head.stuff_mask_head.blocks.1.attn.k.weight, seg_head.stuff_mask_head.blocks.1.attn.k.bias, seg_head.stuff_mask_head.blocks.1.attn.v.weight, seg_head.stuff_mask_head.blocks.1.attn.v.bias, seg_head.stuff_mask_head.blocks.1.attn.proj.weight, seg_head.stuff_mask_head.blocks.1.attn.proj.bias, seg_head.stuff_mask_head.blocks.1.attn.linear_l1.0.weight, seg_head.stuff_mask_head.blocks.1.attn.linear_l1.0.bias, seg_head.stuff_mask_head.blocks.1.attn.linear.0.weight, seg_head.stuff_mask_head.blocks.1.attn.linear.0.bias, seg_head.stuff_mask_head.blocks.1.head_norm2.weight, seg_head.stuff_mask_head.blocks.1.head_norm2.bias, seg_head.stuff_mask_head.blocks.1.mlp.fc1.weight, seg_head.stuff_mask_head.blocks.1.mlp.fc1.bias, seg_head.stuff_mask_head.blocks.1.mlp.fc2.weight, seg_head.stuff_mask_head.blocks.1.mlp.fc2.bias, seg_head.stuff_mask_head.blocks.1.self_attention.qkv.weight, seg_head.stuff_mask_head.blocks.1.self_attention.qkv.bias, seg_head.stuff_mask_head.blocks.1.self_attention.proj.weight, seg_head.stuff_mask_head.blocks.1.self_attention.proj.bias, seg_head.stuff_mask_head.blocks.1.norm3.weight, seg_head.stuff_mask_head.blocks.1.norm3.bias, seg_head.stuff_mask_head.blocks.2.head_norm1.weight, seg_head.stuff_mask_head.blocks.2.head_norm1.bias, seg_head.stuff_mask_head.blocks.2.attn.q.weight, seg_head.stuff_mask_head.blocks.2.attn.q.bias, seg_head.stuff_mask_head.blocks.2.attn.k.weight, seg_head.stuff_mask_head.blocks.2.attn.k.bias, seg_head.stuff_mask_head.blocks.2.attn.v.weight, seg_head.stuff_mask_head.blocks.2.attn.v.bias, seg_head.stuff_mask_head.blocks.2.attn.proj.weight, seg_head.stuff_mask_head.blocks.2.attn.proj.bias, seg_head.stuff_mask_head.blocks.2.attn.linear_l1.0.weight, seg_head.stuff_mask_head.blocks.2.attn.linear_l1.0.bias, seg_head.stuff_mask_head.blocks.2.attn.linear.0.weight, seg_head.stuff_mask_head.blocks.2.attn.linear.0.bias, seg_head.stuff_mask_head.blocks.2.head_norm2.weight, seg_head.stuff_mask_head.blocks.2.head_norm2.bias, seg_head.stuff_mask_head.blocks.2.mlp.fc1.weight, seg_head.stuff_mask_head.blocks.2.mlp.fc1.bias, seg_head.stuff_mask_head.blocks.2.mlp.fc2.weight, seg_head.stuff_mask_head.blocks.2.mlp.fc2.bias, seg_head.stuff_mask_head.blocks.2.self_attention.qkv.weight, seg_head.stuff_mask_head.blocks.2.self_attention.qkv.bias, seg_head.stuff_mask_head.blocks.2.self_attention.proj.weight, seg_head.stuff_mask_head.blocks.2.self_attention.proj.bias, seg_head.stuff_mask_head.blocks.2.norm3.weight, seg_head.stuff_mask_head.blocks.2.norm3.bias, seg_head.stuff_mask_head.blocks.3.head_norm1.weight, seg_head.stuff_mask_head.blocks.3.head_norm1.bias, seg_head.stuff_mask_head.blocks.3.attn.q.weight, seg_head.stuff_mask_head.blocks.3.attn.q.bias, seg_head.stuff_mask_head.blocks.3.attn.k.weight, seg_head.stuff_mask_head.blocks.3.attn.k.bias, seg_head.stuff_mask_head.blocks.3.attn.v.weight, seg_head.stuff_mask_head.blocks.3.attn.v.bias, seg_head.stuff_mask_head.blocks.3.attn.proj.weight, seg_head.stuff_mask_head.blocks.3.attn.proj.bias, seg_head.stuff_mask_head.blocks.3.attn.linear_l1.0.weight, seg_head.stuff_mask_head.blocks.3.attn.linear_l1.0.bias, seg_head.stuff_mask_head.blocks.3.attn.linear.0.weight, seg_head.stuff_mask_head.blocks.3.attn.linear.0.bias, seg_head.stuff_mask_head.blocks.3.head_norm2.weight, seg_head.stuff_mask_head.blocks.3.head_norm2.bias, seg_head.stuff_mask_head.blocks.3.mlp.fc1.weight, seg_head.stuff_mask_head.blocks.3.mlp.fc1.bias, seg_head.stuff_mask_head.blocks.3.mlp.fc2.weight, seg_head.stuff_mask_head.blocks.3.mlp.fc2.bias, seg_head.stuff_mask_head.blocks.3.self_attention.qkv.weight, seg_head.stuff_mask_head.blocks.3.self_attention.qkv.bias, seg_head.stuff_mask_head.blocks.3.self_attention.proj.weight, seg_head.stuff_mask_head.blocks.3.self_attention.proj.bias, seg_head.stuff_mask_head.blocks.3.norm3.weight, seg_head.stuff_mask_head.blocks.3.norm3.bias, seg_head.stuff_mask_head.blocks.4.head_norm1.weight, seg_head.stuff_mask_head.blocks.4.head_norm1.bias, seg_head.stuff_mask_head.blocks.4.attn.q.weight, seg_head.stuff_mask_head.blocks.4.attn.q.bias, seg_head.stuff_mask_head.blocks.4.attn.k.weight, seg_head.stuff_mask_head.blocks.4.attn.k.bias, seg_head.stuff_mask_head.blocks.4.attn.v.weight, seg_head.stuff_mask_head.blocks.4.attn.v.bias, seg_head.stuff_mask_head.blocks.4.attn.proj.weight, seg_head.stuff_mask_head.blocks.4.attn.proj.bias, seg_head.stuff_mask_head.blocks.4.attn.linear_l1.0.weight, seg_head.stuff_mask_head.blocks.4.attn.linear_l1.0.bias, seg_head.stuff_mask_head.blocks.4.attn.linear.0.weight, seg_head.stuff_mask_head.blocks.4.attn.linear.0.bias, seg_head.stuff_mask_head.blocks.4.head_norm2.weight, seg_head.stuff_mask_head.blocks.4.head_norm2.bias, seg_head.stuff_mask_head.blocks.4.mlp.fc1.weight, seg_head.stuff_mask_head.blocks.4.mlp.fc1.bias, seg_head.stuff_mask_head.blocks.4.mlp.fc2.weight, seg_head.stuff_mask_head.blocks.4.mlp.fc2.bias, seg_head.stuff_mask_head.blocks.4.self_attention.qkv.weight, seg_head.stuff_mask_head.blocks.4.self_attention.qkv.bias, seg_head.stuff_mask_head.blocks.4.self_attention.proj.weight, seg_head.stuff_mask_head.blocks.4.self_attention.proj.bias, seg_head.stuff_mask_head.blocks.4.norm3.weight, seg_head.stuff_mask_head.blocks.4.norm3.bias, seg_head.stuff_mask_head.blocks.5.head_norm1.weight, seg_head.stuff_mask_head.blocks.5.head_norm1.bias, seg_head.stuff_mask_head.blocks.5.attn.q.weight, seg_head.stuff_mask_head.blocks.5.attn.q.bias, seg_head.stuff_mask_head.blocks.5.attn.k.weight, seg_head.stuff_mask_head.blocks.5.attn.k.bias, seg_head.stuff_mask_head.blocks.5.attn.v.weight, seg_head.stuff_mask_head.blocks.5.attn.v.bias, seg_head.stuff_mask_head.blocks.5.attn.proj.weight, seg_head.stuff_mask_head.blocks.5.attn.proj.bias, seg_head.stuff_mask_head.blocks.5.attn.linear_l1.0.weight, seg_head.stuff_mask_head.blocks.5.attn.linear_l1.0.bias, seg_head.stuff_mask_head.blocks.5.attn.linear.0.weight, seg_head.stuff_mask_head.blocks.5.attn.linear.0.bias, seg_head.stuff_mask_head.blocks.5.head_norm2.weight, seg_head.stuff_mask_head.blocks.5.head_norm2.bias, seg_head.stuff_mask_head.blocks.5.mlp.fc1.weight, seg_head.stuff_mask_head.blocks.5.mlp.fc1.bias, seg_head.stuff_mask_head.blocks.5.mlp.fc2.weight, seg_head.stuff_mask_head.blocks.5.mlp.fc2.bias, seg_head.stuff_mask_head.blocks.5.self_attention.qkv.weight, seg_head.stuff_mask_head.blocks.5.self_attention.qkv.bias, seg_head.stuff_mask_head.blocks.5.self_attention.proj.weight, seg_head.stuff_mask_head.blocks.5.self_attention.proj.bias, seg_head.stuff_mask_head.blocks.5.norm3.weight, seg_head.stuff_mask_head.blocks.5.norm3.bias, seg_head.stuff_mask_head.attnen.q.weight, seg_head.stuff_mask_head.attnen.q.bias, seg_head.stuff_mask_head.attnen.k.weight, seg_head.stuff_mask_head.attnen.k.bias, seg_head.stuff_mask_head.attnen.linear_l1.0.weight, seg_head.stuff_mask_head.attnen.linear_l1.0.bias, seg_head.stuff_mask_head.attnen.linear.0.weight, seg_head.stuff_mask_head.attnen.linear.0.bias, pts_bbox_head.query_embedding.weight, pts_bbox_head.transformer.reference_points.weight, pts_bbox_head.transformer.reference_points.bias
+
+> /Users/liangming.xu/code/UniAD/tools/test.py(229)main()
+-> result = model(return_loss=False, rescale=True, **data)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(723)simple_test_track()
+-> bs = img.size(0)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(641)_forward_single_frame_inference()
+-> active_inst = track_instances[track_instances.obj_idxes >= 0]
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/transformer.py(113)get_bev_features()
+-> bs = mlvl_feats[0].size(0)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/encoder.py(181)forward()
+-> output = bev_query
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/encoder.py(334)forward()
+-> norm_index = 0
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/temporal_self_attention.py(176)forward()
+-> if value is None:
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/spatial_cross_attention.py(122)forward()
+-> if key is None:
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/spatial_cross_attention.py(317)forward()
+-> if value is None:
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/encoder.py(334)forward()
+-> norm_index = 0
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/temporal_self_attention.py(176)forward()
+-> if value is None:
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/spatial_cross_attention.py(122)forward()
+-> if key is None:
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/spatial_cross_attention.py(317)forward()
+-> if value is None:
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/encoder.py(334)forward()
+-> norm_index = 0
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/temporal_self_attention.py(176)forward()
+-> if value is None:
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/spatial_cross_attention.py(122)forward()
+-> if key is None:
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/spatial_cross_attention.py(317)forward()
+-> if value is None:
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/encoder.py(334)forward()
+-> norm_index = 0
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/temporal_self_attention.py(176)forward()
+-> if value is None:
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/spatial_cross_attention.py(122)forward()
+-> if key is None:
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/spatial_cross_attention.py(317)forward()
+-> if value is None:
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/encoder.py(334)forward()
+-> norm_index = 0
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/temporal_self_attention.py(176)forward()
+-> if value is None:
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/spatial_cross_attention.py(122)forward()
+-> if key is None:
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/spatial_cross_attention.py(317)forward()
+-> if value is None:
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/encoder.py(334)forward()
+-> norm_index = 0
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/temporal_self_attention.py(176)forward()
+-> if value is None:
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/spatial_cross_attention.py(122)forward()
+-> if key is None:
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/spatial_cross_attention.py(317)forward()
+-> if value is None:
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(91)forward()
+-> output = query
+(Pdb) torch.Size([901, 1, 256])
+(Pdb) *** NameError: name 'value' is not defined
+(Pdb)  86  	            Tensor: Results with shape [1, num_query, bs, embed_dims] when
+ 87  	                return_intermediate is `False`, otherwise it has shape
+ 88  	                [num_layers, num_query, bs, embed_dims].
+ 89  	        """
+ 90  	        import pdb; pdb.set_trace()
+ 91  ->	        output = query
+ 92  	        intermediate = []
+ 93  	        intermediate_reference_points = []
+ 94  	        for lid, layer in enumerate(self.layers):
+ 95  	
+ 96  	            reference_points_input = reference_points[..., :2].unsqueeze(
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(92)forward()
+-> intermediate = []
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(93)forward()
+-> intermediate_reference_points = []
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(94)forward()
+-> for lid, layer in enumerate(self.layers):
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(96)forward()
+-> reference_points_input = reference_points[..., :2].unsqueeze(
+(Pdb) DetrTransformerDecoderLayer(
+  (attentions): ModuleList(
+    (0): MultiheadAttention(
+      (attn): MultiheadAttention(
+        (out_proj): NonDynamicallyQuantizableLinear(in_features=256, out_features=256, bias=True)
+      )
+      (proj_drop): Dropout(p=0.0, inplace=False)
+      (dropout_layer): Dropout(p=0.1, inplace=False)
+    )
+    (1): CustomMSDeformableAttention(
+      (dropout): Dropout(p=0.1, inplace=False)
+      (sampling_offsets): Linear(in_features=256, out_features=64, bias=True)
+      (attention_weights): Linear(in_features=256, out_features=32, bias=True)
+      (value_proj): Linear(in_features=256, out_features=256, bias=True)
+      (output_proj): Linear(in_features=256, out_features=256, bias=True)
+    )
+  )
+  (ffns): ModuleList(
+    (0): FFN(
+      (activate): ReLU(inplace=True)
+      (layers): Sequential(
+        (0): Sequential(
+          (0): Linear(in_features=256, out_features=512, bias=True)
+          (1): ReLU(inplace=True)
+          (2): Dropout(p=0.1, inplace=False)
+        )
+        (1): Linear(in_features=512, out_features=256, bias=True)
+        (2): Dropout(p=0.1, inplace=False)
+      )
+      (dropout_layer): Identity()
+    )
+  )
+  (norms): ModuleList(
+    (0): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+    (1): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+    (2): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+  )
+)
+(Pdb)  91  	        output = query
+ 92  	        intermediate = []
+ 93  	        intermediate_reference_points = []
+ 94  	        for lid, layer in enumerate(self.layers):
+ 95  	
+ 96  ->	            reference_points_input = reference_points[..., :2].unsqueeze(
+ 97  	                2)  # BS NUM_QUERY NUM_LEVEL 2
+ 98  	            output = layer(
+ 99  	                output,
+100  	                *args,
+101  	                reference_points=reference_points_input,
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(97)forward()
+-> 2)  # BS NUM_QUERY NUM_LEVEL 2
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(96)forward()
+-> reference_points_input = reference_points[..., :2].unsqueeze(
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(98)forward()
+-> output = layer(
+(Pdb) torch.Size([1, 901, 1, 2])
+(Pdb)  93  	        intermediate_reference_points = []
+ 94  	        for lid, layer in enumerate(self.layers):
+ 95  	
+ 96  	            reference_points_input = reference_points[..., :2].unsqueeze(
+ 97  	                2)  # BS NUM_QUERY NUM_LEVEL 2
+ 98  ->	            output = layer(
+ 99  	                output,
+100  	                *args,
+101  	                reference_points=reference_points_input,
+102  	                key_padding_mask=key_padding_mask,
+103  	                **kwargs)
+(Pdb) torch.Size([901, 1, 256])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(99)forward()
+-> output,
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(98)forward()
+-> output = layer(
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(100)forward()
+-> *args,
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(98)forward()
+-> output = layer(
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(101)forward()
+-> reference_points=reference_points_input,
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(102)forward()
+-> key_padding_mask=key_padding_mask,
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(98)forward()
+-> output = layer(
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(103)forward()
+-> **kwargs)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(98)forward()
+-> output = layer(
+(Pdb) --Call--
+> /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/module.py(1045)_call_impl()
+-> def _call_impl(self, *input, **kwargs):
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/module.py(1046)_call_impl()
+-> forward_call = (self._slow_forward if torch._C._get_tracing_state() else self.forward)
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/module.py(1049)_call_impl()
+-> if not (self._backward_hooks or self._forward_hooks or self._forward_pre_hooks or _global_backward_hooks
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/module.py(1050)_call_impl()
+-> or _global_forward_hooks or _global_forward_pre_hooks):
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/module.py(1049)_call_impl()
+-> if not (self._backward_hooks or self._forward_hooks or self._forward_pre_hooks or _global_backward_hooks
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/module.py(1050)_call_impl()
+-> or _global_forward_hooks or _global_forward_pre_hooks):
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/module.py(1049)_call_impl()
+-> if not (self._backward_hooks or self._forward_hooks or self._forward_pre_hooks or _global_backward_hooks
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/module.py(1051)_call_impl()
+-> return forward_call(*input, **kwargs)
+(Pdb) --Call--
+> /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(412)forward()
+-> def forward(self,
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(453)forward()
+-> norm_index = 0
+(Pdb) 448  	
+449  	        Returns:
+450  	            Tensor: forwarded results with shape [num_queries, bs, embed_dims].
+451  	        """
+452  	
+453  ->	        norm_index = 0
+454  	        attn_index = 0
+455  	        ffn_index = 0
+456  	        identity = query
+457  	        if attn_masks is None:
+458  	            attn_masks = [None for _ in range(self.num_attn)]
+(Pdb) *** AttributeError: 'NoneType' object has no attribute 'shape'
+(Pdb) torch.Size([40000, 1, 256])
+(Pdb) torch.Size([901, 1, 256])
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(454)forward()
+-> attn_index = 0
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(455)forward()
+-> ffn_index = 0
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(456)forward()
+-> identity = query
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(457)forward()
+-> if attn_masks is None:
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(458)forward()
+-> attn_masks = [None for _ in range(self.num_attn)]
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(471)forward()
+-> for layer in self.operation_order:
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(472)forward()
+-> if layer == 'self_attn':
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(473)forward()
+-> temp_key = temp_value = query
+(Pdb) 'self_attn'
+(Pdb) ['__add__', '__class__', '__contains__', '__delattr__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getitem__', '__getnewargs__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__iter__', '__le__', '__len__', '__lt__', '__mod__', '__mul__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__rmod__', '__rmul__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', 'capitalize', 'casefold', 'center', 'count', 'encode', 'endswith', 'expandtabs', 'find', 'format', 'format_map', 'index', 'isalnum', 'isalpha', 'isascii', 'isdecimal', 'isdigit', 'isidentifier', 'islower', 'isnumeric', 'isprintable', 'isspace', 'istitle', 'isupper', 'join', 'ljust', 'lower', 'lstrip', 'maketrans', 'partition', 'replace', 'rfind', 'rindex', 'rjust', 'rpartition', 'rsplit', 'rstrip', 'split', 'splitlines', 'startswith', 'strip', 'swapcase', 'title', 'translate', 'upper', 'zfill']
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(474)forward()
+-> query = self.attentions[attn_index](
+(Pdb) torch.Size([901, 1, 256])
+(Pdb) --Call--
+> /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/module.py(1117)__getattr__()
+-> def __getattr__(self, name: str) -> Union[Tensor, 'Module']:
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/module.py(1118)__getattr__()
+-> if '_parameters' in self.__dict__:
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/module.py(1119)__getattr__()
+-> _parameters = self.__dict__['_parameters']
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/module.py(1120)__getattr__()
+-> if name in _parameters:
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/module.py(1122)__getattr__()
+-> if '_buffers' in self.__dict__:
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/module.py(1123)__getattr__()
+-> _buffers = self.__dict__['_buffers']
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/module.py(1124)__getattr__()
+-> if name in _buffers:
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/module.py(1126)__getattr__()
+-> if '_modules' in self.__dict__:
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/module.py(1127)__getattr__()
+-> modules = self.__dict__['_modules']
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/module.py(1128)__getattr__()
+-> if name in modules:
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/module.py(1129)__getattr__()
+-> return modules[name]
+(Pdb) --Return--
+> /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/module.py(1129)__getattr__()->ModuleList(
+ ...as=True)
+  )
+)
+-> return modules[name]
+(Pdb) --Call--
+> /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/container.py(181)__getitem__()
+-> @_copy_to_script_wrapper
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/container.py(183)__getitem__()
+-> if isinstance(idx, slice):
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/container.py(186)__getitem__()
+-> return self._modules[self._get_abs_string_index(idx)]
+(Pdb) --Call--
+> /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/container.py(172)_get_abs_string_index()
+-> def _get_abs_string_index(self, idx):
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/container.py(174)_get_abs_string_index()
+-> idx = operator.index(idx)
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/container.py(175)_get_abs_string_index()
+-> if not (-len(self) <= idx < len(self)):
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/container.py(177)_get_abs_string_index()
+-> if idx < 0:
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/container.py(179)_get_abs_string_index()
+-> return str(idx)
+(Pdb) --Return--
+> /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/container.py(179)_get_abs_string_index()->'0'
+-> return str(idx)
+(Pdb) --Return--
+> /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/container.py(186)__getitem__()->MultiheadAtte...place=False)
+)
+-> return self._modules[self._get_abs_string_index(idx)]
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(475)forward()
+-> query,
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(476)forward()
+-> temp_key,
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(477)forward()
+-> temp_value,
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(478)forward()
+-> identity if self.pre_norm else None,
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(474)forward()
+-> query = self.attentions[attn_index](
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(479)forward()
+-> query_pos=query_pos,
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(480)forward()
+-> key_pos=query_pos,
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(481)forward()
+-> attn_mask=attn_masks[attn_index],
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(482)forward()
+-> key_padding_mask=query_key_padding_mask,
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(474)forward()
+-> query = self.attentions[attn_index](
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(483)forward()
+-> **kwargs)
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(474)forward()
+-> query = self.attentions[attn_index](
+(Pdb) --Call--
+> /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/module.py(1045)_call_impl()
+-> def _call_impl(self, *input, **kwargs):
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/module.py(1046)_call_impl()
+-> forward_call = (self._slow_forward if torch._C._get_tracing_state() else self.forward)
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/module.py(1049)_call_impl()
+-> if not (self._backward_hooks or self._forward_hooks or self._forward_pre_hooks or _global_backward_hooks
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/module.py(1050)_call_impl()
+-> or _global_forward_hooks or _global_forward_pre_hooks):
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/module.py(1049)_call_impl()
+-> if not (self._backward_hooks or self._forward_hooks or self._forward_pre_hooks or _global_backward_hooks
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/module.py(1050)_call_impl()
+-> or _global_forward_hooks or _global_forward_pre_hooks):
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/module.py(1049)_call_impl()
+-> if not (self._backward_hooks or self._forward_hooks or self._forward_pre_hooks or _global_backward_hooks
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/module.py(1051)_call_impl()
+-> return forward_call(*input, **kwargs)
+(Pdb) --Call--
+> /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/utils/misc.py(303)new_func()
+-> @functools.wraps(old_func)
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/utils/misc.py(306)new_func()
+-> args_info = getfullargspec(old_func)
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/utils/misc.py(308)new_func()
+-> func_name = old_func.__name__
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/utils/misc.py(309)new_func()
+-> if cls_name is not None:
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/utils/misc.py(310)new_func()
+-> func_name = f'{cls_name}.{func_name}'
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/utils/misc.py(311)new_func()
+-> if args:
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/utils/misc.py(312)new_func()
+-> arg_names = args_info.args[:len(args)]
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/utils/misc.py(313)new_func()
+-> for src_arg_name, dst_arg_name in name_dict.items():
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/utils/misc.py(314)new_func()
+-> if src_arg_name in arg_names:
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/utils/misc.py(313)new_func()
+-> for src_arg_name, dst_arg_name in name_dict.items():
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/utils/misc.py(320)new_func()
+-> if kwargs:
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/utils/misc.py(321)new_func()
+-> for src_arg_name, dst_arg_name in name_dict.items():
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/utils/misc.py(322)new_func()
+-> if src_arg_name in kwargs:
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/utils/misc.py(321)new_func()
+-> for src_arg_name, dst_arg_name in name_dict.items():
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/utils/misc.py(340)new_func()
+-> output = old_func(*args, **kwargs)
+(Pdb) --Call--
+> /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(110)forward()
+-> @deprecated_api_warning({'residual': 'identity'},
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(162)forward()
+-> if key is None:
+(Pdb) torch.Size([901, 1, 256])
+(Pdb) torch.Size([901, 1, 256])
+(Pdb) torch.Size([901, 1, 256])
+(Pdb) 157  	                [num_queries, bs, embed_dims]
+158  	                if self.batch_first is False, else
+159  	                [bs, num_queries embed_dims].
+160  	        """
+161  	
+162  ->	        if key is None:
+163  	            key = query
+164  	        if value is None:
+165  	            value = key
+166  	        if identity is None:
+167  	            identity = query
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(164)forward()
+-> if value is None:
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(166)forward()
+-> if identity is None:
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(167)forward()
+-> identity = query
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(168)forward()
+-> if key_pos is None:
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(176)forward()
+-> if query_pos is not None:
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(177)forward()
+-> query = query + query_pos
+(Pdb) torch.Size([901, 1, 256])
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/utils/misc.py(340)new_func()
+-> output = old_func(*args, **kwargs)
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/module.py(1051)_call_impl()
+-> return forward_call(*input, **kwargs)
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(474)forward()
+-> query = self.attentions[attn_index](
+(Pdb) torch.Size([901, 1, 256])
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/module.py(1051)_call_impl()
+-> return forward_call(*input, **kwargs)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(98)forward()
+-> output = layer(
+(Pdb)  93  	        intermediate_reference_points = []
+ 94  	        for lid, layer in enumerate(self.layers):
+ 95  	
+ 96  	            reference_points_input = reference_points[..., :2].unsqueeze(
+ 97  	                2)  # BS NUM_QUERY NUM_LEVEL 2
+ 98  ->	            output = layer(
+ 99  	                output,
+100  	                *args,
+101  	                reference_points=reference_points_input,
+102  	                key_padding_mask=key_padding_mask,
+103  	                **kwargs)
+(Pdb) self = DetectionTransformerDecoder(
+  (layers): ModuleList(
+    (0): DetrTransformerDecoderLayer(
+      (attentions): ModuleList(
+        (0): MultiheadAttention(
+          (attn): MultiheadAttention(
+            (out_proj): NonDynamicallyQuantizableLinear(in_features=256, out_features=256, bias=True)
+          )
+          (proj_drop): Dropout(p=0.0, inplace=False)
+          (dropout_layer): Dropout(p=0.1, inplace=False)
+        )
+        (1): CustomMSDeformableAttention(
+          (dropout): Dropout(p=0.1, inplace=False)
+          (sampling_offsets): Linear(in_features=256, out_features=64, bias=True)
+          (attention_weights): Linear(in_features=256, out_features=32, bias=True)
+          (value_proj): Linear(in_features=256, out_features=256, bias=True)
+          (output_proj): Linear(in_features=256, out_features=256, bias=True)
+        )
+      )
+      (ffns): ModuleList(
+        (0): FFN(
+          (activate): ReLU(inplace=True)
+          (layers): Sequential(
+            (0): Sequential(
+              (0): Linear(in_features=256, out_features=512, bias=True)
+              (1): ReLU(inplace=True)
+              (2): Dropout(p=0.1, inplace=False)
+            )
+            (1): Linear(in_features=512, out_features=256, bias=True)
+            (2): Dropout(p=0.1, inplace=False)
+          )
+          (dropout_layer): Identity()
+        )
+      )
+      (norms): ModuleList(
+        (0): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+        (1): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+        (2): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+      )
+    )
+    (1): DetrTransformerDecoderLayer(
+      (attentions): ModuleList(
+        (0): MultiheadAttention(
+          (attn): MultiheadAttention(
+            (out_proj): NonDynamicallyQuantizableLinear(in_features=256, out_features=256, bias=True)
+          )
+          (proj_drop): Dropout(p=0.0, inplace=False)
+          (dropout_layer): Dropout(p=0.1, inplace=False)
+        )
+        (1): CustomMSDeformableAttention(
+          (dropout): Dropout(p=0.1, inplace=False)
+          (sampling_offsets): Linear(in_features=256, out_features=64, bias=True)
+          (attention_weights): Linear(in_features=256, out_features=32, bias=True)
+          (value_proj): Linear(in_features=256, out_features=256, bias=True)
+          (output_proj): Linear(in_features=256, out_features=256, bias=True)
+        )
+      )
+      (ffns): ModuleList(
+        (0): FFN(
+          (activate): ReLU(inplace=True)
+          (layers): Sequential(
+            (0): Sequential(
+              (0): Linear(in_features=256, out_features=512, bias=True)
+              (1): ReLU(inplace=True)
+              (2): Dropout(p=0.1, inplace=False)
+            )
+            (1): Linear(in_features=512, out_features=256, bias=True)
+            (2): Dropout(p=0.1, inplace=False)
+          )
+          (dropout_layer): Identity()
+        )
+      )
+      (norms): ModuleList(
+        (0): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+        (1): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+        (2): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+      )
+    )
+    (2): DetrTransformerDecoderLayer(
+      (attentions): ModuleList(
+        (0): MultiheadAttention(
+          (attn): MultiheadAttention(
+            (out_proj): NonDynamicallyQuantizableLinear(in_features=256, out_features=256, bias=True)
+          )
+          (proj_drop): Dropout(p=0.0, inplace=False)
+          (dropout_layer): Dropout(p=0.1, inplace=False)
+        )
+        (1): CustomMSDeformableAttention(
+          (dropout): Dropout(p=0.1, inplace=False)
+          (sampling_offsets): Linear(in_features=256, out_features=64, bias=True)
+          (attention_weights): Linear(in_features=256, out_features=32, bias=True)
+          (value_proj): Linear(in_features=256, out_features=256, bias=True)
+          (output_proj): Linear(in_features=256, out_features=256, bias=True)
+        )
+      )
+      (ffns): ModuleList(
+        (0): FFN(
+          (activate): ReLU(inplace=True)
+          (layers): Sequential(
+            (0): Sequential(
+              (0): Linear(in_features=256, out_features=512, bias=True)
+              (1): ReLU(inplace=True)
+              (2): Dropout(p=0.1, inplace=False)
+            )
+            (1): Linear(in_features=512, out_features=256, bias=True)
+            (2): Dropout(p=0.1, inplace=False)
+          )
+          (dropout_layer): Identity()
+        )
+      )
+      (norms): ModuleList(
+        (0): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+        (1): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+        (2): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+      )
+    )
+    (3): DetrTransformerDecoderLayer(
+      (attentions): ModuleList(
+        (0): MultiheadAttention(
+          (attn): MultiheadAttention(
+            (out_proj): NonDynamicallyQuantizableLinear(in_features=256, out_features=256, bias=True)
+          )
+          (proj_drop): Dropout(p=0.0, inplace=False)
+          (dropout_layer): Dropout(p=0.1, inplace=False)
+        )
+        (1): CustomMSDeformableAttention(
+          (dropout): Dropout(p=0.1, inplace=False)
+          (sampling_offsets): Linear(in_features=256, out_features=64, bias=True)
+          (attention_weights): Linear(in_features=256, out_features=32, bias=True)
+          (value_proj): Linear(in_features=256, out_features=256, bias=True)
+          (output_proj): Linear(in_features=256, out_features=256, bias=True)
+        )
+      )
+      (ffns): ModuleList(
+        (0): FFN(
+          (activate): ReLU(inplace=True)
+          (layers): Sequential(
+            (0): Sequential(
+              (0): Linear(in_features=256, out_features=512, bias=True)
+              (1): ReLU(inplace=True)
+              (2): Dropout(p=0.1, inplace=False)
+            )
+            (1): Linear(in_features=512, out_features=256, bias=True)
+            (2): Dropout(p=0.1, inplace=False)
+          )
+          (dropout_layer): Identity()
+        )
+      )
+      (norms): ModuleList(
+        (0): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+        (1): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+        (2): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+      )
+    )
+    (4): DetrTransformerDecoderLayer(
+      (attentions): ModuleList(
+        (0): MultiheadAttention(
+          (attn): MultiheadAttention(
+            (out_proj): NonDynamicallyQuantizableLinear(in_features=256, out_features=256, bias=True)
+          )
+          (proj_drop): Dropout(p=0.0, inplace=False)
+          (dropout_layer): Dropout(p=0.1, inplace=False)
+        )
+        (1): CustomMSDeformableAttention(
+          (dropout): Dropout(p=0.1, inplace=False)
+          (sampling_offsets): Linear(in_features=256, out_features=64, bias=True)
+          (attention_weights): Linear(in_features=256, out_features=32, bias=True)
+          (value_proj): Linear(in_features=256, out_features=256, bias=True)
+          (output_proj): Linear(in_features=256, out_features=256, bias=True)
+        )
+      )
+      (ffns): ModuleList(
+        (0): FFN(
+          (activate): ReLU(inplace=True)
+          (layers): Sequential(
+            (0): Sequential(
+              (0): Linear(in_features=256, out_features=512, bias=True)
+              (1): ReLU(inplace=True)
+              (2): Dropout(p=0.1, inplace=False)
+            )
+            (1): Linear(in_features=512, out_features=256, bias=True)
+            (2): Dropout(p=0.1, inplace=False)
+          )
+          (dropout_layer): Identity()
+        )
+      )
+      (norms): ModuleList(
+        (0): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+        (1): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+        (2): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+      )
+    )
+    (5): DetrTransformerDecoderLayer(
+      (attentions): ModuleList(
+        (0): MultiheadAttention(
+          (attn): MultiheadAttention(
+            (out_proj): NonDynamicallyQuantizableLinear(in_features=256, out_features=256, bias=True)
+          )
+          (proj_drop): Dropout(p=0.0, inplace=False)
+          (dropout_layer): Dropout(p=0.1, inplace=False)
+        )
+        (1): CustomMSDeformableAttention(
+          (dropout): Dropout(p=0.1, inplace=False)
+          (sampling_offsets): Linear(in_features=256, out_features=64, bias=True)
+          (attention_weights): Linear(in_features=256, out_features=32, bias=True)
+          (value_proj): Linear(in_features=256, out_features=256, bias=True)
+          (output_proj): Linear(in_features=256, out_features=256, bias=True)
+        )
+      )
+      (ffns): ModuleList(
+        (0): FFN(
+          (activate): ReLU(inplace=True)
+          (layers): Sequential(
+            (0): Sequential(
+              (0): Linear(in_features=256, out_features=512, bias=True)
+              (1): ReLU(inplace=True)
+              (2): Dropout(p=0.1, inplace=False)
+            )
+            (1): Linear(in_features=512, out_features=256, bias=True)
+            (2): Dropout(p=0.1, inplace=False)
+          )
+          (dropout_layer): Identity()
+        )
+      )
+      (norms): ModuleList(
+        (0): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+        (1): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+        (2): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+      )
+    )
+  )
+)
+query = tensor([[[ 0.6480,  0.2811, -0.2607,  ..., -0.8909, -0.0528, -0.0377]],
+
+        [[-0.2563,  0.1156,  0.2873,  ...,  0.8429,  0.9830,  1.0372]],
+
+        [[-0.8602, -0.6083,  0.8370,  ..., -0.6641, -0.4396,  1.1959]],
+
+        ...,
+
+        [[ 0.9641, -1.1517,  1.5512,  ..., -0.0273,  0.7269,  0.7551]],
+
+        [[-1.3520, -1.5156,  1.2338,  ...,  0.1317, -0.8664,  1.2704]],
+
+        [[ 0.6522, -0.4622,  0.1510,  ...,  2.9896,  0.3278,  1.9336]]])
+reference_points = tensor([[[0.5218, 0.6756, 0.4989],
+         [0.2509, 0.7227, 0.4983],
+         [0.8380, 0.5674, 0.4762],
+         ...,
+         [0.4774, 0.7556, 0.5036],
+         [0.7765, 0.9336, 0.5462],
+         [0.4597, 0.6299, 0.4880]]])
+reg_branches = ModuleList(
+  (0): Sequential(
+    (0): Linear(in_features=256, out_features=256, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=256, out_features=256, bias=True)
+    (3): ReLU()
+    (4): Linear(in_features=256, out_features=10, bias=True)
+  )
+  (1): Sequential(
+    (0): Linear(in_features=256, out_features=256, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=256, out_features=256, bias=True)
+    (3): ReLU()
+    (4): Linear(in_features=256, out_features=10, bias=True)
+  )
+  (2): Sequential(
+    (0): Linear(in_features=256, out_features=256, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=256, out_features=256, bias=True)
+    (3): ReLU()
+    (4): Linear(in_features=256, out_features=10, bias=True)
+  )
+  (3): Sequential(
+    (0): Linear(in_features=256, out_features=256, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=256, out_features=256, bias=True)
+    (3): ReLU()
+    (4): Linear(in_features=256, out_features=10, bias=True)
+  )
+  (4): Sequential(
+    (0): Linear(in_features=256, out_features=256, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=256, out_features=256, bias=True)
+    (3): ReLU()
+    (4): Linear(in_features=256, out_features=10, bias=True)
+  )
+  (5): Sequential(
+    (0): Linear(in_features=256, out_features=256, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=256, out_features=256, bias=True)
+    (3): ReLU()
+    (4): Linear(in_features=256, out_features=10, bias=True)
+  )
+)
+key_padding_mask = None
+args = ()
+kwargs = {'key': None, 'value': tensor([[[-0.9350, -0.2884, -1.9021,  ...,  0.9670,  0.3114, -0.7023]],
+
+        [[ 0.2217, -0.3245, -1.6088,  ...,  0.9868,  0.3178, -1.2605]],
+
+        [[ 0.3780,  0.0084, -1.7977,  ...,  0.8698,  0.0845, -1.3612]],
+
+        ...,
+
+        [[-1.1768, -0.0437, -1.1996,  ..., -0.6112,  0.4443, -0.4444]],
+
+        [[-0.5907,  0.2808, -0.4430,  ..., -1.1687, -0.1367,  0.1655]],
+
+        [[-0.8734, -0.2221, -0.9651,  ..., -1.0340, -0.0680, -1.0760]]]), 'query_pos': tensor([[[ 0.9794,  1.4678,  2.2049,  ...,  0.2855, -0.5296,  0.9252]],
+
+        [[-0.1857,  0.0648, -0.3255,  ...,  1.0788,  1.6532, -1.3164]],
+
+        [[ 0.9206, -2.1922, -1.2307,  ...,  1.5020, -1.6336, -0.9121]],
+
+        ...,
+
+        [[-0.4122,  1.3001, -0.3364,  ..., -0.4730,  0.8209, -0.3780]],
+
+        [[ 0.5784, -1.9046, -0.5663,  ..., -2.0085,  0.9645, -1.1790]],
+
+        [[ 1.1220, -1.8478,  0.7056,  ...,  0.7809,  0.0753, -0.2956]]]), 'cls_branches': None, 'spatial_shapes': tensor([[200, 200]]), 'level_start_index': tensor([0]), 'img_metas': [{'filename': ['samples/CAM_FRONT/n015-2018-07-11-11-54-16+0800__CAM_FRONT__1531281439762460.jpg', 'samples/CAM_FRONT_RIGHT/n015-2018-07-11-11-54-16+0800__CAM_FRONT_RIGHT__1531281439770339.jpg', 'samples/CAM_FRONT_LEFT/n015-2018-07-11-11-54-16+0800__CAM_FRONT_LEFT__1531281439754844.jpg', 'samples/CAM_BACK/n015-2018-07-11-11-54-16+0800__CAM_BACK__1531281439787525.jpg', 'samples/CAM_BACK_LEFT/n015-2018-07-11-11-54-16+0800__CAM_BACK_LEFT__1531281439797423.jpg', 'samples/CAM_BACK_RIGHT/n015-2018-07-11-11-54-16+0800__CAM_BACK_RIGHT__1531281439777893.jpg'], 'ori_shape': [(900, 1600, 3), (900, 1600, 3), (900, 1600, 3), (900, 1600, 3), (900, 1600, 3), (900, 1600, 3)], 'img_shape': [(928, 1600, 3), (928, 1600, 3), (928, 1600, 3), (928, 1600, 3), (928, 1600, 3), (928, 1600, 3)], 'lidar2img': [array([[ 1.26627559e+03,  8.16148979e+02,  2.34810021e+01,
+        -3.18154452e+02],
+       [ 8.20197736e+00,  5.15017451e+02, -1.25701292e+03,
+        -6.23147848e+02],
+       [-1.40386752e-04,  9.99826412e-01,  1.86313382e-02,
+        -4.08345062e-01],
+       [ 0.00000000e+00,  0.00000000e+00,  0.00000000e+00,
+         1.00000000e+00]]), array([[ 1.36762656e+03, -6.09329941e+02, -2.93866508e+01,
+        -4.88278951e+02],
+       [ 4.00515200e+02,  3.02814667e+02, -1.25816665e+03,
+        -7.27414947e+02],
+       [ 8.35612690e-01,  5.49300529e-01,  4.51244948e-03,
+        -5.99209745e-01],
+       [ 0.00000000e+00,  0.00000000e+00,  0.00000000e+00,
+         1.00000000e+00]]), array([[ 5.77311626e+01,  1.51596208e+03,  3.63975328e+01,
+        -2.18250397e+02],
+       [-3.88930720e+02,  3.06818032e+02, -1.26659495e+03,
+        -6.70505207e+02],
+       [-8.17283232e-01,  5.76116432e-01,  1.17463061e-02,
+        -4.94588509e-01],
+       [ 0.00000000e+00,  0.00000000e+00,  0.00000000e+00,
+         1.00000000e+00]]), array([[-8.14104309e+02, -8.24305561e+02, -1.40809559e+01,
+        -8.53779192e+02],
+       [ 4.97707025e+00, -4.75681493e+02, -8.12804655e+02,
+        -7.22636077e+02],
+       [-5.95219763e-03, -9.99953673e-01, -7.56466193e-03,
+        -1.02865681e+00],
+       [ 0.00000000e+00,  0.00000000e+00,  0.00000000e+00,
+         1.00000000e+00]]), array([[-1.14927124e+03,  9.41249910e+02,  8.10632934e+00,
+        -6.23383802e+02],
+       [-4.42325964e+02, -1.14445443e+02, -1.27022717e+03,
+        -5.23664062e+02],
+       [-9.48288437e-01, -3.16059480e-01, -2.92479827e-02,
+        -4.41690327e-01],
+       [ 0.00000000e+00,  0.00000000e+00,  0.00000000e+00,
+         1.00000000e+00]]), array([[ 3.01084167e+02, -1.46414075e+03, -6.05995991e+01,
+        -3.57072460e+02],
+       [ 4.60790032e+02, -1.29083750e+02, -1.26829887e+03,
+        -5.97854268e+02],
+       [ 9.33277897e-01, -3.58619863e-01, -1.95999939e-02,
+        -5.04299162e-01],
+       [ 0.00000000e+00,  0.00000000e+00,  0.00000000e+00,
+         1.00000000e+00]])], 'pad_shape': [(928, 1600, 3), (928, 1600, 3), (928, 1600, 3), (928, 1600, 3), (928, 1600, 3), (928, 1600, 3)], 'scale_factor': 1.0, 'flip': False, 'pcd_horizontal_flip': False, 'pcd_vertical_flip': False, 'box_type_3d': <class 'projects.mmdet3d_plugin.core.bbox.lidar_box3d.LiDARInstance3DBoxes'>, 'img_norm_cfg': {'mean': array([103.53 , 116.28 , 123.675], dtype=float32), 'std': array([1., 1., 1.], dtype=float32), 'to_rgb': False}, 'sample_idx': '30e55a3ec6184d8cb1944b39ba19d622', 'prev_idx': '', 'next_idx': 'cc18fde20db74d30825b0b60ec511b7b', 'pcd_scale_factor': 1.0, 'pts_filename': '/mnt/petrelfs/yangjiazhi/e2e_proj/data/nuscenes/samples/LIDAR_TOP/n015-2018-07-11-11-54-16+0800__LIDAR_TOP__1531281439800013.pcd.bin', 'scene_token': 'c3ab8ee2c1a54068a72d7eb4cf22e43d', 'can_bus': array([ 7.32061444e+02,  9.49067674e+02,  0.00000000e+00,  4.15899266e-01,
+        4.15899266e-01,  4.15899266e-01,  4.15899266e-01,  4.44573660e-01,
+        4.35957390e-01,  9.72841627e+00, -8.77811294e-03,  3.47160618e-03,
+        8.12374502e-02,  9.18768394e+00,  0.00000000e+00,  0.00000000e+00,
+        2.28367239e+00,  1.30844790e+02])}]}
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/module.py(1051)_call_impl()
+-> return forward_call(*input, **kwargs)
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(474)forward()
+-> query = self.attentions[attn_index](
+(Pdb) 469  	                        f'operation_order {self.num_attn}'
+470  	
+471  	        for layer in self.operation_order:
+472  	            if layer == 'self_attn':
+473  	                temp_key = temp_value = query
+474  ->	                query = self.attentions[attn_index](
+475  	                    query,
+476  	                    temp_key,
+477  	                    temp_value,
+478  	                    identity if self.pre_norm else None,
+479  	                    query_pos=query_pos,
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/module.py(1051)_call_impl()
+-> return forward_call(*input, **kwargs)
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/utils/misc.py(340)new_func()
+-> output = old_func(*args, **kwargs)
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(177)forward()
+-> query = query + query_pos
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(178)forward()
+-> if key_pos is not None:
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(179)forward()
+-> key = key + key_pos
+(Pdb) torch.Size([901, 1, 256])
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(187)forward()
+-> if self.batch_first:
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(192)forward()
+-> out = self.attn(
+(Pdb) 187  	        if self.batch_first:
+188  	            query = query.transpose(0, 1)
+189  	            key = key.transpose(0, 1)
+190  	            value = value.transpose(0, 1)
+191  	
+192  ->	        out = self.attn(
+193  	            query=query,
+194  	            key=key,
+195  	            value=value,
+196  	            attn_mask=attn_mask,
+197  	            key_padding_mask=key_padding_mask)[0]
+(Pdb) *** AttributeError: 'NoneType' object has no attribute 'shape'
+(Pdb) *** AttributeError: 'NoneType' object has no attribute 'shape'
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(193)forward()
+-> query=query,
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(194)forward()
+-> key=key,
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(195)forward()
+-> value=value,
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(196)forward()
+-> attn_mask=attn_mask,
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(197)forward()
+-> key_padding_mask=key_padding_mask)[0]
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(192)forward()
+-> out = self.attn(
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(197)forward()
+-> key_padding_mask=key_padding_mask)[0]
+(Pdb) *** NameError: name 'out' is not defined
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(192)forward()
+-> out = self.attn(
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(199)forward()
+-> if self.batch_first:
+(Pdb) torch.Size([901, 1, 256])
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(202)forward()
+-> return identity + self.dropout_layer(self.proj_drop(out))
+(Pdb) torch.Size([901, 1, 256])
+(Pdb) --Return--
+> /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(202)forward()->tensor([[[ 3....1.4888e+00]]])
+-> return identity + self.dropout_layer(self.proj_drop(out))
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/utils/misc.py(341)new_func()
+-> return output
+(Pdb) torch.Size([901, 1, 256])
+(Pdb) --Return--
+> /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/utils/misc.py(341)new_func()->tensor([[[ 3....1.4888e+00]]])
+-> return output
+(Pdb) --Return--
+> /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/module.py(1051)_call_impl()->tensor([[[ 3....1.4888e+00]]])
+-> return forward_call(*input, **kwargs)
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(484)forward()
+-> attn_index += 1
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(485)forward()
+-> identity = query
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(471)forward()
+-> for layer in self.operation_order:
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(472)forward()
+-> if layer == 'self_attn':
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(487)forward()
+-> elif layer == 'norm':
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(488)forward()
+-> query = self.norms[norm_index](query)
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(489)forward()
+-> norm_index += 1
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(471)forward()
+-> for layer in self.operation_order:
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(472)forward()
+-> if layer == 'self_attn':
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(487)forward()
+-> elif layer == 'norm':
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(491)forward()
+-> elif layer == 'cross_attn':
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(492)forward()
+-> query = self.attentions[attn_index](
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(493)forward()
+-> query,
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(494)forward()
+-> key,
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(495)forward()
+-> value,
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(496)forward()
+-> identity if self.pre_norm else None,
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(492)forward()
+-> query = self.attentions[attn_index](
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(497)forward()
+-> query_pos=query_pos,
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(498)forward()
+-> key_pos=key_pos,
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(499)forward()
+-> attn_mask=attn_masks[attn_index],
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(500)forward()
+-> key_padding_mask=key_padding_mask,
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(492)forward()
+-> query = self.attentions[attn_index](
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(501)forward()
+-> **kwargs)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(280)forward()
+-> if value is None:
+(Pdb) 275  	
+276  	        Returns:
+277  	             Tensor: forwarded results with shape [num_query, bs, embed_dims].
+278  	        """
+279  	        import pdb; pdb.set_trace()
+280  ->	        if value is None:
+281  	            value = query
+282  	
+283  	        if identity is None:
+284  	            identity = query
+285  	        if query_pos is not None:
+(Pdb) torch.Size([40000, 1, 256])
+(Pdb) torch.Size([1, 901, 1, 2])
+(Pdb) *** AttributeError: 'NoneType' object has no attribute 'shape'
+(Pdb) torch.Size([901, 1, 256])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(283)forward()
+-> if identity is None:
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(284)forward()
+-> identity = query
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(285)forward()
+-> if query_pos is not None:
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(286)forward()
+-> query = query + query_pos
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(287)forward()
+-> if not self.batch_first:
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(289)forward()
+-> query = query.permute(1, 0, 2)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(290)forward()
+-> value = value.permute(1, 0, 2)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(292)forward()
+-> bs, num_query, _ = query.shape
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(293)forward()
+-> bs, num_value, _ = value.shape
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(294)forward()
+-> assert (spatial_shapes[:, 0] * spatial_shapes[:, 1]).sum() == num_value
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(296)forward()
+-> value = self.value_proj(value)
+(Pdb) torch.Size([1, 40000, 256])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(297)forward()
+-> if key_padding_mask is not None:
+(Pdb) torch.Size([1, 40000, 256])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(299)forward()
+-> value = value.view(bs, num_value, self.num_heads, -1)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(301)forward()
+-> sampling_offsets = self.sampling_offsets(query).view(
+(Pdb) torch.Size([1, 40000, 8, 32])
+(Pdb) 296  	        value = self.value_proj(value)
+297  	        if key_padding_mask is not None:
+298  	            value = value.masked_fill(key_padding_mask[..., None], 0.0)
+299  	        value = value.view(bs, num_value, self.num_heads, -1)
+300  	
+301  ->	        sampling_offsets = self.sampling_offsets(query).view(
+302  	            bs, num_query, self.num_heads, self.num_levels, self.num_points, 2)
+303  	        attention_weights = self.attention_weights(query).view(
+304  	            bs, num_query, self.num_heads, self.num_levels * self.num_points)
+305  	        attention_weights = attention_weights.softmax(-1)
+306  	
+(Pdb) Linear(in_features=256, out_features=64, bias=True)
+(Pdb) torch.Size([1, 901, 256])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(302)forward()
+-> bs, num_query, self.num_heads, self.num_levels, self.num_points, 2)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(301)forward()
+-> sampling_offsets = self.sampling_offsets(query).view(
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(303)forward()
+-> attention_weights = self.attention_weights(query).view(
+(Pdb) torch.Size([1, 901, 8, 1, 4, 2])
+(Pdb) 1
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(304)forward()
+-> bs, num_query, self.num_heads, self.num_levels * self.num_points)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(303)forward()
+-> attention_weights = self.attention_weights(query).view(
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(305)forward()
+-> attention_weights = attention_weights.softmax(-1)
+(Pdb) torch.Size([1, 901, 8, 4])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(307)forward()
+-> attention_weights = attention_weights.view(bs, num_query,
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(308)forward()
+-> self.num_heads,
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(309)forward()
+-> self.num_levels,
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(310)forward()
+-> self.num_points)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(307)forward()
+-> attention_weights = attention_weights.view(bs, num_query,
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(311)forward()
+-> if reference_points.shape[-1] == 2:
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(312)forward()
+-> offset_normalizer = torch.stack(
+(Pdb) 307  	        attention_weights = attention_weights.view(bs, num_query,
+308  	                                                   self.num_heads,
+309  	                                                   self.num_levels,
+310  	                                                   self.num_points)
+311  	        if reference_points.shape[-1] == 2:
+312  ->	            offset_normalizer = torch.stack(
+313  	                [spatial_shapes[..., 1], spatial_shapes[..., 0]], -1)
+314  	            sampling_locations = reference_points[:, :, None, :, None, :] \
+315  	                + sampling_offsets \
+316  	                / offset_normalizer[None, None, None, :, None, :]
+317  	        elif reference_points.shape[-1] == 4:
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(313)forward()
+-> [spatial_shapes[..., 1], spatial_shapes[..., 0]], -1)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(312)forward()
+-> offset_normalizer = torch.stack(
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(314)forward()
+-> sampling_locations = reference_points[:, :, None, :, None, :] \
+(Pdb) torch.Size([1, 2])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(315)forward()
+-> + sampling_offsets \
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(316)forward()
+-> / offset_normalizer[None, None, None, :, None, :]
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(315)forward()
+-> + sampling_offsets \
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(314)forward()
+-> sampling_locations = reference_points[:, :, None, :, None, :] \
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(326)forward()
+-> if torch.cuda.is_available() and value.is_cuda:
+(Pdb) torch.Size([1, 901, 8, 1, 4, 2])
+(Pdb) 321  	                * 0.5
+322  	        else:
+323  	            raise ValueError(
+324  	                f'Last dim of reference_points must be'
+325  	                f' 2 or 4, but get {reference_points.shape[-1]} instead.')
+326  ->	        if torch.cuda.is_available() and value.is_cuda:
+327  	
+328  	            # using fp16 deformable attention is unstable because it performs many sum operations
+329  	            if value.dtype == torch.float16:
+330  	                MultiScaleDeformableAttnFunction = MultiScaleDeformableAttnFunction_fp32
+331  	            else:
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(337)forward()
+-> output = multi_scale_deformable_attn_pytorch(
+(Pdb) 332  	                MultiScaleDeformableAttnFunction = MultiScaleDeformableAttnFunction_fp32
+333  	            output = MultiScaleDeformableAttnFunction.apply(
+334  	                value, spatial_shapes, level_start_index, sampling_locations,
+335  	                attention_weights, self.im2col_step)
+336  	        else:
+337  ->	            output = multi_scale_deformable_attn_pytorch(
+338  	                value, spatial_shapes, sampling_locations, attention_weights)
+339  	
+340  	        output = self.output_proj(output)
+341  	
+342  	        if not self.batch_first:
+(Pdb) torch.Size([1, 40000, 8, 32])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(338)forward()
+-> value, spatial_shapes, sampling_locations, attention_weights)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(337)forward()
+-> output = multi_scale_deformable_attn_pytorch(
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(340)forward()
+-> output = self.output_proj(output)
+(Pdb) torch.Size([1, 901, 256])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(342)forward()
+-> if not self.batch_first:
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(344)forward()
+-> output = output.permute(1, 0, 2)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(346)forward()
+-> return self.dropout(output) + identity
+(Pdb) --Return--
+> /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(346)forward()->tensor([[[ 1....3,  1.2486]]])
+-> return self.dropout(output) + identity
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/utils/misc.py(341)new_func()
+-> return output
+(Pdb) --Return--
+> /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/utils/misc.py(341)new_func()->tensor([[[ 1....3,  1.2486]]])
+-> return output
+(Pdb) --Return--
+> /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/module.py(1051)_call_impl()->tensor([[[ 1....3,  1.2486]]])
+-> return forward_call(*input, **kwargs)
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(502)forward()
+-> attn_index += 1
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(503)forward()
+-> identity = query
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(471)forward()
+-> for layer in self.operation_order:
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(472)forward()
+-> if layer == 'self_attn':
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(487)forward()
+-> elif layer == 'norm':
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(488)forward()
+-> query = self.norms[norm_index](query)
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(489)forward()
+-> norm_index += 1
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(471)forward()
+-> for layer in self.operation_order:
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(472)forward()
+-> if layer == 'self_attn':
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(487)forward()
+-> elif layer == 'norm':
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(491)forward()
+-> elif layer == 'cross_attn':
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(505)forward()
+-> elif layer == 'ffn':
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(506)forward()
+-> query = self.ffns[ffn_index](
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(507)forward()
+-> query, identity if self.pre_norm else None)
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(506)forward()
+-> query = self.ffns[ffn_index](
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(508)forward()
+-> ffn_index += 1
+(Pdb) torch.Size([901, 1, 256])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(280)forward()
+-> if value is None:
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(280)forward()
+-> if value is None:
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(280)forward()
+-> if value is None:
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(280)forward()
+-> if value is None:
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(280)forward()
+-> if value is None:
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(283)forward()
+-> if identity is None:
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(284)forward()
+-> identity = query
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(285)forward()
+-> if query_pos is not None:
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(286)forward()
+-> query = query + query_pos
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(287)forward()
+-> if not self.batch_first:
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(289)forward()
+-> query = query.permute(1, 0, 2)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(290)forward()
+-> value = value.permute(1, 0, 2)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(292)forward()
+-> bs, num_query, _ = query.shape
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(293)forward()
+-> bs, num_value, _ = value.shape
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(294)forward()
+-> assert (spatial_shapes[:, 0] * spatial_shapes[:, 1]).sum() == num_value
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(296)forward()
+-> value = self.value_proj(value)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(297)forward()
+-> if key_padding_mask is not None:
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(299)forward()
+-> value = value.view(bs, num_value, self.num_heads, -1)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(301)forward()
+-> sampling_offsets = self.sampling_offsets(query).view(
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(302)forward()
+-> bs, num_query, self.num_heads, self.num_levels, self.num_points, 2)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(301)forward()
+-> sampling_offsets = self.sampling_offsets(query).view(
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(303)forward()
+-> attention_weights = self.attention_weights(query).view(
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(304)forward()
+-> bs, num_query, self.num_heads, self.num_levels * self.num_points)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(303)forward()
+-> attention_weights = self.attention_weights(query).view(
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(305)forward()
+-> attention_weights = attention_weights.softmax(-1)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(307)forward()
+-> attention_weights = attention_weights.view(bs, num_query,
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(308)forward()
+-> self.num_heads,
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(309)forward()
+-> self.num_levels,
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(310)forward()
+-> self.num_points)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(307)forward()
+-> attention_weights = attention_weights.view(bs, num_query,
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(311)forward()
+-> if reference_points.shape[-1] == 2:
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(312)forward()
+-> offset_normalizer = torch.stack(
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(313)forward()
+-> [spatial_shapes[..., 1], spatial_shapes[..., 0]], -1)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(312)forward()
+-> offset_normalizer = torch.stack(
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(314)forward()
+-> sampling_locations = reference_points[:, :, None, :, None, :] \
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(315)forward()
+-> + sampling_offsets \
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(316)forward()
+-> / offset_normalizer[None, None, None, :, None, :]
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(315)forward()
+-> + sampling_offsets \
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(314)forward()
+-> sampling_locations = reference_points[:, :, None, :, None, :] \
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(326)forward()
+-> if torch.cuda.is_available() and value.is_cuda:
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(337)forward()
+-> output = multi_scale_deformable_attn_pytorch(
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(338)forward()
+-> value, spatial_shapes, sampling_locations, attention_weights)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(337)forward()
+-> output = multi_scale_deformable_attn_pytorch(
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(340)forward()
+-> output = self.output_proj(output)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(342)forward()
+-> if not self.batch_first:
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(344)forward()
+-> output = output.permute(1, 0, 2)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(346)forward()
+-> return self.dropout(output) + identity
+(Pdb) --Return--
+> /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(346)forward()->tensor([[[ 1....8,  0.9718]]])
+-> return self.dropout(output) + identity
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/utils/misc.py(341)new_func()
+-> return output
+(Pdb) --Return--
+> /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/utils/misc.py(341)new_func()->tensor([[[ 1....8,  0.9718]]])
+-> return output
+(Pdb) --Return--
+> /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/module.py(1051)_call_impl()->tensor([[[ 1....8,  0.9718]]])
+-> return forward_call(*input, **kwargs)
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(502)forward()
+-> attn_index += 1
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(503)forward()
+-> identity = query
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(471)forward()
+-> for layer in self.operation_order:
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(472)forward()
+-> if layer == 'self_attn':
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(487)forward()
+-> elif layer == 'norm':
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(488)forward()
+-> query = self.norms[norm_index](query)
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(489)forward()
+-> norm_index += 1
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(471)forward()
+-> for layer in self.operation_order:
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(472)forward()
+-> if layer == 'self_attn':
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(487)forward()
+-> elif layer == 'norm':
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(491)forward()
+-> elif layer == 'cross_attn':
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(505)forward()
+-> elif layer == 'ffn':
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(506)forward()
+-> query = self.ffns[ffn_index](
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(507)forward()
+-> query, identity if self.pre_norm else None)
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(506)forward()
+-> query = self.ffns[ffn_index](
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(508)forward()
+-> ffn_index += 1
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(471)forward()
+-> for layer in self.operation_order:
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(472)forward()
+-> if layer == 'self_attn':
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(487)forward()
+-> elif layer == 'norm':
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(488)forward()
+-> query = self.norms[norm_index](query)
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(489)forward()
+-> norm_index += 1
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(471)forward()
+-> for layer in self.operation_order:
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(510)forward()
+-> return query
+(Pdb) --Return--
+> /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(510)forward()->tensor([[[ 0....5,  0.6967]]])
+-> return query
+(Pdb) --Return--
+> /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/module.py(1051)_call_impl()->tensor([[[ 0....5,  0.6967]]])
+-> return forward_call(*input, **kwargs)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(104)forward()
+-> output = output.permute(1, 0, 2)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(106)forward()
+-> if reg_branches is not None:
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(107)forward()
+-> tmp = reg_branches[lid](output)
+(Pdb) *** AttributeError: 'ModuleList' object has no attribute 'shape'
+(Pdb) ModuleList(
+  (0): Sequential(
+    (0): Linear(in_features=256, out_features=256, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=256, out_features=256, bias=True)
+    (3): ReLU()
+    (4): Linear(in_features=256, out_features=10, bias=True)
+  )
+  (1): Sequential(
+    (0): Linear(in_features=256, out_features=256, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=256, out_features=256, bias=True)
+    (3): ReLU()
+    (4): Linear(in_features=256, out_features=10, bias=True)
+  )
+  (2): Sequential(
+    (0): Linear(in_features=256, out_features=256, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=256, out_features=256, bias=True)
+    (3): ReLU()
+    (4): Linear(in_features=256, out_features=10, bias=True)
+  )
+  (3): Sequential(
+    (0): Linear(in_features=256, out_features=256, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=256, out_features=256, bias=True)
+    (3): ReLU()
+    (4): Linear(in_features=256, out_features=10, bias=True)
+  )
+  (4): Sequential(
+    (0): Linear(in_features=256, out_features=256, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=256, out_features=256, bias=True)
+    (3): ReLU()
+    (4): Linear(in_features=256, out_features=10, bias=True)
+  )
+  (5): Sequential(
+    (0): Linear(in_features=256, out_features=256, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=256, out_features=256, bias=True)
+    (3): ReLU()
+    (4): Linear(in_features=256, out_features=10, bias=True)
+  )
+)
+(Pdb) 5
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(109)forward()
+-> assert reference_points.shape[-1] == 3
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(111)forward()
+-> new_reference_points = torch.zeros_like(reference_points)
+(Pdb) torch.Size([1, 901, 10])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(112)forward()
+-> new_reference_points[..., :2] = tmp[
+(Pdb) 107  	                tmp = reg_branches[lid](output)
+108  	
+109  	                assert reference_points.shape[-1] == 3
+110  	
+111  	                new_reference_points = torch.zeros_like(reference_points)
+112  ->	                new_reference_points[..., :2] = tmp[
+113  	                    ..., :2] + inverse_sigmoid(reference_points[..., :2])
+114  	                new_reference_points[..., 2:3] = tmp[
+115  	                    ..., 4:5] + inverse_sigmoid(reference_points[..., 2:3])
+116  	
+117  	                new_reference_points = new_reference_points.sigmoid()
+(Pdb) torch.Size([1, 901, 10])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(113)forward()
+-> ..., :2] + inverse_sigmoid(reference_points[..., :2])
+(Pdb) torch.Size([1, 901, 3])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(112)forward()
+-> new_reference_points[..., :2] = tmp[
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(113)forward()
+-> ..., :2] + inverse_sigmoid(reference_points[..., :2])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(112)forward()
+-> new_reference_points[..., :2] = tmp[
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(113)forward()
+-> ..., :2] + inverse_sigmoid(reference_points[..., :2])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(112)forward()
+-> new_reference_points[..., :2] = tmp[
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(114)forward()
+-> new_reference_points[..., 2:3] = tmp[
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(115)forward()
+-> ..., 4:5] + inverse_sigmoid(reference_points[..., 2:3])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(114)forward()
+-> new_reference_points[..., 2:3] = tmp[
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(115)forward()
+-> ..., 4:5] + inverse_sigmoid(reference_points[..., 2:3])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(114)forward()
+-> new_reference_points[..., 2:3] = tmp[
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(117)forward()
+-> new_reference_points = new_reference_points.sigmoid()
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(119)forward()
+-> reference_points = new_reference_points.detach()
+(Pdb) torch.Size([1, 901, 3])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(121)forward()
+-> output = output.permute(1, 0, 2)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(122)forward()
+-> if self.return_intermediate:
+(Pdb) torch.Size([901, 1, 256])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(123)forward()
+-> intermediate.append(output)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(124)forward()
+-> intermediate_reference_points.append(reference_points)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(94)forward()
+-> for lid, layer in enumerate(self.layers):
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(126)forward()
+-> if self.return_intermediate:
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(127)forward()
+-> return torch.stack(intermediate), torch.stack(
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(128)forward()
+-> intermediate_reference_points)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(127)forward()
+-> return torch.stack(intermediate), torch.stack(
+(Pdb) --Return--
+> /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(127)forward()->(tensor([[[[ 4....9667e-01]]]]), tensor([[[[0....9, 0.5275]]]]))
+-> return torch.stack(intermediate), torch.stack(
+(Pdb) --Return--
+> /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/module.py(1051)_call_impl()->(tensor([[[[ 4....9667e-01]]]]), tensor([[[[0....9, 0.5275]]]]))
+-> return forward_call(*input, **kwargs)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/transformer.py(230)get_states_and_refs()
+-> inter_references_out = inter_references
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/transformer.py(232)get_states_and_refs()
+-> return inter_states, init_reference_out, inter_references_out
+(Pdb) 6
+(Pdb) torch.Size([901, 1, 256])
+(Pdb) torch.Size([901, 1, 256])
+(Pdb) 1
+(Pdb) torch.Size([1, 901, 3])
+(Pdb) torch.Size([6, 1, 901, 3])
+(Pdb) --Return--
+> /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/transformer.py(232)get_states_and_refs()->(tensor([[[[ 4....9667e-01]]]]), tensor([[[0.5...99, 0.4880]]]), tensor([[[[0....9, 0.5275]]]]))
+-> return inter_states, init_reference_out, inter_references_out
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(181)get_detections()
+-> hs = hs.permute(0, 2, 1, 3)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(182)get_detections()
+-> outputs_classes = []
+(Pdb) torch.Size([6, 1, 901, 256])
+(Pdb) ModuleList(
+  (0): Sequential(
+    (0): Linear(in_features=256, out_features=256, bias=True)
+    (1): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+    (2): ReLU(inplace=True)
+    (3): Linear(in_features=256, out_features=256, bias=True)
+    (4): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+    (5): ReLU(inplace=True)
+    (6): Linear(in_features=256, out_features=10, bias=True)
+  )
+  (1): Sequential(
+    (0): Linear(in_features=256, out_features=256, bias=True)
+    (1): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+    (2): ReLU(inplace=True)
+    (3): Linear(in_features=256, out_features=256, bias=True)
+    (4): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+    (5): ReLU(inplace=True)
+    (6): Linear(in_features=256, out_features=10, bias=True)
+  )
+  (2): Sequential(
+    (0): Linear(in_features=256, out_features=256, bias=True)
+    (1): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+    (2): ReLU(inplace=True)
+    (3): Linear(in_features=256, out_features=256, bias=True)
+    (4): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+    (5): ReLU(inplace=True)
+    (6): Linear(in_features=256, out_features=10, bias=True)
+  )
+  (3): Sequential(
+    (0): Linear(in_features=256, out_features=256, bias=True)
+    (1): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+    (2): ReLU(inplace=True)
+    (3): Linear(in_features=256, out_features=256, bias=True)
+    (4): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+    (5): ReLU(inplace=True)
+    (6): Linear(in_features=256, out_features=10, bias=True)
+  )
+  (4): Sequential(
+    (0): Linear(in_features=256, out_features=256, bias=True)
+    (1): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+    (2): ReLU(inplace=True)
+    (3): Linear(in_features=256, out_features=256, bias=True)
+    (4): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+    (5): ReLU(inplace=True)
+    (6): Linear(in_features=256, out_features=10, bias=True)
+  )
+  (5): Sequential(
+    (0): Linear(in_features=256, out_features=256, bias=True)
+    (1): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+    (2): ReLU(inplace=True)
+    (3): Linear(in_features=256, out_features=256, bias=True)
+    (4): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+    (5): ReLU(inplace=True)
+    (6): Linear(in_features=256, out_features=10, bias=True)
+  )
+)
+(Pdb) ModuleList(
+  (0): Sequential(
+    (0): Linear(in_features=256, out_features=256, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=256, out_features=256, bias=True)
+    (3): ReLU()
+    (4): Linear(in_features=256, out_features=16, bias=True)
+  )
+  (1): Sequential(
+    (0): Linear(in_features=256, out_features=256, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=256, out_features=256, bias=True)
+    (3): ReLU()
+    (4): Linear(in_features=256, out_features=16, bias=True)
+  )
+  (2): Sequential(
+    (0): Linear(in_features=256, out_features=256, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=256, out_features=256, bias=True)
+    (3): ReLU()
+    (4): Linear(in_features=256, out_features=16, bias=True)
+  )
+  (3): Sequential(
+    (0): Linear(in_features=256, out_features=256, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=256, out_features=256, bias=True)
+    (3): ReLU()
+    (4): Linear(in_features=256, out_features=16, bias=True)
+  )
+  (4): Sequential(
+    (0): Linear(in_features=256, out_features=256, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=256, out_features=256, bias=True)
+    (3): ReLU()
+    (4): Linear(in_features=256, out_features=16, bias=True)
+  )
+  (5): Sequential(
+    (0): Linear(in_features=256, out_features=256, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=256, out_features=256, bias=True)
+    (3): ReLU()
+    (4): Linear(in_features=256, out_features=16, bias=True)
+  )
+)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(183)get_detections()
+-> outputs_coords = []
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(184)get_detections()
+-> outputs_trajs = []
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(185)get_detections()
+-> for lvl in range(hs.shape[0]):
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(186)get_detections()
+-> if lvl == 0:
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(188)get_detections()
+-> reference = ref_points.sigmoid()
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(192)get_detections()
+-> reference = inverse_sigmoid(reference)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(193)get_detections()
+-> outputs_class = self.cls_branches[lvl](hs[lvl])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(194)get_detections()
+-> tmp = self.reg_branches[lvl](hs[lvl])  # xydxdyxdz
+(Pdb) torch.Size([1, 901, 10])
+(Pdb) ModuleList(
+  (0): Sequential(
+    (0): Linear(in_features=256, out_features=256, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=256, out_features=256, bias=True)
+    (3): ReLU()
+    (4): Linear(in_features=256, out_features=10, bias=True)
+  )
+  (1): Sequential(
+    (0): Linear(in_features=256, out_features=256, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=256, out_features=256, bias=True)
+    (3): ReLU()
+    (4): Linear(in_features=256, out_features=10, bias=True)
+  )
+  (2): Sequential(
+    (0): Linear(in_features=256, out_features=256, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=256, out_features=256, bias=True)
+    (3): ReLU()
+    (4): Linear(in_features=256, out_features=10, bias=True)
+  )
+  (3): Sequential(
+    (0): Linear(in_features=256, out_features=256, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=256, out_features=256, bias=True)
+    (3): ReLU()
+    (4): Linear(in_features=256, out_features=10, bias=True)
+  )
+  (4): Sequential(
+    (0): Linear(in_features=256, out_features=256, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=256, out_features=256, bias=True)
+    (3): ReLU()
+    (4): Linear(in_features=256, out_features=10, bias=True)
+  )
+  (5): Sequential(
+    (0): Linear(in_features=256, out_features=256, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=256, out_features=256, bias=True)
+    (3): ReLU()
+    (4): Linear(in_features=256, out_features=10, bias=True)
+  )
+)
+(Pdb) 189  	            else:
+190  	                reference = inter_references[lvl - 1]
+191  	                # ref_size_base = inter_box_sizes[lvl - 1]
+192  	            reference = inverse_sigmoid(reference)
+193  	            outputs_class = self.cls_branches[lvl](hs[lvl])
+194  ->	            tmp = self.reg_branches[lvl](hs[lvl])  # xydxdyxdz
+195  	            outputs_past_traj = self.past_traj_reg_branches[lvl](hs[lvl]).view(
+196  	                tmp.shape[0], -1, self.past_steps + self.fut_steps, 2)
+197  	            # TODO: check the shape of reference
+198  	            assert reference.shape[-1] == 3
+199  	            tmp[..., 0:2] += reference[..., 0:2]
+(Pdb) torch.Size([1, 901, 10])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(195)get_detections()
+-> outputs_past_traj = self.past_traj_reg_branches[lvl](hs[lvl]).view(
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(196)get_detections()
+-> tmp.shape[0], -1, self.past_steps + self.fut_steps, 2)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(195)get_detections()
+-> outputs_past_traj = self.past_traj_reg_branches[lvl](hs[lvl]).view(
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(198)get_detections()
+-> assert reference.shape[-1] == 3
+(Pdb) torch.Size([1, 901, 8, 2])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(199)get_detections()
+-> tmp[..., 0:2] += reference[..., 0:2]
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(200)get_detections()
+-> tmp[..., 0:2] = tmp[..., 0:2].sigmoid()
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(201)get_detections()
+-> tmp[..., 4:5] += reference[..., 2:3]
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(202)get_detections()
+-> tmp[..., 4:5] = tmp[..., 4:5].sigmoid()
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(204)get_detections()
+-> last_ref_points = torch.cat(
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(205)get_detections()
+-> [tmp[..., 0:2], tmp[..., 4:5]], dim=-1,
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(204)get_detections()
+-> last_ref_points = torch.cat(
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(208)get_detections()
+-> tmp[..., 0:1] = (tmp[..., 0:1] * (self.pc_range[3] -
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(209)get_detections()
+-> self.pc_range[0]) + self.pc_range[0])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(208)get_detections()
+-> tmp[..., 0:1] = (tmp[..., 0:1] * (self.pc_range[3] -
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(209)get_detections()
+-> self.pc_range[0]) + self.pc_range[0])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(208)get_detections()
+-> tmp[..., 0:1] = (tmp[..., 0:1] * (self.pc_range[3] -
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(210)get_detections()
+-> tmp[..., 1:2] = (tmp[..., 1:2] * (self.pc_range[4] -
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(211)get_detections()
+-> self.pc_range[1]) + self.pc_range[1])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(210)get_detections()
+-> tmp[..., 1:2] = (tmp[..., 1:2] * (self.pc_range[4] -
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(211)get_detections()
+-> self.pc_range[1]) + self.pc_range[1])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(210)get_detections()
+-> tmp[..., 1:2] = (tmp[..., 1:2] * (self.pc_range[4] -
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(212)get_detections()
+-> tmp[..., 4:5] = (tmp[..., 4:5] * (self.pc_range[5] -
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(213)get_detections()
+-> self.pc_range[2]) + self.pc_range[2])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(212)get_detections()
+-> tmp[..., 4:5] = (tmp[..., 4:5] * (self.pc_range[5] -
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(213)get_detections()
+-> self.pc_range[2]) + self.pc_range[2])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(212)get_detections()
+-> tmp[..., 4:5] = (tmp[..., 4:5] * (self.pc_range[5] -
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(219)get_detections()
+-> outputs_coord = tmp
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(220)get_detections()
+-> outputs_classes.append(outputs_class)
+(Pdb) torch.Size([1, 901, 10])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(221)get_detections()
+-> outputs_coords.append(outputs_coord)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(222)get_detections()
+-> outputs_trajs.append(outputs_past_traj)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(185)get_detections()
+-> for lvl in range(hs.shape[0]):
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(186)get_detections()
+-> if lvl == 0:
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(190)get_detections()
+-> reference = inter_references[lvl - 1]
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(192)get_detections()
+-> reference = inverse_sigmoid(reference)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(193)get_detections()
+-> outputs_class = self.cls_branches[lvl](hs[lvl])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(194)get_detections()
+-> tmp = self.reg_branches[lvl](hs[lvl])  # xydxdyxdz
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(195)get_detections()
+-> outputs_past_traj = self.past_traj_reg_branches[lvl](hs[lvl]).view(
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(196)get_detections()
+-> tmp.shape[0], -1, self.past_steps + self.fut_steps, 2)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(195)get_detections()
+-> outputs_past_traj = self.past_traj_reg_branches[lvl](hs[lvl]).view(
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(198)get_detections()
+-> assert reference.shape[-1] == 3
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(199)get_detections()
+-> tmp[..., 0:2] += reference[..., 0:2]
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(200)get_detections()
+-> tmp[..., 0:2] = tmp[..., 0:2].sigmoid()
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(201)get_detections()
+-> tmp[..., 4:5] += reference[..., 2:3]
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(202)get_detections()
+-> tmp[..., 4:5] = tmp[..., 4:5].sigmoid()
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(204)get_detections()
+-> last_ref_points = torch.cat(
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(205)get_detections()
+-> [tmp[..., 0:2], tmp[..., 4:5]], dim=-1,
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(204)get_detections()
+-> last_ref_points = torch.cat(
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(208)get_detections()
+-> tmp[..., 0:1] = (tmp[..., 0:1] * (self.pc_range[3] -
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(209)get_detections()
+-> self.pc_range[0]) + self.pc_range[0])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(208)get_detections()
+-> tmp[..., 0:1] = (tmp[..., 0:1] * (self.pc_range[3] -
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(209)get_detections()
+-> self.pc_range[0]) + self.pc_range[0])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(208)get_detections()
+-> tmp[..., 0:1] = (tmp[..., 0:1] * (self.pc_range[3] -
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(210)get_detections()
+-> tmp[..., 1:2] = (tmp[..., 1:2] * (self.pc_range[4] -
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(211)get_detections()
+-> self.pc_range[1]) + self.pc_range[1])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(210)get_detections()
+-> tmp[..., 1:2] = (tmp[..., 1:2] * (self.pc_range[4] -
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(211)get_detections()
+-> self.pc_range[1]) + self.pc_range[1])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(210)get_detections()
+-> tmp[..., 1:2] = (tmp[..., 1:2] * (self.pc_range[4] -
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(212)get_detections()
+-> tmp[..., 4:5] = (tmp[..., 4:5] * (self.pc_range[5] -
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(213)get_detections()
+-> self.pc_range[2]) + self.pc_range[2])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(212)get_detections()
+-> tmp[..., 4:5] = (tmp[..., 4:5] * (self.pc_range[5] -
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(213)get_detections()
+-> self.pc_range[2]) + self.pc_range[2])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(212)get_detections()
+-> tmp[..., 4:5] = (tmp[..., 4:5] * (self.pc_range[5] -
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(219)get_detections()
+-> outputs_coord = tmp
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(220)get_detections()
+-> outputs_classes.append(outputs_class)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(221)get_detections()
+-> outputs_coords.append(outputs_coord)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(222)get_detections()
+-> outputs_trajs.append(outputs_past_traj)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(185)get_detections()
+-> for lvl in range(hs.shape[0]):
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(186)get_detections()
+-> if lvl == 0:
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(190)get_detections()
+-> reference = inter_references[lvl - 1]
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(192)get_detections()
+-> reference = inverse_sigmoid(reference)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(193)get_detections()
+-> outputs_class = self.cls_branches[lvl](hs[lvl])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(194)get_detections()
+-> tmp = self.reg_branches[lvl](hs[lvl])  # xydxdyxdz
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(195)get_detections()
+-> outputs_past_traj = self.past_traj_reg_branches[lvl](hs[lvl]).view(
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(196)get_detections()
+-> tmp.shape[0], -1, self.past_steps + self.fut_steps, 2)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(195)get_detections()
+-> outputs_past_traj = self.past_traj_reg_branches[lvl](hs[lvl]).view(
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(198)get_detections()
+-> assert reference.shape[-1] == 3
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(199)get_detections()
+-> tmp[..., 0:2] += reference[..., 0:2]
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(200)get_detections()
+-> tmp[..., 0:2] = tmp[..., 0:2].sigmoid()
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(201)get_detections()
+-> tmp[..., 4:5] += reference[..., 2:3]
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(202)get_detections()
+-> tmp[..., 4:5] = tmp[..., 4:5].sigmoid()
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(204)get_detections()
+-> last_ref_points = torch.cat(
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(205)get_detections()
+-> [tmp[..., 0:2], tmp[..., 4:5]], dim=-1,
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(204)get_detections()
+-> last_ref_points = torch.cat(
+(Pdb) *** NameError: name 'i' is not defined
+(Pdb) 2
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(208)get_detections()
+-> tmp[..., 0:1] = (tmp[..., 0:1] * (self.pc_range[3] -
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(209)get_detections()
+-> self.pc_range[0]) + self.pc_range[0])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(208)get_detections()
+-> tmp[..., 0:1] = (tmp[..., 0:1] * (self.pc_range[3] -
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(209)get_detections()
+-> self.pc_range[0]) + self.pc_range[0])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(208)get_detections()
+-> tmp[..., 0:1] = (tmp[..., 0:1] * (self.pc_range[3] -
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(210)get_detections()
+-> tmp[..., 1:2] = (tmp[..., 1:2] * (self.pc_range[4] -
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(211)get_detections()
+-> self.pc_range[1]) + self.pc_range[1])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(210)get_detections()
+-> tmp[..., 1:2] = (tmp[..., 1:2] * (self.pc_range[4] -
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(211)get_detections()
+-> self.pc_range[1]) + self.pc_range[1])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(210)get_detections()
+-> tmp[..., 1:2] = (tmp[..., 1:2] * (self.pc_range[4] -
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(212)get_detections()
+-> tmp[..., 4:5] = (tmp[..., 4:5] * (self.pc_range[5] -
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(213)get_detections()
+-> self.pc_range[2]) + self.pc_range[2])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(212)get_detections()
+-> tmp[..., 4:5] = (tmp[..., 4:5] * (self.pc_range[5] -
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(213)get_detections()
+-> self.pc_range[2]) + self.pc_range[2])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(212)get_detections()
+-> tmp[..., 4:5] = (tmp[..., 4:5] * (self.pc_range[5] -
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(219)get_detections()
+-> outputs_coord = tmp
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(220)get_detections()
+-> outputs_classes.append(outputs_class)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(221)get_detections()
+-> outputs_coords.append(outputs_coord)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(222)get_detections()
+-> outputs_trajs.append(outputs_past_traj)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(185)get_detections()
+-> for lvl in range(hs.shape[0]):
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(186)get_detections()
+-> if lvl == 0:
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(190)get_detections()
+-> reference = inter_references[lvl - 1]
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(192)get_detections()
+-> reference = inverse_sigmoid(reference)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(193)get_detections()
+-> outputs_class = self.cls_branches[lvl](hs[lvl])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(194)get_detections()
+-> tmp = self.reg_branches[lvl](hs[lvl])  # xydxdyxdz
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(195)get_detections()
+-> outputs_past_traj = self.past_traj_reg_branches[lvl](hs[lvl]).view(
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(196)get_detections()
+-> tmp.shape[0], -1, self.past_steps + self.fut_steps, 2)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(195)get_detections()
+-> outputs_past_traj = self.past_traj_reg_branches[lvl](hs[lvl]).view(
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(198)get_detections()
+-> assert reference.shape[-1] == 3
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(199)get_detections()
+-> tmp[..., 0:2] += reference[..., 0:2]
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(200)get_detections()
+-> tmp[..., 0:2] = tmp[..., 0:2].sigmoid()
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(201)get_detections()
+-> tmp[..., 4:5] += reference[..., 2:3]
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(202)get_detections()
+-> tmp[..., 4:5] = tmp[..., 4:5].sigmoid()
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(204)get_detections()
+-> last_ref_points = torch.cat(
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(205)get_detections()
+-> [tmp[..., 0:2], tmp[..., 4:5]], dim=-1,
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(204)get_detections()
+-> last_ref_points = torch.cat(
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(208)get_detections()
+-> tmp[..., 0:1] = (tmp[..., 0:1] * (self.pc_range[3] -
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(209)get_detections()
+-> self.pc_range[0]) + self.pc_range[0])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(208)get_detections()
+-> tmp[..., 0:1] = (tmp[..., 0:1] * (self.pc_range[3] -
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(209)get_detections()
+-> self.pc_range[0]) + self.pc_range[0])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(208)get_detections()
+-> tmp[..., 0:1] = (tmp[..., 0:1] * (self.pc_range[3] -
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(210)get_detections()
+-> tmp[..., 1:2] = (tmp[..., 1:2] * (self.pc_range[4] -
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(211)get_detections()
+-> self.pc_range[1]) + self.pc_range[1])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(210)get_detections()
+-> tmp[..., 1:2] = (tmp[..., 1:2] * (self.pc_range[4] -
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(211)get_detections()
+-> self.pc_range[1]) + self.pc_range[1])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(210)get_detections()
+-> tmp[..., 1:2] = (tmp[..., 1:2] * (self.pc_range[4] -
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(212)get_detections()
+-> tmp[..., 4:5] = (tmp[..., 4:5] * (self.pc_range[5] -
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(213)get_detections()
+-> self.pc_range[2]) + self.pc_range[2])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(212)get_detections()
+-> tmp[..., 4:5] = (tmp[..., 4:5] * (self.pc_range[5] -
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(213)get_detections()
+-> self.pc_range[2]) + self.pc_range[2])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(212)get_detections()
+-> tmp[..., 4:5] = (tmp[..., 4:5] * (self.pc_range[5] -
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(219)get_detections()
+-> outputs_coord = tmp
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(220)get_detections()
+-> outputs_classes.append(outputs_class)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(221)get_detections()
+-> outputs_coords.append(outputs_coord)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(222)get_detections()
+-> outputs_trajs.append(outputs_past_traj)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(185)get_detections()
+-> for lvl in range(hs.shape[0]):
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(186)get_detections()
+-> if lvl == 0:
+(Pdb) 4
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(190)get_detections()
+-> reference = inter_references[lvl - 1]
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(192)get_detections()
+-> reference = inverse_sigmoid(reference)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(193)get_detections()
+-> outputs_class = self.cls_branches[lvl](hs[lvl])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(194)get_detections()
+-> tmp = self.reg_branches[lvl](hs[lvl])  # xydxdyxdz
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(195)get_detections()
+-> outputs_past_traj = self.past_traj_reg_branches[lvl](hs[lvl]).view(
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(196)get_detections()
+-> tmp.shape[0], -1, self.past_steps + self.fut_steps, 2)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(195)get_detections()
+-> outputs_past_traj = self.past_traj_reg_branches[lvl](hs[lvl]).view(
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(198)get_detections()
+-> assert reference.shape[-1] == 3
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(199)get_detections()
+-> tmp[..., 0:2] += reference[..., 0:2]
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(200)get_detections()
+-> tmp[..., 0:2] = tmp[..., 0:2].sigmoid()
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(201)get_detections()
+-> tmp[..., 4:5] += reference[..., 2:3]
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(202)get_detections()
+-> tmp[..., 4:5] = tmp[..., 4:5].sigmoid()
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(204)get_detections()
+-> last_ref_points = torch.cat(
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(205)get_detections()
+-> [tmp[..., 0:2], tmp[..., 4:5]], dim=-1,
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(204)get_detections()
+-> last_ref_points = torch.cat(
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(208)get_detections()
+-> tmp[..., 0:1] = (tmp[..., 0:1] * (self.pc_range[3] -
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(209)get_detections()
+-> self.pc_range[0]) + self.pc_range[0])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(208)get_detections()
+-> tmp[..., 0:1] = (tmp[..., 0:1] * (self.pc_range[3] -
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(209)get_detections()
+-> self.pc_range[0]) + self.pc_range[0])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(208)get_detections()
+-> tmp[..., 0:1] = (tmp[..., 0:1] * (self.pc_range[3] -
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(210)get_detections()
+-> tmp[..., 1:2] = (tmp[..., 1:2] * (self.pc_range[4] -
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(211)get_detections()
+-> self.pc_range[1]) + self.pc_range[1])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(210)get_detections()
+-> tmp[..., 1:2] = (tmp[..., 1:2] * (self.pc_range[4] -
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(211)get_detections()
+-> self.pc_range[1]) + self.pc_range[1])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(210)get_detections()
+-> tmp[..., 1:2] = (tmp[..., 1:2] * (self.pc_range[4] -
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(212)get_detections()
+-> tmp[..., 4:5] = (tmp[..., 4:5] * (self.pc_range[5] -
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(213)get_detections()
+-> self.pc_range[2]) + self.pc_range[2])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(212)get_detections()
+-> tmp[..., 4:5] = (tmp[..., 4:5] * (self.pc_range[5] -
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(213)get_detections()
+-> self.pc_range[2]) + self.pc_range[2])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(212)get_detections()
+-> tmp[..., 4:5] = (tmp[..., 4:5] * (self.pc_range[5] -
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(219)get_detections()
+-> outputs_coord = tmp
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(220)get_detections()
+-> outputs_classes.append(outputs_class)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(221)get_detections()
+-> outputs_coords.append(outputs_coord)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(222)get_detections()
+-> outputs_trajs.append(outputs_past_traj)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(185)get_detections()
+-> for lvl in range(hs.shape[0]):
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(186)get_detections()
+-> if lvl == 0:
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(190)get_detections()
+-> reference = inter_references[lvl - 1]
+(Pdb) 5
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(192)get_detections()
+-> reference = inverse_sigmoid(reference)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(193)get_detections()
+-> outputs_class = self.cls_branches[lvl](hs[lvl])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(194)get_detections()
+-> tmp = self.reg_branches[lvl](hs[lvl])  # xydxdyxdz
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(195)get_detections()
+-> outputs_past_traj = self.past_traj_reg_branches[lvl](hs[lvl]).view(
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(196)get_detections()
+-> tmp.shape[0], -1, self.past_steps + self.fut_steps, 2)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(195)get_detections()
+-> outputs_past_traj = self.past_traj_reg_branches[lvl](hs[lvl]).view(
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(198)get_detections()
+-> assert reference.shape[-1] == 3
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(199)get_detections()
+-> tmp[..., 0:2] += reference[..., 0:2]
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(200)get_detections()
+-> tmp[..., 0:2] = tmp[..., 0:2].sigmoid()
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(201)get_detections()
+-> tmp[..., 4:5] += reference[..., 2:3]
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(202)get_detections()
+-> tmp[..., 4:5] = tmp[..., 4:5].sigmoid()
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(204)get_detections()
+-> last_ref_points = torch.cat(
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(205)get_detections()
+-> [tmp[..., 0:2], tmp[..., 4:5]], dim=-1,
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(204)get_detections()
+-> last_ref_points = torch.cat(
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(208)get_detections()
+-> tmp[..., 0:1] = (tmp[..., 0:1] * (self.pc_range[3] -
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(209)get_detections()
+-> self.pc_range[0]) + self.pc_range[0])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(208)get_detections()
+-> tmp[..., 0:1] = (tmp[..., 0:1] * (self.pc_range[3] -
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(209)get_detections()
+-> self.pc_range[0]) + self.pc_range[0])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(208)get_detections()
+-> tmp[..., 0:1] = (tmp[..., 0:1] * (self.pc_range[3] -
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(210)get_detections()
+-> tmp[..., 1:2] = (tmp[..., 1:2] * (self.pc_range[4] -
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(211)get_detections()
+-> self.pc_range[1]) + self.pc_range[1])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(210)get_detections()
+-> tmp[..., 1:2] = (tmp[..., 1:2] * (self.pc_range[4] -
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(211)get_detections()
+-> self.pc_range[1]) + self.pc_range[1])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(210)get_detections()
+-> tmp[..., 1:2] = (tmp[..., 1:2] * (self.pc_range[4] -
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(212)get_detections()
+-> tmp[..., 4:5] = (tmp[..., 4:5] * (self.pc_range[5] -
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(213)get_detections()
+-> self.pc_range[2]) + self.pc_range[2])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(212)get_detections()
+-> tmp[..., 4:5] = (tmp[..., 4:5] * (self.pc_range[5] -
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(213)get_detections()
+-> self.pc_range[2]) + self.pc_range[2])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(212)get_detections()
+-> tmp[..., 4:5] = (tmp[..., 4:5] * (self.pc_range[5] -
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(219)get_detections()
+-> outputs_coord = tmp
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(220)get_detections()
+-> outputs_classes.append(outputs_class)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(221)get_detections()
+-> outputs_coords.append(outputs_coord)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(222)get_detections()
+-> outputs_trajs.append(outputs_past_traj)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(185)get_detections()
+-> for lvl in range(hs.shape[0]):
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(223)get_detections()
+-> outputs_classes = torch.stack(outputs_classes)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(224)get_detections()
+-> outputs_coords = torch.stack(outputs_coords)
+(Pdb) torch.Size([6, 1, 901, 10])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(225)get_detections()
+-> outputs_trajs = torch.stack(outputs_trajs)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(226)get_detections()
+-> last_ref_points = inverse_sigmoid(last_ref_points)
+(Pdb) torch.Size([6, 1, 901, 8, 2])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(228)get_detections()
+-> 'all_cls_scores': outputs_classes,
+(Pdb) torch.Size([6, 1, 901, 10])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(229)get_detections()
+-> 'all_bbox_preds': outputs_coords,
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(230)get_detections()
+-> 'all_past_traj_preds': outputs_trajs,
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(231)get_detections()
+-> 'enc_cls_scores': None,
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(232)get_detections()
+-> 'enc_bbox_preds': None,
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(233)get_detections()
+-> 'last_ref_points': last_ref_points,
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(234)get_detections()
+-> 'query_feats': hs,
+(Pdb) torch.Size([6, 1, 901, 256])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(227)get_detections()
+-> outs = {
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(236)get_detections()
+-> return outs
+(Pdb) --Return--
+> /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(236)get_detections()->{'all_bbox_preds': tensor([[[[ 2....5755e+00]]]]), 'all_cls_scores': tensor([[[[-1...  -5.7037]]]]), 'all_past_traj_preds': tensor([[[[[-...6354e+01]]]]]), 'enc_bbox_preds': None, ...}
+-> return outs
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(665)_forward_single_frame_inference()
+-> output_classes = det_output["all_cls_scores"]
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(666)_forward_single_frame_inference()
+-> output_coords = det_output["all_bbox_preds"]
+(Pdb) torch.Size([6, 1, 901, 10])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(667)_forward_single_frame_inference()
+-> last_ref_pts = det_output["last_ref_points"]
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(668)_forward_single_frame_inference()
+-> query_feats = det_output["query_feats"]
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(671)_forward_single_frame_inference()
+-> "pred_logits": output_classes,
+(Pdb) torch.Size([1, 901, 3])
+(Pdb) *** NameError: name 'past_traj' is not defined
+(Pdb) torch.Size([6, 1, 901, 10])
+(Pdb) 666  	        output_coords = det_output["all_bbox_preds"]
+667  	        last_ref_pts = det_output["last_ref_points"]
+668  	        query_feats = det_output["query_feats"]
+669  	
+670  	        out = {
+671  ->	            "pred_logits": output_classes,
+672  	            "pred_boxes": output_coords,
+673  	            "ref_pts": last_ref_pts,
+674  	            "bev_embed": bev_embed,
+675  	            "query_embeddings": query_feats,
+676  	            "all_past_traj_preds": det_output["all_past_traj_preds"],
+(Pdb) torch.Size([6, 1, 901, 10])
+(Pdb) torch.Size([1, 901, 3])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(672)_forward_single_frame_inference()
+-> "pred_boxes": output_coords,
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(673)_forward_single_frame_inference()
+-> "ref_pts": last_ref_pts,
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(674)_forward_single_frame_inference()
+-> "bev_embed": bev_embed,
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(675)_forward_single_frame_inference()
+-> "query_embeddings": query_feats,
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(676)_forward_single_frame_inference()
+-> "all_past_traj_preds": det_output["all_past_traj_preds"],
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(677)_forward_single_frame_inference()
+-> "bev_pos": bev_pos,
+(Pdb) torch.Size([1, 256, 200, 200])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(670)_forward_single_frame_inference()
+-> out = {
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(681)_forward_single_frame_inference()
+-> track_scores = output_classes[-1, 0, :].sigmoid().max(dim=-1).values
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(683)_forward_single_frame_inference()
+-> track_instances.scores = track_scores
+(Pdb) torch.Size([901])
+(Pdb) tensor([2.9983e-02, 1.3169e-01, 3.1940e-02, 8.4080e-03, 6.2751e-04, 8.1019e-03,
+        5.0310e-02, 4.1484e-02, 7.7233e-03, 8.9866e-03, 2.8219e-02, 3.9435e-03,
+        9.0152e-02, 1.8335e-01, 1.4147e-02, 4.0948e-03, 1.9600e-02, 7.5787e-02,
+        3.2276e-02, 5.4398e-03, 5.0548e-03, 6.2614e-04, 5.3043e-02, 1.3781e-01,
+        9.3446e-02, 9.0655e-02, 9.2544e-03, 7.6146e-04, 1.5668e-01, 1.2809e-01,
+        1.2420e-01, 1.3289e-02, 3.3763e-02, 2.5746e-02, 4.2966e-02, 1.1361e-01,
+        2.9305e-02, 6.1335e-02, 7.8102e-02, 2.6701e-02, 7.0374e-02, 1.4836e-01,
+        1.6467e-02, 3.9143e-02, 1.3635e-01, 1.6831e-02, 5.5216e-02, 8.0124e-02,
+        1.9819e-02, 3.9546e-02, 4.4666e-02, 1.3245e-02, 8.1936e-02, 1.2659e-02,
+        4.6894e-02, 6.8499e-02, 2.0892e-02, 1.3310e-01, 2.6906e-02, 3.8530e-02,
+        1.2021e-02, 5.4359e-02, 1.5450e-01, 5.6513e-02, 7.1275e-02, 1.5810e-01,
+        8.3758e-02, 4.1222e-02, 1.7180e-02, 8.0941e-03, 7.4482e-02, 6.2781e-02,
+        2.9341e-02, 2.5053e-03, 1.5200e-01, 3.2955e-02, 1.0719e-01, 6.6817e-03,
+        2.3100e-02, 1.2599e-02, 5.2755e-03, 1.3011e-01, 5.0321e-03, 7.8394e-02,
+        2.5145e-01, 1.0145e-02, 1.5732e-01, 1.7915e-02, 4.7944e-02, 2.0019e-01,
+        2.4361e-01, 2.3510e-02, 1.1384e-01, 3.4891e-03, 6.1187e-04, 1.6673e-01,
+        6.9100e-04, 4.8006e-03, 4.9232e-02, 9.2271e-03, 5.1945e-02, 7.5556e-02,
+        1.1683e-02, 1.3165e-01, 3.7506e-02, 3.2702e-02, 7.4434e-02, 4.4146e-02,
+        2.0408e-02, 8.2222e-02, 1.4443e-01, 7.8737e-01, 1.4499e-02, 4.4273e-02,
+        2.4238e-01, 6.2286e-02, 1.1248e-03, 4.6259e-02, 2.7670e-02, 1.4547e-02,
+        1.1745e-01, 5.2322e-02, 7.6648e-02, 8.8853e-02, 5.8534e-03, 3.0158e-02,
+        3.6380e-02, 1.6854e-02, 1.3964e-02, 1.9386e-01, 1.1794e-01, 2.9129e-02,
+        6.2758e-02, 8.6599e-02, 2.4334e-03, 4.1245e-02, 9.1329e-04, 9.5446e-04,
+        1.0723e-03, 1.0953e-01, 3.1460e-02, 6.7769e-03, 7.9056e-02, 8.2707e-02,
+        8.5355e-02, 3.9972e-02, 1.7516e-03, 1.1604e-02, 3.5194e-02, 9.3531e-03,
+        3.0775e-02, 1.0026e-01, 2.2763e-02, 5.9500e-03, 1.4262e-01, 5.4835e-03,
+        7.2534e-03, 4.4947e-02, 3.5117e-02, 1.3307e-02, 7.4143e-03, 9.3377e-02,
+        7.2549e-03, 2.5280e-02, 5.1181e-03, 1.5762e-02, 3.3348e-02, 9.4080e-02,
+        8.2019e-02, 5.6516e-02, 6.8190e-02, 5.8343e-02, 4.0493e-03, 5.5788e-02,
+        1.0812e-01, 1.6981e-02, 3.0127e-02, 8.2757e-04, 6.9324e-03, 6.9490e-03,
+        2.4620e-02, 5.3910e-03, 7.1750e-02, 2.6960e-03, 7.1158e-02, 6.5419e-02,
+        1.3955e-01, 1.2231e-02, 6.3615e-02, 1.5676e-03, 2.3253e-02, 1.1523e-01,
+        1.2636e-03, 1.3678e-01, 1.9193e-02, 5.6908e-02, 3.9108e-02, 3.4472e-02,
+        9.7370e-02, 2.9808e-02, 1.2566e-01, 4.1668e-02, 8.1599e-02, 1.6844e-03,
+        1.1680e-01, 3.2788e-03, 4.1173e-02, 7.4684e-03, 2.7538e-02, 2.2707e-02,
+        7.8755e-02, 9.6947e-02, 2.3505e-02, 3.9781e-02, 1.2867e-03, 1.2134e-01,
+        2.8499e-02, 3.0226e-02, 3.2006e-02, 5.0201e-02, 9.3734e-04, 1.5699e-01,
+        5.0896e-02, 1.4129e-02, 3.6567e-02, 2.1552e-01, 8.2901e-04, 1.4432e-02,
+        9.6379e-02, 2.5256e-02, 1.5730e-03, 4.2736e-02, 6.1828e-02, 1.9204e-02,
+        1.3939e-01, 9.1114e-02, 5.5228e-02, 1.7026e-02, 2.8019e-02, 2.5324e-02,
+        3.4581e-03, 1.8951e-02, 1.5723e-01, 2.7856e-02, 2.0966e-02, 1.0350e-02,
+        1.4360e-01, 1.9057e-01, 1.5266e-02, 2.1725e-02, 3.6867e-03, 8.0754e-02,
+        5.9713e-02, 6.1867e-04, 1.1032e-02, 2.5926e-02, 4.4833e-03, 1.1356e-03,
+        1.0116e-01, 5.6385e-02, 3.8981e-02, 1.9223e-02, 7.9701e-02, 1.0195e-01,
+        9.0426e-02, 7.5760e-02, 5.9113e-02, 1.6499e-01, 2.8590e-02, 2.8020e-01,
+        1.4329e-02, 7.2179e-02, 7.3036e-03, 3.3114e-02, 8.3733e-04, 5.0556e-02,
+        1.7493e-01, 1.5649e-02, 1.5199e-01, 1.9471e-01, 1.3805e-03, 2.2882e-03,
+        5.1378e-02, 4.2507e-02, 8.9419e-02, 9.7719e-03, 1.4430e-02, 3.2225e-02,
+        1.1265e-02, 2.3283e-01, 1.4401e-03, 5.2039e-02, 1.1299e-01, 1.8441e-02,
+        2.1414e-01, 9.3464e-03, 3.8840e-02, 1.5135e-02, 1.1302e-02, 1.3160e-01,
+        1.8315e-02, 2.4220e-02, 1.7320e-02, 1.0489e-02, 4.3189e-02, 6.4852e-02,
+        8.7881e-02, 3.9177e-03, 1.4045e-01, 1.0789e-01, 7.6940e-02, 2.1892e-02,
+        1.3698e-01, 9.0797e-03, 4.4360e-02, 1.7937e-02, 2.0217e-01, 1.5011e-02,
+        1.2741e-03, 7.4397e-02, 1.5871e-02, 1.8842e-02, 2.9557e-02, 5.9110e-03,
+        1.8223e-01, 1.4411e-02, 3.6465e-02, 2.4543e-02, 2.6203e-02, 1.3286e-01,
+        1.0895e-01, 4.1910e-02, 9.2271e-02, 2.9646e-03, 1.3339e-01, 6.4192e-02,
+        8.2237e-01, 2.2184e-02, 7.9710e-02, 5.6978e-03, 1.2394e-01, 1.6769e-01,
+        4.5084e-02, 1.6647e-02, 3.4046e-01, 4.4862e-02, 5.0084e-02, 9.5761e-03,
+        8.4382e-03, 9.8519e-02, 1.6296e-02, 1.4035e-01, 9.1565e-02, 2.0130e-02,
+        1.6512e-03, 4.7814e-02, 1.4882e-01, 1.1516e-02, 4.1027e-02, 2.4053e-02,
+        7.3500e-02, 8.8696e-02, 1.1020e-01, 2.7365e-01, 1.3976e-01, 2.5942e-01,
+        5.0844e-03, 5.9564e-03, 5.0052e-02, 3.1672e-02, 1.8386e-01, 1.7908e-01,
+        1.7625e-02, 7.2457e-02, 4.4632e-02, 5.0143e-02, 1.4740e-02, 9.4547e-02,
+        4.5062e-02, 3.2328e-02, 2.4456e-01, 1.7042e-01, 1.7971e-01, 4.7023e-03,
+        8.4550e-03, 4.3159e-03, 1.7401e-02, 1.5038e-01, 1.0986e-01, 1.8310e-02,
+        4.9808e-02, 2.7233e-02, 1.1092e-03, 3.4773e-03, 7.9778e-04, 7.2872e-03,
+        1.4088e-02, 4.5646e-02, 1.4828e-02, 2.1218e-03, 1.5678e-02, 2.8386e-02,
+        1.4131e-01, 2.1435e-03, 1.5319e-01, 5.6772e-02, 3.5629e-02, 7.4615e-02,
+        6.3928e-03, 1.1598e-01, 2.3634e-03, 1.7575e-02, 5.4981e-03, 7.4699e-02,
+        9.9951e-02, 7.5481e-02, 9.5124e-04, 1.8127e-01, 7.8801e-02, 8.4987e-02,
+        2.3261e-02, 7.8948e-03, 1.5473e-01, 8.6809e-03, 1.0830e-01, 6.3177e-02,
+        4.2174e-02, 3.6707e-02, 1.6134e-01, 6.6017e-02, 2.2731e-02, 1.6205e-01,
+        5.7680e-03, 1.8645e-01, 1.1240e-01, 6.7834e-02, 9.1549e-02, 4.0653e-02,
+        1.6511e-02, 1.3116e-02, 4.1319e-02, 1.4136e-02, 5.5874e-02, 9.7959e-03,
+        4.2106e-02, 4.1100e-02, 1.4469e-02, 1.8390e-02, 1.2686e-03, 3.6883e-02,
+        1.1622e-01, 1.4843e-02, 3.4512e-02, 2.2877e-02, 5.6857e-02, 2.3367e-02,
+        2.6304e-02, 7.2714e-02, 6.8288e-02, 2.8338e-02, 7.3474e-03, 5.5825e-02,
+        1.5094e-02, 2.0021e-01, 3.5156e-02, 1.1862e-02, 9.9394e-02, 1.4210e-03,
+        5.5851e-02, 1.6097e-02, 6.3562e-02, 1.3301e-01, 2.4025e-02, 1.4143e-01,
+        6.4516e-03, 7.5990e-02, 3.7622e-02, 7.0416e-02, 2.2721e-02, 6.0291e-02,
+        2.5746e-02, 1.6105e-01, 7.6578e-02, 1.5138e-01, 7.1942e-02, 9.8693e-02,
+        7.6139e-03, 6.7694e-02, 1.5148e-02, 6.8193e-03, 9.4842e-03, 3.7722e-02,
+        9.8519e-02, 7.7843e-02, 9.8385e-04, 2.7006e-02, 1.0046e-01, 4.2079e-02,
+        4.4404e-02, 5.4105e-03, 3.8680e-02, 1.6508e-03, 1.3262e-01, 1.7379e-02,
+        1.7375e-01, 3.0980e-02, 1.1545e-02, 4.6410e-02, 2.4863e-02, 1.5953e-02,
+        4.9839e-02, 1.0269e-02, 9.4936e-03, 2.1602e-02, 7.5959e-02, 1.7456e-01,
+        2.6738e-02, 1.9839e-01, 1.5059e-02, 1.4855e-01, 1.6334e-01, 1.0404e-02,
+        7.7942e-03, 3.5546e-02, 1.2113e-02, 1.3183e-01, 7.7580e-03, 1.9519e-02,
+        1.9166e-02, 7.5910e-03, 1.7330e-02, 1.6329e-02, 1.2010e-03, 8.4229e-04,
+        5.8934e-03, 3.4115e-02, 1.1311e-01, 1.7081e-01, 4.2673e-02, 1.2152e-02,
+        2.3618e-02, 2.8575e-02, 1.3520e-01, 2.6267e-01, 1.6827e-02, 1.4472e-02,
+        3.9720e-02, 1.8037e-03, 6.7262e-03, 2.8490e-02, 2.0494e-02, 4.4584e-04,
+        3.5502e-02, 1.3519e-01, 1.6203e-01, 1.6696e-02, 7.7883e-02, 1.2182e-01,
+        2.1795e-01, 1.2028e-02, 1.7363e-03, 3.8468e-02, 9.0457e-02, 3.5323e-03,
+        7.5000e-02, 2.5298e-03, 2.6308e-02, 5.9633e-02, 1.0770e-01, 3.4073e-02,
+        1.3984e-03, 6.3637e-02, 4.9502e-02, 3.9008e-03, 4.7057e-03, 3.4467e-03,
+        1.0577e-01, 1.2500e-01, 8.1268e-04, 1.0341e-01, 1.2801e-01, 5.0882e-02,
+        3.5131e-02, 1.1052e-03, 1.2371e-01, 4.3615e-03, 4.2860e-02, 7.6101e-02,
+        4.1730e-02, 3.3241e-02, 5.8923e-02, 9.3299e-03, 1.0048e-01, 3.4341e-02,
+        5.7440e-02, 6.7454e-02, 7.6390e-02, 4.5505e-02, 1.2770e-02, 2.7565e-03,
+        6.7469e-03, 1.0445e-02, 1.0824e-01, 1.9423e-01, 2.3268e-02, 1.7133e-02,
+        4.1963e-02, 1.0818e-03, 6.3187e-02, 1.1971e-01, 7.2429e-02, 3.1833e-01,
+        6.6619e-02, 2.6808e-02, 9.1741e-02, 2.4692e-02, 6.4263e-02, 3.7670e-02,
+        1.9493e-01, 1.5874e-02, 1.1054e-03, 4.2869e-02, 7.1312e-03, 1.5651e-02,
+        2.3020e-02, 1.0500e-03, 9.4155e-02, 1.0027e-01, 3.3545e-02, 2.6308e-02,
+        4.7006e-02, 1.2750e-03, 6.9829e-02, 1.3215e-01, 1.6489e-01, 2.1571e-02,
+        1.2586e-01, 7.5064e-02, 5.6183e-03, 1.8199e-02, 9.8838e-02, 5.1429e-02,
+        6.6813e-02, 3.4467e-02, 2.1569e-02, 1.5392e-01, 1.8094e-02, 1.6315e-02,
+        1.0278e-03, 1.0964e-01, 9.7628e-03, 3.9427e-02, 1.7986e-01, 8.8130e-02,
+        7.0765e-02, 1.7893e-01, 4.5767e-03, 2.0386e-01, 5.4848e-02, 1.3998e-02,
+        2.2270e-02, 1.3441e-01, 2.1935e-02, 1.5833e-01, 1.8322e-02, 3.0448e-02,
+        5.9853e-02, 1.9391e-02, 3.5838e-02, 9.7369e-03, 3.1884e-02, 5.9503e-02,
+        3.8327e-03, 1.5155e-02, 2.1200e-02, 3.6420e-03, 1.0757e-02, 5.6502e-02,
+        2.5519e-01, 3.8215e-02, 5.4928e-02, 5.8640e-02, 7.0405e-02, 1.5857e-02,
+        1.2232e-01, 1.6506e-02, 1.6741e-02, 2.8558e-02, 6.1054e-02, 3.6173e-02,
+        1.5042e-02, 4.8361e-02, 3.9482e-02, 2.4122e-03, 4.0927e-02, 3.2782e-02,
+        4.6372e-02, 2.0314e-02, 2.8326e-02, 1.2781e-01, 3.2794e-02, 1.9813e-02,
+        5.0279e-02, 1.4774e-01, 5.5575e-02, 1.0943e-01, 3.3704e-03, 1.0739e-02,
+        1.8874e-02, 6.6924e-02, 2.3067e-02, 7.4987e-02, 2.6118e-02, 5.3676e-02,
+        2.1591e-02, 7.5494e-02, 1.3447e-01, 2.4442e-02, 1.3837e-02, 4.1708e-02,
+        1.4155e-02, 1.1392e-02, 8.5482e-02, 1.3942e-01, 3.4085e-02, 5.0409e-03,
+        4.9906e-02, 1.8954e-01, 3.7323e-02, 3.7601e-02, 2.1147e-01, 1.9523e-02,
+        2.4204e-02, 1.6469e-02, 2.0059e-02, 3.0222e-02, 9.8382e-03, 2.4438e-02,
+        1.4448e-01, 7.3968e-03, 1.0572e-03, 4.3908e-02, 1.5846e-02, 1.9103e-02,
+        4.2758e-02, 1.1444e-01, 1.3056e-01, 7.0615e-03, 2.1925e-02, 5.1609e-03,
+        2.2170e-02, 2.2140e-01, 4.9506e-02, 4.8258e-03, 1.8173e-01, 1.2744e-02,
+        1.6949e-01, 1.7300e-01, 2.2848e-02, 6.9621e-03, 1.6755e-02, 4.9561e-02,
+        1.7883e-02, 1.8816e-01, 1.4298e-03, 1.6156e-01, 7.3723e-03, 4.3498e-02,
+        3.8570e-02, 1.6858e-01, 9.6076e-03, 1.0662e-02, 4.0683e-02, 5.0181e-03,
+        1.4552e-01, 3.8565e-02, 8.2625e-03, 3.3222e-03, 1.6026e-02, 1.2612e-01,
+        8.5639e-02, 2.1842e-02, 2.0405e-02, 1.6300e-02, 1.9538e-02, 1.1818e-03,
+        4.5197e-02, 2.4466e-03, 6.0829e-02, 5.6095e-02, 4.8260e-02, 2.8311e-03,
+        2.8542e-02, 8.7514e-02, 2.2250e-02, 9.4646e-03, 1.1116e-01, 5.5190e-02,
+        2.2084e-02, 4.3480e-02, 1.6271e-03, 4.7585e-03, 4.0364e-02, 1.4562e-02,
+        1.5207e-02, 1.2748e-01, 7.4755e-02, 8.8242e-02, 5.5939e-03, 1.1208e-01,
+        2.7105e-02, 9.1985e-03, 1.9505e-02, 2.9144e-03, 2.0365e-01, 1.0475e-01,
+        1.2061e-01, 1.7701e-02, 1.0473e-03, 9.6751e-03, 2.1665e-03, 1.8095e-02,
+        1.0321e-01, 3.7683e-03, 1.3685e-02, 1.3120e-01, 5.1723e-02, 1.0767e-01,
+        7.7334e-02, 1.8979e-02, 1.0294e-01, 3.2576e-02, 1.5151e-01, 9.5844e-04,
+        1.1212e-01, 2.7277e-02, 2.2790e-02, 7.2100e-02, 6.0591e-03, 1.1386e-02,
+        7.5884e-02, 5.7511e-02, 3.0958e-02, 7.0723e-03, 5.1087e-02, 8.5605e-02,
+        7.6047e-03, 2.1791e-03, 1.2346e-02, 1.4168e-03, 3.4655e-02, 9.3431e-03,
+        5.2223e-02, 2.3458e-02, 5.8386e-02, 5.5007e-02, 1.4717e-01, 2.8016e-02,
+        8.3531e-02, 3.7600e-03, 7.5602e-02, 6.9032e-02, 6.7383e-02, 1.9309e-01,
+        2.0143e-03, 7.3403e-02, 2.2454e-02, 1.4693e-01, 9.0856e-03, 1.1708e-01,
+        6.4818e-03, 4.2857e-02, 3.9982e-02, 7.9730e-03, 1.1307e-01, 5.5819e-02,
+        6.8379e-03, 6.7517e-02, 1.7544e-02, 2.9861e-02, 4.1385e-02, 1.1736e-01,
+        1.5087e-01, 4.3507e-03, 1.6855e-03, 7.7956e-02, 1.3250e-02, 6.1805e-02,
+        8.5946e-03, 3.3351e-02, 9.2404e-04, 6.5198e-03, 4.4985e-02, 1.4021e-03,
+        1.6436e-01, 7.6563e-04, 1.5432e-01, 4.7282e-03, 2.2404e-02, 8.7760e-03,
+        4.0425e-01])
+(Pdb) 678  	        }
+679  	
+680  	        """ update track instances with predict results """
+681  	        track_scores = output_classes[-1, 0, :].sigmoid().max(dim=-1).values
+682  	        # each track will be assigned an unique global id by the track base.
+683  ->	        track_instances.scores = track_scores
+684  	        # track_instances.track_scores = track_scores  # [300]
+685  	        track_instances.pred_logits = output_classes[-1, 0]  # [300, num_cls]
+686  	        track_instances.pred_boxes = output_coords[-1, 0]  # [300, box_dim]
+687  	        track_instances.output_embedding = query_feats[-1][0]  # [300, feat_dim]
+688  	        track_instances.ref_pts = last_ref_pts[0]
+(Pdb) torch.Size([1, 901, 3])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(685)_forward_single_frame_inference()
+-> track_instances.pred_logits = output_classes[-1, 0]  # [300, num_cls]
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(686)_forward_single_frame_inference()
+-> track_instances.pred_boxes = output_coords[-1, 0]  # [300, box_dim]
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(687)_forward_single_frame_inference()
+-> track_instances.output_embedding = query_feats[-1][0]  # [300, feat_dim]
+(Pdb) torch.Size([901, 10])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(688)_forward_single_frame_inference()
+-> track_instances.ref_pts = last_ref_pts[0]
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(690)_forward_single_frame_inference()
+-> track_instances.obj_idxes[900] = -2
+(Pdb) torch.Size([901, 3])
+(Pdb) torch.Size([1, 901, 3])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(692)_forward_single_frame_inference()
+-> self.track_base.update(track_instances, None)
+(Pdb) --Call--
+> /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(16)update()
+-> def update(self, track_instances: Instances, iou_thre=None):
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(17)update()
+-> track_instances.disappear_time[track_instances.scores >= self.score_thresh] = 0
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(18)update()
+-> for i in range(len(track_instances)):
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(20)update()
+-> track_instances.obj_idxes[i] == -1
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(19)update()
+-> if (
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(21)update()
+-> and track_instances.scores[i] >= self.score_thresh
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(19)update()
+-> if (
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(32)update()
+-> track_instances.obj_idxes[i] >= 0
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(31)update()
+-> elif (
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(18)update()
+-> for i in range(len(track_instances)):
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(20)update()
+-> track_instances.obj_idxes[i] == -1
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(19)update()
+-> if (
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(21)update()
+-> and track_instances.scores[i] >= self.score_thresh
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(19)update()
+-> if (
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(32)update()
+-> track_instances.obj_idxes[i] >= 0
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(31)update()
+-> elif (
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(18)update()
+-> for i in range(len(track_instances)):
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(20)update()
+-> track_instances.obj_idxes[i] == -1
+(Pdb) 901
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(19)update()
+-> if (
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(21)update()
+-> and track_instances.scores[i] >= self.score_thresh
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(19)update()
+-> if (
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(32)update()
+-> track_instances.obj_idxes[i] >= 0
+(Pdb) tensor(False)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(31)update()
+-> elif (
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(18)update()
+-> for i in range(len(track_instances)):
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(20)update()
+-> track_instances.obj_idxes[i] == -1
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(19)update()
+-> if (
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(21)update()
+-> and track_instances.scores[i] >= self.score_thresh
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(19)update()
+-> if (
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(32)update()
+-> track_instances.obj_idxes[i] >= 0
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(31)update()
+-> elif (
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(18)update()
+-> for i in range(len(track_instances)):
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(20)update()
+-> track_instances.obj_idxes[i] == -1
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(692)_forward_single_frame_inference()
+-> self.track_base.update(track_instances, None)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(753)simple_test_track()
+-> frame_res = self._forward_single_frame_inference(
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(692)_forward_single_frame_inference()
+-> self.track_base.update(track_instances, None)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(20)update()
+-> track_instances.obj_idxes[i] == -1
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(19)update()
+-> if (
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(21)update()
+-> and track_instances.scores[i] >= self.score_thresh
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(19)update()
+-> if (
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(32)update()
+-> track_instances.obj_idxes[i] >= 0
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(31)update()
+-> elif (
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(18)update()
+-> for i in range(len(track_instances)):
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(20)update()
+-> track_instances.obj_idxes[i] == -1
+(Pdb) 5
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(19)update()
+-> if (
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(21)update()
+-> and track_instances.scores[i] >= self.score_thresh
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(19)update()
+-> if (
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(32)update()
+-> track_instances.obj_idxes[i] >= 0
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(31)update()
+-> elif (
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(18)update()
+-> for i in range(len(track_instances)):
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(20)update()
+-> track_instances.obj_idxes[i] == -1
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(19)update()
+-> if (
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(21)update()
+-> and track_instances.scores[i] >= self.score_thresh
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(19)update()
+-> if (
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(32)update()
+-> track_instances.obj_idxes[i] >= 0
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(31)update()
+-> elif (
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(18)update()
+-> for i in range(len(track_instances)):
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(20)update()
+-> track_instances.obj_idxes[i] == -1
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(19)update()
+-> if (
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(21)update()
+-> and track_instances.scores[i] >= self.score_thresh
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(19)update()
+-> if (
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(32)update()
+-> track_instances.obj_idxes[i] >= 0
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(31)update()
+-> elif (
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(18)update()
+-> for i in range(len(track_instances)):
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(20)update()
+-> track_instances.obj_idxes[i] == -1
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(19)update()
+-> if (
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(21)update()
+-> and track_instances.scores[i] >= self.score_thresh
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(19)update()
+-> if (
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(32)update()
+-> track_instances.obj_idxes[i] >= 0
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(31)update()
+-> elif (
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(18)update()
+-> for i in range(len(track_instances)):
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(20)update()
+-> track_instances.obj_idxes[i] == -1
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(19)update()
+-> if (
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(21)update()
+-> and track_instances.scores[i] >= self.score_thresh
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(19)update()
+-> if (
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(32)update()
+-> track_instances.obj_idxes[i] >= 0
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(31)update()
+-> elif (
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(18)update()
+-> for i in range(len(track_instances)):
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(20)update()
+-> track_instances.obj_idxes[i] == -1
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(19)update()
+-> if (
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(21)update()
+-> and track_instances.scores[i] >= self.score_thresh
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(19)update()
+-> if (
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(32)update()
+-> track_instances.obj_idxes[i] >= 0
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(31)update()
+-> elif (
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(18)update()
+-> for i in range(len(track_instances)):
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(20)update()
+-> track_instances.obj_idxes[i] == -1
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(19)update()
+-> if (
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(21)update()
+-> and track_instances.scores[i] >= self.score_thresh
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(19)update()
+-> if (
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(32)update()
+-> track_instances.obj_idxes[i] >= 0
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(31)update()
+-> elif (
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(18)update()
+-> for i in range(len(track_instances)):
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(20)update()
+-> track_instances.obj_idxes[i] == -1
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(19)update()
+-> if (
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(21)update()
+-> and track_instances.scores[i] >= self.score_thresh
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(19)update()
+-> if (
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(32)update()
+-> track_instances.obj_idxes[i] >= 0
+(Pdb) 12
+(Pdb) 

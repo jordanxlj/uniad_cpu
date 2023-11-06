@@ -1,0 +1,620 @@
+NOTE: Redirects are currently not supported in Windows or MacOs.
+/opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/distributed/launch.py:163: DeprecationWarning: The 'warn' method is deprecated, use 'warning' instead
+  logger.warn(
+The module torch.distributed.launch is deprecated and going to be removed in future.Migrate to torch.distributed.run
+WARNING:torch.distributed.run:--use_env is deprecated and will be removed in future releases.
+ Please read local_rank from `os.environ('LOCAL_RANK')` instead.
+INFO:torch.distributed.launcher.api:Starting elastic_operator with launch configs:
+  entrypoint       : ./tools/test.py
+  min_nodes        : 1
+  max_nodes        : 1
+  nproc_per_node   : 1
+  run_id           : none
+  rdzv_backend     : static
+  rdzv_endpoint    : 127.0.0.1:28596
+  rdzv_configs     : {'rank': 0, 'timeout': 900}
+  max_restarts     : 3
+  monitor_interval : 5
+  log_dir          : None
+  metrics_cfg      : {}
+
+INFO:torch.distributed.elastic.agent.server.local_elastic_agent:log directory set to: /var/folders/bl/c09z1sm91mxfb8z7mn7v4rhh0000gq/T/torchelastic_hfuw29t2/none_3r8nxg2u
+INFO:torch.distributed.elastic.agent.server.api:[default] starting workers for entrypoint: python
+INFO:torch.distributed.elastic.agent.server.api:[default] Rendezvous'ing worker group
+/opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/distributed/elastic/utils/store.py:52: FutureWarning: This is an experimental API and will be changed in future.
+  warnings.warn(
+INFO:torch.distributed.elastic.agent.server.api:[default] Rendezvous complete for workers. Result:
+  restart_count=0
+  master_addr=127.0.0.1
+  master_port=28596
+  group_rank=0
+  group_world_size=1
+  local_ranks=[0]
+  role_ranks=[0]
+  global_ranks=[0]
+  role_world_sizes=[1]
+  global_world_sizes=[1]
+
+INFO:torch.distributed.elastic.agent.server.api:[default] Starting worker group
+INFO:torch.distributed.elastic.multiprocessing:Setting worker0 reply file to: /var/folders/bl/c09z1sm91mxfb8z7mn7v4rhh0000gq/T/torchelastic_hfuw29t2/none_3r8nxg2u/attempt_0/0/error.json
+projects.mmdet3d_plugin
+======
+Loading NuScenes tables for version v1.0-trainval...
+23 category,
+8 attribute,
+4 visibility,
+64386 instance,
+12 sensor,
+10200 calibrated_sensor,
+2631083 ego_pose,
+68 log,
+850 scene,
+34149 sample,
+2631083 sample_data,
+1166187 sample_annotation,
+4 map,
+Done loading in 21.634 seconds.
+======
+Reverse indexing ...
+Done reverse indexing in 6.0 seconds.
+======
+load checkpoint from local path: ./ckpts/uniad_base_e2e.pth
+2023-07-24 18:01:22,813 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.0.conv2 is upgraded to version 2.
+2023-07-24 18:01:22,816 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.1.conv2 is upgraded to version 2.
+2023-07-24 18:01:22,818 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.2.conv2 is upgraded to version 2.
+2023-07-24 18:01:22,821 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.3.conv2 is upgraded to version 2.
+2023-07-24 18:01:22,823 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.4.conv2 is upgraded to version 2.
+2023-07-24 18:01:22,826 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.5.conv2 is upgraded to version 2.
+2023-07-24 18:01:22,828 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.6.conv2 is upgraded to version 2.
+2023-07-24 18:01:22,830 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.7.conv2 is upgraded to version 2.
+2023-07-24 18:01:22,833 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.8.conv2 is upgraded to version 2.
+2023-07-24 18:01:22,836 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.9.conv2 is upgraded to version 2.
+2023-07-24 18:01:22,838 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.10.conv2 is upgraded to version 2.
+2023-07-24 18:01:22,841 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.11.conv2 is upgraded to version 2.
+2023-07-24 18:01:22,843 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.12.conv2 is upgraded to version 2.
+2023-07-24 18:01:22,846 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.13.conv2 is upgraded to version 2.
+2023-07-24 18:01:22,848 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.14.conv2 is upgraded to version 2.
+2023-07-24 18:01:22,851 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.15.conv2 is upgraded to version 2.
+2023-07-24 18:01:22,853 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.16.conv2 is upgraded to version 2.
+2023-07-24 18:01:22,855 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.17.conv2 is upgraded to version 2.
+2023-07-24 18:01:22,858 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.18.conv2 is upgraded to version 2.
+2023-07-24 18:01:22,860 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.19.conv2 is upgraded to version 2.
+2023-07-24 18:01:22,863 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.20.conv2 is upgraded to version 2.
+2023-07-24 18:01:22,865 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.21.conv2 is upgraded to version 2.
+2023-07-24 18:01:22,868 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.22.conv2 is upgraded to version 2.
+2023-07-24 18:01:22,871 - root - INFO - ModulatedDeformConvPack img_backbone.layer4.0.conv2 is upgraded to version 2.
+2023-07-24 18:01:22,875 - root - INFO - ModulatedDeformConvPack img_backbone.layer4.1.conv2 is upgraded to version 2.
+2023-07-24 18:01:22,878 - root - INFO - ModulatedDeformConvPack img_backbone.layer4.2.conv2 is upgraded to version 2.
+The model and loaded state dict do not match exactly
+
+unexpected key in source state_dict: bbox_size_fc.weight, bbox_size_fc.bias, seg_head.transformer.level_embeds, seg_head.transformer.encoder.layers.0.attentions.0.sampling_offsets.weight, seg_head.transformer.encoder.layers.0.attentions.0.sampling_offsets.bias, seg_head.transformer.encoder.layers.0.attentions.0.attention_weights.weight, seg_head.transformer.encoder.layers.0.attentions.0.attention_weights.bias, seg_head.transformer.encoder.layers.0.attentions.0.value_proj.weight, seg_head.transformer.encoder.layers.0.attentions.0.value_proj.bias, seg_head.transformer.encoder.layers.0.attentions.0.output_proj.weight, seg_head.transformer.encoder.layers.0.attentions.0.output_proj.bias, seg_head.transformer.encoder.layers.0.ffns.0.layers.0.0.weight, seg_head.transformer.encoder.layers.0.ffns.0.layers.0.0.bias, seg_head.transformer.encoder.layers.0.ffns.0.layers.1.weight, seg_head.transformer.encoder.layers.0.ffns.0.layers.1.bias, seg_head.transformer.encoder.layers.0.norms.0.weight, seg_head.transformer.encoder.layers.0.norms.0.bias, seg_head.transformer.encoder.layers.0.norms.1.weight, seg_head.transformer.encoder.layers.0.norms.1.bias, seg_head.transformer.encoder.layers.1.attentions.0.sampling_offsets.weight, seg_head.transformer.encoder.layers.1.attentions.0.sampling_offsets.bias, seg_head.transformer.encoder.layers.1.attentions.0.attention_weights.weight, seg_head.transformer.encoder.layers.1.attentions.0.attention_weights.bias, seg_head.transformer.encoder.layers.1.attentions.0.value_proj.weight, seg_head.transformer.encoder.layers.1.attentions.0.value_proj.bias, seg_head.transformer.encoder.layers.1.attentions.0.output_proj.weight, seg_head.transformer.encoder.layers.1.attentions.0.output_proj.bias, seg_head.transformer.encoder.layers.1.ffns.0.layers.0.0.weight, seg_head.transformer.encoder.layers.1.ffns.0.layers.0.0.bias, seg_head.transformer.encoder.layers.1.ffns.0.layers.1.weight, seg_head.transformer.encoder.layers.1.ffns.0.layers.1.bias, seg_head.transformer.encoder.layers.1.norms.0.weight, seg_head.transformer.encoder.layers.1.norms.0.bias, seg_head.transformer.encoder.layers.1.norms.1.weight, seg_head.transformer.encoder.layers.1.norms.1.bias, seg_head.transformer.encoder.layers.2.attentions.0.sampling_offsets.weight, seg_head.transformer.encoder.layers.2.attentions.0.sampling_offsets.bias, seg_head.transformer.encoder.layers.2.attentions.0.attention_weights.weight, seg_head.transformer.encoder.layers.2.attentions.0.attention_weights.bias, seg_head.transformer.encoder.layers.2.attentions.0.value_proj.weight, seg_head.transformer.encoder.layers.2.attentions.0.value_proj.bias, seg_head.transformer.encoder.layers.2.attentions.0.output_proj.weight, seg_head.transformer.encoder.layers.2.attentions.0.output_proj.bias, seg_head.transformer.encoder.layers.2.ffns.0.layers.0.0.weight, seg_head.transformer.encoder.layers.2.ffns.0.layers.0.0.bias, seg_head.transformer.encoder.layers.2.ffns.0.layers.1.weight, seg_head.transformer.encoder.layers.2.ffns.0.layers.1.bias, seg_head.transformer.encoder.layers.2.norms.0.weight, seg_head.transformer.encoder.layers.2.norms.0.bias, seg_head.transformer.encoder.layers.2.norms.1.weight, seg_head.transformer.encoder.layers.2.norms.1.bias, seg_head.transformer.encoder.layers.3.attentions.0.sampling_offsets.weight, seg_head.transformer.encoder.layers.3.attentions.0.sampling_offsets.bias, seg_head.transformer.encoder.layers.3.attentions.0.attention_weights.weight, seg_head.transformer.encoder.layers.3.attentions.0.attention_weights.bias, seg_head.transformer.encoder.layers.3.attentions.0.value_proj.weight, seg_head.transformer.encoder.layers.3.attentions.0.value_proj.bias, seg_head.transformer.encoder.layers.3.attentions.0.output_proj.weight, seg_head.transformer.encoder.layers.3.attentions.0.output_proj.bias, seg_head.transformer.encoder.layers.3.ffns.0.layers.0.0.weight, seg_head.transformer.encoder.layers.3.ffns.0.layers.0.0.bias, seg_head.transformer.encoder.layers.3.ffns.0.layers.1.weight, seg_head.transformer.encoder.layers.3.ffns.0.layers.1.bias, seg_head.transformer.encoder.layers.3.norms.0.weight, seg_head.transformer.encoder.layers.3.norms.0.bias, seg_head.transformer.encoder.layers.3.norms.1.weight, seg_head.transformer.encoder.layers.3.norms.1.bias, seg_head.transformer.encoder.layers.4.attentions.0.sampling_offsets.weight, seg_head.transformer.encoder.layers.4.attentions.0.sampling_offsets.bias, seg_head.transformer.encoder.layers.4.attentions.0.attention_weights.weight, seg_head.transformer.encoder.layers.4.attentions.0.attention_weights.bias, seg_head.transformer.encoder.layers.4.attentions.0.value_proj.weight, seg_head.transformer.encoder.layers.4.attentions.0.value_proj.bias, seg_head.transformer.encoder.layers.4.attentions.0.output_proj.weight, seg_head.transformer.encoder.layers.4.attentions.0.output_proj.bias, seg_head.transformer.encoder.layers.4.ffns.0.layers.0.0.weight, seg_head.transformer.encoder.layers.4.ffns.0.layers.0.0.bias, seg_head.transformer.encoder.layers.4.ffns.0.layers.1.weight, seg_head.transformer.encoder.layers.4.ffns.0.layers.1.bias, seg_head.transformer.encoder.layers.4.norms.0.weight, seg_head.transformer.encoder.layers.4.norms.0.bias, seg_head.transformer.encoder.layers.4.norms.1.weight, seg_head.transformer.encoder.layers.4.norms.1.bias, seg_head.transformer.encoder.layers.5.attentions.0.sampling_offsets.weight, seg_head.transformer.encoder.layers.5.attentions.0.sampling_offsets.bias, seg_head.transformer.encoder.layers.5.attentions.0.attention_weights.weight, seg_head.transformer.encoder.layers.5.attentions.0.attention_weights.bias, seg_head.transformer.encoder.layers.5.attentions.0.value_proj.weight, seg_head.transformer.encoder.layers.5.attentions.0.value_proj.bias, seg_head.transformer.encoder.layers.5.attentions.0.output_proj.weight, seg_head.transformer.encoder.layers.5.attentions.0.output_proj.bias, seg_head.transformer.encoder.layers.5.ffns.0.layers.0.0.weight, seg_head.transformer.encoder.layers.5.ffns.0.layers.0.0.bias, seg_head.transformer.encoder.layers.5.ffns.0.layers.1.weight, seg_head.transformer.encoder.layers.5.ffns.0.layers.1.bias, seg_head.transformer.encoder.layers.5.norms.0.weight, seg_head.transformer.encoder.layers.5.norms.0.bias, seg_head.transformer.encoder.layers.5.norms.1.weight, seg_head.transformer.encoder.layers.5.norms.1.bias, seg_head.transformer.decoder.layers.0.attentions.0.attn.in_proj_weight, seg_head.transformer.decoder.layers.0.attentions.0.attn.in_proj_bias, seg_head.transformer.decoder.layers.0.attentions.0.attn.out_proj.weight, seg_head.transformer.decoder.layers.0.attentions.0.attn.out_proj.bias, seg_head.transformer.decoder.layers.0.attentions.1.sampling_offsets.weight, seg_head.transformer.decoder.layers.0.attentions.1.sampling_offsets.bias, seg_head.transformer.decoder.layers.0.attentions.1.attention_weights.weight, seg_head.transformer.decoder.layers.0.attentions.1.attention_weights.bias, seg_head.transformer.decoder.layers.0.attentions.1.value_proj.weight, seg_head.transformer.decoder.layers.0.attentions.1.value_proj.bias, seg_head.transformer.decoder.layers.0.attentions.1.output_proj.weight, seg_head.transformer.decoder.layers.0.attentions.1.output_proj.bias, seg_head.transformer.decoder.layers.0.ffns.0.layers.0.0.weight, seg_head.transformer.decoder.layers.0.ffns.0.layers.0.0.bias, seg_head.transformer.decoder.layers.0.ffns.0.layers.1.weight, seg_head.transformer.decoder.layers.0.ffns.0.layers.1.bias, seg_head.transformer.decoder.layers.0.norms.0.weight, seg_head.transformer.decoder.layers.0.norms.0.bias, seg_head.transformer.decoder.layers.0.norms.1.weight, seg_head.transformer.decoder.layers.0.norms.1.bias, seg_head.transformer.decoder.layers.0.norms.2.weight, seg_head.transformer.decoder.layers.0.norms.2.bias, seg_head.transformer.decoder.layers.1.attentions.0.attn.in_proj_weight, seg_head.transformer.decoder.layers.1.attentions.0.attn.in_proj_bias, seg_head.transformer.decoder.layers.1.attentions.0.attn.out_proj.weight, seg_head.transformer.decoder.layers.1.attentions.0.attn.out_proj.bias, seg_head.transformer.decoder.layers.1.attentions.1.sampling_offsets.weight, seg_head.transformer.decoder.layers.1.attentions.1.sampling_offsets.bias, seg_head.transformer.decoder.layers.1.attentions.1.attention_weights.weight, seg_head.transformer.decoder.layers.1.attentions.1.attention_weights.bias, seg_head.transformer.decoder.layers.1.attentions.1.value_proj.weight, seg_head.transformer.decoder.layers.1.attentions.1.value_proj.bias, seg_head.transformer.decoder.layers.1.attentions.1.output_proj.weight, seg_head.transformer.decoder.layers.1.attentions.1.output_proj.bias, seg_head.transformer.decoder.layers.1.ffns.0.layers.0.0.weight, seg_head.transformer.decoder.layers.1.ffns.0.layers.0.0.bias, seg_head.transformer.decoder.layers.1.ffns.0.layers.1.weight, seg_head.transformer.decoder.layers.1.ffns.0.layers.1.bias, seg_head.transformer.decoder.layers.1.norms.0.weight, seg_head.transformer.decoder.layers.1.norms.0.bias, seg_head.transformer.decoder.layers.1.norms.1.weight, seg_head.transformer.decoder.layers.1.norms.1.bias, seg_head.transformer.decoder.layers.1.norms.2.weight, seg_head.transformer.decoder.layers.1.norms.2.bias, seg_head.transformer.decoder.layers.2.attentions.0.attn.in_proj_weight, seg_head.transformer.decoder.layers.2.attentions.0.attn.in_proj_bias, seg_head.transformer.decoder.layers.2.attentions.0.attn.out_proj.weight, seg_head.transformer.decoder.layers.2.attentions.0.attn.out_proj.bias, seg_head.transformer.decoder.layers.2.attentions.1.sampling_offsets.weight, seg_head.transformer.decoder.layers.2.attentions.1.sampling_offsets.bias, seg_head.transformer.decoder.layers.2.attentions.1.attention_weights.weight, seg_head.transformer.decoder.layers.2.attentions.1.attention_weights.bias, seg_head.transformer.decoder.layers.2.attentions.1.value_proj.weight, seg_head.transformer.decoder.layers.2.attentions.1.value_proj.bias, seg_head.transformer.decoder.layers.2.attentions.1.output_proj.weight, seg_head.transformer.decoder.layers.2.attentions.1.output_proj.bias, seg_head.transformer.decoder.layers.2.ffns.0.layers.0.0.weight, seg_head.transformer.decoder.layers.2.ffns.0.layers.0.0.bias, seg_head.transformer.decoder.layers.2.ffns.0.layers.1.weight, seg_head.transformer.decoder.layers.2.ffns.0.layers.1.bias, seg_head.transformer.decoder.layers.2.norms.0.weight, seg_head.transformer.decoder.layers.2.norms.0.bias, seg_head.transformer.decoder.layers.2.norms.1.weight, seg_head.transformer.decoder.layers.2.norms.1.bias, seg_head.transformer.decoder.layers.2.norms.2.weight, seg_head.transformer.decoder.layers.2.norms.2.bias, seg_head.transformer.decoder.layers.3.attentions.0.attn.in_proj_weight, seg_head.transformer.decoder.layers.3.attentions.0.attn.in_proj_bias, seg_head.transformer.decoder.layers.3.attentions.0.attn.out_proj.weight, seg_head.transformer.decoder.layers.3.attentions.0.attn.out_proj.bias, seg_head.transformer.decoder.layers.3.attentions.1.sampling_offsets.weight, seg_head.transformer.decoder.layers.3.attentions.1.sampling_offsets.bias, seg_head.transformer.decoder.layers.3.attentions.1.attention_weights.weight, seg_head.transformer.decoder.layers.3.attentions.1.attention_weights.bias, seg_head.transformer.decoder.layers.3.attentions.1.value_proj.weight, seg_head.transformer.decoder.layers.3.attentions.1.value_proj.bias, seg_head.transformer.decoder.layers.3.attentions.1.output_proj.weight, seg_head.transformer.decoder.layers.3.attentions.1.output_proj.bias, seg_head.transformer.decoder.layers.3.ffns.0.layers.0.0.weight, seg_head.transformer.decoder.layers.3.ffns.0.layers.0.0.bias, seg_head.transformer.decoder.layers.3.ffns.0.layers.1.weight, seg_head.transformer.decoder.layers.3.ffns.0.layers.1.bias, seg_head.transformer.decoder.layers.3.norms.0.weight, seg_head.transformer.decoder.layers.3.norms.0.bias, seg_head.transformer.decoder.layers.3.norms.1.weight, seg_head.transformer.decoder.layers.3.norms.1.bias, seg_head.transformer.decoder.layers.3.norms.2.weight, seg_head.transformer.decoder.layers.3.norms.2.bias, seg_head.transformer.decoder.layers.4.attentions.0.attn.in_proj_weight, seg_head.transformer.decoder.layers.4.attentions.0.attn.in_proj_bias, seg_head.transformer.decoder.layers.4.attentions.0.attn.out_proj.weight, seg_head.transformer.decoder.layers.4.attentions.0.attn.out_proj.bias, seg_head.transformer.decoder.layers.4.attentions.1.sampling_offsets.weight, seg_head.transformer.decoder.layers.4.attentions.1.sampling_offsets.bias, seg_head.transformer.decoder.layers.4.attentions.1.attention_weights.weight, seg_head.transformer.decoder.layers.4.attentions.1.attention_weights.bias, seg_head.transformer.decoder.layers.4.attentions.1.value_proj.weight, seg_head.transformer.decoder.layers.4.attentions.1.value_proj.bias, seg_head.transformer.decoder.layers.4.attentions.1.output_proj.weight, seg_head.transformer.decoder.layers.4.attentions.1.output_proj.bias, seg_head.transformer.decoder.layers.4.ffns.0.layers.0.0.weight, seg_head.transformer.decoder.layers.4.ffns.0.layers.0.0.bias, seg_head.transformer.decoder.layers.4.ffns.0.layers.1.weight, seg_head.transformer.decoder.layers.4.ffns.0.layers.1.bias, seg_head.transformer.decoder.layers.4.norms.0.weight, seg_head.transformer.decoder.layers.4.norms.0.bias, seg_head.transformer.decoder.layers.4.norms.1.weight, seg_head.transformer.decoder.layers.4.norms.1.bias, seg_head.transformer.decoder.layers.4.norms.2.weight, seg_head.transformer.decoder.layers.4.norms.2.bias, seg_head.transformer.decoder.layers.5.attentions.0.attn.in_proj_weight, seg_head.transformer.decoder.layers.5.attentions.0.attn.in_proj_bias, seg_head.transformer.decoder.layers.5.attentions.0.attn.out_proj.weight, seg_head.transformer.decoder.layers.5.attentions.0.attn.out_proj.bias, seg_head.transformer.decoder.layers.5.attentions.1.sampling_offsets.weight, seg_head.transformer.decoder.layers.5.attentions.1.sampling_offsets.bias, seg_head.transformer.decoder.layers.5.attentions.1.attention_weights.weight, seg_head.transformer.decoder.layers.5.attentions.1.attention_weights.bias, seg_head.transformer.decoder.layers.5.attentions.1.value_proj.weight, seg_head.transformer.decoder.layers.5.attentions.1.value_proj.bias, seg_head.transformer.decoder.layers.5.attentions.1.output_proj.weight, seg_head.transformer.decoder.layers.5.attentions.1.output_proj.bias, seg_head.transformer.decoder.layers.5.ffns.0.layers.0.0.weight, seg_head.transformer.decoder.layers.5.ffns.0.layers.0.0.bias, seg_head.transformer.decoder.layers.5.ffns.0.layers.1.weight, seg_head.transformer.decoder.layers.5.ffns.0.layers.1.bias, seg_head.transformer.decoder.layers.5.norms.0.weight, seg_head.transformer.decoder.layers.5.norms.0.bias, seg_head.transformer.decoder.layers.5.norms.1.weight, seg_head.transformer.decoder.layers.5.norms.1.bias, seg_head.transformer.decoder.layers.5.norms.2.weight, seg_head.transformer.decoder.layers.5.norms.2.bias, seg_head.transformer.reference_points.weight, seg_head.transformer.reference_points.bias, seg_head.bev_embedding.weight, seg_head.cls_branches.0.weight, seg_head.cls_branches.0.bias, seg_head.cls_branches.1.weight, seg_head.cls_branches.1.bias, seg_head.cls_branches.2.weight, seg_head.cls_branches.2.bias, seg_head.cls_branches.3.weight, seg_head.cls_branches.3.bias, seg_head.cls_branches.4.weight, seg_head.cls_branches.4.bias, seg_head.cls_branches.5.weight, seg_head.cls_branches.5.bias, seg_head.reg_branches.0.0.weight, seg_head.reg_branches.0.0.bias, seg_head.reg_branches.0.2.weight, seg_head.reg_branches.0.2.bias, seg_head.reg_branches.0.4.weight, seg_head.reg_branches.0.4.bias, seg_head.reg_branches.1.0.weight, seg_head.reg_branches.1.0.bias, seg_head.reg_branches.1.2.weight, seg_head.reg_branches.1.2.bias, seg_head.reg_branches.1.4.weight, seg_head.reg_branches.1.4.bias, seg_head.reg_branches.2.0.weight, seg_head.reg_branches.2.0.bias, seg_head.reg_branches.2.2.weight, seg_head.reg_branches.2.2.bias, seg_head.reg_branches.2.4.weight, seg_head.reg_branches.2.4.bias, seg_head.reg_branches.3.0.weight, seg_head.reg_branches.3.0.bias, seg_head.reg_branches.3.2.weight, seg_head.reg_branches.3.2.bias, seg_head.reg_branches.3.4.weight, seg_head.reg_branches.3.4.bias, seg_head.reg_branches.4.0.weight, seg_head.reg_branches.4.0.bias, seg_head.reg_branches.4.2.weight, seg_head.reg_branches.4.2.bias, seg_head.reg_branches.4.4.weight, seg_head.reg_branches.4.4.bias, seg_head.reg_branches.5.0.weight, seg_head.reg_branches.5.0.bias, seg_head.reg_branches.5.2.weight, seg_head.reg_branches.5.2.bias, seg_head.reg_branches.5.4.weight, seg_head.reg_branches.5.4.bias, seg_head.query_embedding.weight, seg_head.stuff_query.weight, seg_head.reg_branches2.0.0.weight, seg_head.reg_branches2.0.0.bias, seg_head.reg_branches2.0.2.weight, seg_head.reg_branches2.0.2.bias, seg_head.reg_branches2.0.4.weight, seg_head.reg_branches2.0.4.bias, seg_head.reg_branches2.1.0.weight, seg_head.reg_branches2.1.0.bias, seg_head.reg_branches2.1.2.weight, seg_head.reg_branches2.1.2.bias, seg_head.reg_branches2.1.4.weight, seg_head.reg_branches2.1.4.bias, seg_head.reg_branches2.2.0.weight, seg_head.reg_branches2.2.0.bias, seg_head.reg_branches2.2.2.weight, seg_head.reg_branches2.2.2.bias, seg_head.reg_branches2.2.4.weight, seg_head.reg_branches2.2.4.bias, seg_head.reg_branches2.3.0.weight, seg_head.reg_branches2.3.0.bias, seg_head.reg_branches2.3.2.weight, seg_head.reg_branches2.3.2.bias, seg_head.reg_branches2.3.4.weight, seg_head.reg_branches2.3.4.bias, seg_head.cls_thing_branches.0.weight, seg_head.cls_thing_branches.0.bias, seg_head.cls_thing_branches.1.weight, seg_head.cls_thing_branches.1.bias, seg_head.cls_thing_branches.2.weight, seg_head.cls_thing_branches.2.bias, seg_head.cls_thing_branches.3.weight, seg_head.cls_thing_branches.3.bias, seg_head.cls_stuff_branches.0.weight, seg_head.cls_stuff_branches.0.bias, seg_head.cls_stuff_branches.1.weight, seg_head.cls_stuff_branches.1.bias, seg_head.cls_stuff_branches.2.weight, seg_head.cls_stuff_branches.2.bias, seg_head.cls_stuff_branches.3.weight, seg_head.cls_stuff_branches.3.bias, seg_head.cls_stuff_branches.4.weight, seg_head.cls_stuff_branches.4.bias, seg_head.cls_stuff_branches.5.weight, seg_head.cls_stuff_branches.5.bias, seg_head.things_mask_head.blocks.0.head_norm1.weight, seg_head.things_mask_head.blocks.0.head_norm1.bias, seg_head.things_mask_head.blocks.0.attn.q.weight, seg_head.things_mask_head.blocks.0.attn.q.bias, seg_head.things_mask_head.blocks.0.attn.k.weight, seg_head.things_mask_head.blocks.0.attn.k.bias, seg_head.things_mask_head.blocks.0.attn.v.weight, seg_head.things_mask_head.blocks.0.attn.v.bias, seg_head.things_mask_head.blocks.0.attn.proj.weight, seg_head.things_mask_head.blocks.0.attn.proj.bias, seg_head.things_mask_head.blocks.0.attn.linear_l1.0.weight, seg_head.things_mask_head.blocks.0.attn.linear_l1.0.bias, seg_head.things_mask_head.blocks.0.attn.linear.0.weight, seg_head.things_mask_head.blocks.0.attn.linear.0.bias, seg_head.things_mask_head.blocks.0.head_norm2.weight, seg_head.things_mask_head.blocks.0.head_norm2.bias, seg_head.things_mask_head.blocks.0.mlp.fc1.weight, seg_head.things_mask_head.blocks.0.mlp.fc1.bias, seg_head.things_mask_head.blocks.0.mlp.fc2.weight, seg_head.things_mask_head.blocks.0.mlp.fc2.bias, seg_head.things_mask_head.blocks.1.head_norm1.weight, seg_head.things_mask_head.blocks.1.head_norm1.bias, seg_head.things_mask_head.blocks.1.attn.q.weight, seg_head.things_mask_head.blocks.1.attn.q.bias, seg_head.things_mask_head.blocks.1.attn.k.weight, seg_head.things_mask_head.blocks.1.attn.k.bias, seg_head.things_mask_head.blocks.1.attn.v.weight, seg_head.things_mask_head.blocks.1.attn.v.bias, seg_head.things_mask_head.blocks.1.attn.proj.weight, seg_head.things_mask_head.blocks.1.attn.proj.bias, seg_head.things_mask_head.blocks.1.attn.linear_l1.0.weight, seg_head.things_mask_head.blocks.1.attn.linear_l1.0.bias, seg_head.things_mask_head.blocks.1.attn.linear.0.weight, seg_head.things_mask_head.blocks.1.attn.linear.0.bias, seg_head.things_mask_head.blocks.1.head_norm2.weight, seg_head.things_mask_head.blocks.1.head_norm2.bias, seg_head.things_mask_head.blocks.1.mlp.fc1.weight, seg_head.things_mask_head.blocks.1.mlp.fc1.bias, seg_head.things_mask_head.blocks.1.mlp.fc2.weight, seg_head.things_mask_head.blocks.1.mlp.fc2.bias, seg_head.things_mask_head.blocks.2.head_norm1.weight, seg_head.things_mask_head.blocks.2.head_norm1.bias, seg_head.things_mask_head.blocks.2.attn.q.weight, seg_head.things_mask_head.blocks.2.attn.q.bias, seg_head.things_mask_head.blocks.2.attn.k.weight, seg_head.things_mask_head.blocks.2.attn.k.bias, seg_head.things_mask_head.blocks.2.attn.v.weight, seg_head.things_mask_head.blocks.2.attn.v.bias, seg_head.things_mask_head.blocks.2.attn.proj.weight, seg_head.things_mask_head.blocks.2.attn.proj.bias, seg_head.things_mask_head.blocks.2.attn.linear_l1.0.weight, seg_head.things_mask_head.blocks.2.attn.linear_l1.0.bias, seg_head.things_mask_head.blocks.2.attn.linear.0.weight, seg_head.things_mask_head.blocks.2.attn.linear.0.bias, seg_head.things_mask_head.blocks.2.head_norm2.weight, seg_head.things_mask_head.blocks.2.head_norm2.bias, seg_head.things_mask_head.blocks.2.mlp.fc1.weight, seg_head.things_mask_head.blocks.2.mlp.fc1.bias, seg_head.things_mask_head.blocks.2.mlp.fc2.weight, seg_head.things_mask_head.blocks.2.mlp.fc2.bias, seg_head.things_mask_head.blocks.3.head_norm1.weight, seg_head.things_mask_head.blocks.3.head_norm1.bias, seg_head.things_mask_head.blocks.3.attn.q.weight, seg_head.things_mask_head.blocks.3.attn.q.bias, seg_head.things_mask_head.blocks.3.attn.k.weight, seg_head.things_mask_head.blocks.3.attn.k.bias, seg_head.things_mask_head.blocks.3.attn.v.weight, seg_head.things_mask_head.blocks.3.attn.v.bias, seg_head.things_mask_head.blocks.3.attn.proj.weight, seg_head.things_mask_head.blocks.3.attn.proj.bias, seg_head.things_mask_head.blocks.3.attn.linear_l1.0.weight, seg_head.things_mask_head.blocks.3.attn.linear_l1.0.bias, seg_head.things_mask_head.blocks.3.attn.linear.0.weight, seg_head.things_mask_head.blocks.3.attn.linear.0.bias, seg_head.things_mask_head.blocks.3.head_norm2.weight, seg_head.things_mask_head.blocks.3.head_norm2.bias, seg_head.things_mask_head.blocks.3.mlp.fc1.weight, seg_head.things_mask_head.blocks.3.mlp.fc1.bias, seg_head.things_mask_head.blocks.3.mlp.fc2.weight, seg_head.things_mask_head.blocks.3.mlp.fc2.bias, seg_head.things_mask_head.attnen.q.weight, seg_head.things_mask_head.attnen.q.bias, seg_head.things_mask_head.attnen.k.weight, seg_head.things_mask_head.attnen.k.bias, seg_head.things_mask_head.attnen.linear_l1.0.weight, seg_head.things_mask_head.attnen.linear_l1.0.bias, seg_head.things_mask_head.attnen.linear.0.weight, seg_head.things_mask_head.attnen.linear.0.bias, seg_head.stuff_mask_head.blocks.0.head_norm1.weight, seg_head.stuff_mask_head.blocks.0.head_norm1.bias, seg_head.stuff_mask_head.blocks.0.attn.q.weight, seg_head.stuff_mask_head.blocks.0.attn.q.bias, seg_head.stuff_mask_head.blocks.0.attn.k.weight, seg_head.stuff_mask_head.blocks.0.attn.k.bias, seg_head.stuff_mask_head.blocks.0.attn.v.weight, seg_head.stuff_mask_head.blocks.0.attn.v.bias, seg_head.stuff_mask_head.blocks.0.attn.proj.weight, seg_head.stuff_mask_head.blocks.0.attn.proj.bias, seg_head.stuff_mask_head.blocks.0.attn.linear_l1.0.weight, seg_head.stuff_mask_head.blocks.0.attn.linear_l1.0.bias, seg_head.stuff_mask_head.blocks.0.attn.linear.0.weight, seg_head.stuff_mask_head.blocks.0.attn.linear.0.bias, seg_head.stuff_mask_head.blocks.0.head_norm2.weight, seg_head.stuff_mask_head.blocks.0.head_norm2.bias, seg_head.stuff_mask_head.blocks.0.mlp.fc1.weight, seg_head.stuff_mask_head.blocks.0.mlp.fc1.bias, seg_head.stuff_mask_head.blocks.0.mlp.fc2.weight, seg_head.stuff_mask_head.blocks.0.mlp.fc2.bias, seg_head.stuff_mask_head.blocks.0.self_attention.qkv.weight, seg_head.stuff_mask_head.blocks.0.self_attention.qkv.bias, seg_head.stuff_mask_head.blocks.0.self_attention.proj.weight, seg_head.stuff_mask_head.blocks.0.self_attention.proj.bias, seg_head.stuff_mask_head.blocks.0.norm3.weight, seg_head.stuff_mask_head.blocks.0.norm3.bias, seg_head.stuff_mask_head.blocks.1.head_norm1.weight, seg_head.stuff_mask_head.blocks.1.head_norm1.bias, seg_head.stuff_mask_head.blocks.1.attn.q.weight, seg_head.stuff_mask_head.blocks.1.attn.q.bias, seg_head.stuff_mask_head.blocks.1.attn.k.weight, seg_head.stuff_mask_head.blocks.1.attn.k.bias, seg_head.stuff_mask_head.blocks.1.attn.v.weight, seg_head.stuff_mask_head.blocks.1.attn.v.bias, seg_head.stuff_mask_head.blocks.1.attn.proj.weight, seg_head.stuff_mask_head.blocks.1.attn.proj.bias, seg_head.stuff_mask_head.blocks.1.attn.linear_l1.0.weight, seg_head.stuff_mask_head.blocks.1.attn.linear_l1.0.bias, seg_head.stuff_mask_head.blocks.1.attn.linear.0.weight, seg_head.stuff_mask_head.blocks.1.attn.linear.0.bias, seg_head.stuff_mask_head.blocks.1.head_norm2.weight, seg_head.stuff_mask_head.blocks.1.head_norm2.bias, seg_head.stuff_mask_head.blocks.1.mlp.fc1.weight, seg_head.stuff_mask_head.blocks.1.mlp.fc1.bias, seg_head.stuff_mask_head.blocks.1.mlp.fc2.weight, seg_head.stuff_mask_head.blocks.1.mlp.fc2.bias, seg_head.stuff_mask_head.blocks.1.self_attention.qkv.weight, seg_head.stuff_mask_head.blocks.1.self_attention.qkv.bias, seg_head.stuff_mask_head.blocks.1.self_attention.proj.weight, seg_head.stuff_mask_head.blocks.1.self_attention.proj.bias, seg_head.stuff_mask_head.blocks.1.norm3.weight, seg_head.stuff_mask_head.blocks.1.norm3.bias, seg_head.stuff_mask_head.blocks.2.head_norm1.weight, seg_head.stuff_mask_head.blocks.2.head_norm1.bias, seg_head.stuff_mask_head.blocks.2.attn.q.weight, seg_head.stuff_mask_head.blocks.2.attn.q.bias, seg_head.stuff_mask_head.blocks.2.attn.k.weight, seg_head.stuff_mask_head.blocks.2.attn.k.bias, seg_head.stuff_mask_head.blocks.2.attn.v.weight, seg_head.stuff_mask_head.blocks.2.attn.v.bias, seg_head.stuff_mask_head.blocks.2.attn.proj.weight, seg_head.stuff_mask_head.blocks.2.attn.proj.bias, seg_head.stuff_mask_head.blocks.2.attn.linear_l1.0.weight, seg_head.stuff_mask_head.blocks.2.attn.linear_l1.0.bias, seg_head.stuff_mask_head.blocks.2.attn.linear.0.weight, seg_head.stuff_mask_head.blocks.2.attn.linear.0.bias, seg_head.stuff_mask_head.blocks.2.head_norm2.weight, seg_head.stuff_mask_head.blocks.2.head_norm2.bias, seg_head.stuff_mask_head.blocks.2.mlp.fc1.weight, seg_head.stuff_mask_head.blocks.2.mlp.fc1.bias, seg_head.stuff_mask_head.blocks.2.mlp.fc2.weight, seg_head.stuff_mask_head.blocks.2.mlp.fc2.bias, seg_head.stuff_mask_head.blocks.2.self_attention.qkv.weight, seg_head.stuff_mask_head.blocks.2.self_attention.qkv.bias, seg_head.stuff_mask_head.blocks.2.self_attention.proj.weight, seg_head.stuff_mask_head.blocks.2.self_attention.proj.bias, seg_head.stuff_mask_head.blocks.2.norm3.weight, seg_head.stuff_mask_head.blocks.2.norm3.bias, seg_head.stuff_mask_head.blocks.3.head_norm1.weight, seg_head.stuff_mask_head.blocks.3.head_norm1.bias, seg_head.stuff_mask_head.blocks.3.attn.q.weight, seg_head.stuff_mask_head.blocks.3.attn.q.bias, seg_head.stuff_mask_head.blocks.3.attn.k.weight, seg_head.stuff_mask_head.blocks.3.attn.k.bias, seg_head.stuff_mask_head.blocks.3.attn.v.weight, seg_head.stuff_mask_head.blocks.3.attn.v.bias, seg_head.stuff_mask_head.blocks.3.attn.proj.weight, seg_head.stuff_mask_head.blocks.3.attn.proj.bias, seg_head.stuff_mask_head.blocks.3.attn.linear_l1.0.weight, seg_head.stuff_mask_head.blocks.3.attn.linear_l1.0.bias, seg_head.stuff_mask_head.blocks.3.attn.linear.0.weight, seg_head.stuff_mask_head.blocks.3.attn.linear.0.bias, seg_head.stuff_mask_head.blocks.3.head_norm2.weight, seg_head.stuff_mask_head.blocks.3.head_norm2.bias, seg_head.stuff_mask_head.blocks.3.mlp.fc1.weight, seg_head.stuff_mask_head.blocks.3.mlp.fc1.bias, seg_head.stuff_mask_head.blocks.3.mlp.fc2.weight, seg_head.stuff_mask_head.blocks.3.mlp.fc2.bias, seg_head.stuff_mask_head.blocks.3.self_attention.qkv.weight, seg_head.stuff_mask_head.blocks.3.self_attention.qkv.bias, seg_head.stuff_mask_head.blocks.3.self_attention.proj.weight, seg_head.stuff_mask_head.blocks.3.self_attention.proj.bias, seg_head.stuff_mask_head.blocks.3.norm3.weight, seg_head.stuff_mask_head.blocks.3.norm3.bias, seg_head.stuff_mask_head.blocks.4.head_norm1.weight, seg_head.stuff_mask_head.blocks.4.head_norm1.bias, seg_head.stuff_mask_head.blocks.4.attn.q.weight, seg_head.stuff_mask_head.blocks.4.attn.q.bias, seg_head.stuff_mask_head.blocks.4.attn.k.weight, seg_head.stuff_mask_head.blocks.4.attn.k.bias, seg_head.stuff_mask_head.blocks.4.attn.v.weight, seg_head.stuff_mask_head.blocks.4.attn.v.bias, seg_head.stuff_mask_head.blocks.4.attn.proj.weight, seg_head.stuff_mask_head.blocks.4.attn.proj.bias, seg_head.stuff_mask_head.blocks.4.attn.linear_l1.0.weight, seg_head.stuff_mask_head.blocks.4.attn.linear_l1.0.bias, seg_head.stuff_mask_head.blocks.4.attn.linear.0.weight, seg_head.stuff_mask_head.blocks.4.attn.linear.0.bias, seg_head.stuff_mask_head.blocks.4.head_norm2.weight, seg_head.stuff_mask_head.blocks.4.head_norm2.bias, seg_head.stuff_mask_head.blocks.4.mlp.fc1.weight, seg_head.stuff_mask_head.blocks.4.mlp.fc1.bias, seg_head.stuff_mask_head.blocks.4.mlp.fc2.weight, seg_head.stuff_mask_head.blocks.4.mlp.fc2.bias, seg_head.stuff_mask_head.blocks.4.self_attention.qkv.weight, seg_head.stuff_mask_head.blocks.4.self_attention.qkv.bias, seg_head.stuff_mask_head.blocks.4.self_attention.proj.weight, seg_head.stuff_mask_head.blocks.4.self_attention.proj.bias, seg_head.stuff_mask_head.blocks.4.norm3.weight, seg_head.stuff_mask_head.blocks.4.norm3.bias, seg_head.stuff_mask_head.blocks.5.head_norm1.weight, seg_head.stuff_mask_head.blocks.5.head_norm1.bias, seg_head.stuff_mask_head.blocks.5.attn.q.weight, seg_head.stuff_mask_head.blocks.5.attn.q.bias, seg_head.stuff_mask_head.blocks.5.attn.k.weight, seg_head.stuff_mask_head.blocks.5.attn.k.bias, seg_head.stuff_mask_head.blocks.5.attn.v.weight, seg_head.stuff_mask_head.blocks.5.attn.v.bias, seg_head.stuff_mask_head.blocks.5.attn.proj.weight, seg_head.stuff_mask_head.blocks.5.attn.proj.bias, seg_head.stuff_mask_head.blocks.5.attn.linear_l1.0.weight, seg_head.stuff_mask_head.blocks.5.attn.linear_l1.0.bias, seg_head.stuff_mask_head.blocks.5.attn.linear.0.weight, seg_head.stuff_mask_head.blocks.5.attn.linear.0.bias, seg_head.stuff_mask_head.blocks.5.head_norm2.weight, seg_head.stuff_mask_head.blocks.5.head_norm2.bias, seg_head.stuff_mask_head.blocks.5.mlp.fc1.weight, seg_head.stuff_mask_head.blocks.5.mlp.fc1.bias, seg_head.stuff_mask_head.blocks.5.mlp.fc2.weight, seg_head.stuff_mask_head.blocks.5.mlp.fc2.bias, seg_head.stuff_mask_head.blocks.5.self_attention.qkv.weight, seg_head.stuff_mask_head.blocks.5.self_attention.qkv.bias, seg_head.stuff_mask_head.blocks.5.self_attention.proj.weight, seg_head.stuff_mask_head.blocks.5.self_attention.proj.bias, seg_head.stuff_mask_head.blocks.5.norm3.weight, seg_head.stuff_mask_head.blocks.5.norm3.bias, seg_head.stuff_mask_head.attnen.q.weight, seg_head.stuff_mask_head.attnen.q.bias, seg_head.stuff_mask_head.attnen.k.weight, seg_head.stuff_mask_head.attnen.k.bias, seg_head.stuff_mask_head.attnen.linear_l1.0.weight, seg_head.stuff_mask_head.attnen.linear_l1.0.bias, seg_head.stuff_mask_head.attnen.linear.0.weight, seg_head.stuff_mask_head.attnen.linear.0.bias, pts_bbox_head.query_embedding.weight, pts_bbox_head.transformer.reference_points.weight, pts_bbox_head.transformer.reference_points.bias
+
+> /Users/liangming.xu/code/UniAD/tools/test.py(229)main()
+-> result = model(return_loss=False, rescale=True, **data)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(723)simple_test_track()
+-> bs = img.size(0)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(641)_forward_single_frame_inference()
+-> active_inst = track_instances[track_instances.obj_idxes >= 0]
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/transformer.py(113)get_bev_features()
+-> bs = mlvl_feats[0].size(0)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/encoder.py(181)forward()
+-> output = bev_query
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/encoder.py(334)forward()
+-> norm_index = 0
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/temporal_self_attention.py(176)forward()
+-> if value is None:
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/spatial_cross_attention.py(122)forward()
+-> if key is None:
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/spatial_cross_attention.py(317)forward()
+-> if value is None:
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/encoder.py(334)forward()
+-> norm_index = 0
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/temporal_self_attention.py(176)forward()
+-> if value is None:
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/spatial_cross_attention.py(122)forward()
+-> if key is None:
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/spatial_cross_attention.py(317)forward()
+-> if value is None:
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/encoder.py(334)forward()
+-> norm_index = 0
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/temporal_self_attention.py(176)forward()
+-> if value is None:
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/spatial_cross_attention.py(122)forward()
+-> if key is None:
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/spatial_cross_attention.py(317)forward()
+-> if value is None:
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/encoder.py(334)forward()
+-> norm_index = 0
+(Pdb) 329  	
+330  	        Returns:
+331  	            Tensor: forwarded results with shape [num_queries, bs, embed_dims].
+332  	        """
+333  	        import pdb; pdb.set_trace()
+334  ->	        norm_index = 0
+335  	        attn_index = 0
+336  	        ffn_index = 0
+337  	        identity = query
+338  	        if attn_masks is None:
+339  	            attn_masks = [None for _ in range(self.num_attn)]
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/temporal_self_attention.py(176)forward()
+-> if value is None:
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/spatial_cross_attention.py(122)forward()
+-> if key is None:
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/spatial_cross_attention.py(317)forward()
+-> if value is None:
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/encoder.py(334)forward()
+-> norm_index = 0
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/temporal_self_attention.py(176)forward()
+-> if value is None:
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/spatial_cross_attention.py(122)forward()
+-> if key is None:
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/spatial_cross_attention.py(317)forward()
+-> if value is None:
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/encoder.py(334)forward()
+-> norm_index = 0
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/temporal_self_attention.py(176)forward()
+-> if value is None:
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/spatial_cross_attention.py(122)forward()
+-> if key is None:
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/spatial_cross_attention.py(317)forward()
+-> if value is None:
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(279)forward()
+-> if value is None:
+(Pdb) 274  	
+275  	        Returns:
+276  	             Tensor: forwarded results with shape [num_query, bs, embed_dims].
+277  	        """
+278  	        import pdb; pdb.set_trace()
+279  ->	        if value is None:
+280  	            value = query
+281  	
+282  	        if identity is None:
+283  	            identity = query
+284  	        if query_pos is not None:
+(Pdb) torch.Size([40000, 1, 256])
+(Pdb) *** AttributeError: 'NoneType' object has no attribute 'shape'
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/utils/misc.py(340)new_func()
+-> output = old_func(*args, **kwargs)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(279)forward()
+-> if value is None:
+(Pdb) torch.Size([901, 1, 256])
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/utils/misc.py(340)new_func()
+-> output = old_func(*args, **kwargs)
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/module.py(1051)_call_impl()
+-> return forward_call(*input, **kwargs)
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(492)forward()
+-> query = self.attentions[attn_index](
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/module.py(1051)_call_impl()
+-> return forward_call(*input, **kwargs)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/decoder.py(97)forward()
+-> output = layer(
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/module.py(1051)_call_impl()
+-> return forward_call(*input, **kwargs)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/modules/transformer.py(218)get_states_and_refs()
+-> inter_states, inter_references = self.decoder(
+(Pdb) 213  	        reference_points = reference_points.sigmoid()
+214  	
+215  	        init_reference_out = reference_points
+216  	        query = query.permute(1, 0, 2)
+217  	        query_pos = query_pos.permute(1, 0, 2)
+218  ->	        inter_states, inter_references = self.decoder(
+219  	            query=query,
+220  	            key=None,
+221  	            value=bev_embed,
+222  	            query_pos=query_pos,
+223  	            reference_points=reference_points,
+(Pdb) torch.Size([1, 901, 3])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head.py(171)get_detections()
+-> hs, init_reference, inter_references = self.transformer.get_states_and_refs(
+(Pdb) 166  	        object_query_embeds=None,
+167  	        ref_points=None,
+168  	        img_metas=None,
+169  	    ):
+170  	        assert bev_embed.shape[0] == self.bev_h * self.bev_w
+171  ->	        hs, init_reference, inter_references = self.transformer.get_states_and_refs(
+172  	            bev_embed,
+173  	            object_query_embeds,
+174  	            self.bev_h,
+175  	            self.bev_w,
+176  	            reference_points=ref_points,
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(659)_forward_single_frame_inference()
+-> det_output = self.pts_bbox_head.get_detections(
+(Pdb) 654  	
+655  	        track_instances = Instances.cat([other_inst, active_inst])
+656  	
+657  	        # NOTE: You can replace BEVFormer with other BEV encoder and provide bev_embed here
+658  	        bev_embed, bev_pos = self.get_bevs(img, img_metas, prev_bev=prev_bev)
+659  ->	        det_output = self.pts_bbox_head.get_detections(
+660  	            bev_embed,
+661  	            object_query_embeds=track_instances.query,
+662  	            ref_points=track_instances.ref_pts,
+663  	            img_metas=img_metas,
+664  	        )
+(Pdb) torch.Size([901, 3])
+(Pdb) (Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(753)simple_test_track()
+-> frame_res = self._forward_single_frame_inference(
+(Pdb) (Pdb) *** AttributeError: Cannot find field 'shape' in the given Instances!
+(Pdb) *** AttributeError: Cannot find field 'keys' in the given Instances!
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(659)_forward_single_frame_inference()
+-> det_output = self.pts_bbox_head.get_detections(
+(Pdb) *** AttributeError: Cannot find field 'keys' in the given Instances!
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(753)simple_test_track()
+-> frame_res = self._forward_single_frame_inference(
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_e2e.py(292)forward_test()
+-> result_track = self.simple_test_track(img, l2g_t, l2g_r_mat, img_metas, timestamp)
+(Pdb) torch.Size([1, 3])
+(Pdb) torch.Size([1, 3, 3])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(753)simple_test_track()
+-> frame_res = self._forward_single_frame_inference(
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(659)_forward_single_frame_inference()
+-> det_output = self.pts_bbox_head.get_detections(
+(Pdb) *** AttributeError: Cannot find field 'shape' in the given Instances!
+(Pdb) *** AttributeError: Cannot find field 'keys' in the given Instances!
+(Pdb) torch.Size([901, 3])
+(Pdb) 654  	
+655  	        track_instances = Instances.cat([other_inst, active_inst])
+656  	
+657  	        # NOTE: You can replace BEVFormer with other BEV encoder and provide bev_embed here
+658  	        bev_embed, bev_pos = self.get_bevs(img, img_metas, prev_bev=prev_bev)
+659  ->	        det_output = self.pts_bbox_head.get_detections(
+660  	            bev_embed,
+661  	            object_query_embeds=track_instances.query,
+662  	            ref_points=track_instances.ref_pts,
+663  	            img_metas=img_metas,
+664  	        )
+(Pdb) *** AttributeError: Cannot find field 'shape' in the given Instances!
+(Pdb) Instances(num_instances=0, image_height=1, image_width=1, fields=[ref_pts: tensor([], size=(0, 3)), query: tensor([], size=(0, 512)), output_embedding: tensor([], size=(0, 256)), obj_idxes: tensor([], dtype=torch.int64), matched_gt_idxes: tensor([], dtype=torch.int64), disappear_time: tensor([], dtype=torch.int64), iou: tensor([]), scores: tensor([]), track_scores: tensor([]), pred_boxes: tensor([], size=(0, 10)), pred_logits: tensor([], size=(0, 10)), mem_bank: tensor([], size=(0, 4, 256)), mem_padding_mask: tensor([], size=(0, 4), dtype=torch.bool), save_period: tensor([])])
+(Pdb) Instances(num_instances=901, image_height=1, image_width=1, fields=[ref_pts: tensor([[ 0.0873,  0.7337, -0.0045],
+        [-1.0938,  0.9581, -0.0067],
+        [ 1.6437,  0.2710, -0.0953],
+        ...,
+        [-0.0905,  1.1288,  0.0143],
+        [ 1.2456,  2.6428,  0.1852],
+        [-0.1616,  0.5319, -0.0480]]), query: tensor([[ 0.9794,  1.4678,  2.2049,  ..., -0.8909, -0.0528, -0.0377],
+        [-0.1857,  0.0648, -0.3255,  ...,  0.8429,  0.9830,  1.0372],
+        [ 0.9206, -2.1922, -1.2307,  ..., -0.6641, -0.4396,  1.1959],
+        ...,
+        [-0.4122,  1.3001, -0.3364,  ..., -0.0273,  0.7269,  0.7551],
+        [ 0.5784, -1.9046, -0.5663,  ...,  0.1317, -0.8664,  1.2704],
+        [ 1.1220, -1.8478,  0.7056,  ...,  2.9896,  0.3278,  1.9336]]), output_embedding: tensor([[0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        ...,
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.]]), obj_idxes: tensor([-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1]), matched_gt_idxes: tensor([-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1,
+        -1]), disappear_time: tensor([0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]), iou: tensor([0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.]), scores: tensor([0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.]), track_scores: tensor([0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.]), pred_boxes: tensor([[0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        ...,
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.]]), pred_logits: tensor([[0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        ...,
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.],
+        [0., 0., 0.,  ..., 0., 0., 0.]]), mem_bank: tensor([[[0., 0., 0.,  ..., 0., 0., 0.],
+         [0., 0., 0.,  ..., 0., 0., 0.],
+         [0., 0., 0.,  ..., 0., 0., 0.],
+         [0., 0., 0.,  ..., 0., 0., 0.]],
+
+        [[0., 0., 0.,  ..., 0., 0., 0.],
+         [0., 0., 0.,  ..., 0., 0., 0.],
+         [0., 0., 0.,  ..., 0., 0., 0.],
+         [0., 0., 0.,  ..., 0., 0., 0.]],
+
+        [[0., 0., 0.,  ..., 0., 0., 0.],
+         [0., 0., 0.,  ..., 0., 0., 0.],
+         [0., 0., 0.,  ..., 0., 0., 0.],
+         [0., 0., 0.,  ..., 0., 0., 0.]],
+
+        ...,
+
+        [[0., 0., 0.,  ..., 0., 0., 0.],
+         [0., 0., 0.,  ..., 0., 0., 0.],
+         [0., 0., 0.,  ..., 0., 0., 0.],
+         [0., 0., 0.,  ..., 0., 0., 0.]],
+
+        [[0., 0., 0.,  ..., 0., 0., 0.],
+         [0., 0., 0.,  ..., 0., 0., 0.],
+         [0., 0., 0.,  ..., 0., 0., 0.],
+         [0., 0., 0.,  ..., 0., 0., 0.]],
+
+        [[0., 0., 0.,  ..., 0., 0., 0.],
+         [0., 0., 0.,  ..., 0., 0., 0.],
+         [0., 0., 0.,  ..., 0., 0., 0.],
+         [0., 0., 0.,  ..., 0., 0., 0.]]]), mem_padding_mask: tensor([[True, True, True, True],
+        [True, True, True, True],
+        [True, True, True, True],
+        ...,
+        [True, True, True, True],
+        [True, True, True, True],
+        [True, True, True, True]]), save_period: tensor([0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+        0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.])])
+(Pdb) *** IndexError: too many indices for tensor of dimension 2
+(Pdb) 

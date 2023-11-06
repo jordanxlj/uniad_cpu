@@ -1,0 +1,447 @@
+NOTE: Redirects are currently not supported in Windows or MacOs.
+/opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/distributed/launch.py:163: DeprecationWarning: The 'warn' method is deprecated, use 'warning' instead
+  logger.warn(
+The module torch.distributed.launch is deprecated and going to be removed in future.Migrate to torch.distributed.run
+WARNING:torch.distributed.run:--use_env is deprecated and will be removed in future releases.
+ Please read local_rank from `os.environ('LOCAL_RANK')` instead.
+INFO:torch.distributed.launcher.api:Starting elastic_operator with launch configs:
+  entrypoint       : ./tools/test.py
+  min_nodes        : 1
+  max_nodes        : 1
+  nproc_per_node   : 1
+  run_id           : none
+  rdzv_backend     : static
+  rdzv_endpoint    : 127.0.0.1:28596
+  rdzv_configs     : {'rank': 0, 'timeout': 900}
+  max_restarts     : 3
+  monitor_interval : 5
+  log_dir          : None
+  metrics_cfg      : {}
+
+INFO:torch.distributed.elastic.agent.server.local_elastic_agent:log directory set to: /var/folders/bl/c09z1sm91mxfb8z7mn7v4rhh0000gq/T/torchelastic_jfkaq67y/none_jd7_8qjd
+INFO:torch.distributed.elastic.agent.server.api:[default] starting workers for entrypoint: python
+INFO:torch.distributed.elastic.agent.server.api:[default] Rendezvous'ing worker group
+/opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/distributed/elastic/utils/store.py:52: FutureWarning: This is an experimental API and will be changed in future.
+  warnings.warn(
+INFO:torch.distributed.elastic.agent.server.api:[default] Rendezvous complete for workers. Result:
+  restart_count=0
+  master_addr=127.0.0.1
+  master_port=28596
+  group_rank=0
+  group_world_size=1
+  local_ranks=[0]
+  role_ranks=[0]
+  global_ranks=[0]
+  role_world_sizes=[1]
+  global_world_sizes=[1]
+
+INFO:torch.distributed.elastic.agent.server.api:[default] Starting worker group
+INFO:torch.distributed.elastic.multiprocessing:Setting worker0 reply file to: /var/folders/bl/c09z1sm91mxfb8z7mn7v4rhh0000gq/T/torchelastic_jfkaq67y/none_jd7_8qjd/attempt_0/0/error.json
+projects.mmdet3d_plugin
+======
+Loading NuScenes tables for version v1.0-trainval...
+23 category,
+8 attribute,
+4 visibility,
+64386 instance,
+12 sensor,
+10200 calibrated_sensor,
+2631083 ego_pose,
+68 log,
+850 scene,
+34149 sample,
+2631083 sample_data,
+1166187 sample_annotation,
+4 map,
+Done loading in 21.444 seconds.
+======
+Reverse indexing ...
+Done reverse indexing in 5.4 seconds.
+======
+load checkpoint from local path: ./ckpts/uniad_base_e2e.pth
+2023-07-23 23:45:44,312 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.0.conv2 is upgraded to version 2.
+2023-07-23 23:45:44,317 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.1.conv2 is upgraded to version 2.
+2023-07-23 23:45:44,321 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.2.conv2 is upgraded to version 2.
+2023-07-23 23:45:44,325 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.3.conv2 is upgraded to version 2.
+2023-07-23 23:45:44,330 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.4.conv2 is upgraded to version 2.
+2023-07-23 23:45:44,337 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.5.conv2 is upgraded to version 2.
+2023-07-23 23:45:44,341 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.6.conv2 is upgraded to version 2.
+2023-07-23 23:45:44,345 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.7.conv2 is upgraded to version 2.
+2023-07-23 23:45:44,349 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.8.conv2 is upgraded to version 2.
+2023-07-23 23:45:44,352 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.9.conv2 is upgraded to version 2.
+2023-07-23 23:45:44,356 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.10.conv2 is upgraded to version 2.
+2023-07-23 23:45:44,360 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.11.conv2 is upgraded to version 2.
+2023-07-23 23:45:44,364 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.12.conv2 is upgraded to version 2.
+2023-07-23 23:45:44,367 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.13.conv2 is upgraded to version 2.
+2023-07-23 23:45:44,371 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.14.conv2 is upgraded to version 2.
+2023-07-23 23:45:44,375 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.15.conv2 is upgraded to version 2.
+2023-07-23 23:45:44,379 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.16.conv2 is upgraded to version 2.
+2023-07-23 23:45:44,383 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.17.conv2 is upgraded to version 2.
+2023-07-23 23:45:44,387 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.18.conv2 is upgraded to version 2.
+2023-07-23 23:45:44,391 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.19.conv2 is upgraded to version 2.
+2023-07-23 23:45:44,395 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.20.conv2 is upgraded to version 2.
+2023-07-23 23:45:44,401 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.21.conv2 is upgraded to version 2.
+2023-07-23 23:45:44,410 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.22.conv2 is upgraded to version 2.
+2023-07-23 23:45:44,414 - root - INFO - ModulatedDeformConvPack img_backbone.layer4.0.conv2 is upgraded to version 2.
+2023-07-23 23:45:44,427 - root - INFO - ModulatedDeformConvPack img_backbone.layer4.1.conv2 is upgraded to version 2.
+2023-07-23 23:45:44,437 - root - INFO - ModulatedDeformConvPack img_backbone.layer4.2.conv2 is upgraded to version 2.
+The model and loaded state dict do not match exactly
+
+unexpected key in source state_dict: bbox_size_fc.weight, bbox_size_fc.bias, seg_head.transformer.level_embeds, seg_head.transformer.encoder.layers.0.attentions.0.sampling_offsets.weight, seg_head.transformer.encoder.layers.0.attentions.0.sampling_offsets.bias, seg_head.transformer.encoder.layers.0.attentions.0.attention_weights.weight, seg_head.transformer.encoder.layers.0.attentions.0.attention_weights.bias, seg_head.transformer.encoder.layers.0.attentions.0.value_proj.weight, seg_head.transformer.encoder.layers.0.attentions.0.value_proj.bias, seg_head.transformer.encoder.layers.0.attentions.0.output_proj.weight, seg_head.transformer.encoder.layers.0.attentions.0.output_proj.bias, seg_head.transformer.encoder.layers.0.ffns.0.layers.0.0.weight, seg_head.transformer.encoder.layers.0.ffns.0.layers.0.0.bias, seg_head.transformer.encoder.layers.0.ffns.0.layers.1.weight, seg_head.transformer.encoder.layers.0.ffns.0.layers.1.bias, seg_head.transformer.encoder.layers.0.norms.0.weight, seg_head.transformer.encoder.layers.0.norms.0.bias, seg_head.transformer.encoder.layers.0.norms.1.weight, seg_head.transformer.encoder.layers.0.norms.1.bias, seg_head.transformer.encoder.layers.1.attentions.0.sampling_offsets.weight, seg_head.transformer.encoder.layers.1.attentions.0.sampling_offsets.bias, seg_head.transformer.encoder.layers.1.attentions.0.attention_weights.weight, seg_head.transformer.encoder.layers.1.attentions.0.attention_weights.bias, seg_head.transformer.encoder.layers.1.attentions.0.value_proj.weight, seg_head.transformer.encoder.layers.1.attentions.0.value_proj.bias, seg_head.transformer.encoder.layers.1.attentions.0.output_proj.weight, seg_head.transformer.encoder.layers.1.attentions.0.output_proj.bias, seg_head.transformer.encoder.layers.1.ffns.0.layers.0.0.weight, seg_head.transformer.encoder.layers.1.ffns.0.layers.0.0.bias, seg_head.transformer.encoder.layers.1.ffns.0.layers.1.weight, seg_head.transformer.encoder.layers.1.ffns.0.layers.1.bias, seg_head.transformer.encoder.layers.1.norms.0.weight, seg_head.transformer.encoder.layers.1.norms.0.bias, seg_head.transformer.encoder.layers.1.norms.1.weight, seg_head.transformer.encoder.layers.1.norms.1.bias, seg_head.transformer.encoder.layers.2.attentions.0.sampling_offsets.weight, seg_head.transformer.encoder.layers.2.attentions.0.sampling_offsets.bias, seg_head.transformer.encoder.layers.2.attentions.0.attention_weights.weight, seg_head.transformer.encoder.layers.2.attentions.0.attention_weights.bias, seg_head.transformer.encoder.layers.2.attentions.0.value_proj.weight, seg_head.transformer.encoder.layers.2.attentions.0.value_proj.bias, seg_head.transformer.encoder.layers.2.attentions.0.output_proj.weight, seg_head.transformer.encoder.layers.2.attentions.0.output_proj.bias, seg_head.transformer.encoder.layers.2.ffns.0.layers.0.0.weight, seg_head.transformer.encoder.layers.2.ffns.0.layers.0.0.bias, seg_head.transformer.encoder.layers.2.ffns.0.layers.1.weight, seg_head.transformer.encoder.layers.2.ffns.0.layers.1.bias, seg_head.transformer.encoder.layers.2.norms.0.weight, seg_head.transformer.encoder.layers.2.norms.0.bias, seg_head.transformer.encoder.layers.2.norms.1.weight, seg_head.transformer.encoder.layers.2.norms.1.bias, seg_head.transformer.encoder.layers.3.attentions.0.sampling_offsets.weight, seg_head.transformer.encoder.layers.3.attentions.0.sampling_offsets.bias, seg_head.transformer.encoder.layers.3.attentions.0.attention_weights.weight, seg_head.transformer.encoder.layers.3.attentions.0.attention_weights.bias, seg_head.transformer.encoder.layers.3.attentions.0.value_proj.weight, seg_head.transformer.encoder.layers.3.attentions.0.value_proj.bias, seg_head.transformer.encoder.layers.3.attentions.0.output_proj.weight, seg_head.transformer.encoder.layers.3.attentions.0.output_proj.bias, seg_head.transformer.encoder.layers.3.ffns.0.layers.0.0.weight, seg_head.transformer.encoder.layers.3.ffns.0.layers.0.0.bias, seg_head.transformer.encoder.layers.3.ffns.0.layers.1.weight, seg_head.transformer.encoder.layers.3.ffns.0.layers.1.bias, seg_head.transformer.encoder.layers.3.norms.0.weight, seg_head.transformer.encoder.layers.3.norms.0.bias, seg_head.transformer.encoder.layers.3.norms.1.weight, seg_head.transformer.encoder.layers.3.norms.1.bias, seg_head.transformer.encoder.layers.4.attentions.0.sampling_offsets.weight, seg_head.transformer.encoder.layers.4.attentions.0.sampling_offsets.bias, seg_head.transformer.encoder.layers.4.attentions.0.attention_weights.weight, seg_head.transformer.encoder.layers.4.attentions.0.attention_weights.bias, seg_head.transformer.encoder.layers.4.attentions.0.value_proj.weight, seg_head.transformer.encoder.layers.4.attentions.0.value_proj.bias, seg_head.transformer.encoder.layers.4.attentions.0.output_proj.weight, seg_head.transformer.encoder.layers.4.attentions.0.output_proj.bias, seg_head.transformer.encoder.layers.4.ffns.0.layers.0.0.weight, seg_head.transformer.encoder.layers.4.ffns.0.layers.0.0.bias, seg_head.transformer.encoder.layers.4.ffns.0.layers.1.weight, seg_head.transformer.encoder.layers.4.ffns.0.layers.1.bias, seg_head.transformer.encoder.layers.4.norms.0.weight, seg_head.transformer.encoder.layers.4.norms.0.bias, seg_head.transformer.encoder.layers.4.norms.1.weight, seg_head.transformer.encoder.layers.4.norms.1.bias, seg_head.transformer.encoder.layers.5.attentions.0.sampling_offsets.weight, seg_head.transformer.encoder.layers.5.attentions.0.sampling_offsets.bias, seg_head.transformer.encoder.layers.5.attentions.0.attention_weights.weight, seg_head.transformer.encoder.layers.5.attentions.0.attention_weights.bias, seg_head.transformer.encoder.layers.5.attentions.0.value_proj.weight, seg_head.transformer.encoder.layers.5.attentions.0.value_proj.bias, seg_head.transformer.encoder.layers.5.attentions.0.output_proj.weight, seg_head.transformer.encoder.layers.5.attentions.0.output_proj.bias, seg_head.transformer.encoder.layers.5.ffns.0.layers.0.0.weight, seg_head.transformer.encoder.layers.5.ffns.0.layers.0.0.bias, seg_head.transformer.encoder.layers.5.ffns.0.layers.1.weight, seg_head.transformer.encoder.layers.5.ffns.0.layers.1.bias, seg_head.transformer.encoder.layers.5.norms.0.weight, seg_head.transformer.encoder.layers.5.norms.0.bias, seg_head.transformer.encoder.layers.5.norms.1.weight, seg_head.transformer.encoder.layers.5.norms.1.bias, seg_head.transformer.decoder.layers.0.attentions.0.attn.in_proj_weight, seg_head.transformer.decoder.layers.0.attentions.0.attn.in_proj_bias, seg_head.transformer.decoder.layers.0.attentions.0.attn.out_proj.weight, seg_head.transformer.decoder.layers.0.attentions.0.attn.out_proj.bias, seg_head.transformer.decoder.layers.0.attentions.1.sampling_offsets.weight, seg_head.transformer.decoder.layers.0.attentions.1.sampling_offsets.bias, seg_head.transformer.decoder.layers.0.attentions.1.attention_weights.weight, seg_head.transformer.decoder.layers.0.attentions.1.attention_weights.bias, seg_head.transformer.decoder.layers.0.attentions.1.value_proj.weight, seg_head.transformer.decoder.layers.0.attentions.1.value_proj.bias, seg_head.transformer.decoder.layers.0.attentions.1.output_proj.weight, seg_head.transformer.decoder.layers.0.attentions.1.output_proj.bias, seg_head.transformer.decoder.layers.0.ffns.0.layers.0.0.weight, seg_head.transformer.decoder.layers.0.ffns.0.layers.0.0.bias, seg_head.transformer.decoder.layers.0.ffns.0.layers.1.weight, seg_head.transformer.decoder.layers.0.ffns.0.layers.1.bias, seg_head.transformer.decoder.layers.0.norms.0.weight, seg_head.transformer.decoder.layers.0.norms.0.bias, seg_head.transformer.decoder.layers.0.norms.1.weight, seg_head.transformer.decoder.layers.0.norms.1.bias, seg_head.transformer.decoder.layers.0.norms.2.weight, seg_head.transformer.decoder.layers.0.norms.2.bias, seg_head.transformer.decoder.layers.1.attentions.0.attn.in_proj_weight, seg_head.transformer.decoder.layers.1.attentions.0.attn.in_proj_bias, seg_head.transformer.decoder.layers.1.attentions.0.attn.out_proj.weight, seg_head.transformer.decoder.layers.1.attentions.0.attn.out_proj.bias, seg_head.transformer.decoder.layers.1.attentions.1.sampling_offsets.weight, seg_head.transformer.decoder.layers.1.attentions.1.sampling_offsets.bias, seg_head.transformer.decoder.layers.1.attentions.1.attention_weights.weight, seg_head.transformer.decoder.layers.1.attentions.1.attention_weights.bias, seg_head.transformer.decoder.layers.1.attentions.1.value_proj.weight, seg_head.transformer.decoder.layers.1.attentions.1.value_proj.bias, seg_head.transformer.decoder.layers.1.attentions.1.output_proj.weight, seg_head.transformer.decoder.layers.1.attentions.1.output_proj.bias, seg_head.transformer.decoder.layers.1.ffns.0.layers.0.0.weight, seg_head.transformer.decoder.layers.1.ffns.0.layers.0.0.bias, seg_head.transformer.decoder.layers.1.ffns.0.layers.1.weight, seg_head.transformer.decoder.layers.1.ffns.0.layers.1.bias, seg_head.transformer.decoder.layers.1.norms.0.weight, seg_head.transformer.decoder.layers.1.norms.0.bias, seg_head.transformer.decoder.layers.1.norms.1.weight, seg_head.transformer.decoder.layers.1.norms.1.bias, seg_head.transformer.decoder.layers.1.norms.2.weight, seg_head.transformer.decoder.layers.1.norms.2.bias, seg_head.transformer.decoder.layers.2.attentions.0.attn.in_proj_weight, seg_head.transformer.decoder.layers.2.attentions.0.attn.in_proj_bias, seg_head.transformer.decoder.layers.2.attentions.0.attn.out_proj.weight, seg_head.transformer.decoder.layers.2.attentions.0.attn.out_proj.bias, seg_head.transformer.decoder.layers.2.attentions.1.sampling_offsets.weight, seg_head.transformer.decoder.layers.2.attentions.1.sampling_offsets.bias, seg_head.transformer.decoder.layers.2.attentions.1.attention_weights.weight, seg_head.transformer.decoder.layers.2.attentions.1.attention_weights.bias, seg_head.transformer.decoder.layers.2.attentions.1.value_proj.weight, seg_head.transformer.decoder.layers.2.attentions.1.value_proj.bias, seg_head.transformer.decoder.layers.2.attentions.1.output_proj.weight, seg_head.transformer.decoder.layers.2.attentions.1.output_proj.bias, seg_head.transformer.decoder.layers.2.ffns.0.layers.0.0.weight, seg_head.transformer.decoder.layers.2.ffns.0.layers.0.0.bias, seg_head.transformer.decoder.layers.2.ffns.0.layers.1.weight, seg_head.transformer.decoder.layers.2.ffns.0.layers.1.bias, seg_head.transformer.decoder.layers.2.norms.0.weight, seg_head.transformer.decoder.layers.2.norms.0.bias, seg_head.transformer.decoder.layers.2.norms.1.weight, seg_head.transformer.decoder.layers.2.norms.1.bias, seg_head.transformer.decoder.layers.2.norms.2.weight, seg_head.transformer.decoder.layers.2.norms.2.bias, seg_head.transformer.decoder.layers.3.attentions.0.attn.in_proj_weight, seg_head.transformer.decoder.layers.3.attentions.0.attn.in_proj_bias, seg_head.transformer.decoder.layers.3.attentions.0.attn.out_proj.weight, seg_head.transformer.decoder.layers.3.attentions.0.attn.out_proj.bias, seg_head.transformer.decoder.layers.3.attentions.1.sampling_offsets.weight, seg_head.transformer.decoder.layers.3.attentions.1.sampling_offsets.bias, seg_head.transformer.decoder.layers.3.attentions.1.attention_weights.weight, seg_head.transformer.decoder.layers.3.attentions.1.attention_weights.bias, seg_head.transformer.decoder.layers.3.attentions.1.value_proj.weight, seg_head.transformer.decoder.layers.3.attentions.1.value_proj.bias, seg_head.transformer.decoder.layers.3.attentions.1.output_proj.weight, seg_head.transformer.decoder.layers.3.attentions.1.output_proj.bias, seg_head.transformer.decoder.layers.3.ffns.0.layers.0.0.weight, seg_head.transformer.decoder.layers.3.ffns.0.layers.0.0.bias, seg_head.transformer.decoder.layers.3.ffns.0.layers.1.weight, seg_head.transformer.decoder.layers.3.ffns.0.layers.1.bias, seg_head.transformer.decoder.layers.3.norms.0.weight, seg_head.transformer.decoder.layers.3.norms.0.bias, seg_head.transformer.decoder.layers.3.norms.1.weight, seg_head.transformer.decoder.layers.3.norms.1.bias, seg_head.transformer.decoder.layers.3.norms.2.weight, seg_head.transformer.decoder.layers.3.norms.2.bias, seg_head.transformer.decoder.layers.4.attentions.0.attn.in_proj_weight, seg_head.transformer.decoder.layers.4.attentions.0.attn.in_proj_bias, seg_head.transformer.decoder.layers.4.attentions.0.attn.out_proj.weight, seg_head.transformer.decoder.layers.4.attentions.0.attn.out_proj.bias, seg_head.transformer.decoder.layers.4.attentions.1.sampling_offsets.weight, seg_head.transformer.decoder.layers.4.attentions.1.sampling_offsets.bias, seg_head.transformer.decoder.layers.4.attentions.1.attention_weights.weight, seg_head.transformer.decoder.layers.4.attentions.1.attention_weights.bias, seg_head.transformer.decoder.layers.4.attentions.1.value_proj.weight, seg_head.transformer.decoder.layers.4.attentions.1.value_proj.bias, seg_head.transformer.decoder.layers.4.attentions.1.output_proj.weight, seg_head.transformer.decoder.layers.4.attentions.1.output_proj.bias, seg_head.transformer.decoder.layers.4.ffns.0.layers.0.0.weight, seg_head.transformer.decoder.layers.4.ffns.0.layers.0.0.bias, seg_head.transformer.decoder.layers.4.ffns.0.layers.1.weight, seg_head.transformer.decoder.layers.4.ffns.0.layers.1.bias, seg_head.transformer.decoder.layers.4.norms.0.weight, seg_head.transformer.decoder.layers.4.norms.0.bias, seg_head.transformer.decoder.layers.4.norms.1.weight, seg_head.transformer.decoder.layers.4.norms.1.bias, seg_head.transformer.decoder.layers.4.norms.2.weight, seg_head.transformer.decoder.layers.4.norms.2.bias, seg_head.transformer.decoder.layers.5.attentions.0.attn.in_proj_weight, seg_head.transformer.decoder.layers.5.attentions.0.attn.in_proj_bias, seg_head.transformer.decoder.layers.5.attentions.0.attn.out_proj.weight, seg_head.transformer.decoder.layers.5.attentions.0.attn.out_proj.bias, seg_head.transformer.decoder.layers.5.attentions.1.sampling_offsets.weight, seg_head.transformer.decoder.layers.5.attentions.1.sampling_offsets.bias, seg_head.transformer.decoder.layers.5.attentions.1.attention_weights.weight, seg_head.transformer.decoder.layers.5.attentions.1.attention_weights.bias, seg_head.transformer.decoder.layers.5.attentions.1.value_proj.weight, seg_head.transformer.decoder.layers.5.attentions.1.value_proj.bias, seg_head.transformer.decoder.layers.5.attentions.1.output_proj.weight, seg_head.transformer.decoder.layers.5.attentions.1.output_proj.bias, seg_head.transformer.decoder.layers.5.ffns.0.layers.0.0.weight, seg_head.transformer.decoder.layers.5.ffns.0.layers.0.0.bias, seg_head.transformer.decoder.layers.5.ffns.0.layers.1.weight, seg_head.transformer.decoder.layers.5.ffns.0.layers.1.bias, seg_head.transformer.decoder.layers.5.norms.0.weight, seg_head.transformer.decoder.layers.5.norms.0.bias, seg_head.transformer.decoder.layers.5.norms.1.weight, seg_head.transformer.decoder.layers.5.norms.1.bias, seg_head.transformer.decoder.layers.5.norms.2.weight, seg_head.transformer.decoder.layers.5.norms.2.bias, seg_head.transformer.reference_points.weight, seg_head.transformer.reference_points.bias, seg_head.bev_embedding.weight, seg_head.cls_branches.0.weight, seg_head.cls_branches.0.bias, seg_head.cls_branches.1.weight, seg_head.cls_branches.1.bias, seg_head.cls_branches.2.weight, seg_head.cls_branches.2.bias, seg_head.cls_branches.3.weight, seg_head.cls_branches.3.bias, seg_head.cls_branches.4.weight, seg_head.cls_branches.4.bias, seg_head.cls_branches.5.weight, seg_head.cls_branches.5.bias, seg_head.reg_branches.0.0.weight, seg_head.reg_branches.0.0.bias, seg_head.reg_branches.0.2.weight, seg_head.reg_branches.0.2.bias, seg_head.reg_branches.0.4.weight, seg_head.reg_branches.0.4.bias, seg_head.reg_branches.1.0.weight, seg_head.reg_branches.1.0.bias, seg_head.reg_branches.1.2.weight, seg_head.reg_branches.1.2.bias, seg_head.reg_branches.1.4.weight, seg_head.reg_branches.1.4.bias, seg_head.reg_branches.2.0.weight, seg_head.reg_branches.2.0.bias, seg_head.reg_branches.2.2.weight, seg_head.reg_branches.2.2.bias, seg_head.reg_branches.2.4.weight, seg_head.reg_branches.2.4.bias, seg_head.reg_branches.3.0.weight, seg_head.reg_branches.3.0.bias, seg_head.reg_branches.3.2.weight, seg_head.reg_branches.3.2.bias, seg_head.reg_branches.3.4.weight, seg_head.reg_branches.3.4.bias, seg_head.reg_branches.4.0.weight, seg_head.reg_branches.4.0.bias, seg_head.reg_branches.4.2.weight, seg_head.reg_branches.4.2.bias, seg_head.reg_branches.4.4.weight, seg_head.reg_branches.4.4.bias, seg_head.reg_branches.5.0.weight, seg_head.reg_branches.5.0.bias, seg_head.reg_branches.5.2.weight, seg_head.reg_branches.5.2.bias, seg_head.reg_branches.5.4.weight, seg_head.reg_branches.5.4.bias, seg_head.query_embedding.weight, seg_head.stuff_query.weight, seg_head.reg_branches2.0.0.weight, seg_head.reg_branches2.0.0.bias, seg_head.reg_branches2.0.2.weight, seg_head.reg_branches2.0.2.bias, seg_head.reg_branches2.0.4.weight, seg_head.reg_branches2.0.4.bias, seg_head.reg_branches2.1.0.weight, seg_head.reg_branches2.1.0.bias, seg_head.reg_branches2.1.2.weight, seg_head.reg_branches2.1.2.bias, seg_head.reg_branches2.1.4.weight, seg_head.reg_branches2.1.4.bias, seg_head.reg_branches2.2.0.weight, seg_head.reg_branches2.2.0.bias, seg_head.reg_branches2.2.2.weight, seg_head.reg_branches2.2.2.bias, seg_head.reg_branches2.2.4.weight, seg_head.reg_branches2.2.4.bias, seg_head.reg_branches2.3.0.weight, seg_head.reg_branches2.3.0.bias, seg_head.reg_branches2.3.2.weight, seg_head.reg_branches2.3.2.bias, seg_head.reg_branches2.3.4.weight, seg_head.reg_branches2.3.4.bias, seg_head.cls_thing_branches.0.weight, seg_head.cls_thing_branches.0.bias, seg_head.cls_thing_branches.1.weight, seg_head.cls_thing_branches.1.bias, seg_head.cls_thing_branches.2.weight, seg_head.cls_thing_branches.2.bias, seg_head.cls_thing_branches.3.weight, seg_head.cls_thing_branches.3.bias, seg_head.cls_stuff_branches.0.weight, seg_head.cls_stuff_branches.0.bias, seg_head.cls_stuff_branches.1.weight, seg_head.cls_stuff_branches.1.bias, seg_head.cls_stuff_branches.2.weight, seg_head.cls_stuff_branches.2.bias, seg_head.cls_stuff_branches.3.weight, seg_head.cls_stuff_branches.3.bias, seg_head.cls_stuff_branches.4.weight, seg_head.cls_stuff_branches.4.bias, seg_head.cls_stuff_branches.5.weight, seg_head.cls_stuff_branches.5.bias, seg_head.things_mask_head.blocks.0.head_norm1.weight, seg_head.things_mask_head.blocks.0.head_norm1.bias, seg_head.things_mask_head.blocks.0.attn.q.weight, seg_head.things_mask_head.blocks.0.attn.q.bias, seg_head.things_mask_head.blocks.0.attn.k.weight, seg_head.things_mask_head.blocks.0.attn.k.bias, seg_head.things_mask_head.blocks.0.attn.v.weight, seg_head.things_mask_head.blocks.0.attn.v.bias, seg_head.things_mask_head.blocks.0.attn.proj.weight, seg_head.things_mask_head.blocks.0.attn.proj.bias, seg_head.things_mask_head.blocks.0.attn.linear_l1.0.weight, seg_head.things_mask_head.blocks.0.attn.linear_l1.0.bias, seg_head.things_mask_head.blocks.0.attn.linear.0.weight, seg_head.things_mask_head.blocks.0.attn.linear.0.bias, seg_head.things_mask_head.blocks.0.head_norm2.weight, seg_head.things_mask_head.blocks.0.head_norm2.bias, seg_head.things_mask_head.blocks.0.mlp.fc1.weight, seg_head.things_mask_head.blocks.0.mlp.fc1.bias, seg_head.things_mask_head.blocks.0.mlp.fc2.weight, seg_head.things_mask_head.blocks.0.mlp.fc2.bias, seg_head.things_mask_head.blocks.1.head_norm1.weight, seg_head.things_mask_head.blocks.1.head_norm1.bias, seg_head.things_mask_head.blocks.1.attn.q.weight, seg_head.things_mask_head.blocks.1.attn.q.bias, seg_head.things_mask_head.blocks.1.attn.k.weight, seg_head.things_mask_head.blocks.1.attn.k.bias, seg_head.things_mask_head.blocks.1.attn.v.weight, seg_head.things_mask_head.blocks.1.attn.v.bias, seg_head.things_mask_head.blocks.1.attn.proj.weight, seg_head.things_mask_head.blocks.1.attn.proj.bias, seg_head.things_mask_head.blocks.1.attn.linear_l1.0.weight, seg_head.things_mask_head.blocks.1.attn.linear_l1.0.bias, seg_head.things_mask_head.blocks.1.attn.linear.0.weight, seg_head.things_mask_head.blocks.1.attn.linear.0.bias, seg_head.things_mask_head.blocks.1.head_norm2.weight, seg_head.things_mask_head.blocks.1.head_norm2.bias, seg_head.things_mask_head.blocks.1.mlp.fc1.weight, seg_head.things_mask_head.blocks.1.mlp.fc1.bias, seg_head.things_mask_head.blocks.1.mlp.fc2.weight, seg_head.things_mask_head.blocks.1.mlp.fc2.bias, seg_head.things_mask_head.blocks.2.head_norm1.weight, seg_head.things_mask_head.blocks.2.head_norm1.bias, seg_head.things_mask_head.blocks.2.attn.q.weight, seg_head.things_mask_head.blocks.2.attn.q.bias, seg_head.things_mask_head.blocks.2.attn.k.weight, seg_head.things_mask_head.blocks.2.attn.k.bias, seg_head.things_mask_head.blocks.2.attn.v.weight, seg_head.things_mask_head.blocks.2.attn.v.bias, seg_head.things_mask_head.blocks.2.attn.proj.weight, seg_head.things_mask_head.blocks.2.attn.proj.bias, seg_head.things_mask_head.blocks.2.attn.linear_l1.0.weight, seg_head.things_mask_head.blocks.2.attn.linear_l1.0.bias, seg_head.things_mask_head.blocks.2.attn.linear.0.weight, seg_head.things_mask_head.blocks.2.attn.linear.0.bias, seg_head.things_mask_head.blocks.2.head_norm2.weight, seg_head.things_mask_head.blocks.2.head_norm2.bias, seg_head.things_mask_head.blocks.2.mlp.fc1.weight, seg_head.things_mask_head.blocks.2.mlp.fc1.bias, seg_head.things_mask_head.blocks.2.mlp.fc2.weight, seg_head.things_mask_head.blocks.2.mlp.fc2.bias, seg_head.things_mask_head.blocks.3.head_norm1.weight, seg_head.things_mask_head.blocks.3.head_norm1.bias, seg_head.things_mask_head.blocks.3.attn.q.weight, seg_head.things_mask_head.blocks.3.attn.q.bias, seg_head.things_mask_head.blocks.3.attn.k.weight, seg_head.things_mask_head.blocks.3.attn.k.bias, seg_head.things_mask_head.blocks.3.attn.v.weight, seg_head.things_mask_head.blocks.3.attn.v.bias, seg_head.things_mask_head.blocks.3.attn.proj.weight, seg_head.things_mask_head.blocks.3.attn.proj.bias, seg_head.things_mask_head.blocks.3.attn.linear_l1.0.weight, seg_head.things_mask_head.blocks.3.attn.linear_l1.0.bias, seg_head.things_mask_head.blocks.3.attn.linear.0.weight, seg_head.things_mask_head.blocks.3.attn.linear.0.bias, seg_head.things_mask_head.blocks.3.head_norm2.weight, seg_head.things_mask_head.blocks.3.head_norm2.bias, seg_head.things_mask_head.blocks.3.mlp.fc1.weight, seg_head.things_mask_head.blocks.3.mlp.fc1.bias, seg_head.things_mask_head.blocks.3.mlp.fc2.weight, seg_head.things_mask_head.blocks.3.mlp.fc2.bias, seg_head.things_mask_head.attnen.q.weight, seg_head.things_mask_head.attnen.q.bias, seg_head.things_mask_head.attnen.k.weight, seg_head.things_mask_head.attnen.k.bias, seg_head.things_mask_head.attnen.linear_l1.0.weight, seg_head.things_mask_head.attnen.linear_l1.0.bias, seg_head.things_mask_head.attnen.linear.0.weight, seg_head.things_mask_head.attnen.linear.0.bias, seg_head.stuff_mask_head.blocks.0.head_norm1.weight, seg_head.stuff_mask_head.blocks.0.head_norm1.bias, seg_head.stuff_mask_head.blocks.0.attn.q.weight, seg_head.stuff_mask_head.blocks.0.attn.q.bias, seg_head.stuff_mask_head.blocks.0.attn.k.weight, seg_head.stuff_mask_head.blocks.0.attn.k.bias, seg_head.stuff_mask_head.blocks.0.attn.v.weight, seg_head.stuff_mask_head.blocks.0.attn.v.bias, seg_head.stuff_mask_head.blocks.0.attn.proj.weight, seg_head.stuff_mask_head.blocks.0.attn.proj.bias, seg_head.stuff_mask_head.blocks.0.attn.linear_l1.0.weight, seg_head.stuff_mask_head.blocks.0.attn.linear_l1.0.bias, seg_head.stuff_mask_head.blocks.0.attn.linear.0.weight, seg_head.stuff_mask_head.blocks.0.attn.linear.0.bias, seg_head.stuff_mask_head.blocks.0.head_norm2.weight, seg_head.stuff_mask_head.blocks.0.head_norm2.bias, seg_head.stuff_mask_head.blocks.0.mlp.fc1.weight, seg_head.stuff_mask_head.blocks.0.mlp.fc1.bias, seg_head.stuff_mask_head.blocks.0.mlp.fc2.weight, seg_head.stuff_mask_head.blocks.0.mlp.fc2.bias, seg_head.stuff_mask_head.blocks.0.self_attention.qkv.weight, seg_head.stuff_mask_head.blocks.0.self_attention.qkv.bias, seg_head.stuff_mask_head.blocks.0.self_attention.proj.weight, seg_head.stuff_mask_head.blocks.0.self_attention.proj.bias, seg_head.stuff_mask_head.blocks.0.norm3.weight, seg_head.stuff_mask_head.blocks.0.norm3.bias, seg_head.stuff_mask_head.blocks.1.head_norm1.weight, seg_head.stuff_mask_head.blocks.1.head_norm1.bias, seg_head.stuff_mask_head.blocks.1.attn.q.weight, seg_head.stuff_mask_head.blocks.1.attn.q.bias, seg_head.stuff_mask_head.blocks.1.attn.k.weight, seg_head.stuff_mask_head.blocks.1.attn.k.bias, seg_head.stuff_mask_head.blocks.1.attn.v.weight, seg_head.stuff_mask_head.blocks.1.attn.v.bias, seg_head.stuff_mask_head.blocks.1.attn.proj.weight, seg_head.stuff_mask_head.blocks.1.attn.proj.bias, seg_head.stuff_mask_head.blocks.1.attn.linear_l1.0.weight, seg_head.stuff_mask_head.blocks.1.attn.linear_l1.0.bias, seg_head.stuff_mask_head.blocks.1.attn.linear.0.weight, seg_head.stuff_mask_head.blocks.1.attn.linear.0.bias, seg_head.stuff_mask_head.blocks.1.head_norm2.weight, seg_head.stuff_mask_head.blocks.1.head_norm2.bias, seg_head.stuff_mask_head.blocks.1.mlp.fc1.weight, seg_head.stuff_mask_head.blocks.1.mlp.fc1.bias, seg_head.stuff_mask_head.blocks.1.mlp.fc2.weight, seg_head.stuff_mask_head.blocks.1.mlp.fc2.bias, seg_head.stuff_mask_head.blocks.1.self_attention.qkv.weight, seg_head.stuff_mask_head.blocks.1.self_attention.qkv.bias, seg_head.stuff_mask_head.blocks.1.self_attention.proj.weight, seg_head.stuff_mask_head.blocks.1.self_attention.proj.bias, seg_head.stuff_mask_head.blocks.1.norm3.weight, seg_head.stuff_mask_head.blocks.1.norm3.bias, seg_head.stuff_mask_head.blocks.2.head_norm1.weight, seg_head.stuff_mask_head.blocks.2.head_norm1.bias, seg_head.stuff_mask_head.blocks.2.attn.q.weight, seg_head.stuff_mask_head.blocks.2.attn.q.bias, seg_head.stuff_mask_head.blocks.2.attn.k.weight, seg_head.stuff_mask_head.blocks.2.attn.k.bias, seg_head.stuff_mask_head.blocks.2.attn.v.weight, seg_head.stuff_mask_head.blocks.2.attn.v.bias, seg_head.stuff_mask_head.blocks.2.attn.proj.weight, seg_head.stuff_mask_head.blocks.2.attn.proj.bias, seg_head.stuff_mask_head.blocks.2.attn.linear_l1.0.weight, seg_head.stuff_mask_head.blocks.2.attn.linear_l1.0.bias, seg_head.stuff_mask_head.blocks.2.attn.linear.0.weight, seg_head.stuff_mask_head.blocks.2.attn.linear.0.bias, seg_head.stuff_mask_head.blocks.2.head_norm2.weight, seg_head.stuff_mask_head.blocks.2.head_norm2.bias, seg_head.stuff_mask_head.blocks.2.mlp.fc1.weight, seg_head.stuff_mask_head.blocks.2.mlp.fc1.bias, seg_head.stuff_mask_head.blocks.2.mlp.fc2.weight, seg_head.stuff_mask_head.blocks.2.mlp.fc2.bias, seg_head.stuff_mask_head.blocks.2.self_attention.qkv.weight, seg_head.stuff_mask_head.blocks.2.self_attention.qkv.bias, seg_head.stuff_mask_head.blocks.2.self_attention.proj.weight, seg_head.stuff_mask_head.blocks.2.self_attention.proj.bias, seg_head.stuff_mask_head.blocks.2.norm3.weight, seg_head.stuff_mask_head.blocks.2.norm3.bias, seg_head.stuff_mask_head.blocks.3.head_norm1.weight, seg_head.stuff_mask_head.blocks.3.head_norm1.bias, seg_head.stuff_mask_head.blocks.3.attn.q.weight, seg_head.stuff_mask_head.blocks.3.attn.q.bias, seg_head.stuff_mask_head.blocks.3.attn.k.weight, seg_head.stuff_mask_head.blocks.3.attn.k.bias, seg_head.stuff_mask_head.blocks.3.attn.v.weight, seg_head.stuff_mask_head.blocks.3.attn.v.bias, seg_head.stuff_mask_head.blocks.3.attn.proj.weight, seg_head.stuff_mask_head.blocks.3.attn.proj.bias, seg_head.stuff_mask_head.blocks.3.attn.linear_l1.0.weight, seg_head.stuff_mask_head.blocks.3.attn.linear_l1.0.bias, seg_head.stuff_mask_head.blocks.3.attn.linear.0.weight, seg_head.stuff_mask_head.blocks.3.attn.linear.0.bias, seg_head.stuff_mask_head.blocks.3.head_norm2.weight, seg_head.stuff_mask_head.blocks.3.head_norm2.bias, seg_head.stuff_mask_head.blocks.3.mlp.fc1.weight, seg_head.stuff_mask_head.blocks.3.mlp.fc1.bias, seg_head.stuff_mask_head.blocks.3.mlp.fc2.weight, seg_head.stuff_mask_head.blocks.3.mlp.fc2.bias, seg_head.stuff_mask_head.blocks.3.self_attention.qkv.weight, seg_head.stuff_mask_head.blocks.3.self_attention.qkv.bias, seg_head.stuff_mask_head.blocks.3.self_attention.proj.weight, seg_head.stuff_mask_head.blocks.3.self_attention.proj.bias, seg_head.stuff_mask_head.blocks.3.norm3.weight, seg_head.stuff_mask_head.blocks.3.norm3.bias, seg_head.stuff_mask_head.blocks.4.head_norm1.weight, seg_head.stuff_mask_head.blocks.4.head_norm1.bias, seg_head.stuff_mask_head.blocks.4.attn.q.weight, seg_head.stuff_mask_head.blocks.4.attn.q.bias, seg_head.stuff_mask_head.blocks.4.attn.k.weight, seg_head.stuff_mask_head.blocks.4.attn.k.bias, seg_head.stuff_mask_head.blocks.4.attn.v.weight, seg_head.stuff_mask_head.blocks.4.attn.v.bias, seg_head.stuff_mask_head.blocks.4.attn.proj.weight, seg_head.stuff_mask_head.blocks.4.attn.proj.bias, seg_head.stuff_mask_head.blocks.4.attn.linear_l1.0.weight, seg_head.stuff_mask_head.blocks.4.attn.linear_l1.0.bias, seg_head.stuff_mask_head.blocks.4.attn.linear.0.weight, seg_head.stuff_mask_head.blocks.4.attn.linear.0.bias, seg_head.stuff_mask_head.blocks.4.head_norm2.weight, seg_head.stuff_mask_head.blocks.4.head_norm2.bias, seg_head.stuff_mask_head.blocks.4.mlp.fc1.weight, seg_head.stuff_mask_head.blocks.4.mlp.fc1.bias, seg_head.stuff_mask_head.blocks.4.mlp.fc2.weight, seg_head.stuff_mask_head.blocks.4.mlp.fc2.bias, seg_head.stuff_mask_head.blocks.4.self_attention.qkv.weight, seg_head.stuff_mask_head.blocks.4.self_attention.qkv.bias, seg_head.stuff_mask_head.blocks.4.self_attention.proj.weight, seg_head.stuff_mask_head.blocks.4.self_attention.proj.bias, seg_head.stuff_mask_head.blocks.4.norm3.weight, seg_head.stuff_mask_head.blocks.4.norm3.bias, seg_head.stuff_mask_head.blocks.5.head_norm1.weight, seg_head.stuff_mask_head.blocks.5.head_norm1.bias, seg_head.stuff_mask_head.blocks.5.attn.q.weight, seg_head.stuff_mask_head.blocks.5.attn.q.bias, seg_head.stuff_mask_head.blocks.5.attn.k.weight, seg_head.stuff_mask_head.blocks.5.attn.k.bias, seg_head.stuff_mask_head.blocks.5.attn.v.weight, seg_head.stuff_mask_head.blocks.5.attn.v.bias, seg_head.stuff_mask_head.blocks.5.attn.proj.weight, seg_head.stuff_mask_head.blocks.5.attn.proj.bias, seg_head.stuff_mask_head.blocks.5.attn.linear_l1.0.weight, seg_head.stuff_mask_head.blocks.5.attn.linear_l1.0.bias, seg_head.stuff_mask_head.blocks.5.attn.linear.0.weight, seg_head.stuff_mask_head.blocks.5.attn.linear.0.bias, seg_head.stuff_mask_head.blocks.5.head_norm2.weight, seg_head.stuff_mask_head.blocks.5.head_norm2.bias, seg_head.stuff_mask_head.blocks.5.mlp.fc1.weight, seg_head.stuff_mask_head.blocks.5.mlp.fc1.bias, seg_head.stuff_mask_head.blocks.5.mlp.fc2.weight, seg_head.stuff_mask_head.blocks.5.mlp.fc2.bias, seg_head.stuff_mask_head.blocks.5.self_attention.qkv.weight, seg_head.stuff_mask_head.blocks.5.self_attention.qkv.bias, seg_head.stuff_mask_head.blocks.5.self_attention.proj.weight, seg_head.stuff_mask_head.blocks.5.self_attention.proj.bias, seg_head.stuff_mask_head.blocks.5.norm3.weight, seg_head.stuff_mask_head.blocks.5.norm3.bias, seg_head.stuff_mask_head.attnen.q.weight, seg_head.stuff_mask_head.attnen.q.bias, seg_head.stuff_mask_head.attnen.k.weight, seg_head.stuff_mask_head.attnen.k.bias, seg_head.stuff_mask_head.attnen.linear_l1.0.weight, seg_head.stuff_mask_head.attnen.linear_l1.0.bias, seg_head.stuff_mask_head.attnen.linear.0.weight, seg_head.stuff_mask_head.attnen.linear.0.bias, pts_bbox_head.query_embedding.weight, pts_bbox_head.transformer.reference_points.weight, pts_bbox_head.transformer.reference_points.bias
+
+> /Users/liangming.xu/code/UniAD/tools/test.py(229)main()
+-> result = model(return_loss=False, rescale=True, **data)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(723)simple_test_track()
+-> bs = img.size(0)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(641)_forward_single_frame_inference()
+-> active_inst = track_instances[track_instances.obj_idxes >= 0]
+(Pdb) 636  	        img: B, num_cam, C, H, W = img.shape
+637  	        """
+638  	
+639  	        """ velo update """
+640  	        import pdb; pdb.set_trace()
+641  ->	        active_inst = track_instances[track_instances.obj_idxes >= 0]
+642  	        other_inst = track_instances[track_instances.obj_idxes < 0]
+643  	
+644  	        if l2g_r2 is not None and len(active_inst) > 0 and l2g_r1 is not None:
+645  	            ref_pts = active_inst.ref_pts
+646  	            velo = active_inst.pred_boxes[:, -2:]
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(642)_forward_single_frame_inference()
+-> other_inst = track_instances[track_instances.obj_idxes < 0]
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(644)_forward_single_frame_inference()
+-> if l2g_r2 is not None and len(active_inst) > 0 and l2g_r1 is not None:
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(655)_forward_single_frame_inference()
+-> track_instances = Instances.cat([other_inst, active_inst])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(658)_forward_single_frame_inference()
+-> bev_embed, bev_pos = self.get_bevs(img, img_metas, prev_bev=prev_bev)
+(Pdb) --Call--
+> /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(340)get_bevs()
+-> def get_bevs(self, imgs, img_metas, prev_img=None, prev_img_metas=None, prev_bev=None):
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(341)get_bevs()
+-> if prev_img is not None and prev_img_metas is not None:
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(345)get_bevs()
+-> img_feats = self.extract_img_feat(img=imgs)
+(Pdb) --Call--
+> /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(156)extract_img_feat()
+-> def extract_img_feat(self, img, len_queue=None):
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(158)extract_img_feat()
+-> if img is None:
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(160)extract_img_feat()
+-> assert img.dim() == 5
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(161)extract_img_feat()
+-> B, N, C, H, W = img.size()
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(162)extract_img_feat()
+-> img = img.reshape(B * N, C, H, W)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(163)extract_img_feat()
+-> if self.use_grid_mask:
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(164)extract_img_feat()
+-> img = self.grid_mask(img)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(165)extract_img_feat()
+-> img_feats = self.img_backbone(img)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(166)extract_img_feat()
+-> if isinstance(img_feats, dict):
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(168)extract_img_feat()
+-> if self.with_img_neck:
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(169)extract_img_feat()
+-> img_feats = self.img_neck(img_feats)
+(Pdb) --Call--
+> /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/module.py(1117)__getattr__()
+-> def __getattr__(self, name: str) -> Union[Tensor, 'Module']:
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/module.py(1118)__getattr__()
+-> if '_parameters' in self.__dict__:
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/module.py(1119)__getattr__()
+-> _parameters = self.__dict__['_parameters']
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/module.py(1120)__getattr__()
+-> if name in _parameters:
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/module.py(1122)__getattr__()
+-> if '_buffers' in self.__dict__:
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/module.py(1123)__getattr__()
+-> _buffers = self.__dict__['_buffers']
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/module.py(1124)__getattr__()
+-> if name in _buffers:
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/module.py(1126)__getattr__()
+-> if '_modules' in self.__dict__:
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/module.py(1127)__getattr__()
+-> modules = self.__dict__['_modules']
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/module.py(1128)__getattr__()
+-> if name in modules:
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/module.py(1129)__getattr__()
+-> return modules[name]
+(Pdb) --Return--
+> /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/module.py(1129)__getattr__()->FPN(
+  (later...n': 'uniform'}
+-> return modules[name]
+(Pdb) --Call--
+> /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/module.py(1045)_call_impl()
+-> def _call_impl(self, *input, **kwargs):
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/module.py(1046)_call_impl()
+-> forward_call = (self._slow_forward if torch._C._get_tracing_state() else self.forward)
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/module.py(1049)_call_impl()
+-> if not (self._backward_hooks or self._forward_hooks or self._forward_pre_hooks or _global_backward_hooks
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/module.py(1050)_call_impl()
+-> or _global_forward_hooks or _global_forward_pre_hooks):
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/module.py(1049)_call_impl()
+-> if not (self._backward_hooks or self._forward_hooks or self._forward_pre_hooks or _global_backward_hooks
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/module.py(1050)_call_impl()
+-> or _global_forward_hooks or _global_forward_pre_hooks):
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/module.py(1049)_call_impl()
+-> if not (self._backward_hooks or self._forward_hooks or self._forward_pre_hooks or _global_backward_hooks
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/module.py(1051)_call_impl()
+-> return forward_call(*input, **kwargs)
+(Pdb) --Call--
+> /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/runner/fp16_utils.py(90)new_func()
+-> @functools.wraps(old_func)
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/runner/fp16_utils.py(94)new_func()
+-> if not isinstance(args[0], torch.nn.Module):
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/runner/fp16_utils.py(97)new_func()
+-> if not (hasattr(args[0], 'fp16_enabled') and args[0].fp16_enabled):
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/runner/fp16_utils.py(98)new_func()
+-> return old_func(*args, **kwargs)
+(Pdb) --Call--
+> /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmdet/models/necks/fpn.py(150)forward()
+-> @auto_fp16()
+(Pdb) 145  	                    norm_cfg=norm_cfg,
+146  	                    act_cfg=act_cfg,
+147  	                    inplace=False)
+148  	                self.fpn_convs.append(extra_fpn_conv)
+149  	
+150  ->	    @auto_fp16()
+151  	    def forward(self, inputs):
+152  	        """Forward function."""
+153  	        assert len(inputs) == len(self.in_channels)
+154  	
+155  	        # build laterals
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmdet/models/necks/fpn.py(153)forward()
+-> assert len(inputs) == len(self.in_channels)
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmdet/models/necks/fpn.py(156)forward()
+-> laterals = [
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmdet/models/necks/fpn.py(158)forward()
+-> for i, lateral_conv in enumerate(self.lateral_convs)
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmdet/models/necks/fpn.py(156)forward()
+-> laterals = [
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmdet/models/necks/fpn.py(162)forward()
+-> used_backbone_levels = len(laterals)
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmdet/models/necks/fpn.py(163)forward()
+-> for i in range(used_backbone_levels - 1, 0, -1):
+(Pdb) 3
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmdet/models/necks/fpn.py(166)forward()
+-> if 'scale_factor' in self.upsample_cfg:
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmdet/models/necks/fpn.py(170)forward()
+-> prev_shape = laterals[i - 1].shape[2:]
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmdet/models/necks/fpn.py(171)forward()
+-> laterals[i - 1] += F.interpolate(
+(Pdb) 166  	            if 'scale_factor' in self.upsample_cfg:
+167  	                laterals[i - 1] += F.interpolate(laterals[i],
+168  	                                                 **self.upsample_cfg)
+169  	            else:
+170  	                prev_shape = laterals[i - 1].shape[2:]
+171  ->	                laterals[i - 1] += F.interpolate(
+172  	                    laterals[i], size=prev_shape, **self.upsample_cfg)
+173  	
+174  	        # build outputs
+175  	        # part 1: from original levels
+176  	        outs = [
+(Pdb) 3
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmdet/models/necks/fpn.py(172)forward()
+-> laterals[i], size=prev_shape, **self.upsample_cfg)
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmdet/models/necks/fpn.py(171)forward()
+-> laterals[i - 1] += F.interpolate(
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmdet/models/necks/fpn.py(172)forward()
+-> laterals[i], size=prev_shape, **self.upsample_cfg)
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmdet/models/necks/fpn.py(171)forward()
+-> laterals[i - 1] += F.interpolate(
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmdet/models/necks/fpn.py(172)forward()
+-> laterals[i], size=prev_shape, **self.upsample_cfg)
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmdet/models/necks/fpn.py(171)forward()
+-> laterals[i - 1] += F.interpolate(
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmdet/models/necks/fpn.py(163)forward()
+-> for i in range(used_backbone_levels - 1, 0, -1):
+(Pdb) 3
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmdet/models/necks/fpn.py(166)forward()
+-> if 'scale_factor' in self.upsample_cfg:
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmdet/models/necks/fpn.py(170)forward()
+-> prev_shape = laterals[i - 1].shape[2:]
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmdet/models/necks/fpn.py(171)forward()
+-> laterals[i - 1] += F.interpolate(
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmdet/models/necks/fpn.py(172)forward()
+-> laterals[i], size=prev_shape, **self.upsample_cfg)
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmdet/models/necks/fpn.py(171)forward()
+-> laterals[i - 1] += F.interpolate(
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmdet/models/necks/fpn.py(172)forward()
+-> laterals[i], size=prev_shape, **self.upsample_cfg)
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmdet/models/necks/fpn.py(171)forward()
+-> laterals[i - 1] += F.interpolate(
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmdet/models/necks/fpn.py(172)forward()
+-> laterals[i], size=prev_shape, **self.upsample_cfg)
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmdet/models/necks/fpn.py(171)forward()
+-> laterals[i - 1] += F.interpolate(
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmdet/models/necks/fpn.py(163)forward()
+-> for i in range(used_backbone_levels - 1, 0, -1):
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmdet/models/necks/fpn.py(176)forward()
+-> outs = [
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmdet/models/necks/fpn.py(177)forward()
+-> self.fpn_convs[i](laterals[i]) for i in range(used_backbone_levels)
+(Pdb) 172  	                    laterals[i], size=prev_shape, **self.upsample_cfg)
+173  	
+174  	        # build outputs
+175  	        # part 1: from original levels
+176  	        outs = [
+177  ->	            self.fpn_convs[i](laterals[i]) for i in range(used_backbone_levels)
+178  	        ]
+179  	        # part 2: add extra levels
+180  	        if self.num_outs > len(outs):
+181  	            # use max pool to get more levels on top of outputs
+182  	            # (e.g., Faster R-CNN, Mask R-CNN)
+(Pdb) 4
+(Pdb) ConvModule(
+  (conv): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+)
+(Pdb) ConvModule(
+  (conv): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+)
+(Pdb) ConvModule(
+  (conv): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+)
+(Pdb) *** IndexError: index 4 is out of range
+(Pdb) ConvModule(
+  (conv): Conv2d(256, 256, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1))
+)
+(Pdb) 183  	            if not self.add_extra_convs:
+184  	                for i in range(self.num_outs - used_backbone_levels):
+185  	                    outs.append(F.max_pool2d(outs[-1], 1, stride=2))
+186  	            # add conv layers on top of original feature maps (RetinaNet)
+187  	            else:
+188  	                if self.add_extra_convs == 'on_input':
+189  	                    extra_source = inputs[self.backbone_end_level - 1]
+190  	                elif self.add_extra_convs == 'on_lateral':
+191  	                    extra_source = laterals[-1]
+192  	                elif self.add_extra_convs == 'on_output':
+193  	                    extra_source = outs[-1]
+(Pdb) *** TypeError: object of type 'int' has no len()
+(Pdb) 3
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmdet/models/necks/fpn.py(176)forward()
+-> outs = [
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmdet/models/necks/fpn.py(180)forward()
+-> if self.num_outs > len(outs):
+(Pdb) 3
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmdet/models/necks/fpn.py(183)forward()
+-> if not self.add_extra_convs:
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmdet/models/necks/fpn.py(188)forward()
+-> if self.add_extra_convs == 'on_input':
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmdet/models/necks/fpn.py(190)forward()
+-> elif self.add_extra_convs == 'on_lateral':
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmdet/models/necks/fpn.py(192)forward()
+-> elif self.add_extra_convs == 'on_output':
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmdet/models/necks/fpn.py(193)forward()
+-> extra_source = outs[-1]
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmdet/models/necks/fpn.py(196)forward()
+-> outs.append(self.fpn_convs[used_backbone_levels](extra_source))
+(Pdb) 3
+(Pdb) torch.Size([6, 256, 29, 50])
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmdet/models/necks/fpn.py(197)forward()
+-> for i in range(used_backbone_levels + 1, self.num_outs):
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmdet/models/necks/fpn.py(202)forward()
+-> return tuple(outs)
+(Pdb) torch.Size([6, 256, 116, 200])
+(Pdb) *** SyntaxError: invalid syntax
+(Pdb) torch.Size([6, 256, 58, 100])
+(Pdb) torch.Size([6, 256, 15, 25])
+(Pdb) --Return--
+> /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmdet/models/necks/fpn.py(202)forward()->(tensor([[[[ 4....8373e+00]]]]), tensor([[[[ 8....9684e+00]]]]), tensor([[[[ 3....4055e+00]]]]), tensor([[[[ 2....4803e+01]]]]))
+-> return tuple(outs)
+(Pdb) --Return--
+> /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/runner/fp16_utils.py(98)new_func()->(tensor([[[[ 4....8373e+00]]]]), tensor([[[[ 8....9684e+00]]]]), tensor([[[[ 3....4055e+00]]]]), tensor([[[[ 2....4803e+01]]]]))
+-> return old_func(*args, **kwargs)
+(Pdb) --Return--
+> /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/module.py(1051)_call_impl()->(tensor([[[[ 4....8373e+00]]]]), tensor([[[[ 8....9684e+00]]]]), tensor([[[[ 3....4055e+00]]]]), tensor([[[[ 2....4803e+01]]]]))
+-> return forward_call(*input, **kwargs)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(171)extract_img_feat()
+-> img_feats_reshaped = []
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(172)extract_img_feat()
+-> for img_feat in img_feats:
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(173)extract_img_feat()
+-> _, c, h, w = img_feat.size()
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(174)extract_img_feat()
+-> if len_queue is not None:
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(177)extract_img_feat()
+-> img_feat_reshaped = img_feat.view(B, N, c, h, w)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(178)extract_img_feat()
+-> img_feats_reshaped.append(img_feat_reshaped)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(172)extract_img_feat()
+-> for img_feat in img_feats:
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(173)extract_img_feat()
+-> _, c, h, w = img_feat.size()
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(174)extract_img_feat()
+-> if len_queue is not None:
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(177)extract_img_feat()
+-> img_feat_reshaped = img_feat.view(B, N, c, h, w)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(178)extract_img_feat()
+-> img_feats_reshaped.append(img_feat_reshaped)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(172)extract_img_feat()
+-> for img_feat in img_feats:
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(173)extract_img_feat()
+-> _, c, h, w = img_feat.size()
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(174)extract_img_feat()
+-> if len_queue is not None:
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(177)extract_img_feat()
+-> img_feat_reshaped = img_feat.view(B, N, c, h, w)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(178)extract_img_feat()
+-> img_feats_reshaped.append(img_feat_reshaped)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(172)extract_img_feat()
+-> for img_feat in img_feats:
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(173)extract_img_feat()
+-> _, c, h, w = img_feat.size()
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(174)extract_img_feat()
+-> if len_queue is not None:
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(177)extract_img_feat()
+-> img_feat_reshaped = img_feat.view(B, N, c, h, w)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(178)extract_img_feat()
+-> img_feats_reshaped.append(img_feat_reshaped)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(172)extract_img_feat()
+-> for img_feat in img_feats:
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(179)extract_img_feat()
+-> return img_feats_reshaped
+(Pdb) --Return--
+> /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(179)extract_img_feat()->[tensor([[[[[ ...8373e+00]]]]]), tensor([[[[[ ...9684e+00]]]]]), tensor([[[[[ ...4055e+00]]]]]), tensor([[[[[ ...4803e+01]]]]])]
+-> return img_feats_reshaped
+(Pdb) torch.Size([1, 6, 256, 116, 200])
+(Pdb) torch.Size([1, 6, 256, 58, 100])
+(Pdb) torch.Size([1, 6, 256, 29, 50])
+(Pdb) torch.Size([1, 6, 256, 15, 25])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(346)get_bevs()
+-> if self.freeze_bev_encoder:
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(347)get_bevs()
+-> with torch.no_grad():
+(Pdb) 342  	            assert prev_bev is None
+343  	            prev_bev = self.get_history_bev(prev_img, prev_img_metas)
+344  	
+345  	        img_feats = self.extract_img_feat(img=imgs)
+346  	        if self.freeze_bev_encoder:
+347  ->	            with torch.no_grad():
+348  	                bev_embed, bev_pos = self.pts_bbox_head.get_bev_features(
+349  	                    mlvl_feats=img_feats, img_metas=img_metas, prev_bev=prev_bev)
+350  	        else:
+351  	            bev_embed, bev_pos = self.pts_bbox_head.get_bev_features(
+352  	                    mlvl_feats=img_feats, img_metas=img_metas, prev_bev=prev_bev)
+(Pdb) torch.Size([1, 6, 256, 116, 200])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(348)get_bevs()
+-> bev_embed, bev_pos = self.pts_bbox_head.get_bev_features(
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(349)get_bevs()
+-> mlvl_feats=img_feats, img_metas=img_metas, prev_bev=prev_bev)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(348)get_bevs()
+-> bev_embed, bev_pos = self.pts_bbox_head.get_bev_features(
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(354)get_bevs()
+-> if bev_embed.shape[1] == self.bev_h * self.bev_w:
+(Pdb) 349  	                    mlvl_feats=img_feats, img_metas=img_metas, prev_bev=prev_bev)
+350  	        else:
+351  	            bev_embed, bev_pos = self.pts_bbox_head.get_bev_features(
+352  	                    mlvl_feats=img_feats, img_metas=img_metas, prev_bev=prev_bev)
+353  	
+354  ->	        if bev_embed.shape[1] == self.bev_h * self.bev_w:
+355  	            bev_embed = bev_embed.permute(1, 0, 2)
+356  	
+357  	        assert bev_embed.shape[0] == self.bev_h * self.bev_w
+358  	        return bev_embed, bev_pos
+359  	
+(Pdb) torch.Size([1, 40000, 256])
+(Pdb) 

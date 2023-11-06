@@ -1,0 +1,549 @@
+NOTE: Redirects are currently not supported in Windows or MacOs.
+/opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/distributed/launch.py:163: DeprecationWarning: The 'warn' method is deprecated, use 'warning' instead
+  logger.warn(
+The module torch.distributed.launch is deprecated and going to be removed in future.Migrate to torch.distributed.run
+WARNING:torch.distributed.run:--use_env is deprecated and will be removed in future releases.
+ Please read local_rank from `os.environ('LOCAL_RANK')` instead.
+INFO:torch.distributed.launcher.api:Starting elastic_operator with launch configs:
+  entrypoint       : ./tools/test.py
+  min_nodes        : 1
+  max_nodes        : 1
+  nproc_per_node   : 1
+  run_id           : none
+  rdzv_backend     : static
+  rdzv_endpoint    : 127.0.0.1:28596
+  rdzv_configs     : {'rank': 0, 'timeout': 900}
+  max_restarts     : 3
+  monitor_interval : 5
+  log_dir          : None
+  metrics_cfg      : {}
+
+INFO:torch.distributed.elastic.agent.server.local_elastic_agent:log directory set to: /var/folders/bl/c09z1sm91mxfb8z7mn7v4rhh0000gq/T/torchelastic_kc887qph/none_f9_anpo_
+INFO:torch.distributed.elastic.agent.server.api:[default] starting workers for entrypoint: python
+INFO:torch.distributed.elastic.agent.server.api:[default] Rendezvous'ing worker group
+/opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/distributed/elastic/utils/store.py:52: FutureWarning: This is an experimental API and will be changed in future.
+  warnings.warn(
+INFO:torch.distributed.elastic.agent.server.api:[default] Rendezvous complete for workers. Result:
+  restart_count=0
+  master_addr=127.0.0.1
+  master_port=28596
+  group_rank=0
+  group_world_size=1
+  local_ranks=[0]
+  role_ranks=[0]
+  global_ranks=[0]
+  role_world_sizes=[1]
+  global_world_sizes=[1]
+
+INFO:torch.distributed.elastic.agent.server.api:[default] Starting worker group
+INFO:torch.distributed.elastic.multiprocessing:Setting worker0 reply file to: /var/folders/bl/c09z1sm91mxfb8z7mn7v4rhh0000gq/T/torchelastic_kc887qph/none_f9_anpo_/attempt_0/0/error.json
+projects.mmdet3d_plugin
+======
+Loading NuScenes tables for version v1.0-trainval...
+23 category,
+8 attribute,
+4 visibility,
+64386 instance,
+12 sensor,
+10200 calibrated_sensor,
+2631083 ego_pose,
+68 log,
+850 scene,
+34149 sample,
+2631083 sample_data,
+1166187 sample_annotation,
+4 map,
+Done loading in 21.551 seconds.
+======
+Reverse indexing ...
+Done reverse indexing in 6.2 seconds.
+======
+load checkpoint from local path: ./ckpts/uniad_base_e2e.pth
+2023-07-27 14:59:31,288 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.0.conv2 is upgraded to version 2.
+2023-07-27 14:59:31,292 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.1.conv2 is upgraded to version 2.
+2023-07-27 14:59:31,294 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.2.conv2 is upgraded to version 2.
+2023-07-27 14:59:31,297 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.3.conv2 is upgraded to version 2.
+2023-07-27 14:59:31,299 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.4.conv2 is upgraded to version 2.
+2023-07-27 14:59:31,301 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.5.conv2 is upgraded to version 2.
+2023-07-27 14:59:31,304 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.6.conv2 is upgraded to version 2.
+2023-07-27 14:59:31,306 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.7.conv2 is upgraded to version 2.
+2023-07-27 14:59:31,308 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.8.conv2 is upgraded to version 2.
+2023-07-27 14:59:31,311 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.9.conv2 is upgraded to version 2.
+2023-07-27 14:59:31,313 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.10.conv2 is upgraded to version 2.
+2023-07-27 14:59:31,316 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.11.conv2 is upgraded to version 2.
+2023-07-27 14:59:31,318 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.12.conv2 is upgraded to version 2.
+2023-07-27 14:59:31,320 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.13.conv2 is upgraded to version 2.
+2023-07-27 14:59:31,323 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.14.conv2 is upgraded to version 2.
+2023-07-27 14:59:31,325 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.15.conv2 is upgraded to version 2.
+2023-07-27 14:59:31,328 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.16.conv2 is upgraded to version 2.
+2023-07-27 14:59:31,330 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.17.conv2 is upgraded to version 2.
+2023-07-27 14:59:31,332 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.18.conv2 is upgraded to version 2.
+2023-07-27 14:59:31,335 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.19.conv2 is upgraded to version 2.
+2023-07-27 14:59:31,337 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.20.conv2 is upgraded to version 2.
+2023-07-27 14:59:31,340 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.21.conv2 is upgraded to version 2.
+2023-07-27 14:59:31,342 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.22.conv2 is upgraded to version 2.
+2023-07-27 14:59:31,345 - root - INFO - ModulatedDeformConvPack img_backbone.layer4.0.conv2 is upgraded to version 2.
+2023-07-27 14:59:31,349 - root - INFO - ModulatedDeformConvPack img_backbone.layer4.1.conv2 is upgraded to version 2.
+2023-07-27 14:59:31,352 - root - INFO - ModulatedDeformConvPack img_backbone.layer4.2.conv2 is upgraded to version 2.
+The model and loaded state dict do not match exactly
+
+size mismatch for seg_head.transformer.encoder.layers.0.attentions.0.sampling_offsets.weight: copying a param with shape torch.Size([256, 256]) from checkpoint, the shape in current model is torch.Size([64, 256]).
+size mismatch for seg_head.transformer.encoder.layers.0.attentions.0.sampling_offsets.bias: copying a param with shape torch.Size([256]) from checkpoint, the shape in current model is torch.Size([64]).
+size mismatch for seg_head.transformer.encoder.layers.0.attentions.0.attention_weights.weight: copying a param with shape torch.Size([128, 256]) from checkpoint, the shape in current model is torch.Size([32, 256]).
+size mismatch for seg_head.transformer.encoder.layers.0.attentions.0.attention_weights.bias: copying a param with shape torch.Size([128]) from checkpoint, the shape in current model is torch.Size([32]).
+size mismatch for seg_head.transformer.encoder.layers.1.attentions.0.sampling_offsets.weight: copying a param with shape torch.Size([256, 256]) from checkpoint, the shape in current model is torch.Size([64, 256]).
+size mismatch for seg_head.transformer.encoder.layers.1.attentions.0.sampling_offsets.bias: copying a param with shape torch.Size([256]) from checkpoint, the shape in current model is torch.Size([64]).
+size mismatch for seg_head.transformer.encoder.layers.1.attentions.0.attention_weights.weight: copying a param with shape torch.Size([128, 256]) from checkpoint, the shape in current model is torch.Size([32, 256]).
+size mismatch for seg_head.transformer.encoder.layers.1.attentions.0.attention_weights.bias: copying a param with shape torch.Size([128]) from checkpoint, the shape in current model is torch.Size([32]).
+size mismatch for seg_head.transformer.encoder.layers.2.attentions.0.sampling_offsets.weight: copying a param with shape torch.Size([256, 256]) from checkpoint, the shape in current model is torch.Size([64, 256]).
+size mismatch for seg_head.transformer.encoder.layers.2.attentions.0.sampling_offsets.bias: copying a param with shape torch.Size([256]) from checkpoint, the shape in current model is torch.Size([64]).
+size mismatch for seg_head.transformer.encoder.layers.2.attentions.0.attention_weights.weight: copying a param with shape torch.Size([128, 256]) from checkpoint, the shape in current model is torch.Size([32, 256]).
+size mismatch for seg_head.transformer.encoder.layers.2.attentions.0.attention_weights.bias: copying a param with shape torch.Size([128]) from checkpoint, the shape in current model is torch.Size([32]).
+size mismatch for seg_head.transformer.encoder.layers.3.attentions.0.sampling_offsets.weight: copying a param with shape torch.Size([256, 256]) from checkpoint, the shape in current model is torch.Size([64, 256]).
+size mismatch for seg_head.transformer.encoder.layers.3.attentions.0.sampling_offsets.bias: copying a param with shape torch.Size([256]) from checkpoint, the shape in current model is torch.Size([64]).
+size mismatch for seg_head.transformer.encoder.layers.3.attentions.0.attention_weights.weight: copying a param with shape torch.Size([128, 256]) from checkpoint, the shape in current model is torch.Size([32, 256]).
+size mismatch for seg_head.transformer.encoder.layers.3.attentions.0.attention_weights.bias: copying a param with shape torch.Size([128]) from checkpoint, the shape in current model is torch.Size([32]).
+size mismatch for seg_head.transformer.encoder.layers.4.attentions.0.sampling_offsets.weight: copying a param with shape torch.Size([256, 256]) from checkpoint, the shape in current model is torch.Size([64, 256]).
+size mismatch for seg_head.transformer.encoder.layers.4.attentions.0.sampling_offsets.bias: copying a param with shape torch.Size([256]) from checkpoint, the shape in current model is torch.Size([64]).
+size mismatch for seg_head.transformer.encoder.layers.4.attentions.0.attention_weights.weight: copying a param with shape torch.Size([128, 256]) from checkpoint, the shape in current model is torch.Size([32, 256]).
+size mismatch for seg_head.transformer.encoder.layers.4.attentions.0.attention_weights.bias: copying a param with shape torch.Size([128]) from checkpoint, the shape in current model is torch.Size([32]).
+size mismatch for seg_head.transformer.encoder.layers.5.attentions.0.sampling_offsets.weight: copying a param with shape torch.Size([256, 256]) from checkpoint, the shape in current model is torch.Size([64, 256]).
+size mismatch for seg_head.transformer.encoder.layers.5.attentions.0.sampling_offsets.bias: copying a param with shape torch.Size([256]) from checkpoint, the shape in current model is torch.Size([64]).
+size mismatch for seg_head.transformer.encoder.layers.5.attentions.0.attention_weights.weight: copying a param with shape torch.Size([128, 256]) from checkpoint, the shape in current model is torch.Size([32, 256]).
+size mismatch for seg_head.transformer.encoder.layers.5.attentions.0.attention_weights.bias: copying a param with shape torch.Size([128]) from checkpoint, the shape in current model is torch.Size([32]).
+size mismatch for seg_head.transformer.decoder.layers.0.attentions.1.sampling_offsets.weight: copying a param with shape torch.Size([256, 256]) from checkpoint, the shape in current model is torch.Size([64, 256]).
+size mismatch for seg_head.transformer.decoder.layers.0.attentions.1.sampling_offsets.bias: copying a param with shape torch.Size([256]) from checkpoint, the shape in current model is torch.Size([64]).
+size mismatch for seg_head.transformer.decoder.layers.0.attentions.1.attention_weights.weight: copying a param with shape torch.Size([128, 256]) from checkpoint, the shape in current model is torch.Size([32, 256]).
+size mismatch for seg_head.transformer.decoder.layers.0.attentions.1.attention_weights.bias: copying a param with shape torch.Size([128]) from checkpoint, the shape in current model is torch.Size([32]).
+size mismatch for seg_head.transformer.decoder.layers.1.attentions.1.sampling_offsets.weight: copying a param with shape torch.Size([256, 256]) from checkpoint, the shape in current model is torch.Size([64, 256]).
+size mismatch for seg_head.transformer.decoder.layers.1.attentions.1.sampling_offsets.bias: copying a param with shape torch.Size([256]) from checkpoint, the shape in current model is torch.Size([64]).
+size mismatch for seg_head.transformer.decoder.layers.1.attentions.1.attention_weights.weight: copying a param with shape torch.Size([128, 256]) from checkpoint, the shape in current model is torch.Size([32, 256]).
+size mismatch for seg_head.transformer.decoder.layers.1.attentions.1.attention_weights.bias: copying a param with shape torch.Size([128]) from checkpoint, the shape in current model is torch.Size([32]).
+size mismatch for seg_head.transformer.decoder.layers.2.attentions.1.sampling_offsets.weight: copying a param with shape torch.Size([256, 256]) from checkpoint, the shape in current model is torch.Size([64, 256]).
+size mismatch for seg_head.transformer.decoder.layers.2.attentions.1.sampling_offsets.bias: copying a param with shape torch.Size([256]) from checkpoint, the shape in current model is torch.Size([64]).
+size mismatch for seg_head.transformer.decoder.layers.2.attentions.1.attention_weights.weight: copying a param with shape torch.Size([128, 256]) from checkpoint, the shape in current model is torch.Size([32, 256]).
+size mismatch for seg_head.transformer.decoder.layers.2.attentions.1.attention_weights.bias: copying a param with shape torch.Size([128]) from checkpoint, the shape in current model is torch.Size([32]).
+size mismatch for seg_head.transformer.decoder.layers.3.attentions.1.sampling_offsets.weight: copying a param with shape torch.Size([256, 256]) from checkpoint, the shape in current model is torch.Size([64, 256]).
+size mismatch for seg_head.transformer.decoder.layers.3.attentions.1.sampling_offsets.bias: copying a param with shape torch.Size([256]) from checkpoint, the shape in current model is torch.Size([64]).
+size mismatch for seg_head.transformer.decoder.layers.3.attentions.1.attention_weights.weight: copying a param with shape torch.Size([128, 256]) from checkpoint, the shape in current model is torch.Size([32, 256]).
+size mismatch for seg_head.transformer.decoder.layers.3.attentions.1.attention_weights.bias: copying a param with shape torch.Size([128]) from checkpoint, the shape in current model is torch.Size([32]).
+size mismatch for seg_head.transformer.decoder.layers.4.attentions.1.sampling_offsets.weight: copying a param with shape torch.Size([256, 256]) from checkpoint, the shape in current model is torch.Size([64, 256]).
+size mismatch for seg_head.transformer.decoder.layers.4.attentions.1.sampling_offsets.bias: copying a param with shape torch.Size([256]) from checkpoint, the shape in current model is torch.Size([64]).
+size mismatch for seg_head.transformer.decoder.layers.4.attentions.1.attention_weights.weight: copying a param with shape torch.Size([128, 256]) from checkpoint, the shape in current model is torch.Size([32, 256]).
+size mismatch for seg_head.transformer.decoder.layers.4.attentions.1.attention_weights.bias: copying a param with shape torch.Size([128]) from checkpoint, the shape in current model is torch.Size([32]).
+size mismatch for seg_head.transformer.decoder.layers.5.attentions.1.sampling_offsets.weight: copying a param with shape torch.Size([256, 256]) from checkpoint, the shape in current model is torch.Size([64, 256]).
+size mismatch for seg_head.transformer.decoder.layers.5.attentions.1.sampling_offsets.bias: copying a param with shape torch.Size([256]) from checkpoint, the shape in current model is torch.Size([64]).
+size mismatch for seg_head.transformer.decoder.layers.5.attentions.1.attention_weights.weight: copying a param with shape torch.Size([128, 256]) from checkpoint, the shape in current model is torch.Size([32, 256]).
+size mismatch for seg_head.transformer.decoder.layers.5.attentions.1.attention_weights.bias: copying a param with shape torch.Size([128]) from checkpoint, the shape in current model is torch.Size([32]).
+unexpected key in source state_dict: bbox_size_fc.weight, bbox_size_fc.bias, pts_bbox_head.query_embedding.weight, pts_bbox_head.transformer.reference_points.weight, pts_bbox_head.transformer.reference_points.bias
+
+> /Users/liangming.xu/code/UniAD/tools/test.py(230)main()
+-> result = model(return_loss=False, rescale=True, **data)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(724)simple_test_track()
+-> bs = img.size(0)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_e2e.py(297)forward_test()
+-> result_track[0] = self.upsample_bev_if_tiny(result_track[0])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/panseg_head.py(1013)forward_test()
+-> bbox_list = [dict() for i in range(len(img_metas))]
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/panseg_head.py(227)forward()
+-> enc_outputs_class, enc_outputs_coord = self.transformer(
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head.py(170)forward_test()
+-> track_query = outs_track['track_query_embeddings'][None, None, ...]
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/modules.py(93)forward()
+-> intermediate = []
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/modules.py(279)forward()
+-> B, A, P, D = query.shape
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/modules.py(204)forward()
+-> B, A, P, D = query.shape
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/modules.py(243)forward()
+-> B, A, P, D = query.shape
+(Pdb) 238  	        '''
+239  	        x: context query (B, A, P, D)
+240  	        query_pos: mode pos embedding (B, A, P, D)
+241  	        '''
+242  	        import pdb; pdb.set_trace()
+243  ->	        B, A, P, D = query.shape
+244  	        if query_pos is not None:
+245  	            query = query + query_pos
+246  	        if key_pos is not None:
+247  	            key = key + key_pos
+248  	
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/motion_deformable_attn.py(400)forward()
+-> bs, num_agent, num_mode, _ = query.shape
+(Pdb) torch.Size([1, 4, 6, 256])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/motion_deformable_attn.py(401)forward()
+-> num_query = num_agent * num_mode
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/motion_deformable_attn.py(402)forward()
+-> if value is None:
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/motion_deformable_attn.py(404)forward()
+-> if identity is None:
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/motion_deformable_attn.py(405)forward()
+-> identity = query
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/motion_deformable_attn.py(406)forward()
+-> if query_pos is not None:
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/motion_deformable_attn.py(407)forward()
+-> query = query + query_pos
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/motion_deformable_attn.py(408)forward()
+-> query = torch.flatten(query, start_dim=1, end_dim=2)
+(Pdb) torch.Size([1, 4, 6, 256])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/motion_deformable_attn.py(410)forward()
+-> value = value.permute(1, 0, 2)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/motion_deformable_attn.py(411)forward()
+-> bs, num_value, _ = value.shape
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/motion_deformable_attn.py(412)forward()
+-> assert (spatial_shapes[:, 0] * spatial_shapes[:, 1]).sum() == num_value
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/motion_deformable_attn.py(414)forward()
+-> value = self.value_proj(value)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/motion_deformable_attn.py(415)forward()
+-> if key_padding_mask is not None:
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/motion_deformable_attn.py(417)forward()
+-> value = value.view(bs, num_value, self.num_heads, -1)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/motion_deformable_attn.py(418)forward()
+-> sampling_offsets = self.sampling_offsets(query).view(
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/motion_deformable_attn.py(419)forward()
+-> bs, num_query, self.num_heads, self.num_steps, self.num_levels, self.num_points, 2)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/motion_deformable_attn.py(418)forward()
+-> sampling_offsets = self.sampling_offsets(query).view(
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/motion_deformable_attn.py(420)forward()
+-> attention_weights = self.attention_weights(query).view(
+(Pdb) torch.Size([1, 24, 8, 12, 1, 4, 2])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/motion_deformable_attn.py(421)forward()
+-> bs, num_query, self.num_heads, self.num_steps, self.num_levels * self.num_points)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/motion_deformable_attn.py(420)forward()
+-> attention_weights = self.attention_weights(query).view(
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/motion_deformable_attn.py(422)forward()
+-> attention_weights = attention_weights.softmax(-1)
+(Pdb) torch.Size([1, 24, 8, 12, 4])
+(Pdb) torch.Size([1, 40000, 8, 32])
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/utils/misc.py(340)new_func()
+-> output = old_func(*args, **kwargs)
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/module.py(1051)_call_impl()
+-> return forward_call(*input, **kwargs)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/motion_deformable_attn.py(222)forward()
+-> query = self.attentions[attn_index](
+(Pdb) torch.Size([40000, 1, 256])
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/module.py(1051)_call_impl()
+-> return forward_call(*input, **kwargs)
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/utils/misc.py(340)new_func()
+-> output = old_func(*args, **kwargs)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/motion_deformable_attn.py(422)forward()
+-> attention_weights = attention_weights.softmax(-1)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/motion_deformable_attn.py(424)forward()
+-> attention_weights = attention_weights.view(bs, num_query,
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/motion_deformable_attn.py(425)forward()
+-> self.num_heads,
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/motion_deformable_attn.py(426)forward()
+-> self.num_steps,
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/motion_deformable_attn.py(427)forward()
+-> self.num_levels,
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/motion_deformable_attn.py(428)forward()
+-> self.num_points)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/motion_deformable_attn.py(424)forward()
+-> attention_weights = attention_weights.view(bs, num_query,
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/motion_deformable_attn.py(431)forward()
+-> if reference_trajs.shape[-1] == 2:
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/motion_deformable_attn.py(432)forward()
+-> reference_trajs = reference_trajs[:, :, :, [self.sample_index], :, :]
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/motion_deformable_attn.py(433)forward()
+-> reference_trajs_ego = self.agent_coords_to_ego_coords(copy.deepcopy(reference_trajs), bbox_results).detach()
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/motion_deformable_attn.py(434)forward()
+-> reference_trajs_ego = torch.flatten(reference_trajs_ego, start_dim=1, end_dim=2)
+(Pdb) torch.Size([1, 4, 6, 1, 1, 2])
+(Pdb) -1
+(Pdb) torch.Size([1, 24, 8, 12, 1, 4, 2])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/motion_deformable_attn.py(435)forward()
+-> reference_trajs_ego = reference_trajs_ego[:, :, None, :, :, None, :]
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/motion_deformable_attn.py(436)forward()
+-> reference_trajs_ego[..., 0] -= self.bev_range[0]
+(Pdb) torch.Size([1, 24, 1, 1, 1, 1, 2])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/motion_deformable_attn.py(437)forward()
+-> reference_trajs_ego[..., 1] -= self.bev_range[1]
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/motion_deformable_attn.py(438)forward()
+-> reference_trajs_ego[..., 0] /= (self.bev_range[3] - self.bev_range[0])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/motion_deformable_attn.py(439)forward()
+-> reference_trajs_ego[..., 1] /= (self.bev_range[4] - self.bev_range[1])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/motion_deformable_attn.py(440)forward()
+-> offset_normalizer = torch.stack(
+(Pdb) 435  	            reference_trajs_ego = reference_trajs_ego[:, :, None, :, :, None, :]
+436  	            reference_trajs_ego[..., 0] -= self.bev_range[0]
+437  	            reference_trajs_ego[..., 1] -= self.bev_range[1]
+438  	            reference_trajs_ego[..., 0] /= (self.bev_range[3] - self.bev_range[0])
+439  	            reference_trajs_ego[..., 1] /= (self.bev_range[4] - self.bev_range[1])
+440  ->	            offset_normalizer = torch.stack(
+441  	                [spatial_shapes[..., 1], spatial_shapes[..., 0]], -1)
+442  	            sampling_locations = reference_trajs_ego \
+443  	                + sampling_offsets \
+444  	                / offset_normalizer[None, None, None, None, :, None, :]
+445  	
+(Pdb) torch.Size([1, 24, 1, 1, 1, 1, 2])
+(Pdb) torch.Size([1, 24, 8, 12, 1, 4, 2])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/motion_deformable_attn.py(441)forward()
+-> [spatial_shapes[..., 1], spatial_shapes[..., 0]], -1)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/motion_deformable_attn.py(440)forward()
+-> offset_normalizer = torch.stack(
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/motion_deformable_attn.py(442)forward()
+-> sampling_locations = reference_trajs_ego \
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/motion_deformable_attn.py(443)forward()
+-> + sampling_offsets \
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/motion_deformable_attn.py(444)forward()
+-> / offset_normalizer[None, None, None, None, :, None, :]
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/motion_deformable_attn.py(443)forward()
+-> + sampling_offsets \
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/motion_deformable_attn.py(442)forward()
+-> sampling_locations = reference_trajs_ego \
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/motion_deformable_attn.py(446)forward()
+-> sampling_locations = rearrange(sampling_locations, 'bs nq nh ns nl np c -> bs nq ns nh nl np c') # permute([0,1,3,2,4,5,6])
+(Pdb) torch.Size([1, 24, 8, 12, 1, 4, 2])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/motion_deformable_attn.py(447)forward()
+-> attention_weights = rearrange(attention_weights, 'bs nq nh ns nl np -> bs nq ns nh nl np') #.permute([0,1,3,2,4,5])
+(Pdb) torch.Size([1, 24, 8, 12, 1, 4])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/motion_deformable_attn.py(448)forward()
+-> sampling_locations = sampling_locations.reshape(bs, num_query*self.num_steps, self.num_heads, self.num_levels, self.num_points, 2)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/motion_deformable_attn.py(449)forward()
+-> attention_weights = attention_weights.reshape(bs, num_query*self.num_steps, self.num_heads, self.num_levels, self.num_points)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/motion_deformable_attn.py(455)forward()
+-> if torch.cuda.is_available() and value.is_cuda:
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/motion_deformable_attn.py(466)forward()
+-> output = multi_scale_deformable_attn_pytorch(
+(Pdb) 461  	                MultiScaleDeformableAttnFunction = MultiScaleDeformableAttnFunction_fp32
+462  	            output = MultiScaleDeformableAttnFunction.apply(
+463  	                value, spatial_shapes, level_start_index, sampling_locations,
+464  	                attention_weights, self.im2col_step)
+465  	        else:
+466  ->	            output = multi_scale_deformable_attn_pytorch(
+467  	                value, spatial_shapes, sampling_locations, attention_weights)
+468  	        output = output.view(bs, num_query, self.num_steps, -1)
+469  	        output = torch.flatten(output, start_dim=2, end_dim=3)
+470  	        output = self.output_proj(output)
+471  	        output = output.view(bs, num_agent, num_mode, -1)
+(Pdb) torch.Size([1, 40000, 8, 32])
+(Pdb) torch.Size([1, 288, 8, 1, 4, 2])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/motion_deformable_attn.py(467)forward()
+-> value, spatial_shapes, sampling_locations, attention_weights)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/motion_deformable_attn.py(466)forward()
+-> output = multi_scale_deformable_attn_pytorch(
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/motion_deformable_attn.py(468)forward()
+-> output = output.view(bs, num_query, self.num_steps, -1)
+(Pdb) torch.Size([1, 288, 256])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/motion_deformable_attn.py(469)forward()
+-> output = torch.flatten(output, start_dim=2, end_dim=3)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/motion_deformable_attn.py(470)forward()
+-> output = self.output_proj(output)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/motion_deformable_attn.py(471)forward()
+-> output = output.view(bs, num_agent, num_mode, -1)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/motion_deformable_attn.py(472)forward()
+-> return self.dropout(output) + identity
+(Pdb) torch.Size([1, 4, 6, 256])
+(Pdb) --Return--
+> /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/motion_deformable_attn.py(472)forward()->tensor([[[[ 1....4641e+00]]]])
+-> return self.dropout(output) + identity
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/utils/misc.py(341)new_func()
+-> return output
+(Pdb) --Return--
+> /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/utils/misc.py(341)new_func()->tensor([[[[ 1....4641e+00]]]])
+-> return output
+(Pdb) --Return--
+> /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/module.py(1051)_call_impl()->tensor([[[[ 1....4641e+00]]]])
+-> return forward_call(*input, **kwargs)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/motion_deformable_attn.py(232)forward()
+-> attn_index += 1
+(Pdb) 227  	                    query_pos=query_pos,
+228  	                    key_pos=key_pos,
+229  	                    attn_mask=attn_masks[attn_index],
+230  	                    key_padding_mask=key_padding_mask,
+231  	                    **kwargs)
+232  ->	                attn_index += 1
+233  	                identity = query
+234  	
+235  	            elif layer == 'ffn':
+236  	                query = self.ffns[ffn_index](
+237  	                    query, identity if self.pre_norm else None)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/motion_deformable_attn.py(233)forward()
+-> identity = query
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/motion_deformable_attn.py(201)forward()
+-> for layer in self.operation_order:
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/motion_deformable_attn.py(202)forward()
+-> if layer == 'self_attn':
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/motion_deformable_attn.py(217)forward()
+-> elif layer == 'norm':
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/motion_deformable_attn.py(218)forward()
+-> query = self.norms[norm_index](query)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/motion_deformable_attn.py(219)forward()
+-> norm_index += 1
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/motion_deformable_attn.py(201)forward()
+-> for layer in self.operation_order:
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/motion_deformable_attn.py(202)forward()
+-> if layer == 'self_attn':
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/motion_deformable_attn.py(217)forward()
+-> elif layer == 'norm':
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/motion_deformable_attn.py(221)forward()
+-> elif layer == 'cross_attn':
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/motion_deformable_attn.py(235)forward()
+-> elif layer == 'ffn':
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/motion_deformable_attn.py(236)forward()
+-> query = self.ffns[ffn_index](
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/motion_deformable_attn.py(237)forward()
+-> query, identity if self.pre_norm else None)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/motion_deformable_attn.py(236)forward()
+-> query = self.ffns[ffn_index](
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/motion_deformable_attn.py(238)forward()
+-> ffn_index += 1
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/motion_deformable_attn.py(201)forward()
+-> for layer in self.operation_order:
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/motion_deformable_attn.py(202)forward()
+-> if layer == 'self_attn':
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/motion_deformable_attn.py(217)forward()
+-> elif layer == 'norm':
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/motion_deformable_attn.py(218)forward()
+-> query = self.norms[norm_index](query)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/motion_deformable_attn.py(219)forward()
+-> norm_index += 1
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/motion_deformable_attn.py(201)forward()
+-> for layer in self.operation_order:
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/motion_deformable_attn.py(240)forward()
+-> return query
+(Pdb) torch.Size([1, 4, 6, 256])
+(Pdb) --Return--
+> /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/motion_deformable_attn.py(240)forward()->tensor([[[[ 0...,  0.8373]]]])
+-> return query
+(Pdb) --Return--
+> /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/module.py(1051)_call_impl()->tensor([[[[ 0...,  0.8373]]]])
+-> return forward_call(*input, **kwargs)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/modules.py(138)forward()
+-> query_embed = [track_query_embed, map_query_embed, bev_query_embed, track_query_bc+track_query_pos_bc]
+(Pdb) 133  	                bbox_results=track_bbox_results,
+134  	                reference_trajs=reference_trajs_input,
+135  	                **kwargs)
+136  	
+137  	            # fusing the embeddings from different interaction layers
+138  ->	            query_embed = [track_query_embed, map_query_embed, bev_query_embed, track_query_bc+track_query_pos_bc]
+139  	            query_embed = torch.cat(query_embed, dim=-1)
+140  	            query_embed = self.out_query_fuser(query_embed)
+141  	
+142  	            if traj_reg_branches is not None:
+143  	                # update reference trajectory
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/modules.py(139)forward()
+-> query_embed = torch.cat(query_embed, dim=-1)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/modules.py(140)forward()
+-> query_embed = self.out_query_fuser(query_embed)
+(Pdb) torch.Size([1, 4, 6, 1024])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/modules.py(142)forward()
+-> if traj_reg_branches is not None:
+(Pdb) torch.Size([1, 4, 6, 256])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/modules.py(144)forward()
+-> tmp = traj_reg_branches[lid](query_embed)
+(Pdb) Sequential(
+  (0): Linear(in_features=256, out_features=256, bias=True)
+  (1): ReLU()
+  (2): Linear(in_features=256, out_features=256, bias=True)
+  (3): ReLU()
+  (4): Linear(in_features=256, out_features=60, bias=True)
+)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/modules.py(145)forward()
+-> bs, n_agent, n_modes, n_steps, _ = reference_trajs.shape
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/modules.py(146)forward()
+-> tmp = tmp.view(bs, n_agent, n_modes, n_steps, -1)
+(Pdb) torch.Size([1, 4, 6, 60])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/modules.py(149)forward()
+-> tmp[..., :2] = torch.cumsum(tmp[..., :2], dim=3)
+(Pdb) torch.Size([1, 4, 6, 12, 5])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/modules.py(150)forward()
+-> new_reference_trajs = torch.zeros_like(reference_trajs)
+(Pdb) torch.Size([1, 4, 6, 12, 5])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/modules.py(151)forward()
+-> new_reference_trajs = tmp[..., :2]
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/modules.py(152)forward()
+-> reference_trajs = new_reference_trajs.detach()
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/modules.py(153)forward()
+-> reference_trajs_input = reference_trajs.unsqueeze(4)  # BS NUM_AGENT NUM_MODE 12 NUM_LEVEL  2
+(Pdb) torch.Size([1, 4, 6, 12, 2])
+(Pdb) *** Newest frame
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/modules.py(157)forward()
+-> ep_offset_embed = reference_trajs.detach()
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/modules.py(158)forward()
+-> ep_ego_embed = trajectory_coordinate_transform(reference_trajs.unsqueeze(
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/modules.py(159)forward()
+-> 2), track_bbox_results, with_translation_transform=True, with_rotation_transform=False).squeeze(2).detach()
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/modules.py(158)forward()
+-> ep_ego_embed = trajectory_coordinate_transform(reference_trajs.unsqueeze(
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/modules.py(159)forward()
+-> 2), track_bbox_results, with_translation_transform=True, with_rotation_transform=False).squeeze(2).detach()
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/modules.py(158)forward()
+-> ep_ego_embed = trajectory_coordinate_transform(reference_trajs.unsqueeze(
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/modules.py(159)forward()
+-> 2), track_bbox_results, with_translation_transform=True, with_rotation_transform=False).squeeze(2).detach()
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/modules.py(158)forward()
+-> ep_ego_embed = trajectory_coordinate_transform(reference_trajs.unsqueeze(
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/modules.py(160)forward()
+-> ep_agent_embed = trajectory_coordinate_transform(reference_trajs.unsqueeze(
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/modules.py(161)forward()
+-> 2), track_bbox_results, with_translation_transform=False, with_rotation_transform=True).squeeze(2).detach()
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/modules.py(160)forward()
+-> ep_agent_embed = trajectory_coordinate_transform(reference_trajs.unsqueeze(
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/modules.py(161)forward()
+-> 2), track_bbox_results, with_translation_transform=False, with_rotation_transform=True).squeeze(2).detach()
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/modules.py(160)forward()
+-> ep_agent_embed = trajectory_coordinate_transform(reference_trajs.unsqueeze(
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/modules.py(161)forward()
+-> 2), track_bbox_results, with_translation_transform=False, with_rotation_transform=True).squeeze(2).detach()
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/modules.py(160)forward()
+-> ep_agent_embed = trajectory_coordinate_transform(reference_trajs.unsqueeze(
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/modules.py(163)forward()
+-> agent_level_embedding = agent_level_embedding_layer(pos2posemb2d(
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/modules.py(164)forward()
+-> norm_points(ep_agent_embed[..., -1, :], self.pc_range)))
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/modules.py(163)forward()
+-> agent_level_embedding = agent_level_embedding_layer(pos2posemb2d(
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/modules.py(165)forward()
+-> scene_level_ego_embedding = scene_level_ego_embedding_layer(pos2posemb2d(
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/modules.py(166)forward()
+-> norm_points(ep_ego_embed[..., -1, :], self.pc_range)))
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/modules.py(165)forward()
+-> scene_level_ego_embedding = scene_level_ego_embedding_layer(pos2posemb2d(
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/modules.py(167)forward()
+-> scene_level_offset_embedding = scene_level_offset_embedding_layer(pos2posemb2d(
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/modules.py(168)forward()
+-> norm_points(ep_offset_embed[..., -1, :], self.pc_range)))
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/modules.py(167)forward()
+-> scene_level_offset_embedding = scene_level_offset_embedding_layer(pos2posemb2d(
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/modules.py(170)forward()
+-> intermediate.append(query_embed)
+(Pdb) torch.Size([1, 4, 6, 12, 2])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/modules.py(171)forward()
+-> intermediate_reference_trajs.append(reference_trajs)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/modules.py(106)forward()
+-> for lid in range(self.num_layers):
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/modules.py(109)forward()
+-> dynamic_query_embed = self.dynamic_embed_fuser(torch.cat(
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/modules.py(110)forward()
+-> [agent_level_embedding, scene_level_offset_embedding, scene_level_ego_embedding], dim=-1))
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/modules.py(109)forward()
+-> dynamic_query_embed = self.dynamic_embed_fuser(torch.cat(
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/modules.py(113)forward()
+-> query_embed_intention = self.static_dynamic_fuser(torch.cat(
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/modules.py(114)forward()
+-> [static_intention_embed, dynamic_query_embed], dim=-1))  # (B, A, P, D)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/modules.py(113)forward()
+-> query_embed_intention = self.static_dynamic_fuser(torch.cat(
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/modules.py(117)forward()
+-> query_embed = self.in_query_fuser(torch.cat([query_embed, query_embed_intention], dim=-1))
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/modules.py(120)forward()
+-> track_query_embed = self.track_agent_interaction_layers[lid](
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/modules.py(121)forward()
+-> query_embed, track_query, query_pos=track_query_pos_bc, key_pos=track_query_pos)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/modules.py(120)forward()
+-> track_query_embed = self.track_agent_interaction_layers[lid](
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head_plugin/modules.py(204)forward()
+-> B, A, P, D = query.shape
+(Pdb) (Pdb) 199  	        query_pos: mode pos embedding (B, A, P, D)
+200  	        key: (B, A, D)
+201  	        key_pos: (B, A, D)
+202  	        '''
+203  	        import pdb; pdb.set_trace()
+204  ->	        B, A, P, D = query.shape
+205  	        if query_pos is not None:
+206  	            query = query + query_pos
+207  	        if key_pos is not None:
+208  	            key = key + key_pos
+209  	        mem = key.expand(B*A, -1, -1)
+(Pdb) 

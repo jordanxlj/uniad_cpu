@@ -1,0 +1,213 @@
+NOTE: Redirects are currently not supported in Windows or MacOs.
+/opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/distributed/launch.py:163: DeprecationWarning: The 'warn' method is deprecated, use 'warning' instead
+  logger.warn(
+The module torch.distributed.launch is deprecated and going to be removed in future.Migrate to torch.distributed.run
+WARNING:torch.distributed.run:--use_env is deprecated and will be removed in future releases.
+ Please read local_rank from `os.environ('LOCAL_RANK')` instead.
+INFO:torch.distributed.launcher.api:Starting elastic_operator with launch configs:
+  entrypoint       : ./tools/test.py
+  min_nodes        : 1
+  max_nodes        : 1
+  nproc_per_node   : 1
+  run_id           : none
+  rdzv_backend     : static
+  rdzv_endpoint    : 127.0.0.1:28596
+  rdzv_configs     : {'rank': 0, 'timeout': 900}
+  max_restarts     : 3
+  monitor_interval : 5
+  log_dir          : None
+  metrics_cfg      : {}
+
+INFO:torch.distributed.elastic.agent.server.local_elastic_agent:log directory set to: /var/folders/bl/c09z1sm91mxfb8z7mn7v4rhh0000gq/T/torchelastic_j_8wgrie/none__5jphc7o
+INFO:torch.distributed.elastic.agent.server.api:[default] starting workers for entrypoint: python
+INFO:torch.distributed.elastic.agent.server.api:[default] Rendezvous'ing worker group
+/opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/distributed/elastic/utils/store.py:52: FutureWarning: This is an experimental API and will be changed in future.
+  warnings.warn(
+INFO:torch.distributed.elastic.agent.server.api:[default] Rendezvous complete for workers. Result:
+  restart_count=0
+  master_addr=127.0.0.1
+  master_port=28596
+  group_rank=0
+  group_world_size=1
+  local_ranks=[0]
+  role_ranks=[0]
+  global_ranks=[0]
+  role_world_sizes=[1]
+  global_world_sizes=[1]
+
+INFO:torch.distributed.elastic.agent.server.api:[default] Starting worker group
+INFO:torch.distributed.elastic.multiprocessing:Setting worker0 reply file to: /var/folders/bl/c09z1sm91mxfb8z7mn7v4rhh0000gq/T/torchelastic_j_8wgrie/none__5jphc7o/attempt_0/0/error.json
+projects.mmdet3d_plugin
+======
+Loading NuScenes tables for version v1.0-trainval...
+23 category,
+8 attribute,
+4 visibility,
+64386 instance,
+12 sensor,
+10200 calibrated_sensor,
+2631083 ego_pose,
+68 log,
+850 scene,
+34149 sample,
+2631083 sample_data,
+1166187 sample_annotation,
+4 map,
+Done loading in 22.129 seconds.
+======
+Reverse indexing ...
+Done reverse indexing in 6.2 seconds.
+======
+load checkpoint from local path: ./ckpts/uniad_base_e2e.pth
+2023-07-26 00:03:28,948 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.0.conv2 is upgraded to version 2.
+2023-07-26 00:03:28,952 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.1.conv2 is upgraded to version 2.
+2023-07-26 00:03:28,954 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.2.conv2 is upgraded to version 2.
+2023-07-26 00:03:28,956 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.3.conv2 is upgraded to version 2.
+2023-07-26 00:03:28,959 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.4.conv2 is upgraded to version 2.
+2023-07-26 00:03:28,961 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.5.conv2 is upgraded to version 2.
+2023-07-26 00:03:28,963 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.6.conv2 is upgraded to version 2.
+2023-07-26 00:03:28,966 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.7.conv2 is upgraded to version 2.
+2023-07-26 00:03:28,968 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.8.conv2 is upgraded to version 2.
+2023-07-26 00:03:28,971 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.9.conv2 is upgraded to version 2.
+2023-07-26 00:03:28,973 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.10.conv2 is upgraded to version 2.
+2023-07-26 00:03:28,976 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.11.conv2 is upgraded to version 2.
+2023-07-26 00:03:28,978 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.12.conv2 is upgraded to version 2.
+2023-07-26 00:03:28,981 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.13.conv2 is upgraded to version 2.
+2023-07-26 00:03:28,983 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.14.conv2 is upgraded to version 2.
+2023-07-26 00:03:28,985 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.15.conv2 is upgraded to version 2.
+2023-07-26 00:03:28,988 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.16.conv2 is upgraded to version 2.
+2023-07-26 00:03:28,990 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.17.conv2 is upgraded to version 2.
+2023-07-26 00:03:28,993 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.18.conv2 is upgraded to version 2.
+2023-07-26 00:03:28,995 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.19.conv2 is upgraded to version 2.
+2023-07-26 00:03:28,997 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.20.conv2 is upgraded to version 2.
+2023-07-26 00:03:29,000 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.21.conv2 is upgraded to version 2.
+2023-07-26 00:03:29,002 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.22.conv2 is upgraded to version 2.
+2023-07-26 00:03:29,005 - root - INFO - ModulatedDeformConvPack img_backbone.layer4.0.conv2 is upgraded to version 2.
+2023-07-26 00:03:29,009 - root - INFO - ModulatedDeformConvPack img_backbone.layer4.1.conv2 is upgraded to version 2.
+2023-07-26 00:03:29,012 - root - INFO - ModulatedDeformConvPack img_backbone.layer4.2.conv2 is upgraded to version 2.
+The model and loaded state dict do not match exactly
+
+unexpected key in source state_dict: bbox_size_fc.weight, bbox_size_fc.bias, pts_bbox_head.query_embedding.weight, pts_bbox_head.transformer.reference_points.weight, pts_bbox_head.transformer.reference_points.bias
+
+> /Users/liangming.xu/code/UniAD/tools/test.py(230)main()
+-> result = model(return_loss=False, rescale=True, **data)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(723)simple_test_track()
+-> bs = img.size(0)
+(Pdb) 718  	        timestamp=None,
+719  	    ):
+720  	        """only support bs=1 and sequential input"""
+721  	
+722  	        import pdb; pdb.set_trace()
+723  ->	        bs = img.size(0)
+724  	        # img_metas = img_metas[0]
+725  	
+726  	        """ init track instances for first frame """
+727  	        if (
+728  	            self.test_track_instances is None
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(658)_forward_single_frame_inference()
+-> bev_embed, bev_pos = self.get_bevs(img, img_metas, prev_bev=prev_bev)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(659)_forward_single_frame_inference()
+-> det_output = self.pts_bbox_head.get_detections(
+(Pdb) torch.Size([40000, 1, 256])
+(Pdb) torch.Size([1, 256, 200, 200])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(660)_forward_single_frame_inference()
+-> bev_embed,
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(661)_forward_single_frame_inference()
+-> object_query_embeds=track_instances.query,
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(662)_forward_single_frame_inference()
+-> ref_points=track_instances.ref_pts,
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(663)_forward_single_frame_inference()
+-> img_metas=img_metas,
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(659)_forward_single_frame_inference()
+-> det_output = self.pts_bbox_head.get_detections(
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(665)_forward_single_frame_inference()
+-> output_classes = det_output["all_cls_scores"]
+(Pdb) dict_keys(['all_cls_scores', 'all_bbox_preds', 'all_past_traj_preds', 'enc_cls_scores', 'enc_bbox_preds', 'last_ref_points', 'query_feats'])
+(Pdb) torch.Size([6, 1, 901, 256])
+(Pdb) torch.Size([6, 1, 901, 8, 2])
+(Pdb) torch.Size([6, 1, 901, 10])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(666)_forward_single_frame_inference()
+-> output_coords = det_output["all_bbox_preds"]
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(667)_forward_single_frame_inference()
+-> last_ref_pts = det_output["last_ref_points"]
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(668)_forward_single_frame_inference()
+-> query_feats = det_output["query_feats"]
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(671)_forward_single_frame_inference()
+-> "pred_logits": output_classes,
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(672)_forward_single_frame_inference()
+-> "pred_boxes": output_coords,
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(673)_forward_single_frame_inference()
+-> "ref_pts": last_ref_pts,
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(674)_forward_single_frame_inference()
+-> "bev_embed": bev_embed,
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(675)_forward_single_frame_inference()
+-> "query_embeddings": query_feats,
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(676)_forward_single_frame_inference()
+-> "all_past_traj_preds": det_output["all_past_traj_preds"],
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(677)_forward_single_frame_inference()
+-> "bev_pos": bev_pos,
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(670)_forward_single_frame_inference()
+-> out = {
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(681)_forward_single_frame_inference()
+-> track_scores = output_classes[-1, 0, :].sigmoid().max(dim=-1).values
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(683)_forward_single_frame_inference()
+-> track_instances.scores = track_scores
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(685)_forward_single_frame_inference()
+-> track_instances.pred_logits = output_classes[-1, 0]  # [300, num_cls]
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(686)_forward_single_frame_inference()
+-> track_instances.pred_boxes = output_coords[-1, 0]  # [300, box_dim]
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(687)_forward_single_frame_inference()
+-> track_instances.output_embedding = query_feats[-1][0]  # [300, feat_dim]
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(688)_forward_single_frame_inference()
+-> track_instances.ref_pts = last_ref_pts[0]
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(690)_forward_single_frame_inference()
+-> track_instances.obj_idxes[900] = -2
+(Pdb) torch.Size([901, 3])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(692)_forward_single_frame_inference()
+-> self.track_base.update(track_instances, None)
+(Pdb) tensor(-2)
+(Pdb) --Call--
+> /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(16)update()
+-> def update(self, track_instances: Instances, iou_thre=None):
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(17)update()
+-> track_instances.disappear_time[track_instances.scores >= self.score_thresh] = 0
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(18)update()
+-> for i in range(len(track_instances)):
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(20)update()
+-> track_instances.obj_idxes[i] == -1
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(19)update()
+-> if (
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(21)update()
+-> and track_instances.scores[i] >= self.score_thresh
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(19)update()
+-> if (
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(32)update()
+-> track_instances.obj_idxes[i] >= 0
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(31)update()
+-> elif (
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(18)update()
+-> for i in range(len(track_instances)):
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(20)update()
+-> track_instances.obj_idxes[i] == -1
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(19)update()
+-> if (
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(21)update()
+-> and track_instances.scores[i] >= self.score_thresh
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(19)update()
+-> if (
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(32)update()
+-> track_instances.obj_idxes[i] >= 0
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(31)update()
+-> elif (
+(Pdb) 1
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(18)update()
+-> for i in range(len(track_instances)):
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(20)update()
+-> track_instances.obj_idxes[i] == -1
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(19)update()
+-> if (
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(21)update()
+-> and track_instances.scores[i] >= self.score_thresh
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/tracker.py(19)update()
+-> if (
+(Pdb) 

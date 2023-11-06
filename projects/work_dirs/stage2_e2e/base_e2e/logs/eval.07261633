@@ -1,0 +1,182 @@
+NOTE: Redirects are currently not supported in Windows or MacOs.
+/opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/distributed/launch.py:163: DeprecationWarning: The 'warn' method is deprecated, use 'warning' instead
+  logger.warn(
+The module torch.distributed.launch is deprecated and going to be removed in future.Migrate to torch.distributed.run
+WARNING:torch.distributed.run:--use_env is deprecated and will be removed in future releases.
+ Please read local_rank from `os.environ('LOCAL_RANK')` instead.
+INFO:torch.distributed.launcher.api:Starting elastic_operator with launch configs:
+  entrypoint       : ./tools/test.py
+  min_nodes        : 1
+  max_nodes        : 1
+  nproc_per_node   : 1
+  run_id           : none
+  rdzv_backend     : static
+  rdzv_endpoint    : 127.0.0.1:28596
+  rdzv_configs     : {'rank': 0, 'timeout': 900}
+  max_restarts     : 3
+  monitor_interval : 5
+  log_dir          : None
+  metrics_cfg      : {}
+
+INFO:torch.distributed.elastic.agent.server.local_elastic_agent:log directory set to: /var/folders/bl/c09z1sm91mxfb8z7mn7v4rhh0000gq/T/torchelastic_7qs3on9b/none_dhgubuwk
+INFO:torch.distributed.elastic.agent.server.api:[default] starting workers for entrypoint: python
+INFO:torch.distributed.elastic.agent.server.api:[default] Rendezvous'ing worker group
+/opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/distributed/elastic/utils/store.py:52: FutureWarning: This is an experimental API and will be changed in future.
+  warnings.warn(
+INFO:torch.distributed.elastic.agent.server.api:[default] Rendezvous complete for workers. Result:
+  restart_count=0
+  master_addr=127.0.0.1
+  master_port=28596
+  group_rank=0
+  group_world_size=1
+  local_ranks=[0]
+  role_ranks=[0]
+  global_ranks=[0]
+  role_world_sizes=[1]
+  global_world_sizes=[1]
+
+INFO:torch.distributed.elastic.agent.server.api:[default] Starting worker group
+INFO:torch.distributed.elastic.multiprocessing:Setting worker0 reply file to: /var/folders/bl/c09z1sm91mxfb8z7mn7v4rhh0000gq/T/torchelastic_7qs3on9b/none_dhgubuwk/attempt_0/0/error.json
+projects.mmdet3d_plugin
+======
+Loading NuScenes tables for version v1.0-trainval...
+23 category,
+8 attribute,
+4 visibility,
+64386 instance,
+12 sensor,
+10200 calibrated_sensor,
+2631083 ego_pose,
+68 log,
+850 scene,
+34149 sample,
+2631083 sample_data,
+1166187 sample_annotation,
+4 map,
+Done loading in 21.797 seconds.
+======
+Reverse indexing ...
+Done reverse indexing in 6.2 seconds.
+======
+load checkpoint from local path: ./ckpts/uniad_base_e2e.pth
+2023-07-26 16:34:33,690 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.0.conv2 is upgraded to version 2.
+2023-07-26 16:34:33,694 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.1.conv2 is upgraded to version 2.
+2023-07-26 16:34:33,696 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.2.conv2 is upgraded to version 2.
+2023-07-26 16:34:33,698 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.3.conv2 is upgraded to version 2.
+2023-07-26 16:34:33,701 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.4.conv2 is upgraded to version 2.
+2023-07-26 16:34:33,703 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.5.conv2 is upgraded to version 2.
+2023-07-26 16:34:33,706 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.6.conv2 is upgraded to version 2.
+2023-07-26 16:34:33,708 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.7.conv2 is upgraded to version 2.
+2023-07-26 16:34:33,711 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.8.conv2 is upgraded to version 2.
+2023-07-26 16:34:33,713 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.9.conv2 is upgraded to version 2.
+2023-07-26 16:34:33,715 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.10.conv2 is upgraded to version 2.
+2023-07-26 16:34:33,718 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.11.conv2 is upgraded to version 2.
+2023-07-26 16:34:33,720 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.12.conv2 is upgraded to version 2.
+2023-07-26 16:34:33,722 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.13.conv2 is upgraded to version 2.
+2023-07-26 16:34:33,725 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.14.conv2 is upgraded to version 2.
+2023-07-26 16:34:33,727 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.15.conv2 is upgraded to version 2.
+2023-07-26 16:34:33,729 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.16.conv2 is upgraded to version 2.
+2023-07-26 16:34:33,732 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.17.conv2 is upgraded to version 2.
+2023-07-26 16:34:33,734 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.18.conv2 is upgraded to version 2.
+2023-07-26 16:34:33,737 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.19.conv2 is upgraded to version 2.
+2023-07-26 16:34:33,739 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.20.conv2 is upgraded to version 2.
+2023-07-26 16:34:33,742 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.21.conv2 is upgraded to version 2.
+2023-07-26 16:34:33,744 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.22.conv2 is upgraded to version 2.
+2023-07-26 16:34:33,747 - root - INFO - ModulatedDeformConvPack img_backbone.layer4.0.conv2 is upgraded to version 2.
+2023-07-26 16:34:33,754 - root - INFO - ModulatedDeformConvPack img_backbone.layer4.1.conv2 is upgraded to version 2.
+2023-07-26 16:34:33,758 - root - INFO - ModulatedDeformConvPack img_backbone.layer4.2.conv2 is upgraded to version 2.
+The model and loaded state dict do not match exactly
+
+size mismatch for seg_head.transformer.decoder.layers.0.attentions.1.sampling_offsets.weight: copying a param with shape torch.Size([256, 256]) from checkpoint, the shape in current model is torch.Size([64, 256]).
+size mismatch for seg_head.transformer.decoder.layers.0.attentions.1.sampling_offsets.bias: copying a param with shape torch.Size([256]) from checkpoint, the shape in current model is torch.Size([64]).
+size mismatch for seg_head.transformer.decoder.layers.0.attentions.1.attention_weights.weight: copying a param with shape torch.Size([128, 256]) from checkpoint, the shape in current model is torch.Size([32, 256]).
+size mismatch for seg_head.transformer.decoder.layers.0.attentions.1.attention_weights.bias: copying a param with shape torch.Size([128]) from checkpoint, the shape in current model is torch.Size([32]).
+size mismatch for seg_head.transformer.decoder.layers.1.attentions.1.sampling_offsets.weight: copying a param with shape torch.Size([256, 256]) from checkpoint, the shape in current model is torch.Size([64, 256]).
+size mismatch for seg_head.transformer.decoder.layers.1.attentions.1.sampling_offsets.bias: copying a param with shape torch.Size([256]) from checkpoint, the shape in current model is torch.Size([64]).
+size mismatch for seg_head.transformer.decoder.layers.1.attentions.1.attention_weights.weight: copying a param with shape torch.Size([128, 256]) from checkpoint, the shape in current model is torch.Size([32, 256]).
+size mismatch for seg_head.transformer.decoder.layers.1.attentions.1.attention_weights.bias: copying a param with shape torch.Size([128]) from checkpoint, the shape in current model is torch.Size([32]).
+size mismatch for seg_head.transformer.decoder.layers.2.attentions.1.sampling_offsets.weight: copying a param with shape torch.Size([256, 256]) from checkpoint, the shape in current model is torch.Size([64, 256]).
+size mismatch for seg_head.transformer.decoder.layers.2.attentions.1.sampling_offsets.bias: copying a param with shape torch.Size([256]) from checkpoint, the shape in current model is torch.Size([64]).
+size mismatch for seg_head.transformer.decoder.layers.2.attentions.1.attention_weights.weight: copying a param with shape torch.Size([128, 256]) from checkpoint, the shape in current model is torch.Size([32, 256]).
+size mismatch for seg_head.transformer.decoder.layers.2.attentions.1.attention_weights.bias: copying a param with shape torch.Size([128]) from checkpoint, the shape in current model is torch.Size([32]).
+size mismatch for seg_head.transformer.decoder.layers.3.attentions.1.sampling_offsets.weight: copying a param with shape torch.Size([256, 256]) from checkpoint, the shape in current model is torch.Size([64, 256]).
+size mismatch for seg_head.transformer.decoder.layers.3.attentions.1.sampling_offsets.bias: copying a param with shape torch.Size([256]) from checkpoint, the shape in current model is torch.Size([64]).
+size mismatch for seg_head.transformer.decoder.layers.3.attentions.1.attention_weights.weight: copying a param with shape torch.Size([128, 256]) from checkpoint, the shape in current model is torch.Size([32, 256]).
+size mismatch for seg_head.transformer.decoder.layers.3.attentions.1.attention_weights.bias: copying a param with shape torch.Size([128]) from checkpoint, the shape in current model is torch.Size([32]).
+size mismatch for seg_head.transformer.decoder.layers.4.attentions.1.sampling_offsets.weight: copying a param with shape torch.Size([256, 256]) from checkpoint, the shape in current model is torch.Size([64, 256]).
+size mismatch for seg_head.transformer.decoder.layers.4.attentions.1.sampling_offsets.bias: copying a param with shape torch.Size([256]) from checkpoint, the shape in current model is torch.Size([64]).
+size mismatch for seg_head.transformer.decoder.layers.4.attentions.1.attention_weights.weight: copying a param with shape torch.Size([128, 256]) from checkpoint, the shape in current model is torch.Size([32, 256]).
+size mismatch for seg_head.transformer.decoder.layers.4.attentions.1.attention_weights.bias: copying a param with shape torch.Size([128]) from checkpoint, the shape in current model is torch.Size([32]).
+size mismatch for seg_head.transformer.decoder.layers.5.attentions.1.sampling_offsets.weight: copying a param with shape torch.Size([256, 256]) from checkpoint, the shape in current model is torch.Size([64, 256]).
+size mismatch for seg_head.transformer.decoder.layers.5.attentions.1.sampling_offsets.bias: copying a param with shape torch.Size([256]) from checkpoint, the shape in current model is torch.Size([64]).
+size mismatch for seg_head.transformer.decoder.layers.5.attentions.1.attention_weights.weight: copying a param with shape torch.Size([128, 256]) from checkpoint, the shape in current model is torch.Size([32, 256]).
+size mismatch for seg_head.transformer.decoder.layers.5.attentions.1.attention_weights.bias: copying a param with shape torch.Size([128]) from checkpoint, the shape in current model is torch.Size([32]).
+unexpected key in source state_dict: bbox_size_fc.weight, bbox_size_fc.bias, pts_bbox_head.query_embedding.weight, pts_bbox_head.transformer.reference_points.weight, pts_bbox_head.transformer.reference_points.bias
+
+> /Users/liangming.xu/code/UniAD/tools/test.py(230)main()
+-> result = model(return_loss=False, rescale=True, **data)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(723)simple_test_track()
+-> bs = img.size(0)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(658)_forward_single_frame_inference()
+-> bev_embed, bev_pos = self.get_bevs(img, img_metas, prev_bev=prev_bev)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_e2e.py(297)forward_test()
+-> result_track[0] = self.upsample_bev_if_tiny(result_track[0])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/panseg_head.py(1013)forward_test()
+-> bbox_list = [dict() for i in range(len(img_metas))]
+(Pdb) 1008 	                    gt_lane_labels=None,
+1009 	                    gt_lane_masks=None,
+1010 	                    img_metas=None,
+1011 	                    rescale=False):
+1012 	        import pdb; pdb.set_trace()
+1013 ->	        bbox_list = [dict() for i in range(len(img_metas))]
+1014 	
+1015 	        pred_seg_dict = self(pts_feats)
+1016 	        results = self.get_bboxes(pred_seg_dict['outputs_classes'],
+1017 	                                           pred_seg_dict['outputs_coords'],
+1018 	                                           pred_seg_dict['enc_outputs_class'],
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/panseg_head.py(227)forward()
+-> enc_outputs_class, enc_outputs_coord = self.transformer(
+(Pdb) Traceback (most recent call last):
+  File "./tools/test.py", line 274, in <module>
+    main()
+  File "./tools/test.py", line 230, in main
+    result = model(return_loss=False, rescale=True, **data)
+  File "/opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1051, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_e2e.py", line 83, in forward
+    return self.forward_test(**kwargs)
+  File "/Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_e2e.py", line 302, in forward_test
+    result_seg =  self.seg_head.forward_test(bev_embed, gt_lane_labels, gt_lane_masks, img_metas, rescale)
+  File "/Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/panseg_head.py", line 1015, in forward_test
+    pred_seg_dict = self(pts_feats)
+  File "/opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1051, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/runner/fp16_utils.py", line 186, in new_func
+    return old_func(*args, **kwargs)
+  File "/Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/panseg_head.py", line 227, in forward
+    enc_outputs_class, enc_outputs_coord = self.transformer(
+  File "/opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1051, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/runner/fp16_utils.py", line 186, in new_func
+    return old_func(*args, **kwargs)
+  File "/Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/seg_head_plugin/seg_deformable_transformer.py", line 319, in forward
+    memory = self.encoder(query=feat_flatten,
+  File "/opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1051, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmdet/models/utils/transformer.py", line 118, in forward
+    x = super(DetrTransformerEncoder, self).forward(*args, **kwargs)
+  File "/opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py", line 585, in forward
+    query = layer(
+  File "/opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1051, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py", line 474, in forward
+    query = self.attentions[attn_index](
+  File "/opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1051, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/utils/misc.py", line 340, in new_func
+    output = old_func(*args, **kwargs)
+  File "/opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/ops/multi_scale_deform_attn.py", line 351, in forward
+    output = multi_scale_deformable_attn_pytorch(
+  File "/opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/ops/multi_scale_deform_attn.py", line 149, in multi_scale_deformable_attn_pytorch
+    output = (torch.stack(sampling_value_list, dim=-2).flatten(-2) *
+RuntimeError: The size of tensor a (4) must match the size of tensor b (16) at non-singleton dimension 3

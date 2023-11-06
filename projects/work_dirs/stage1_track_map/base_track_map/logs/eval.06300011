@@ -1,0 +1,1 @@
+/opt/homebrew/anaconda3/envs/uniad/bin/python: Error while finding module specification for 'tools/test.py' (ModuleNotFoundError: No module named 'tools/test')

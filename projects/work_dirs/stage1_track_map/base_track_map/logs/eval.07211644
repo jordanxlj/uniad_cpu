@@ -1,0 +1,61 @@
+NOTE: Redirects are currently not supported in Windows or MacOs.
+/opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/distributed/launch.py:163: DeprecationWarning: The 'warn' method is deprecated, use 'warning' instead
+  logger.warn(
+The module torch.distributed.launch is deprecated and going to be removed in future.Migrate to torch.distributed.run
+WARNING:torch.distributed.run:--use_env is deprecated and will be removed in future releases.
+ Please read local_rank from `os.environ('LOCAL_RANK')` instead.
+INFO:torch.distributed.launcher.api:Starting elastic_operator with launch configs:
+  entrypoint       : ./tools/test.py
+  min_nodes        : 1
+  max_nodes        : 1
+  nproc_per_node   : 1
+  run_id           : none
+  rdzv_backend     : static
+  rdzv_endpoint    : 127.0.0.1:28596
+  rdzv_configs     : {'rank': 0, 'timeout': 900}
+  max_restarts     : 3
+  monitor_interval : 5
+  log_dir          : None
+  metrics_cfg      : {}
+
+INFO:torch.distributed.elastic.agent.server.local_elastic_agent:log directory set to: /var/folders/bl/c09z1sm91mxfb8z7mn7v4rhh0000gq/T/torchelastic_qnk3yday/none_9s7sj92z
+INFO:torch.distributed.elastic.agent.server.api:[default] starting workers for entrypoint: python
+INFO:torch.distributed.elastic.agent.server.api:[default] Rendezvous'ing worker group
+/opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/distributed/elastic/utils/store.py:52: FutureWarning: This is an experimental API and will be changed in future.
+  warnings.warn(
+INFO:torch.distributed.elastic.agent.server.api:[default] Rendezvous complete for workers. Result:
+  restart_count=0
+  master_addr=127.0.0.1
+  master_port=28596
+  group_rank=0
+  group_world_size=1
+  local_ranks=[0]
+  role_ranks=[0]
+  global_ranks=[0]
+  role_world_sizes=[1]
+  global_world_sizes=[1]
+
+INFO:torch.distributed.elastic.agent.server.api:[default] Starting worker group
+INFO:torch.distributed.elastic.multiprocessing:Setting worker0 reply file to: /var/folders/bl/c09z1sm91mxfb8z7mn7v4rhh0000gq/T/torchelastic_qnk3yday/none_9s7sj92z/attempt_0/0/error.json
+projects.mmdet3d_plugin
+Traceback (most recent call last):
+  File "/opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/utils/registry.py", line 52, in build_from_cfg
+    return obj_cls(**args)
+  File "/Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/datasets/nuscenes_e2e_dataset.py", line 93, in __init__
+    self.nusc = NuScenes(version=self.version,
+  File "/opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/nuscenes/nuscenes.py", line 62, in __init__
+    assert osp.exists(self.table_root), 'Database version not found: {}'.format(self.table_root)
+AssertionError: Database version not found: data/nuscenes/v1.0-trainval
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "./tools/test.py", line 265, in <module>
+    main()
+  File "./tools/test.py", line 194, in main
+    dataset = build_dataset(cfg.data.test)
+  File "/Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/datasets/build_dataset.py", line 41, in build_dataset
+    dataset = build_from_cfg(cfg, DATASETS, default_args)
+  File "/opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/utils/registry.py", line 55, in build_from_cfg
+    raise type(e)(f'{obj_cls.__name__}: {e}')
+AssertionError: NuScenesE2EDataset: Database version not found: data/nuscenes/v1.0-trainval

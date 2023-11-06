@@ -1,0 +1,1004 @@
+NOTE: Redirects are currently not supported in Windows or MacOs.
+/opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/distributed/launch.py:163: DeprecationWarning: The 'warn' method is deprecated, use 'warning' instead
+  logger.warn(
+The module torch.distributed.launch is deprecated and going to be removed in future.Migrate to torch.distributed.run
+WARNING:torch.distributed.run:--use_env is deprecated and will be removed in future releases.
+ Please read local_rank from `os.environ('LOCAL_RANK')` instead.
+INFO:torch.distributed.launcher.api:Starting elastic_operator with launch configs:
+  entrypoint       : ./tools/test.py
+  min_nodes        : 1
+  max_nodes        : 1
+  nproc_per_node   : 1
+  run_id           : none
+  rdzv_backend     : static
+  rdzv_endpoint    : 127.0.0.1:28596
+  rdzv_configs     : {'rank': 0, 'timeout': 900}
+  max_restarts     : 3
+  monitor_interval : 5
+  log_dir          : None
+  metrics_cfg      : {}
+
+INFO:torch.distributed.elastic.agent.server.local_elastic_agent:log directory set to: /var/folders/bl/c09z1sm91mxfb8z7mn7v4rhh0000gq/T/torchelastic_lbuy6vln/none_1huprupz
+INFO:torch.distributed.elastic.agent.server.api:[default] starting workers for entrypoint: python
+INFO:torch.distributed.elastic.agent.server.api:[default] Rendezvous'ing worker group
+/opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/distributed/elastic/utils/store.py:52: FutureWarning: This is an experimental API and will be changed in future.
+  warnings.warn(
+INFO:torch.distributed.elastic.agent.server.api:[default] Rendezvous complete for workers. Result:
+  restart_count=0
+  master_addr=127.0.0.1
+  master_port=28596
+  group_rank=0
+  group_world_size=1
+  local_ranks=[0]
+  role_ranks=[0]
+  global_ranks=[0]
+  role_world_sizes=[1]
+  global_world_sizes=[1]
+
+INFO:torch.distributed.elastic.agent.server.api:[default] Starting worker group
+INFO:torch.distributed.elastic.multiprocessing:Setting worker0 reply file to: /var/folders/bl/c09z1sm91mxfb8z7mn7v4rhh0000gq/T/torchelastic_lbuy6vln/none_1huprupz/attempt_0/0/error.json
+projects.mmdet3d_plugin
+======
+Loading NuScenes tables for version v1.0-trainval...
+23 category,
+8 attribute,
+4 visibility,
+64386 instance,
+12 sensor,
+10200 calibrated_sensor,
+2631083 ego_pose,
+68 log,
+850 scene,
+34149 sample,
+2631083 sample_data,
+1166187 sample_annotation,
+4 map,
+Done loading in 22.786 seconds.
+======
+Reverse indexing ...
+Done reverse indexing in 6.5 seconds.
+======
+load checkpoint from local path: ./ckpts/uniad_base_e2e.pth
+2023-07-28 10:31:55,763 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.0.conv2 is upgraded to version 2.
+2023-07-28 10:31:55,767 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.1.conv2 is upgraded to version 2.
+2023-07-28 10:31:55,769 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.2.conv2 is upgraded to version 2.
+2023-07-28 10:31:55,772 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.3.conv2 is upgraded to version 2.
+2023-07-28 10:31:55,774 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.4.conv2 is upgraded to version 2.
+2023-07-28 10:31:55,777 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.5.conv2 is upgraded to version 2.
+2023-07-28 10:31:55,779 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.6.conv2 is upgraded to version 2.
+2023-07-28 10:31:55,781 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.7.conv2 is upgraded to version 2.
+2023-07-28 10:31:55,784 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.8.conv2 is upgraded to version 2.
+2023-07-28 10:31:55,786 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.9.conv2 is upgraded to version 2.
+2023-07-28 10:31:55,789 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.10.conv2 is upgraded to version 2.
+2023-07-28 10:31:55,791 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.11.conv2 is upgraded to version 2.
+2023-07-28 10:31:55,794 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.12.conv2 is upgraded to version 2.
+2023-07-28 10:31:55,796 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.13.conv2 is upgraded to version 2.
+2023-07-28 10:31:55,798 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.14.conv2 is upgraded to version 2.
+2023-07-28 10:31:55,801 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.15.conv2 is upgraded to version 2.
+2023-07-28 10:31:55,803 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.16.conv2 is upgraded to version 2.
+2023-07-28 10:31:55,806 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.17.conv2 is upgraded to version 2.
+2023-07-28 10:31:55,808 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.18.conv2 is upgraded to version 2.
+2023-07-28 10:31:55,811 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.19.conv2 is upgraded to version 2.
+2023-07-28 10:31:55,813 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.20.conv2 is upgraded to version 2.
+2023-07-28 10:31:55,816 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.21.conv2 is upgraded to version 2.
+2023-07-28 10:31:55,818 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.22.conv2 is upgraded to version 2.
+2023-07-28 10:31:55,821 - root - INFO - ModulatedDeformConvPack img_backbone.layer4.0.conv2 is upgraded to version 2.
+2023-07-28 10:31:55,825 - root - INFO - ModulatedDeformConvPack img_backbone.layer4.1.conv2 is upgraded to version 2.
+2023-07-28 10:31:55,828 - root - INFO - ModulatedDeformConvPack img_backbone.layer4.2.conv2 is upgraded to version 2.
+The model and loaded state dict do not match exactly
+
+size mismatch for seg_head.transformer.encoder.layers.0.attentions.0.sampling_offsets.weight: copying a param with shape torch.Size([256, 256]) from checkpoint, the shape in current model is torch.Size([64, 256]).
+size mismatch for seg_head.transformer.encoder.layers.0.attentions.0.sampling_offsets.bias: copying a param with shape torch.Size([256]) from checkpoint, the shape in current model is torch.Size([64]).
+size mismatch for seg_head.transformer.encoder.layers.0.attentions.0.attention_weights.weight: copying a param with shape torch.Size([128, 256]) from checkpoint, the shape in current model is torch.Size([32, 256]).
+size mismatch for seg_head.transformer.encoder.layers.0.attentions.0.attention_weights.bias: copying a param with shape torch.Size([128]) from checkpoint, the shape in current model is torch.Size([32]).
+size mismatch for seg_head.transformer.encoder.layers.1.attentions.0.sampling_offsets.weight: copying a param with shape torch.Size([256, 256]) from checkpoint, the shape in current model is torch.Size([64, 256]).
+size mismatch for seg_head.transformer.encoder.layers.1.attentions.0.sampling_offsets.bias: copying a param with shape torch.Size([256]) from checkpoint, the shape in current model is torch.Size([64]).
+size mismatch for seg_head.transformer.encoder.layers.1.attentions.0.attention_weights.weight: copying a param with shape torch.Size([128, 256]) from checkpoint, the shape in current model is torch.Size([32, 256]).
+size mismatch for seg_head.transformer.encoder.layers.1.attentions.0.attention_weights.bias: copying a param with shape torch.Size([128]) from checkpoint, the shape in current model is torch.Size([32]).
+size mismatch for seg_head.transformer.encoder.layers.2.attentions.0.sampling_offsets.weight: copying a param with shape torch.Size([256, 256]) from checkpoint, the shape in current model is torch.Size([64, 256]).
+size mismatch for seg_head.transformer.encoder.layers.2.attentions.0.sampling_offsets.bias: copying a param with shape torch.Size([256]) from checkpoint, the shape in current model is torch.Size([64]).
+size mismatch for seg_head.transformer.encoder.layers.2.attentions.0.attention_weights.weight: copying a param with shape torch.Size([128, 256]) from checkpoint, the shape in current model is torch.Size([32, 256]).
+size mismatch for seg_head.transformer.encoder.layers.2.attentions.0.attention_weights.bias: copying a param with shape torch.Size([128]) from checkpoint, the shape in current model is torch.Size([32]).
+size mismatch for seg_head.transformer.encoder.layers.3.attentions.0.sampling_offsets.weight: copying a param with shape torch.Size([256, 256]) from checkpoint, the shape in current model is torch.Size([64, 256]).
+size mismatch for seg_head.transformer.encoder.layers.3.attentions.0.sampling_offsets.bias: copying a param with shape torch.Size([256]) from checkpoint, the shape in current model is torch.Size([64]).
+size mismatch for seg_head.transformer.encoder.layers.3.attentions.0.attention_weights.weight: copying a param with shape torch.Size([128, 256]) from checkpoint, the shape in current model is torch.Size([32, 256]).
+size mismatch for seg_head.transformer.encoder.layers.3.attentions.0.attention_weights.bias: copying a param with shape torch.Size([128]) from checkpoint, the shape in current model is torch.Size([32]).
+size mismatch for seg_head.transformer.encoder.layers.4.attentions.0.sampling_offsets.weight: copying a param with shape torch.Size([256, 256]) from checkpoint, the shape in current model is torch.Size([64, 256]).
+size mismatch for seg_head.transformer.encoder.layers.4.attentions.0.sampling_offsets.bias: copying a param with shape torch.Size([256]) from checkpoint, the shape in current model is torch.Size([64]).
+size mismatch for seg_head.transformer.encoder.layers.4.attentions.0.attention_weights.weight: copying a param with shape torch.Size([128, 256]) from checkpoint, the shape in current model is torch.Size([32, 256]).
+size mismatch for seg_head.transformer.encoder.layers.4.attentions.0.attention_weights.bias: copying a param with shape torch.Size([128]) from checkpoint, the shape in current model is torch.Size([32]).
+size mismatch for seg_head.transformer.encoder.layers.5.attentions.0.sampling_offsets.weight: copying a param with shape torch.Size([256, 256]) from checkpoint, the shape in current model is torch.Size([64, 256]).
+size mismatch for seg_head.transformer.encoder.layers.5.attentions.0.sampling_offsets.bias: copying a param with shape torch.Size([256]) from checkpoint, the shape in current model is torch.Size([64]).
+size mismatch for seg_head.transformer.encoder.layers.5.attentions.0.attention_weights.weight: copying a param with shape torch.Size([128, 256]) from checkpoint, the shape in current model is torch.Size([32, 256]).
+size mismatch for seg_head.transformer.encoder.layers.5.attentions.0.attention_weights.bias: copying a param with shape torch.Size([128]) from checkpoint, the shape in current model is torch.Size([32]).
+size mismatch for seg_head.transformer.decoder.layers.0.attentions.1.sampling_offsets.weight: copying a param with shape torch.Size([256, 256]) from checkpoint, the shape in current model is torch.Size([64, 256]).
+size mismatch for seg_head.transformer.decoder.layers.0.attentions.1.sampling_offsets.bias: copying a param with shape torch.Size([256]) from checkpoint, the shape in current model is torch.Size([64]).
+size mismatch for seg_head.transformer.decoder.layers.0.attentions.1.attention_weights.weight: copying a param with shape torch.Size([128, 256]) from checkpoint, the shape in current model is torch.Size([32, 256]).
+size mismatch for seg_head.transformer.decoder.layers.0.attentions.1.attention_weights.bias: copying a param with shape torch.Size([128]) from checkpoint, the shape in current model is torch.Size([32]).
+size mismatch for seg_head.transformer.decoder.layers.1.attentions.1.sampling_offsets.weight: copying a param with shape torch.Size([256, 256]) from checkpoint, the shape in current model is torch.Size([64, 256]).
+size mismatch for seg_head.transformer.decoder.layers.1.attentions.1.sampling_offsets.bias: copying a param with shape torch.Size([256]) from checkpoint, the shape in current model is torch.Size([64]).
+size mismatch for seg_head.transformer.decoder.layers.1.attentions.1.attention_weights.weight: copying a param with shape torch.Size([128, 256]) from checkpoint, the shape in current model is torch.Size([32, 256]).
+size mismatch for seg_head.transformer.decoder.layers.1.attentions.1.attention_weights.bias: copying a param with shape torch.Size([128]) from checkpoint, the shape in current model is torch.Size([32]).
+size mismatch for seg_head.transformer.decoder.layers.2.attentions.1.sampling_offsets.weight: copying a param with shape torch.Size([256, 256]) from checkpoint, the shape in current model is torch.Size([64, 256]).
+size mismatch for seg_head.transformer.decoder.layers.2.attentions.1.sampling_offsets.bias: copying a param with shape torch.Size([256]) from checkpoint, the shape in current model is torch.Size([64]).
+size mismatch for seg_head.transformer.decoder.layers.2.attentions.1.attention_weights.weight: copying a param with shape torch.Size([128, 256]) from checkpoint, the shape in current model is torch.Size([32, 256]).
+size mismatch for seg_head.transformer.decoder.layers.2.attentions.1.attention_weights.bias: copying a param with shape torch.Size([128]) from checkpoint, the shape in current model is torch.Size([32]).
+size mismatch for seg_head.transformer.decoder.layers.3.attentions.1.sampling_offsets.weight: copying a param with shape torch.Size([256, 256]) from checkpoint, the shape in current model is torch.Size([64, 256]).
+size mismatch for seg_head.transformer.decoder.layers.3.attentions.1.sampling_offsets.bias: copying a param with shape torch.Size([256]) from checkpoint, the shape in current model is torch.Size([64]).
+size mismatch for seg_head.transformer.decoder.layers.3.attentions.1.attention_weights.weight: copying a param with shape torch.Size([128, 256]) from checkpoint, the shape in current model is torch.Size([32, 256]).
+size mismatch for seg_head.transformer.decoder.layers.3.attentions.1.attention_weights.bias: copying a param with shape torch.Size([128]) from checkpoint, the shape in current model is torch.Size([32]).
+size mismatch for seg_head.transformer.decoder.layers.4.attentions.1.sampling_offsets.weight: copying a param with shape torch.Size([256, 256]) from checkpoint, the shape in current model is torch.Size([64, 256]).
+size mismatch for seg_head.transformer.decoder.layers.4.attentions.1.sampling_offsets.bias: copying a param with shape torch.Size([256]) from checkpoint, the shape in current model is torch.Size([64]).
+size mismatch for seg_head.transformer.decoder.layers.4.attentions.1.attention_weights.weight: copying a param with shape torch.Size([128, 256]) from checkpoint, the shape in current model is torch.Size([32, 256]).
+size mismatch for seg_head.transformer.decoder.layers.4.attentions.1.attention_weights.bias: copying a param with shape torch.Size([128]) from checkpoint, the shape in current model is torch.Size([32]).
+size mismatch for seg_head.transformer.decoder.layers.5.attentions.1.sampling_offsets.weight: copying a param with shape torch.Size([256, 256]) from checkpoint, the shape in current model is torch.Size([64, 256]).
+size mismatch for seg_head.transformer.decoder.layers.5.attentions.1.sampling_offsets.bias: copying a param with shape torch.Size([256]) from checkpoint, the shape in current model is torch.Size([64]).
+size mismatch for seg_head.transformer.decoder.layers.5.attentions.1.attention_weights.weight: copying a param with shape torch.Size([128, 256]) from checkpoint, the shape in current model is torch.Size([32, 256]).
+size mismatch for seg_head.transformer.decoder.layers.5.attentions.1.attention_weights.bias: copying a param with shape torch.Size([128]) from checkpoint, the shape in current model is torch.Size([32]).
+unexpected key in source state_dict: bbox_size_fc.weight, bbox_size_fc.bias, pts_bbox_head.query_embedding.weight, pts_bbox_head.transformer.reference_points.weight, pts_bbox_head.transformer.reference_points.bias
+
+> /Users/liangming.xu/code/UniAD/tools/test.py(230)main()
+-> result = model(return_loss=False, rescale=True, **data)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(724)simple_test_track()
+-> bs = img.size(0)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_e2e.py(297)forward_test()
+-> result_track[0] = self.upsample_bev_if_tiny(result_track[0])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/panseg_head.py(1013)forward_test()
+-> bbox_list = [dict() for i in range(len(img_metas))]
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/panseg_head.py(227)forward()
+-> enc_outputs_class, enc_outputs_coord = self.transformer(
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head.py(170)forward_test()
+-> track_query = outs_track['track_query_embeddings'][None, None, ...]
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/motion_head.py(347)forward()
+-> 'all_traj_scores': outputs_traj_scores,
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/occ_head.py(419)forward_test()
+-> gt_segmentation, gt_instance, gt_img_is_valid = self.get_occ_labels(gt_segmentation, gt_instance, gt_img_is_valid)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/occ_head.py(421)forward_test()
+-> out_dict = dict()
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/occ_head.py(422)forward_test()
+-> out_dict['seg_gt']  = gt_segmentation[:, :1+self.n_future]  # [1, 5, 1, 200, 200]
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/occ_head_plugin/modules.py(54)forward()
+-> if self.identity_mapping:
+(Pdb)  49  	            self.map_grid = torch.stack([tmp_m, tmp_n], dim=2)
+ 50  	
+ 51  	    def forward(self, x):
+ 52  	        import pdb; pdb.set_trace()
+ 53  	        # x: bev feature map tensor of shape (b, c, h, w)
+ 54  ->	        if self.identity_mapping:
+ 55  	            return x
+ 56  	        else:
+ 57  	            grid = self.map_grid.unsqueeze(0).type_as(
+ 58  	                x).repeat(x.shape[0], 1, 1, 1)  # (b, h, w, 2)
+ 59  	
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/occ_head.py(258)forward()
+-> future_states = torch.stack(future_states, dim=1)  # [b, t, d, h/4, w/4]
+(Pdb) 253  	            # Out
+254  	            future_states.append(cur_state)  # [b, d, h/4, w/4]
+255  	            last_state = cur_state
+256  	
+257  	        import pdb; pdb.set_trace()
+258  ->	        future_states = torch.stack(future_states, dim=1)  # [b, t, d, h/4, w/4]
+259  	        temporal_query = torch.stack(temporal_query, dim=1)  # [b, t, q, d]
+260  	        mask_preds = torch.stack(mask_preds, dim=2)  # [b, q, t, h, w]
+261  	        ins_query = torch.stack(temporal_embed_for_mask_attn, dim=1)  # [b, t, q, d]
+262  	
+263  	        # Decode future states to larger resolution
+(Pdb) *** AttributeError: 'list' object has no attribute 'shape'
+(Pdb) 5
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/occ_head.py(259)forward()
+-> temporal_query = torch.stack(temporal_query, dim=1)  # [b, t, q, d]
+(Pdb) torch.Size([1, 5, 256, 50, 50])
+(Pdb) *** AttributeError: 'list' object has no attribute 'shape'
+(Pdb) 5
+(Pdb) torch.Size([1, 2, 256])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/occ_head.py(260)forward()
+-> mask_preds = torch.stack(mask_preds, dim=2)  # [b, q, t, h, w]
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/occ_head.py(261)forward()
+-> ins_query = torch.stack(temporal_embed_for_mask_attn, dim=1)  # [b, t, q, d]
+(Pdb) torch.Size([1, 2, 5, 200, 200])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/occ_head.py(264)forward()
+-> future_states = self.dense_decoder(future_states)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/occ_head.py(265)forward()
+-> ins_occ_query = self.query_to_occ_feat(ins_query)    # [b, t, q, query_out_dim]
+(Pdb) torch.Size([1, 5, 256, 200, 200])
+(Pdb) torch.Size([1, 5, 2, 256])
+(Pdb) MLP(
+  (layers): ModuleList(
+    (0): Linear(in_features=256, out_features=256, bias=True)
+    (1): Linear(in_features=256, out_features=256, bias=True)
+    (2): Linear(in_features=256, out_features=256, bias=True)
+  )
+)
+(Pdb) torch.Size([1, 5, 2, 256])
+(Pdb) 260  	        mask_preds = torch.stack(mask_preds, dim=2)  # [b, q, t, h, w]
+261  	        ins_query = torch.stack(temporal_embed_for_mask_attn, dim=1)  # [b, t, q, d]
+262  	
+263  	        # Decode future states to larger resolution
+264  	        future_states = self.dense_decoder(future_states)
+265  ->	        ins_occ_query = self.query_to_occ_feat(ins_query)    # [b, t, q, query_out_dim]
+266  	
+267  	        # Generate final outputs
+268  	        ins_occ_logits = torch.einsum("btqc,btchw->bqthw", ins_occ_query, future_states)
+269  	
+270  	        return mask_preds, ins_occ_logits
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/occ_head.py(268)forward()
+-> ins_occ_logits = torch.einsum("btqc,btchw->bqthw", ins_occ_query, future_states)
+(Pdb) torch.Size([1, 5, 2, 256])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/occ_head.py(270)forward()
+-> return mask_preds, ins_occ_logits
+(Pdb) torch.Size([1, 2, 5, 200, 200])
+(Pdb) torch.Size([1, 2, 5, 200, 200])
+(Pdb) --Return--
+> /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/occ_head.py(270)forward()->(tensor([[[[[-...-51.7161]]]]]), tensor([[[[[ ...-43.1784]]]]]))
+-> return mask_preds, ins_occ_logits
+(Pdb) --Return--
+> /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/module.py(1051)_call_impl()->(tensor([[[[[-...-51.7161]]]]]), tensor([[[[[ ...-43.1784]]]]]))
+-> return forward_call(*input, **kwargs)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/occ_head.py(434)forward_test()
+-> out_dict['pred_ins_logits'] = pred_ins_logits
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/occ_head.py(436)forward_test()
+-> pred_ins_logits = pred_ins_logits[:,:,:1+self.n_future]  # [b, q, t, h, w]
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/occ_head.py(437)forward_test()
+-> pred_ins_sigmoid = pred_ins_logits.sigmoid()  # [b, q, t, h, w]
+(Pdb) 4
+(Pdb) torch.Size([1, 2, 5, 200, 200])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/occ_head.py(439)forward_test()
+-> if self.test_with_track_score:
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/occ_head.py(440)forward_test()
+-> track_scores = outs_dict['track_scores'].to(pred_ins_sigmoid)  # [b, q]
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/occ_head.py(441)forward_test()
+-> track_scores = track_scores[:, :, None, None, None]
+(Pdb) torch.Size([1, 2])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/occ_head.py(442)forward_test()
+-> pred_ins_sigmoid = pred_ins_sigmoid * track_scores  # [b, q, t, h, w]
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/occ_head.py(444)forward_test()
+-> out_dict['pred_ins_sigmoid'] = pred_ins_sigmoid
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/occ_head.py(445)forward_test()
+-> pred_seg_scores = pred_ins_sigmoid.max(1)[0]
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/occ_head.py(446)forward_test()
+-> seg_out = (pred_seg_scores > self.test_seg_thresh).long().unsqueeze(2)  # [b, t, 1, h, w]
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/occ_head.py(447)forward_test()
+-> out_dict['seg_out'] = seg_out
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/occ_head.py(448)forward_test()
+-> if self.pan_eval:
+(Pdb) torch.Size([1, 5, 1, 200, 200])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/occ_head.py(451)forward_test()
+-> predict_instance_segmentation_and_trajectories(seg_out, pred_ins_sigmoid)  # bg is 0, fg starts with 1, consecutive
+(Pdb) --Call--
+> /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/occ_head_plugin/utils.py(71)predict_instance_segmentation_and_trajectories()
+-> def predict_instance_segmentation_and_trajectories(
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/occ_head_plugin/utils.py(76)predict_instance_segmentation_and_trajectories()
+-> if foreground_masks.dim() == 5 and foreground_masks.shape[2] == 1:
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/occ_head_plugin/utils.py(77)predict_instance_segmentation_and_trajectories()
+-> foreground_masks = foreground_masks.squeeze(2)  # [b, t, h, w]
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/occ_head_plugin/utils.py(78)predict_instance_segmentation_and_trajectories()
+-> foreground_masks = foreground_masks == vehicles_id  # [b, t, h, w]  Only these places have foreground id
+(Pdb) 1
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/occ_head_plugin/utils.py(80)predict_instance_segmentation_and_trajectories()
+-> argmax_ins = ins_sigmoid.argmax(dim=1)  # long, [b, t, h, w], ins_id starts from 0
+(Pdb) *** NameError: name 'argmax_ins' is not defined
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/occ_head_plugin/utils.py(81)predict_instance_segmentation_and_trajectories()
+-> argmax_ins = argmax_ins + 1 # [b, t, h, w], ins_id starts from 1
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/occ_head_plugin/utils.py(82)predict_instance_segmentation_and_trajectories()
+-> instance_seg = (argmax_ins * foreground_masks.float()).long()  # bg is 0, fg starts with 1
+(Pdb) torch.Size([1, 5, 200, 200])
+(Pdb)  77  	        foreground_masks = foreground_masks.squeeze(2)  # [b, t, h, w]
+ 78  	    foreground_masks = foreground_masks == vehicles_id  # [b, t, h, w]  Only these places have foreground id
+ 79  	
+ 80  	    argmax_ins = ins_sigmoid.argmax(dim=1)  # long, [b, t, h, w], ins_id starts from 0
+ 81  	    argmax_ins = argmax_ins + 1 # [b, t, h, w], ins_id starts from 1
+ 82  ->	    instance_seg = (argmax_ins * foreground_masks.float()).long()  # bg is 0, fg starts with 1
+ 83  	
+ 84  	    # Make the indices of instance_seg consecutive
+ 85  	    instance_seg = make_instance_seg_consecutive(instance_seg).long()
+ 86  	
+ 87  	    return instance_seg
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/occ_head_plugin/utils.py(85)predict_instance_segmentation_and_trajectories()
+-> instance_seg = make_instance_seg_consecutive(instance_seg).long()
+(Pdb) torch.Size([1, 5, 200, 200])
+(Pdb) --Call--
+> /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/occ_head_plugin/utils.py(63)make_instance_seg_consecutive()
+-> def make_instance_seg_consecutive(instance_seg):
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/occ_head_plugin/utils.py(65)make_instance_seg_consecutive()
+-> unique_ids = torch.unique(instance_seg)  # include background
+(Pdb) torch.Size([1, 5, 200, 200])
+(Pdb) *** NameError: name 'unique_ids' is not defined
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/occ_head_plugin/utils.py(66)make_instance_seg_consecutive()
+-> new_ids = torch.arange(len(unique_ids), device=instance_seg.device)
+(Pdb) torch.Size([3])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/occ_head_plugin/utils.py(67)make_instance_seg_consecutive()
+-> instance_seg = update_instance_ids(instance_seg, unique_ids, new_ids)
+(Pdb) tensor([0, 1, 2])
+(Pdb) --Call--
+> /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/occ_head_plugin/utils.py(45)update_instance_ids()
+-> def update_instance_ids(instance_seg, old_ids, new_ids):
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/occ_head_plugin/utils.py(56)update_instance_ids()
+-> indices = torch.arange(old_ids.max() + 1, device=instance_seg.device)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/occ_head_plugin/utils.py(57)update_instance_ids()
+-> for old_id, new_id in zip(old_ids, new_ids):
+(Pdb) torch.Size([3])
+(Pdb) tensor([0, 1, 2])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/occ_head_plugin/utils.py(58)update_instance_ids()
+-> indices[old_id] = new_id
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/occ_head_plugin/utils.py(57)update_instance_ids()
+-> for old_id, new_id in zip(old_ids, new_ids):
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/occ_head_plugin/utils.py(58)update_instance_ids()
+-> indices[old_id] = new_id
+(Pdb) tensor(1)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/occ_head_plugin/utils.py(57)update_instance_ids()
+-> for old_id, new_id in zip(old_ids, new_ids):
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/occ_head_plugin/utils.py(58)update_instance_ids()
+-> indices[old_id] = new_id
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/occ_head_plugin/utils.py(57)update_instance_ids()
+-> for old_id, new_id in zip(old_ids, new_ids):
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/occ_head_plugin/utils.py(60)update_instance_ids()
+-> return indices[instance_seg].long()
+(Pdb) --Return--
+> /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/occ_head_plugin/utils.py(60)update_instance_ids()->tensor([[[[0,..., 0, 0, 0]]]])
+-> return indices[instance_seg].long()
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/occ_head_plugin/utils.py(68)make_instance_seg_consecutive()
+-> return instance_seg
+(Pdb) --Return--
+> /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/occ_head_plugin/utils.py(68)make_instance_seg_consecutive()->tensor([[[[0,..., 0, 0, 0]]]])
+-> return instance_seg
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/occ_head_plugin/utils.py(87)predict_instance_segmentation_and_trajectories()
+-> return instance_seg
+(Pdb) --Return--
+> /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/occ_head_plugin/utils.py(87)predict_instance_segmentation_and_trajectories()->tensor([[[[0,..., 0, 0, 0]]]])
+-> return instance_seg
+(Pdb) torch.Size([1, 5, 200, 200])
+(Pdb) tensor([[0, 0, 0,  ..., 0, 0, 0],
+        [0, 0, 0,  ..., 0, 0, 0],
+        [0, 0, 0,  ..., 0, 0, 0],
+        ...,
+        [0, 0, 0,  ..., 0, 0, 0],
+        [0, 0, 0,  ..., 0, 0, 0],
+        [0, 0, 0,  ..., 0, 0, 0]])
+(Pdb) tensor([[0, 0, 0,  ..., 0, 0, 0],
+        [0, 0, 0,  ..., 0, 0, 0],
+        [0, 0, 0,  ..., 0, 0, 0],
+        ...,
+        [0, 0, 0,  ..., 0, 0, 0],
+        [0, 0, 0,  ..., 0, 0, 0],
+        [0, 0, 0,  ..., 0, 0, 0]])
+(Pdb) tensor([[0, 0, 0,  ..., 0, 0, 0],
+        [0, 0, 0,  ..., 0, 0, 0],
+        [0, 0, 0,  ..., 0, 0, 0],
+        ...,
+        [0, 0, 0,  ..., 0, 0, 0],
+        [0, 0, 0,  ..., 0, 0, 0],
+        [0, 0, 0,  ..., 0, 0, 0]])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/occ_head.py(450)forward_test()
+-> pred_consistent_instance_seg =  \
+(Pdb) 445  	        pred_seg_scores = pred_ins_sigmoid.max(1)[0]
+446  	        seg_out = (pred_seg_scores > self.test_seg_thresh).long().unsqueeze(2)  # [b, t, 1, h, w]
+447  	        out_dict['seg_out'] = seg_out
+448  	        if self.pan_eval:
+449  	            # ins_pred
+450  ->	            pred_consistent_instance_seg =  \
+451  	                predict_instance_segmentation_and_trajectories(seg_out, pred_ins_sigmoid)  # bg is 0, fg starts with 1, consecutive
+452  	
+453  	            out_dict['ins_seg_out'] = pred_consistent_instance_seg  # [1, 5, 200, 200]
+454  	
+455  	        return out_dict
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/occ_head.py(453)forward_test()
+-> out_dict['ins_seg_out'] = pred_consistent_instance_seg  # [1, 5, 200, 200]
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/occ_head.py(455)forward_test()
+-> return out_dict
+(Pdb) dict_keys(['seg_gt', 'ins_seg_gt', 'pred_ins_logits', 'pred_ins_sigmoid', 'seg_out', 'ins_seg_out'])
+(Pdb) torch.Size([1, 2, 5, 200, 200])
+(Pdb) torch.Size([1, 5, 200, 200])
+(Pdb) torch.Size([1, 5, 1, 200, 200])
+(Pdb) tensor([[0, 0, 0,  ..., 0, 0, 0],
+        [0, 0, 0,  ..., 0, 0, 0],
+        [0, 0, 0,  ..., 0, 0, 0],
+        ...,
+        [0, 0, 0,  ..., 0, 0, 0],
+        [0, 0, 0,  ..., 0, 0, 0],
+        [0, 0, 0,  ..., 0, 0, 0]])
+(Pdb) tensor([[[0, 0, 0,  ..., 0, 0, 0],
+         [0, 0, 0,  ..., 0, 0, 0],
+         [0, 0, 0,  ..., 0, 0, 0],
+         ...,
+         [0, 0, 0,  ..., 0, 0, 0],
+         [0, 0, 0,  ..., 0, 0, 0],
+         [0, 0, 0,  ..., 0, 0, 0]]])
+(Pdb) tensor([[[[[False, False, False,  ..., False, False, False],
+           [False, False, False,  ..., False, False, False],
+           [False, False, False,  ..., False, False, False],
+           ...,
+           [False, False, False,  ..., False, False, False],
+           [False, False, False,  ..., False, False, False],
+           [False, False, False,  ..., False, False, False]]],
+
+
+         [[[False, False, False,  ..., False, False, False],
+           [False, False, False,  ..., False, False, False],
+           [False, False, False,  ..., False, False, False],
+           ...,
+           [False, False, False,  ..., False, False, False],
+           [False, False, False,  ..., False, False, False],
+           [False, False, False,  ..., False, False, False]]],
+
+
+         [[[False, False, False,  ..., False, False, False],
+           [False, False, False,  ..., False, False, False],
+           [False, False, False,  ..., False, False, False],
+           ...,
+           [False, False, False,  ..., False, False, False],
+           [False, False, False,  ..., False, False, False],
+           [False, False, False,  ..., False, False, False]]],
+
+
+         [[[False, False, False,  ..., False, False, False],
+           [False, False, False,  ..., False, False, False],
+           [False, False, False,  ..., False, False, False],
+           ...,
+           [False, False, False,  ..., False, False, False],
+           [False, False, False,  ..., False, False, False],
+           [False, False, False,  ..., False, False, False]]],
+
+
+         [[[False, False, False,  ..., False, False, False],
+           [False, False, False,  ..., False, False, False],
+           [False, False, False,  ..., False, False, False],
+           ...,
+           [False, False, False,  ..., False, False, False],
+           [False, False, False,  ..., False, False, False],
+           [False, False, False,  ..., False, False, False]]]]])
+(Pdb) (Pdb) tensor([[ 0,  0,  0, 47, 97],
+        [ 0,  0,  0, 47, 98],
+        [ 0,  0,  0, 48, 96],
+        ...,
+        [ 0,  4,  0, 79, 92],
+        [ 0,  4,  0, 80, 90],
+        [ 0,  4,  0, 80, 91]])
+(Pdb) torch.Size([292, 5])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py(132)forward_test()
+-> sdc_traj_query = outs_motion['sdc_traj_query']
+(Pdb) 127  	        ret_dict = dict(losses=losses, outs_motion=outs_planning)
+128  	        return ret_dict
+129  	
+130  	    def forward_test(self, bev_embed, outs_motion={}, outs_occflow={}, command=None):
+131  	        import pdb; pdb.set_trace()
+132  ->	        sdc_traj_query = outs_motion['sdc_traj_query']
+133  	        sdc_track_query = outs_motion['sdc_track_query']
+134  	        bev_pos = outs_motion['bev_pos']
+135  	        occ_mask = outs_occflow['seg_out']
+136  	
+137  	        outs_planning = self(bev_embed, occ_mask, bev_pos, sdc_traj_query, sdc_track_query, command)
+(Pdb) *** AttributeError: 'list' object has no attribute 'shape'
+(Pdb) [tensor([1])]
+(Pdb) torch.Size([40000, 1, 256])
+(Pdb) torch.Size([1, 256, 200, 200])
+(Pdb) torch.Size([3, 1, 6, 256])
+(Pdb) torch.Size([1, 256])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py(133)forward_test()
+-> sdc_track_query = outs_motion['sdc_track_query']
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py(134)forward_test()
+-> bev_pos = outs_motion['bev_pos']
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py(135)forward_test()
+-> occ_mask = outs_occflow['seg_out']
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py(137)forward_test()
+-> outs_planning = self(bev_embed, occ_mask, bev_pos, sdc_traj_query, sdc_track_query, command)
+(Pdb) --Call--
+> /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/module.py(1045)_call_impl()
+-> def _call_impl(self, *input, **kwargs):
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/module.py(1046)_call_impl()
+-> forward_call = (self._slow_forward if torch._C._get_tracing_state() else self.forward)
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/module.py(1049)_call_impl()
+-> if not (self._backward_hooks or self._forward_hooks or self._forward_pre_hooks or _global_backward_hooks
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/module.py(1050)_call_impl()
+-> or _global_forward_hooks or _global_forward_pre_hooks):
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/module.py(1049)_call_impl()
+-> if not (self._backward_hooks or self._forward_hooks or self._forward_pre_hooks or _global_backward_hooks
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/module.py(1050)_call_impl()
+-> or _global_forward_hooks or _global_forward_pre_hooks):
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/module.py(1049)_call_impl()
+-> if not (self._backward_hooks or self._forward_hooks or self._forward_pre_hooks or _global_backward_hooks
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/module.py(1051)_call_impl()
+-> return forward_call(*input, **kwargs)
+(Pdb) --Call--
+> /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py(140)forward()
+-> def forward(self,
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py(161)forward()
+-> sdc_track_query = sdc_track_query.detach()
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py(162)forward()
+-> sdc_traj_query = sdc_traj_query[-1]
+(Pdb) tensor([[-1.8255e-01, -4.0788e-01,  1.6076e-01, -2.5198e-01, -8.8826e-01,
+          1.4533e-01, -7.3903e-01, -4.7802e-01, -6.8017e-01,  5.4484e-01,
+         -8.3872e-01,  1.7665e+00,  8.4522e-02,  2.3097e-02,  6.8516e-01,
+         -7.0446e-01, -3.8165e-01,  6.5782e-01,  8.0665e-02,  3.4668e-01,
+         -5.3021e-01, -1.6320e-01, -1.1719e-01,  5.9696e-01, -1.2922e+00,
+          3.3372e-01, -3.2954e-02,  7.2119e-01,  1.8851e-01, -7.6756e-01,
+         -2.7816e-01, -4.3089e-01, -3.2760e-01, -2.6845e-01, -3.7992e-01,
+         -8.8505e-01,  9.3222e-03,  3.9554e-01,  1.3592e+00,  4.8343e-01,
+         -7.1763e-01,  4.7244e-01,  4.9921e-01, -8.5018e-01, -4.7007e-01,
+         -3.1709e-01, -5.5385e-01,  1.5694e-01, -9.4155e-01,  3.2117e-01,
+          3.5412e-01, -1.5624e-01,  9.4912e-01, -7.1007e-01,  4.5652e-02,
+          4.1129e-01,  1.2175e+00,  2.9892e-02,  2.5776e-01, -6.1032e-01,
+         -5.2767e-01,  1.1862e-01,  4.0411e-01, -5.6977e-02, -3.4231e-01,
+         -6.8259e-01,  1.1710e-01,  9.0227e-01,  5.8681e-01, -3.4236e-01,
+          3.0796e-01,  8.2736e-02,  5.7098e-01,  8.1015e-01, -8.4607e-01,
+         -4.2826e-01, -1.0027e+00, -7.9148e-01, -2.0352e-01, -4.7955e-02,
+          3.9877e-01, -3.4746e-01,  3.5791e-01, -9.9465e-01, -4.6455e-01,
+         -6.2758e-01,  6.1228e-01,  4.8205e-01,  2.0930e+00,  1.0554e+00,
+          1.9314e-01,  3.8599e-01,  5.0611e-01,  7.6208e-01, -8.8878e-02,
+         -3.4405e-01,  8.6539e-01, -3.6863e-01,  4.0994e-01, -2.5762e-01,
+          5.3220e-01, -1.4100e-01,  3.8227e-01,  1.5783e+00, -4.5233e-01,
+          2.7012e-01, -9.5246e-01,  1.8134e+00, -2.8061e+00, -7.0744e-03,
+          1.1461e+00,  5.9902e-01, -9.3717e-01, -5.3895e-01,  5.4251e-01,
+         -4.4150e-01, -5.2048e-03,  8.6503e-01,  6.3065e-01,  7.6411e-01,
+         -2.4348e-01, -6.1991e-01, -6.2541e-02,  9.0314e-01,  9.2742e-01,
+         -1.5580e+00, -9.9327e-01,  1.1429e+00, -2.7526e-01, -4.5104e-01,
+          5.5858e-01,  1.2172e-01, -7.3936e-01,  1.6622e-01,  4.3890e-01,
+         -4.2702e-01, -4.4180e-01, -1.3739e+00, -1.3896e-01, -5.9950e-02,
+          1.1110e+00,  1.0591e+00, -7.2583e-02,  1.0202e+00,  1.3183e+00,
+          3.0808e-01, -1.8869e-01,  2.0228e-01, -1.4433e+00, -4.4621e-01,
+         -1.7324e-01, -5.8355e-01, -1.2615e+00,  3.3693e+00,  3.4422e-01,
+          6.7722e-01, -1.6634e-01,  1.6876e-01, -9.7153e-01, -1.0274e+00,
+         -4.4053e-01,  2.0086e-01, -7.2813e-01, -2.3412e-01, -7.8844e-01,
+         -4.1144e-01, -9.2376e-01,  1.1608e+00, -1.9629e-01,  2.7943e-01,
+          2.0589e-01, -2.6516e-01, -4.3682e-01,  4.6792e-01,  3.6933e-01,
+         -3.0362e-01,  1.2336e+00, -7.5077e-02,  1.6869e-01,  2.9298e-01,
+          3.8768e+00, -2.6374e+00, -2.9200e-02,  2.9550e-01, -6.4243e-01,
+         -1.1066e+00, -6.0562e-01,  8.7127e-01,  9.5174e-01, -1.1741e+00,
+          8.3490e-01,  2.8753e-02,  3.6931e-01,  2.0665e-01,  2.6432e-01,
+         -2.3390e-01, -1.5537e+00,  5.9100e-01,  2.3830e-01, -4.1695e-01,
+          1.0490e-01,  5.8710e-01, -2.6665e-01, -1.6326e-01, -2.9972e+00,
+          7.8470e-01,  4.9015e-01, -1.4249e-01, -5.4056e-01,  1.1162e-01,
+         -2.7971e-01, -2.1713e-01,  3.0590e-01, -1.0733e+00,  9.5212e-01,
+         -9.0251e-01,  4.4069e-01,  1.6808e+00, -9.2984e-01,  8.1391e-01,
+         -1.0787e-01, -2.6859e-01,  2.9374e-01, -9.1996e-01, -2.3097e-02,
+          6.7745e-01, -2.8411e-01,  4.5438e-01,  1.5170e-01, -2.0155e+00,
+         -7.1402e-01,  1.2454e-01, -3.1142e-01, -9.0900e-02,  3.8416e-01,
+         -3.3357e-01,  3.1400e-01, -9.7673e-01, -5.5772e-01, -7.0417e-01,
+         -2.3285e-01,  6.2322e-01,  2.2156e-01,  9.1579e-01,  3.5369e-03,
+         -1.3154e+00,  5.6757e-03,  1.0759e-01,  1.2531e+00,  6.3730e-01,
+          2.3391e-02, -2.1760e-01, -1.1546e-01,  2.5269e-01, -3.3619e-01,
+          8.2279e-01]])
+(Pdb) torch.Size([1, 256])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py(163)forward()
+-> P = sdc_traj_query.shape[1]
+(Pdb) torch.Size([1, 6, 256])
+(Pdb) 6
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py(164)forward()
+-> sdc_track_query = sdc_track_query[:, None].expand(-1,P,-1)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py(167)forward()
+-> navi_embed = self.navi_embed.weight[command]
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py(168)forward()
+-> navi_embed = navi_embed[None].expand(-1,P,-1)
+(Pdb) torch.Size([1, 256])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py(169)forward()
+-> plan_query = torch.cat([sdc_traj_query, sdc_track_query, navi_embed], dim=-1)
+(Pdb) torch.Size([1, 6, 256])
+(Pdb) torch.Size([1, 6, 256])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py(171)forward()
+-> plan_query = self.mlp_fuser(plan_query).max(1, keepdim=True)[0]   # expand, then fuse  # [1, 6, 768] -> [1, 1, 256]
+(Pdb) torch.Size([1, 6, 768])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py(172)forward()
+-> plan_query = rearrange(plan_query, 'b p c -> p b c')
+(Pdb) torch.Size([1, 1, 256])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py(174)forward()
+-> bev_pos = rearrange(bev_pos, 'b c h w -> (h w) b c')
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py(175)forward()
+-> bev_feat = bev_embed +  bev_pos
+(Pdb) torch.Size([40000, 1, 256])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py(178)forward()
+-> if self.with_adapter:
+(Pdb) 173  	
+174  	        bev_pos = rearrange(bev_pos, 'b c h w -> (h w) b c')
+175  	        bev_feat = bev_embed +  bev_pos
+176  	
+177  	        ##### Plugin adapter #####
+178  ->	        if self.with_adapter:
+179  	            bev_feat = rearrange(bev_feat, '(h w) b c -> b c h w', h=self.bev_h, w=self.bev_w)
+180  	            bev_feat = bev_feat + self.bev_adapter(bev_feat)  # residual connection
+181  	            bev_feat = rearrange(bev_feat, 'b c h w -> (h w) b c')
+182  	        ##########################
+183  	
+(Pdb) torch.Size([40000, 1, 256])
+(Pdb) True
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py(179)forward()
+-> bev_feat = rearrange(bev_feat, '(h w) b c -> b c h w', h=self.bev_h, w=self.bev_w)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py(180)forward()
+-> bev_feat = bev_feat + self.bev_adapter(bev_feat)  # residual connection
+(Pdb) Sequential(
+  (0): Sequential(
+    (0): Conv2d(256, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (1): ReLU()
+    (2): Conv2d(128, 256, kernel_size=(1, 1), stride=(1, 1))
+  )
+  (1): Sequential(
+    (0): Conv2d(256, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (1): ReLU()
+    (2): Conv2d(128, 256, kernel_size=(1, 1), stride=(1, 1))
+  )
+  (2): Sequential(
+    (0): Conv2d(256, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (1): ReLU()
+    (2): Conv2d(128, 256, kernel_size=(1, 1), stride=(1, 1))
+  )
+)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py(181)forward()
+-> bev_feat = rearrange(bev_feat, 'b c h w -> (h w) b c')
+(Pdb) torch.Size([1, 256, 200, 200])
+(Pdb) 176  	
+177  	        ##### Plugin adapter #####
+178  	        if self.with_adapter:
+179  	            bev_feat = rearrange(bev_feat, '(h w) b c -> b c h w', h=self.bev_h, w=self.bev_w)
+180  	            bev_feat = bev_feat + self.bev_adapter(bev_feat)  # residual connection
+181  ->	            bev_feat = rearrange(bev_feat, 'b c h w -> (h w) b c')
+182  	        ##########################
+183  	
+184  	        pos_embed = self.pos_embed.weight
+185  	        plan_query = plan_query + pos_embed[None]  # [1, 1, 256]
+186  	
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py(184)forward()
+-> pos_embed = self.pos_embed.weight
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py(185)forward()
+-> plan_query = plan_query + pos_embed[None]  # [1, 1, 256]
+(Pdb) torch.Size([1, 256])
+(Pdb) torch.Size([1, 1, 256])
+(Pdb) 180  	            bev_feat = bev_feat + self.bev_adapter(bev_feat)  # residual connection
+181  	            bev_feat = rearrange(bev_feat, 'b c h w -> (h w) b c')
+182  	        ##########################
+183  	
+184  	        pos_embed = self.pos_embed.weight
+185  ->	        plan_query = plan_query + pos_embed[None]  # [1, 1, 256]
+186  	
+187  	        # plan_query: [1, 1, 256]
+188  	        # bev_feat: [40000, 1, 256]
+189  	        plan_query = self.attn_module(plan_query, bev_feat)   # [1, 1, 256]
+190  	
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py(189)forward()
+-> plan_query = self.attn_module(plan_query, bev_feat)   # [1, 1, 256]
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py(191)forward()
+-> sdc_traj_all = self.reg_branch(plan_query).view((-1, self.planning_steps, 2))
+(Pdb) torch.Size([1, 1, 256])
+(Pdb) Sequential(
+  (0): Linear(in_features=256, out_features=256, bias=True)
+  (1): ReLU()
+  (2): Linear(in_features=256, out_features=12, bias=True)
+)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py(192)forward()
+-> sdc_traj_all[...,:2] = torch.cumsum(sdc_traj_all[...,:2], dim=2)
+(Pdb) torch.Size([1, 6, 2])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py(193)forward()
+-> sdc_traj_all[0] = bivariate_gaussian_activation(sdc_traj_all[0])
+(Pdb) torch.Size([1, 6, 2])
+(Pdb) tensor([[-0.2574,  3.4650],
+        [-1.0605,  7.1725],
+        [-2.1617, 11.0139],
+        [-3.8802, 15.1562],
+        [-5.6117, 19.4630],
+        [-7.8383, 23.7910]])
+(Pdb) --Call--
+> /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/models/utils/functional.py(5)bivariate_gaussian_activation()
+-> def bivariate_gaussian_activation(ip):
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/models/utils/functional.py(15)bivariate_gaussian_activation()
+-> mu_x = ip[..., 0:1]
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/models/utils/functional.py(16)bivariate_gaussian_activation()
+-> mu_y = ip[..., 1:2]
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/models/utils/functional.py(17)bivariate_gaussian_activation()
+-> sig_x = ip[..., 2:3]
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/models/utils/functional.py(18)bivariate_gaussian_activation()
+-> sig_y = ip[..., 3:4]
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/models/utils/functional.py(19)bivariate_gaussian_activation()
+-> rho = ip[..., 4:5]
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/models/utils/functional.py(20)bivariate_gaussian_activation()
+-> sig_x = torch.exp(sig_x)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/models/utils/functional.py(21)bivariate_gaussian_activation()
+-> sig_y = torch.exp(sig_y)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/models/utils/functional.py(22)bivariate_gaussian_activation()
+-> rho = torch.tanh(rho)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/models/utils/functional.py(23)bivariate_gaussian_activation()
+-> out = torch.cat([mu_x, mu_y, sig_x, sig_y, rho], dim=-1)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/models/utils/functional.py(24)bivariate_gaussian_activation()
+-> return out
+(Pdb) torch.Size([6, 2])
+(Pdb) tensor([[-0.2574,  3.4650],
+        [-1.0605,  7.1725],
+        [-2.1617, 11.0139],
+        [-3.8802, 15.1562],
+        [-5.6117, 19.4630],
+        [-7.8383, 23.7910]])
+(Pdb) --Return--
+> /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/models/utils/functional.py(24)bivariate_gaussian_activation()->tensor([[-0.2...83, 23.7910]])
+-> return out
+(Pdb) torch.Size([6, 2])
+(Pdb) tensor([[-0.2574,  3.4650],
+        [-1.0605,  7.1725],
+        [-2.1617, 11.0139],
+        [-3.8802, 15.1562],
+        [-5.6117, 19.4630],
+        [-7.8383, 23.7910]])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py(194)forward()
+-> if self.use_col_optim and not self.training:
+(Pdb) 189  	        plan_query = self.attn_module(plan_query, bev_feat)   # [1, 1, 256]
+190  	
+191  	        sdc_traj_all = self.reg_branch(plan_query).view((-1, self.planning_steps, 2))
+192  	        sdc_traj_all[...,:2] = torch.cumsum(sdc_traj_all[...,:2], dim=2)
+193  	        sdc_traj_all[0] = bivariate_gaussian_activation(sdc_traj_all[0])
+194  ->	        if self.use_col_optim and not self.training:
+195  	            # post process, only used when testing
+196  	            assert occ_mask is not None
+197  	            sdc_traj_all = self.collision_optimization(sdc_traj_all, occ_mask)
+198  	
+199  	        return dict(
+(Pdb) torch.Size([6, 2])
+(Pdb) tensor([[-0.2574,  3.4650],
+        [-1.0605,  7.1725],
+        [-2.1617, 11.0139],
+        [-3.8802, 15.1562],
+        [-5.6117, 19.4630],
+        [-7.8383, 23.7910]])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py(196)forward()
+-> assert occ_mask is not None
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py(197)forward()
+-> sdc_traj_all = self.collision_optimization(sdc_traj_all, occ_mask)
+(Pdb) torch.Size([1, 5, 1, 200, 200])
+(Pdb) --Call--
+> /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py(204)collision_optimization()
+-> def collision_optimization(self, sdc_traj_all, occ_mask):
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py(214)collision_optimization()
+-> pos_xy_t = []
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py(215)collision_optimization()
+-> valid_occupancy_num = 0
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py(217)collision_optimization()
+-> if occ_mask.shape[2] == 1:
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py(218)collision_optimization()
+-> occ_mask = occ_mask.squeeze(2)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py(219)collision_optimization()
+-> occ_horizon = occ_mask.shape[1]
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py(220)collision_optimization()
+-> assert occ_horizon == 5
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py(222)collision_optimization()
+-> for t in range(self.planning_steps):
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py(223)collision_optimization()
+-> cur_t = min(t+1, occ_horizon-1)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py(224)collision_optimization()
+-> pos_xy = torch.nonzero(occ_mask[0][cur_t], as_tuple=False)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py(225)collision_optimization()
+-> pos_xy = pos_xy[:, [1, 0]]
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py(226)collision_optimization()
+-> pos_xy[:, 0] = (pos_xy[:, 0] - self.bev_h//2) * 0.5 + 0.25
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py(227)collision_optimization()
+-> pos_xy[:, 1] = (pos_xy[:, 1] - self.bev_w//2) * 0.5 + 0.25
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py(230)collision_optimization()
+-> keep_index = torch.sum((sdc_traj_all[0, t, :2][None, :] - pos_xy[:, :2])**2, axis=-1) < self.occ_filter_range**2
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py(231)collision_optimization()
+-> pos_xy_t.append(pos_xy[keep_index].cpu().detach().numpy())
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py(232)collision_optimization()
+-> valid_occupancy_num += torch.sum(keep_index>0)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py(222)collision_optimization()
+-> for t in range(self.planning_steps):
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py(223)collision_optimization()
+-> cur_t = min(t+1, occ_horizon-1)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py(224)collision_optimization()
+-> pos_xy = torch.nonzero(occ_mask[0][cur_t], as_tuple=False)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py(225)collision_optimization()
+-> pos_xy = pos_xy[:, [1, 0]]
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py(226)collision_optimization()
+-> pos_xy[:, 0] = (pos_xy[:, 0] - self.bev_h//2) * 0.5 + 0.25
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py(227)collision_optimization()
+-> pos_xy[:, 1] = (pos_xy[:, 1] - self.bev_w//2) * 0.5 + 0.25
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py(230)collision_optimization()
+-> keep_index = torch.sum((sdc_traj_all[0, t, :2][None, :] - pos_xy[:, :2])**2, axis=-1) < self.occ_filter_range**2
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py(231)collision_optimization()
+-> pos_xy_t.append(pos_xy[keep_index].cpu().detach().numpy())
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py(232)collision_optimization()
+-> valid_occupancy_num += torch.sum(keep_index>0)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py(222)collision_optimization()
+-> for t in range(self.planning_steps):
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py(223)collision_optimization()
+-> cur_t = min(t+1, occ_horizon-1)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py(224)collision_optimization()
+-> pos_xy = torch.nonzero(occ_mask[0][cur_t], as_tuple=False)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py(225)collision_optimization()
+-> pos_xy = pos_xy[:, [1, 0]]
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py(226)collision_optimization()
+-> pos_xy[:, 0] = (pos_xy[:, 0] - self.bev_h//2) * 0.5 + 0.25
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py(227)collision_optimization()
+-> pos_xy[:, 1] = (pos_xy[:, 1] - self.bev_w//2) * 0.5 + 0.25
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py(230)collision_optimization()
+-> keep_index = torch.sum((sdc_traj_all[0, t, :2][None, :] - pos_xy[:, :2])**2, axis=-1) < self.occ_filter_range**2
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py(231)collision_optimization()
+-> pos_xy_t.append(pos_xy[keep_index].cpu().detach().numpy())
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py(232)collision_optimization()
+-> valid_occupancy_num += torch.sum(keep_index>0)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py(222)collision_optimization()
+-> for t in range(self.planning_steps):
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py(223)collision_optimization()
+-> cur_t = min(t+1, occ_horizon-1)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py(224)collision_optimization()
+-> pos_xy = torch.nonzero(occ_mask[0][cur_t], as_tuple=False)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py(225)collision_optimization()
+-> pos_xy = pos_xy[:, [1, 0]]
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py(226)collision_optimization()
+-> pos_xy[:, 0] = (pos_xy[:, 0] - self.bev_h//2) * 0.5 + 0.25
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py(227)collision_optimization()
+-> pos_xy[:, 1] = (pos_xy[:, 1] - self.bev_w//2) * 0.5 + 0.25
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py(230)collision_optimization()
+-> keep_index = torch.sum((sdc_traj_all[0, t, :2][None, :] - pos_xy[:, :2])**2, axis=-1) < self.occ_filter_range**2
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py(231)collision_optimization()
+-> pos_xy_t.append(pos_xy[keep_index].cpu().detach().numpy())
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py(232)collision_optimization()
+-> valid_occupancy_num += torch.sum(keep_index>0)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py(222)collision_optimization()
+-> for t in range(self.planning_steps):
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py(223)collision_optimization()
+-> cur_t = min(t+1, occ_horizon-1)
+(Pdb) 4
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py(224)collision_optimization()
+-> pos_xy = torch.nonzero(occ_mask[0][cur_t], as_tuple=False)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py(225)collision_optimization()
+-> pos_xy = pos_xy[:, [1, 0]]
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py(226)collision_optimization()
+-> pos_xy[:, 0] = (pos_xy[:, 0] - self.bev_h//2) * 0.5 + 0.25
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py(227)collision_optimization()
+-> pos_xy[:, 1] = (pos_xy[:, 1] - self.bev_w//2) * 0.5 + 0.25
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py(230)collision_optimization()
+-> keep_index = torch.sum((sdc_traj_all[0, t, :2][None, :] - pos_xy[:, :2])**2, axis=-1) < self.occ_filter_range**2
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py(231)collision_optimization()
+-> pos_xy_t.append(pos_xy[keep_index].cpu().detach().numpy())
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py(232)collision_optimization()
+-> valid_occupancy_num += torch.sum(keep_index>0)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py(222)collision_optimization()
+-> for t in range(self.planning_steps):
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py(223)collision_optimization()
+-> cur_t = min(t+1, occ_horizon-1)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py(224)collision_optimization()
+-> pos_xy = torch.nonzero(occ_mask[0][cur_t], as_tuple=False)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py(225)collision_optimization()
+-> pos_xy = pos_xy[:, [1, 0]]
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py(226)collision_optimization()
+-> pos_xy[:, 0] = (pos_xy[:, 0] - self.bev_h//2) * 0.5 + 0.25
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py(227)collision_optimization()
+-> pos_xy[:, 1] = (pos_xy[:, 1] - self.bev_w//2) * 0.5 + 0.25
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py(230)collision_optimization()
+-> keep_index = torch.sum((sdc_traj_all[0, t, :2][None, :] - pos_xy[:, :2])**2, axis=-1) < self.occ_filter_range**2
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py(231)collision_optimization()
+-> pos_xy_t.append(pos_xy[keep_index].cpu().detach().numpy())
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py(232)collision_optimization()
+-> valid_occupancy_num += torch.sum(keep_index>0)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py(222)collision_optimization()
+-> for t in range(self.planning_steps):
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py(233)collision_optimization()
+-> if valid_occupancy_num == 0:
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py(234)collision_optimization()
+-> return sdc_traj_all
+(Pdb) (0, 2)
+(Pdb) [array([], shape=(0, 2), dtype=int64), array([], shape=(0, 2), dtype=int64), array([], shape=(0, 2), dtype=int64), array([], shape=(0, 2), dtype=int64), array([], shape=(0, 2), dtype=int64), array([], shape=(0, 2), dtype=int64)]
+(Pdb) --Return--
+> /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py(234)collision_optimization()->tensor([[[-0....3, 23.7910]]])
+-> return sdc_traj_all
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py(199)forward()
+-> return dict(
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py(200)forward()
+-> sdc_traj=sdc_traj_all,
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py(201)forward()
+-> sdc_traj_all=sdc_traj_all,
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py(199)forward()
+-> return dict(
+(Pdb) --Return--
+> /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py(199)forward()->{'sdc_traj': tensor([[[-0....3, 23.7910]]]), 'sdc_traj_all': tensor([[[-0....3, 23.7910]]])}
+-> return dict(
+(Pdb) --Return--
+> /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/module.py(1051)_call_impl()->{'sdc_traj': tensor([[[-0....3, 23.7910]]]), 'sdc_traj_all': tensor([[[-0....3, 23.7910]]])}
+-> return forward_call(*input, **kwargs)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py(138)forward_test()
+-> return outs_planning
+(Pdb) --Return--
+> /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/planning_head.py(138)forward_test()->{'sdc_traj': tensor([[[-0....3, 23.7910]]]), 'sdc_traj_all': tensor([[[-0....3, 23.7910]]])}
+-> return outs_planning
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_e2e.py(329)forward_test()
+-> result[0]['planning'] = dict(
+(Pdb) 324  	                sdc_planning=sdc_planning,
+325  	                sdc_planning_mask=sdc_planning_mask,
+326  	                command=command
+327  	            )
+328  	            result_planning = self.planning_head.forward_test(bev_embed, outs_motion, outs_occ, command)
+329  ->	            result[0]['planning'] = dict(
+330  	                planning_gt=planning_gt,
+331  	                result_planning=result_planning,
+332  	            )
+333  	
+334  	        pop_track_list = ['prev_bev', 'bev_pos', 'bev_embed', 'track_query_embeddings', 'sdc_embedding']
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_e2e.py(330)forward_test()
+-> planning_gt=planning_gt,
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_e2e.py(331)forward_test()
+-> result_planning=result_planning,
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_e2e.py(329)forward_test()
+-> result[0]['planning'] = dict(
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_e2e.py(334)forward_test()
+-> pop_track_list = ['prev_bev', 'bev_pos', 'bev_embed', 'track_query_embeddings', 'sdc_embedding']
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_e2e.py(335)forward_test()
+-> result_track[0] = pop_elem_in_result(result_track[0], pop_track_list)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_e2e.py(337)forward_test()
+-> if self.with_seg_head:
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_e2e.py(338)forward_test()
+-> result_seg[0] = pop_elem_in_result(result_seg[0], pop_list=['pts_bbox', 'args_tuple'])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_e2e.py(339)forward_test()
+-> if self.with_motion_head:
+(Pdb) 334  	        pop_track_list = ['prev_bev', 'bev_pos', 'bev_embed', 'track_query_embeddings', 'sdc_embedding']
+335  	        result_track[0] = pop_elem_in_result(result_track[0], pop_track_list)
+336  	
+337  	        if self.with_seg_head:
+338  	            result_seg[0] = pop_elem_in_result(result_seg[0], pop_list=['pts_bbox', 'args_tuple'])
+339  ->	        if self.with_motion_head:
+340  	            result_motion[0] = pop_elem_in_result(result_motion[0])
+341  	        if self.with_occ_head:
+342  	            result[0]['occ'] = pop_elem_in_result(result[0]['occ'],  \
+343  	                pop_list=['seg_out_mask', 'flow_out', 'future_states_occ', 'pred_ins_masks', 'pred_raw_occ', 'pred_ins_logits', 'pred_ins_sigmoid'])
+344  	
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_e2e.py(340)forward_test()
+-> result_motion[0] = pop_elem_in_result(result_motion[0])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_e2e.py(341)forward_test()
+-> if self.with_occ_head:
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_e2e.py(342)forward_test()
+-> result[0]['occ'] = pop_elem_in_result(result[0]['occ'],  \
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_e2e.py(343)forward_test()
+-> pop_list=['seg_out_mask', 'flow_out', 'future_states_occ', 'pred_ins_masks', 'pred_raw_occ', 'pred_ins_logits', 'pred_ins_sigmoid'])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_e2e.py(342)forward_test()
+-> result[0]['occ'] = pop_elem_in_result(result[0]['occ'],  \
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_e2e.py(345)forward_test()
+-> for i, res in enumerate(result):
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_e2e.py(346)forward_test()
+-> res['token'] = img_metas[i]['sample_idx']
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_e2e.py(347)forward_test()
+-> res.update(result_track[i])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_e2e.py(348)forward_test()
+-> if self.with_motion_head:
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_e2e.py(349)forward_test()
+-> res.update(result_motion[i])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_e2e.py(350)forward_test()
+-> if self.with_seg_head:
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_e2e.py(351)forward_test()
+-> res.update(result_seg[i])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_e2e.py(345)forward_test()
+-> for i, res in enumerate(result):
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_e2e.py(353)forward_test()
+-> return result
+(Pdb) --Return--
+> /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_e2e.py(353)forward_test()->[{'boxes_3d': LiDARInstance...9.9059e-04]])), 'boxes_3d_det': LiDARInstance...2.4743e-03]])), 'labels_3d': tensor([0, 8, 7]), 'labels_3d_det': tensor([0, 8,..., 8, 8, 4, 8]), ...}]
+-> return result
+(Pdb) --Return--
+> /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_e2e.py(83)forward()->[{'boxes_3d': LiDARInstance...9.9059e-04]])), 'boxes_3d_det': LiDARInstance...2.4743e-03]])), 'labels_3d': tensor([0, 8, 7]), 'labels_3d_det': tensor([0, 8,..., 8, 8, 4, 8]), ...}]
+-> return self.forward_test(**kwargs)
+(Pdb) --Return--
+> /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/module.py(1051)_call_impl()->[{'boxes_3d': LiDARInstance...9.9059e-04]])), 'boxes_3d_det': LiDARInstance...2.4743e-03]])), 'labels_3d': tensor([0, 8, 7]), 'labels_3d_det': tensor([0, 8,..., 8, 8, 4, 8]), ...}]
+-> return forward_call(*input, **kwargs)
+(Pdb) > /Users/liangming.xu/code/UniAD/tools/test.py(231)main()
+-> if i == 0:
+(Pdb) 226  	
+227  	    for i, data in enumerate(data_loader):
+228  	        with torch.no_grad():
+229  	            import pdb; pdb.set_trace()
+230  	            result = model(return_loss=False, rescale=True, **data)
+231  ->	            if i == 0:
+232  	                torch.save(result, "./log/uniad.pt")
+233  	
+234  	    '''
+235  	    if not distributed:
+236  	        assert False
+(Pdb) > /Users/liangming.xu/code/UniAD/tools/test.py(232)main()
+-> torch.save(result, "./log/uniad.pt")
+(Pdb) FileNotFoundError: [Errno 2] No such file or directory: './log/uniad.pt'
+> /Users/liangming.xu/code/UniAD/tools/test.py(232)main()
+-> torch.save(result, "./log/uniad.pt")
+(Pdb) (Pdb) *** AttributeError: 'list' object has no attribute 'shape'
+(Pdb) *** AttributeError: 'list' object has no attribute 'keys'
+(Pdb) 1
+(Pdb) dict_keys(['occ', 'planning', 'token', 'track_bbox_results', 'boxes_3d', 'scores_3d', 'labels_3d', 'track_scores', 'track_ids', 'sdc_boxes_3d', 'sdc_scores_3d', 'sdc_track_scores', 'sdc_track_bbox_results', 'boxes_3d_det', 'scores_3d_det', 'labels_3d_det', 'traj_0', 'traj_scores_0', 'traj_1', 'traj_scores_1', 'traj', 'traj_scores', 'ret_iou'])
+(Pdb) 
+Traceback (most recent call last):
+  File "./tools/test.py", line 274, in <module>
+    main()
+  File "./tools/test.py", line 232, in main
+    torch.save(result, "./log/uniad.pt")
+  File "/opt/homebrew/anaconda3/envs/uniad/lib/python3.8/bdb.py", line 94, in trace_dispatch
+    return self.dispatch_exception(frame, arg)
+  File "/opt/homebrew/anaconda3/envs/uniad/lib/python3.8/bdb.py", line 174, in dispatch_exception
+    if self.quitting: raise BdbQuit
+bdb.BdbQuit

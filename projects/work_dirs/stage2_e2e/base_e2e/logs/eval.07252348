@@ -1,0 +1,625 @@
+NOTE: Redirects are currently not supported in Windows or MacOs.
+/opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/distributed/launch.py:163: DeprecationWarning: The 'warn' method is deprecated, use 'warning' instead
+  logger.warn(
+The module torch.distributed.launch is deprecated and going to be removed in future.Migrate to torch.distributed.run
+WARNING:torch.distributed.run:--use_env is deprecated and will be removed in future releases.
+ Please read local_rank from `os.environ('LOCAL_RANK')` instead.
+INFO:torch.distributed.launcher.api:Starting elastic_operator with launch configs:
+  entrypoint       : ./tools/test.py
+  min_nodes        : 1
+  max_nodes        : 1
+  nproc_per_node   : 1
+  run_id           : none
+  rdzv_backend     : static
+  rdzv_endpoint    : 127.0.0.1:28596
+  rdzv_configs     : {'rank': 0, 'timeout': 900}
+  max_restarts     : 3
+  monitor_interval : 5
+  log_dir          : None
+  metrics_cfg      : {}
+
+INFO:torch.distributed.elastic.agent.server.local_elastic_agent:log directory set to: /var/folders/bl/c09z1sm91mxfb8z7mn7v4rhh0000gq/T/torchelastic_x0ltv2xy/none_0le6ixxb
+INFO:torch.distributed.elastic.agent.server.api:[default] starting workers for entrypoint: python
+INFO:torch.distributed.elastic.agent.server.api:[default] Rendezvous'ing worker group
+/opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/distributed/elastic/utils/store.py:52: FutureWarning: This is an experimental API and will be changed in future.
+  warnings.warn(
+INFO:torch.distributed.elastic.agent.server.api:[default] Rendezvous complete for workers. Result:
+  restart_count=0
+  master_addr=127.0.0.1
+  master_port=28596
+  group_rank=0
+  group_world_size=1
+  local_ranks=[0]
+  role_ranks=[0]
+  global_ranks=[0]
+  role_world_sizes=[1]
+  global_world_sizes=[1]
+
+INFO:torch.distributed.elastic.agent.server.api:[default] Starting worker group
+INFO:torch.distributed.elastic.multiprocessing:Setting worker0 reply file to: /var/folders/bl/c09z1sm91mxfb8z7mn7v4rhh0000gq/T/torchelastic_x0ltv2xy/none_0le6ixxb/attempt_0/0/error.json
+projects.mmdet3d_plugin
+======
+Loading NuScenes tables for version v1.0-trainval...
+23 category,
+8 attribute,
+4 visibility,
+64386 instance,
+12 sensor,
+10200 calibrated_sensor,
+2631083 ego_pose,
+68 log,
+850 scene,
+34149 sample,
+2631083 sample_data,
+1166187 sample_annotation,
+4 map,
+Done loading in 22.527 seconds.
+======
+Reverse indexing ...
+Done reverse indexing in 6.1 seconds.
+======
+load checkpoint from local path: ./ckpts/uniad_base_e2e.pth
+2023-07-25 23:48:46,149 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.0.conv2 is upgraded to version 2.
+2023-07-25 23:48:46,153 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.1.conv2 is upgraded to version 2.
+2023-07-25 23:48:46,155 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.2.conv2 is upgraded to version 2.
+2023-07-25 23:48:46,158 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.3.conv2 is upgraded to version 2.
+2023-07-25 23:48:46,160 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.4.conv2 is upgraded to version 2.
+2023-07-25 23:48:46,162 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.5.conv2 is upgraded to version 2.
+2023-07-25 23:48:46,165 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.6.conv2 is upgraded to version 2.
+2023-07-25 23:48:46,167 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.7.conv2 is upgraded to version 2.
+2023-07-25 23:48:46,169 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.8.conv2 is upgraded to version 2.
+2023-07-25 23:48:46,172 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.9.conv2 is upgraded to version 2.
+2023-07-25 23:48:46,175 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.10.conv2 is upgraded to version 2.
+2023-07-25 23:48:46,177 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.11.conv2 is upgraded to version 2.
+2023-07-25 23:48:46,179 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.12.conv2 is upgraded to version 2.
+2023-07-25 23:48:46,182 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.13.conv2 is upgraded to version 2.
+2023-07-25 23:48:46,184 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.14.conv2 is upgraded to version 2.
+2023-07-25 23:48:46,187 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.15.conv2 is upgraded to version 2.
+2023-07-25 23:48:46,189 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.16.conv2 is upgraded to version 2.
+2023-07-25 23:48:46,191 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.17.conv2 is upgraded to version 2.
+2023-07-25 23:48:46,194 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.18.conv2 is upgraded to version 2.
+2023-07-25 23:48:46,196 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.19.conv2 is upgraded to version 2.
+2023-07-25 23:48:46,199 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.20.conv2 is upgraded to version 2.
+2023-07-25 23:48:46,201 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.21.conv2 is upgraded to version 2.
+2023-07-25 23:48:46,203 - root - INFO - ModulatedDeformConvPack img_backbone.layer3.22.conv2 is upgraded to version 2.
+2023-07-25 23:48:46,206 - root - INFO - ModulatedDeformConvPack img_backbone.layer4.0.conv2 is upgraded to version 2.
+2023-07-25 23:48:46,210 - root - INFO - ModulatedDeformConvPack img_backbone.layer4.1.conv2 is upgraded to version 2.
+2023-07-25 23:48:46,213 - root - INFO - ModulatedDeformConvPack img_backbone.layer4.2.conv2 is upgraded to version 2.
+The model and loaded state dict do not match exactly
+
+unexpected key in source state_dict: bbox_size_fc.weight, bbox_size_fc.bias, pts_bbox_head.query_embedding.weight, pts_bbox_head.transformer.reference_points.weight, pts_bbox_head.transformer.reference_points.bias
+
+> /Users/liangming.xu/code/UniAD/tools/test.py(230)main()
+-> result = model(return_loss=False, rescale=True, **data)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(723)simple_test_track()
+-> bs = img.size(0)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(641)_forward_single_frame_inference()
+-> active_inst = track_instances[track_instances.obj_idxes >= 0]
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/modules.py(249)forward()
+-> active_track_instances = self._select_active_tracks(data)
+(Pdb) False
+(Pdb) --Call--
+> /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/modules.py(229)_select_active_tracks()
+-> def _select_active_tracks(self, data: dict) -> Instances:
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/modules.py(230)_select_active_tracks()
+-> track_instances: Instances = data["track_instances"]
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/modules.py(231)_select_active_tracks()
+-> if self.training:
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/modules.py(242)_select_active_tracks()
+-> active_track_instances = track_instances[
+(Pdb) 237  	                active_track_instances)
+238  	            if self.fp_ratio > 0:
+239  	                active_track_instances = self._add_fp_tracks(
+240  	                    track_instances, active_track_instances)
+241  	        else:
+242  ->	            active_track_instances = track_instances[
+243  	                track_instances.obj_idxes >= 0]
+244  	
+245  	        return active_track_instances
+246  	
+247  	    def forward(self, data) -> Instances:
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/modules.py(243)_select_active_tracks()
+-> track_instances.obj_idxes >= 0]
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/modules.py(242)_select_active_tracks()
+-> active_track_instances = track_instances[
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/modules.py(245)_select_active_tracks()
+-> return active_track_instances
+(Pdb) *** AttributeError: Cannot find field 'shape' in the given Instances!
+(Pdb) Instances(num_instances=3, image_height=1, image_width=1, fields=[ref_pts: tensor([[-0.1737, -0.4143, -0.4898],
+        [-0.0294, -1.0461, -0.6533],
+        [-0.4897,  1.7039,  0.0219]]), query: tensor([[-0.5876,  1.6050, -2.0626,  ..., -0.8195,  2.2342,  1.4749],
+        [-0.5229, -0.1827, -0.5886,  ..., -0.1446, -0.1752, -0.6182],
+        [-0.1590,  0.5117,  0.0389,  ..., -0.4621, -1.1121, -0.6192]]), output_embedding: tensor([[ 7.2694e-01,  3.1695e-01, -3.3184e-01,  1.1483e+00,  1.5224e+00,
+         -5.9879e-01,  7.3964e-02, -6.6572e-01, -3.5503e-01, -9.8590e-02,
+          1.1947e+00, -2.6883e-01, -4.5232e-01,  5.6389e-01,  5.5222e-01,
+         -3.0688e-01,  1.5410e-01,  1.3478e+00,  1.5335e-02, -3.0108e-01,
+         -1.9055e-01,  6.2463e-02,  4.9710e-01,  6.6413e-01, -1.2193e+00,
+         -7.5995e-01,  1.1914e+00, -5.0798e-03, -7.6076e-03, -5.7233e-01,
+         -5.7443e-01,  4.2273e-01,  7.1485e-02, -4.1189e-01,  3.5460e-01,
+         -6.7798e-01, -1.2680e+00, -6.5361e-01,  7.6835e-01,  8.9665e-01,
+         -5.0035e-01,  1.0631e-01,  8.2272e-01,  1.8325e+00,  8.0111e-01,
+         -2.4224e-01, -4.4750e-01, -4.3873e-01,  3.5413e-01,  9.6047e-01,
+         -4.4461e-01, -4.5955e-01,  4.4361e-01,  7.5620e-01, -3.0593e-01,
+         -2.6154e-01,  5.9923e-01,  2.2267e-01, -8.2645e-01,  2.1011e-01,
+          9.4936e-01, -3.6755e-01, -1.9930e-01,  4.3162e-01, -1.0218e+00,
+          9.6713e-01,  1.6494e+00,  2.4206e-01, -3.9320e-01, -3.2703e-01,
+          8.2183e-01,  4.3381e-01,  3.0251e-02,  8.4313e-01, -1.7448e+00,
+          3.9759e-01,  3.6216e-01, -1.1021e+00,  2.3605e-01, -3.1720e-01,
+         -2.0022e+00, -2.3310e+00,  9.9953e-01, -8.5519e-01, -2.0730e+00,
+         -1.6531e+00,  7.7287e-01,  3.1795e-01, -9.9628e-01,  6.0382e-01,
+         -5.1290e-01, -4.6506e-01, -3.4594e-01, -7.4537e-01, -7.5967e-02,
+         -3.6659e-01,  3.7468e-01,  8.3924e-01, -3.1773e-01, -1.0420e+00,
+          4.9966e-01, -6.6588e-01, -2.5750e-01, -2.9709e+00,  1.2574e+00,
+         -3.5731e-01, -4.8655e-01, -4.8249e-01, -1.1307e+00, -2.9750e-02,
+         -1.5870e+00,  5.9637e-02, -1.7909e-01,  6.1030e-01,  6.5910e-01,
+         -4.5963e-01, -5.2525e-02,  7.4953e-01, -7.2478e-03, -5.4064e-01,
+          9.7136e-02,  8.7130e-01, -4.1656e-01, -7.1769e-01, -5.4666e-02,
+          2.0464e+00,  1.4173e+00, -1.2885e-01,  1.1901e-01, -1.0678e+00,
+          5.4064e-01,  4.9471e-01, -6.6469e-01, -2.9270e-01,  8.7610e-01,
+         -4.9644e-01, -3.8483e-01, -5.8687e-02,  1.3609e-01, -1.5492e-01,
+          1.0125e+00, -6.2630e-01,  7.6383e-01, -2.7331e-01, -7.6137e-01,
+          9.1030e-01,  1.1017e+00,  3.3450e-01,  5.8950e-01,  6.5643e-01,
+          4.0939e-01,  2.9196e-01, -2.5082e-01,  1.7208e+00,  3.1487e-01,
+          3.2712e-01,  5.8992e-01,  8.9243e-01, -2.4007e-01,  4.6560e-01,
+         -5.8472e-01, -1.2109e+00, -6.9805e-01, -2.2465e-01,  6.3318e-01,
+          1.7725e-01, -7.3745e-01,  1.7641e+00,  9.6645e-02,  6.4937e-03,
+         -1.1891e-01,  4.8954e-01,  1.5640e-01,  1.2476e-01,  1.5282e+00,
+          3.8717e-01,  4.3892e-01, -5.4581e-02, -2.9244e-01, -1.5993e+00,
+          8.2941e-01, -1.8160e+00, -8.9961e-01,  2.7121e-01, -5.5043e-01,
+         -4.4373e-01, -5.4099e-01, -5.7787e-01,  1.8372e+00, -4.5881e-01,
+         -7.1424e-01, -1.0763e+00, -3.4648e-01,  1.4664e-02,  4.0678e-01,
+         -8.4456e-01, -2.5652e-01,  4.8034e-01, -6.5535e-01, -4.0944e-02,
+          3.5053e-01,  1.4080e+00,  1.0351e+00, -1.8653e-01,  4.6054e-01,
+         -3.7751e-02, -6.9706e-01, -1.7872e-01, -1.8899e+00,  7.4991e-01,
+          1.4765e+00, -3.4634e-01,  8.3284e-02, -5.2292e-01, -4.0594e-01,
+          5.8082e-01, -6.6763e-01,  4.4188e-01, -5.0132e-01,  1.2265e+00,
+          1.4121e-01,  2.9375e-01,  1.8764e+00,  5.4309e-01, -1.4453e-01,
+         -2.8427e-01, -1.9991e-01, -2.1194e-01,  5.5494e-01, -1.2598e+00,
+         -8.5878e-01, -3.2394e-01, -4.0180e-01, -1.9010e-01,  4.2423e-01,
+         -5.4407e-01, -1.1354e+00,  1.1981e+00,  9.5252e-01, -6.6023e-01,
+          7.0692e-01, -1.2207e-01, -5.5430e-04,  1.5154e-01, -8.5813e-01,
+         -1.4299e+00,  2.5044e-01, -4.7223e-01,  9.8596e-01,  8.9382e-01,
+          1.7118e-01, -4.6269e-01,  4.0933e-01,  5.5163e-01, -5.7390e-01,
+          2.6532e-01],
+        [ 3.5175e-01, -3.5604e-01, -9.7067e-02,  1.8338e-01, -1.4753e-01,
+          3.8563e-02, -1.3317e-01, -1.9324e-01, -5.1011e-02,  3.1631e-02,
+          2.6219e-01,  2.0009e+00, -5.2623e-01,  6.2971e-01,  4.1340e-01,
+         -1.5432e+00, -2.3047e-01, -3.2278e-01, -6.5874e-01, -1.4835e-01,
+         -2.8788e-01,  1.3388e+00, -6.7844e-02, -3.3641e-01, -1.7970e+00,
+         -7.2196e-02,  1.1957e+00,  5.1432e-01, -4.5699e-01, -4.7573e-01,
+          5.3592e-01,  5.5428e-02, -2.0762e-01, -9.9296e-01, -4.0767e-01,
+         -8.0755e-01, -4.1640e-01,  8.4198e-01,  5.7631e-02,  4.2826e-01,
+         -1.1275e+00, -7.6334e-01,  3.1749e-01,  1.5643e+00,  6.7910e-01,
+         -4.4407e-01, -4.6601e-02, -2.9539e-02, -2.1661e-01,  7.3895e-02,
+         -4.0169e-01,  6.1455e-01,  3.0145e-01,  3.3305e-01,  3.2219e-02,
+          2.2168e-01,  1.1359e+00,  3.0313e-01,  1.0197e+00, -7.0802e-01,
+          1.8707e-01,  1.6715e-01, -1.4158e+00,  4.1564e-01, -7.4775e-01,
+          5.1793e-01, -1.7391e-01,  7.0185e-01,  4.6832e-01, -6.5214e-01,
+         -1.6975e-01, -9.6631e-02,  2.2942e-01,  1.1551e-01, -6.6892e-01,
+          1.1216e-01,  4.1095e-01, -6.5190e-01, -7.0968e-01, -5.0184e-01,
+         -5.7705e-01, -1.4119e+00, -7.5816e-02, -6.7831e-01, -5.5205e-01,
+         -1.1766e+00,  3.5930e-01, -4.2231e-01, -1.4423e-01,  2.0953e-01,
+         -3.6977e-01,  4.3729e-01,  3.0353e-01, -5.6471e-01,  4.9197e-02,
+         -6.1611e-01, -3.1157e-01,  6.7363e-01, -4.2133e-01, -1.9759e-01,
+         -9.6557e-01, -5.6422e-01, -1.6308e-02, -1.5764e+00,  3.1522e-01,
+         -5.1310e-01, -7.4084e-01, -8.7649e-02, -2.4856e+00, -1.4375e+00,
+         -2.0956e+00,  6.6836e-01, -1.7447e-01,  4.7054e-01,  4.5285e-01,
+         -6.6924e-01,  1.3629e+00,  8.7438e-01, -7.0519e-01, -2.2270e-01,
+         -6.2955e-01,  1.9143e+00,  2.5757e-02, -4.5248e-01, -3.0948e-01,
+          4.8609e-01,  1.0507e+00, -5.8151e-01,  9.5013e-02, -6.8459e-01,
+          1.5353e+00, -2.1641e-01, -1.0664e+00,  3.2953e-01, -6.4453e-01,
+         -9.4313e-01, -2.5347e-01, -3.0617e-01, -9.2170e-01,  4.2102e-01,
+          6.5960e-01, -2.1843e-02, -4.5122e-02, -6.4178e-01, -4.7056e-02,
+          6.9719e-01, -1.1707e-01, -6.0526e-01, -2.7057e-01,  9.4504e-01,
+          5.4400e-01,  1.1060e-01, -9.5943e-01,  4.7167e+00, -2.9433e-01,
+          2.9216e-03, -5.2925e-01,  5.3396e-01,  1.3864e-01, -4.1258e-01,
+         -6.4463e-01, -1.8232e-01, -1.2657e+00,  1.3741e+00, -1.5489e-01,
+          6.2267e-01, -1.0823e+00,  2.0617e+00,  3.7629e-01, -6.1748e-01,
+          1.0548e+00,  6.3961e-01,  2.6850e-01,  5.9275e-01,  1.3276e+00,
+          1.0104e-01,  4.1088e-01, -3.1435e-01,  3.2603e-01, -3.3215e-01,
+          3.2694e+00, -2.2436e-01,  6.9167e-02,  3.2299e-01, -9.0835e-01,
+         -1.2739e+00, -1.0349e+00,  7.6532e-01,  7.2499e-01,  3.0560e-01,
+         -3.1952e-01, -2.2890e-01,  6.3951e-01,  7.7289e-02, -1.0208e-01,
+         -8.7849e-01,  1.1870e+00,  7.8377e-01, -1.8962e-01,  1.4940e-01,
+         -3.0071e-01,  5.9864e-01, -1.5389e-01, -5.4247e-01, -3.4934e-01,
+         -2.3072e-01,  6.7218e-01,  2.0196e-01, -1.3372e+00,  3.6862e-01,
+         -4.0789e-01,  4.2295e-01, -3.4080e-01,  1.9408e-01,  4.9969e-01,
+          5.5824e-01, -4.7848e-01,  2.0658e+00, -2.3163e-02, -2.8768e-01,
+          1.1680e+00,  5.1867e-01,  9.1732e-01, -4.0654e-01,  1.3632e-01,
+         -2.6899e-01, -3.9827e-02, -1.7757e-01, -2.6666e-01, -1.4132e+00,
+         -7.0022e-01,  1.1015e-01,  6.1303e-01, -1.5691e-01,  3.0138e-01,
+          3.2780e-01,  9.2632e-01,  8.9005e-01,  4.8667e-01,  6.1024e-01,
+          2.7990e-01,  5.8607e-01,  3.9382e-01,  1.1831e-01, -3.3819e-01,
+         -1.9828e+00, -8.4637e-02,  9.1902e-02,  7.1806e-01,  9.8545e-01,
+          7.8920e-01, -2.2768e-01, -1.0494e+00,  4.9757e-01, -8.4579e-01,
+          1.1767e-01],
+        [-8.5410e-01, -1.3653e-02, -5.9994e-01, -3.9260e-01,  8.6629e-01,
+          4.4574e-01,  5.8994e-02, -4.4518e-01,  1.6066e-01,  2.8581e-01,
+          9.2751e-01,  3.6498e-01,  5.9080e-01,  5.9024e-01,  3.6513e-01,
+         -1.9271e-01, -1.1359e+00,  1.1296e+00, -5.9634e-01,  1.7707e-01,
+          7.0479e-01,  2.9443e-01,  3.4823e-01, -6.5629e-03, -7.7836e-01,
+         -3.9578e-01,  4.6806e-01,  8.2694e-01, -3.4464e-01, -1.6236e+00,
+         -6.6032e-02,  3.7356e-01,  1.7833e-01, -5.4454e-01, -8.0832e-01,
+         -2.1392e-01, -2.9915e-01, -2.5563e-02,  8.7833e-01,  6.8929e-01,
+         -1.0603e+00,  1.8376e+00,  4.4792e-01, -3.0744e+00,  9.8138e-01,
+          5.3489e-01,  7.1467e-01, -1.1210e-01,  2.1846e-02,  4.5077e-01,
+          2.4371e+00,  1.9617e-01, -1.5992e-01, -3.7091e-01, -8.4181e-01,
+          5.7519e-01,  9.3733e-01,  7.2198e-01,  9.3957e-01, -6.8650e-01,
+         -2.9789e-01, -2.9121e-01, -7.9973e-01,  5.4766e-01,  3.1243e-01,
+          6.3460e-01,  4.6200e-01, -8.5588e-01, -2.1389e-01, -2.5874e-01,
+         -1.9357e-02, -1.5903e-01, -7.0800e-01, -2.8155e-01,  6.7967e-01,
+          2.8297e-03, -1.0327e+00, -4.2943e-01,  3.8248e-03, -1.8320e-01,
+          1.4094e+00, -1.4613e+00, -7.3006e-01,  3.1213e-01, -8.8545e-01,
+         -1.0902e+00, -5.3080e-01, -2.5854e-02,  4.6226e-01, -1.9763e-01,
+         -1.4980e-02,  5.7094e-01,  3.7040e-01,  3.1193e-01,  5.4305e-01,
+          5.5403e-02,  4.3927e-01, -8.1247e-01, -7.4195e-01,  6.5472e-01,
+          3.2516e-01,  1.7001e-01,  5.6941e-01, -9.2623e-01, -1.5805e-01,
+         -5.5653e-01, -1.5697e+00,  9.5220e-01, -1.7465e+00, -6.4865e-01,
+          1.0835e+00,  1.2268e+00, -2.2257e-01, -1.3739e+00, -3.7203e-01,
+         -4.4517e-02, -6.1463e-01, -5.5013e-01, -1.7509e-01,  1.3676e-01,
+          6.9227e-01,  3.8846e-01,  2.7001e-01,  3.6216e-01,  6.5690e-01,
+         -7.4120e-01,  8.6808e-02,  1.2616e+00,  7.2347e-01,  6.1484e-01,
+          1.3079e+00, -1.5750e-01, -1.1012e+00,  4.8019e-01, -2.9056e-01,
+         -6.3401e-02, -9.3528e-02, -1.4350e+00, -5.2750e-01,  8.2331e-01,
+          2.1115e-01,  2.8066e-01,  6.4499e-01,  6.8153e-01,  7.0916e-01,
+          1.3536e+00, -5.2912e-01, -2.0708e-01,  1.3237e+00,  3.5245e-01,
+          3.7896e-01,  3.6975e-01, -8.0600e-01,  2.7276e+00,  1.6323e+00,
+          9.3643e-01, -3.3077e-01,  3.8006e-02,  6.4981e-01,  5.3370e-02,
+         -8.6701e-01, -4.8912e-01,  1.3947e-03, -7.4726e-01, -6.1742e-01,
+         -9.0252e-02, -5.9249e-01,  1.1394e+00,  8.5479e-01, -5.6317e-01,
+         -1.2356e-02, -7.6427e-01, -8.4514e-01, -1.0813e-01,  1.3639e+00,
+          1.5924e-01, -8.5771e-01, -3.2660e-01,  7.5353e-01,  2.6395e-01,
+         -3.4856e-01,  3.0623e-01, -1.4393e+00,  9.4517e-01,  7.5477e-02,
+         -2.2159e+00,  6.3105e-02,  5.3979e-01,  2.9668e-01, -1.2851e+00,
+          8.6741e-01, -7.2136e-01,  7.5946e-02, -1.0501e-01, -6.0374e-01,
+         -8.5043e-01, -2.0430e-01,  1.4407e+00,  5.0037e-01, -4.4212e-01,
+          4.4270e-01,  1.1354e+00, -4.4780e-01,  3.9675e-01,  6.3906e-02,
+          2.4338e-01, -3.6491e-01,  5.4376e-01, -7.8556e-01,  2.9817e-01,
+          3.8700e-01, -9.5799e-02, -1.2757e+00, -1.0806e+00,  6.3144e-01,
+          1.3459e+00,  2.8040e-01, -1.4387e+00,  1.4059e-01, -2.2057e-01,
+         -1.2620e+00, -9.9024e-02, -1.3269e+00, -8.0128e-01,  3.2628e-02,
+         -3.9028e-02,  4.2750e-01,  2.6276e-01,  3.2275e-01, -3.5256e+00,
+          6.9590e-01,  4.7463e-01,  3.0509e-02, -8.9338e-01,  1.1479e+00,
+         -1.1521e+00, -1.6299e+00, -7.0114e-01, -8.3033e-01, -6.0437e-02,
+         -1.2732e-01,  1.6454e-01,  4.5053e-01,  1.5171e+00, -4.1756e-02,
+          2.3419e-01,  2.5649e-01, -5.3035e-01, -2.1445e-01,  9.9852e-01,
+          4.9138e-01,  1.1628e-01, -7.1855e-01,  9.3856e-02, -4.6179e-01,
+          3.9456e-01]]), obj_idxes: tensor([0, 1, 2]), matched_gt_idxes: tensor([-1, -1, -1]), disappear_time: tensor([0, 0, 0]), iou: tensor([0., 0., 0.]), scores: tensor([0.8401, 0.8999, 0.8660]), track_scores: tensor([0., 0., 0.]), pred_boxes: tensor([[-4.4362e+00, -1.0457e+01, -5.7496e-01,  5.4815e-01, -1.9604e+00,
+          8.2555e-02,  2.6890e-02,  9.9731e-01, -1.2011e-03, -9.9059e-04],
+        [-7.5262e-01, -2.4579e+01,  6.6525e-01,  1.5121e+00, -2.2621e+00,
+          4.3397e-01, -1.8351e-02, -9.8844e-01,  8.8571e-02,  5.5166e+00],
+        [-1.2292e+01,  3.5435e+01, -3.3134e-01, -2.0525e-01, -9.5619e-01,
+          5.5846e-01,  1.1792e-01, -9.8280e-01, -2.9149e-01,  1.2141e+00]]), pred_logits: tensor([[ -6.4774,  -8.0849,  -7.5573, -11.3790,  -6.8656,  -5.9882,  -2.8453,
+           1.6590,  -5.5511,  -4.6095],
+        [  2.1958,  -6.2505,  -7.5734,  -7.5439, -13.5229,  -6.9315,  -7.1278,
+          -9.5285,  -7.1040,  -6.2322],
+        [ -8.0861,  -7.3184,  -7.0678,  -7.8600,  -6.4306,  -4.7218,  -6.1443,
+          -5.5766,   1.8664,  -5.3478]]), mem_bank: tensor([[[ 0.0000,  0.0000,  0.0000,  ...,  0.0000,  0.0000,  0.0000],
+         [ 0.0000,  0.0000,  0.0000,  ...,  0.0000,  0.0000,  0.0000],
+         [ 0.0000,  0.0000,  0.0000,  ...,  0.0000,  0.0000,  0.0000],
+         [-0.5029, -0.2620,  0.0386,  ...,  0.0127,  0.3238, -0.2907]],
+
+        [[ 0.0000,  0.0000,  0.0000,  ...,  0.0000,  0.0000,  0.0000],
+         [ 0.0000,  0.0000,  0.0000,  ...,  0.0000,  0.0000,  0.0000],
+         [ 0.0000,  0.0000,  0.0000,  ...,  0.0000,  0.0000,  0.0000],
+         [ 0.2549,  0.2009,  0.5347,  ...,  0.1464,  0.1376,  0.4046]],
+
+        [[ 0.0000,  0.0000,  0.0000,  ...,  0.0000,  0.0000,  0.0000],
+         [ 0.0000,  0.0000,  0.0000,  ...,  0.0000,  0.0000,  0.0000],
+         [ 0.0000,  0.0000,  0.0000,  ...,  0.0000,  0.0000,  0.0000],
+         [ 0.2789, -0.3221,  0.8840,  ...,  0.7337,  0.1182,  0.8018]]]), mem_padding_mask: tensor([[ True,  True,  True, False],
+        [ True,  True,  True, False],
+        [ True,  True,  True, False]]), save_period: tensor([3., 3., 3.])])
+(Pdb) --Return--
+> /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/modules.py(245)_select_active_tracks()->Instances(num...3., 3., 3.])])
+-> return active_track_instances
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/modules.py(250)forward()
+-> active_track_instances = self._update_track_embedding(
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/modules.py(251)forward()
+-> active_track_instances)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/modules.py(250)forward()
+-> active_track_instances = self._update_track_embedding(
+(Pdb) --Call--
+> /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/modules.py(151)_update_track_embedding()
+-> def _update_track_embedding(self, track_instances: Instances) -> Instances:
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/modules.py(152)_update_track_embedding()
+-> if len(track_instances) == 0:
+(Pdb) <bound method Module.train of QueryInteractionModule(
+  (self_attn): MultiheadAttention(
+    (out_proj): NonDynamicallyQuantizableLinear(in_features=256, out_features=256, bias=True)
+  )
+  (linear1): Linear(in_features=256, out_features=256, bias=True)
+  (dropout): Dropout(p=0, inplace=False)
+  (linear2): Linear(in_features=256, out_features=256, bias=True)
+  (linear_pos1): Linear(in_features=256, out_features=256, bias=True)
+  (linear_pos2): Linear(in_features=256, out_features=256, bias=True)
+  (dropout_pos1): Dropout(p=0, inplace=False)
+  (dropout_pos2): Dropout(p=0, inplace=False)
+  (norm_pos): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+  (linear_feat1): Linear(in_features=256, out_features=256, bias=True)
+  (linear_feat2): Linear(in_features=256, out_features=256, bias=True)
+  (dropout_feat1): Dropout(p=0, inplace=False)
+  (dropout_feat2): Dropout(p=0, inplace=False)
+  (norm_feat): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+  (norm1): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+  (norm2): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+  (dropout1): Dropout(p=0, inplace=False)
+  (dropout2): Dropout(p=0, inplace=False)
+)>
+(Pdb) 147  	        self.dropout1 = nn.Dropout(dropout)
+148  	        self.dropout2 = nn.Dropout(dropout)
+149  	        self.activation = F.relu
+150  	
+151  	    def _update_track_embedding(self, track_instances: Instances) -> Instances:
+152  ->	        if len(track_instances) == 0:
+153  	            return track_instances
+154  	        dim = track_instances.query.shape[1]
+155  	        out_embed = track_instances.output_embedding
+156  	        query_pos = track_instances.query[:, :dim // 2]
+157  	        query_feat = track_instances.query[:, dim // 2:]
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/modules.py(154)_update_track_embedding()
+-> dim = track_instances.query.shape[1]
+(Pdb) 3
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/modules.py(155)_update_track_embedding()
+-> out_embed = track_instances.output_embedding
+(Pdb) 512
+(Pdb) torch.Size([3, 512])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/modules.py(250)forward()
+-> active_track_instances = self._update_track_embedding(
+(Pdb) 3
+(Pdb) *** AttributeError: Cannot find field 'shape' in the given Instances!
+(Pdb) Instances(num_instances=1, image_height=1, image_width=1, fields=[ref_pts: tensor([[-0.1737, -0.4143, -0.4898]]), query: tensor([[-5.8762e-01,  1.6050e+00, -2.0626e+00, -8.5459e-01,  4.3380e-01,
+          1.6979e+00, -2.4774e-01, -4.5685e-01,  5.2123e-01,  9.8859e-01,
+         -6.5630e-02, -1.1972e-01, -1.1015e+00, -2.3343e-01, -1.2657e+00,
+         -3.8002e-01,  2.1277e-01, -1.5668e+00,  1.4750e-01, -5.5011e-01,
+          7.7596e-01,  1.3022e+00, -4.1772e-01,  2.4056e+00, -1.7934e+00,
+          6.0689e-01,  2.2543e-02,  6.3494e-01, -1.2922e+00, -2.1777e-01,
+          2.8325e-01, -9.2677e-01,  5.5904e-01, -9.4441e-01,  4.1058e-01,
+         -2.3766e-01,  4.4219e-01, -5.5547e-01, -4.9650e-01,  4.7464e-01,
+         -7.7243e-01, -1.3726e+00,  2.6708e-01,  1.3153e+00,  5.6505e-01,
+         -7.5085e-01,  1.9239e-01,  1.0282e+00, -8.2291e-01, -4.1893e-01,
+          1.3851e+00, -1.1024e+00,  9.1887e-01,  1.5249e-01,  3.1229e-01,
+         -2.1683e-01, -4.8929e-01,  6.8210e-01, -8.1657e-01,  9.9538e-01,
+          1.3059e-01, -3.2618e-01,  1.2354e+00, -7.4916e-01, -6.2745e-01,
+          8.9227e-01,  1.1107e+00, -1.0441e+00,  1.3665e+00, -4.5630e-01,
+          1.0289e+00, -2.3159e-01, -9.8212e-01,  2.5601e-01, -7.8607e-02,
+          9.6024e-01,  2.0092e+00, -2.7082e-01,  3.4898e-01, -8.0324e-01,
+          8.9964e-01,  4.1698e-01,  7.3600e-02,  4.7272e-01,  1.1891e+00,
+          9.1512e-03, -2.0819e+00, -1.3679e-01,  7.9208e-01, -9.7523e-01,
+          1.2312e-01,  1.3006e-01, -1.6912e-01,  7.4489e-01,  8.3321e-01,
+          8.1188e-01, -6.0089e-01, -4.7271e-01,  3.3099e-01,  1.2330e+00,
+         -2.6574e+00,  9.2002e-01,  8.1761e-01, -5.3350e-01, -6.1172e-01,
+          8.0503e-02, -6.9918e-01, -6.1432e-01, -1.4477e-01,  6.4488e-01,
+          7.7084e-01,  7.1733e-01,  1.4763e+00, -2.7239e-01, -2.1923e-01,
+          8.2487e-01, -3.5721e-01, -9.6873e-03,  1.1169e+00,  2.9842e+00,
+          6.1210e-02,  1.5583e+00, -9.3750e-01,  1.3275e+00,  1.7762e+00,
+         -2.4042e-01,  1.9311e+00,  5.6479e-01,  1.7621e+00,  8.5207e-01,
+          1.6145e+00, -7.8627e-01, -1.7031e+00, -5.6448e-01, -8.5751e-01,
+          1.5933e+00,  1.3000e+00, -9.3880e-01, -6.2208e-01, -6.3739e-01,
+          4.2146e-01, -1.5204e-01, -6.7775e-01,  1.7362e+00,  6.9884e-01,
+          7.4758e-01, -2.2958e-02, -7.2042e-01, -5.7101e-01,  1.0640e+00,
+          6.8318e-01, -4.7368e-01, -1.3585e+00, -4.6761e-01, -7.6747e-01,
+         -5.8125e-01,  1.1446e+00, -1.3475e-02,  1.4427e+00, -2.5881e-01,
+         -1.1299e+00,  6.6357e-01,  6.8637e-01,  4.8559e-02,  6.4555e-01,
+         -4.9738e-01,  7.2759e-01, -5.0755e-01,  8.1742e-02, -1.4071e+00,
+          1.1566e+00,  1.6832e+00,  6.9817e-02, -3.0718e-02,  2.0515e+00,
+          6.6387e-02,  1.9000e+00,  3.8749e-01,  1.0166e+00, -3.0505e-01,
+          5.8632e-03,  2.8866e-01,  4.2815e-01, -6.1938e-01, -1.8015e-01,
+          4.5122e-01,  1.8700e-01,  8.0622e-01, -1.8653e+00,  1.7643e-01,
+         -7.3427e-01,  6.2531e-01,  1.9602e-01, -1.2494e+00, -1.4705e-01,
+         -4.0157e-01, -1.7691e+00, -1.0474e+00, -4.0161e-01, -1.6637e+00,
+          3.0894e-02,  1.9329e+00,  4.6577e-01, -2.4547e+00,  6.8777e-01,
+         -1.4111e+00, -4.2503e-01,  3.3888e-02, -3.3090e-01, -4.5675e-01,
+         -1.2907e+00,  5.0359e-01, -5.2793e-01, -4.8327e-01, -4.7975e-02,
+         -1.7307e+00,  5.2991e-01,  2.1506e-01,  1.6962e+00, -4.7544e-01,
+         -6.4021e-01,  1.1735e+00,  1.4711e+00, -5.6738e-01, -6.8409e-02,
+         -7.2945e-02,  3.5679e-04, -3.6466e-02, -1.1736e+00, -1.0328e+00,
+         -1.3635e-01,  2.3611e-01, -8.9366e-01,  1.8066e+00,  7.0427e-02,
+          1.0487e+00, -9.2057e-01, -7.8255e-01,  5.9126e-02,  6.8086e-01,
+          6.0272e-01,  1.0161e-01,  4.2179e-01,  1.0190e+00, -1.2878e+00,
+         -1.1288e+00, -1.3930e-01, -7.1447e-01,  1.0320e+00, -9.5939e-01,
+          1.1203e+00,  1.0211e+00, -9.7891e-01, -3.0275e-01, -9.3773e-01,
+         -1.3776e-01,  3.8951e-01,  4.6886e-01,  1.6310e+00,  6.5253e-01,
+          6.0648e-01,  1.0777e+00,  8.8239e-01, -2.3479e+00, -1.9618e-01,
+         -3.5641e-01,  2.0334e+00,  7.7349e-01, -1.5394e+00,  5.8921e-01,
+         -2.3540e+00, -1.6485e-01, -8.9379e-01,  1.2482e+00, -1.3886e-01,
+          5.3380e-01,  2.2489e-01,  9.7590e-01, -2.0808e+00,  6.0338e-01,
+         -4.2834e-01, -1.5161e+00, -8.0644e-01,  1.6081e+00, -3.9050e-01,
+          2.5270e+00,  7.4783e-01, -4.8456e-01, -1.2572e+00,  6.8432e-01,
+         -7.7388e-03, -9.1421e-01,  5.2472e-01,  1.4504e-02,  2.6619e-01,
+          4.0915e-01,  6.7417e-01,  1.3336e+00,  7.6342e-01,  4.2817e-01,
+          5.5502e-01, -1.7466e-02,  1.6457e+00,  3.5661e-01, -2.2506e-01,
+          7.7890e-01,  7.4517e-02, -1.4764e-02,  8.1140e-01,  5.0019e-01,
+         -6.8288e-01,  9.2641e-01,  1.3349e-01,  1.5933e+00, -2.8653e-01,
+         -4.7427e-01, -1.9665e-01,  1.9502e+00,  5.4364e-01, -1.6409e+00,
+         -1.7369e+00,  2.4945e-01, -1.3791e+00, -2.7139e-01,  4.5943e-01,
+         -7.1677e-01,  6.1863e-01, -9.1350e-01,  1.1873e+00, -6.8591e-01,
+          8.2748e-01,  5.8129e-01,  7.4905e-01,  8.5122e-01, -6.1689e-01,
+          3.6599e-01,  3.3685e+00,  1.3070e-01, -5.8835e-01, -7.2832e-01,
+          9.2508e-02,  7.4307e-01,  4.3880e-01,  2.2854e+00, -8.4786e-01,
+          1.0792e+00,  1.0032e+00, -1.6534e+00, -1.3192e+00,  1.0360e-01,
+         -1.7375e-01,  1.3193e+00, -9.7625e-01, -1.8124e+00,  6.0099e-01,
+          5.2633e-01,  2.1311e+00,  4.0984e-01,  2.6382e-02, -1.4844e+00,
+         -1.0326e+00, -7.9015e-01, -4.3961e-01, -2.9915e-01, -3.4512e-01,
+         -3.4855e-01,  8.1540e-01,  3.0111e-02,  9.2257e-01, -9.1239e-01,
+          3.2560e-01,  2.3790e-01, -7.6174e-01,  2.8216e-01, -1.3932e+00,
+         -9.9924e-01,  1.2393e+00, -3.7514e-01, -2.7773e-01, -8.4820e-01,
+          2.2464e-01, -1.3083e-01,  1.2777e+00,  2.5241e+00,  1.2867e+00,
+          5.4122e-01,  6.9317e-01, -9.8142e-01, -1.8716e+00, -6.4948e-01,
+          1.2788e+00,  1.2708e+00,  9.7692e-02, -1.1045e-01, -1.4799e+00,
+          2.2350e-01, -5.7032e-01,  1.2575e+00, -1.3070e-01,  1.4718e+00,
+          4.8671e-01, -1.5125e+00,  1.5074e+00, -6.9619e-01, -2.3160e-01,
+         -1.1237e+00, -4.1165e-01,  2.0219e+00,  5.5185e-01, -4.8220e-01,
+          1.9317e-01, -3.6061e-01, -6.6360e-02, -1.5347e-01, -1.3394e-01,
+         -2.0319e-01, -1.3384e-01,  4.6804e-01,  8.5994e-01,  1.3299e-02,
+         -8.4678e-01,  5.3411e-01, -3.9443e-01, -1.9485e-01,  4.2713e-01,
+          3.6139e-01,  2.8580e-01,  9.1585e-01, -7.9288e-01,  2.7257e-01,
+         -5.1910e-01, -2.0734e-01,  5.4756e-01, -1.0492e-01,  2.3789e-01,
+         -1.7585e+00, -6.0087e-01,  7.9788e-01,  4.4722e-02, -5.3609e-01,
+          7.1516e-01, -2.9696e-01,  9.3415e-01,  2.8010e-01,  3.7717e-01,
+          1.9299e-01,  1.1698e+00,  1.1383e+00, -1.0624e-01, -1.3292e+00,
+         -2.1094e-02,  2.7097e-01, -5.4767e-02, -1.9185e-01, -1.9019e-01,
+          1.2703e+00,  4.5122e-01,  4.1856e-03, -3.4157e-02,  1.4144e+00,
+         -6.6887e-03, -9.8734e-01,  7.4528e-01, -2.3162e-02, -1.4148e+00,
+          4.3033e-01, -1.5460e-01,  3.1175e-01, -1.6001e-01,  1.0094e+00,
+         -7.1603e-02, -1.9858e-01,  6.6161e-01,  1.4296e+00,  3.6033e-01,
+         -1.5280e+00, -8.5878e-01,  3.2667e-01, -2.1812e-01, -9.1053e-02,
+          9.1246e-01,  5.5131e-01, -1.9757e-01,  9.8333e-03,  4.0359e-01,
+         -9.5178e-01,  2.3204e-01, -1.8197e-01,  9.1868e-01,  6.8126e-02,
+          1.9057e+00, -7.5878e-01, -6.3008e-01,  3.1355e-01, -1.6347e-02,
+          1.3297e+00, -1.5166e+00,  1.8437e-01, -1.0457e+00,  4.7649e-01,
+          2.2357e-01, -3.4095e-01,  9.6342e-01, -2.0593e-02, -1.2130e+00,
+          1.4669e-01, -2.5872e-01, -6.2500e-01,  7.7208e-01, -8.1946e-01,
+          2.2342e+00,  1.4749e+00]]), output_embedding: tensor([[ 7.2694e-01,  3.1695e-01, -3.3184e-01,  1.1483e+00,  1.5224e+00,
+         -5.9879e-01,  7.3964e-02, -6.6572e-01, -3.5503e-01, -9.8590e-02,
+          1.1947e+00, -2.6883e-01, -4.5232e-01,  5.6389e-01,  5.5222e-01,
+         -3.0688e-01,  1.5410e-01,  1.3478e+00,  1.5335e-02, -3.0108e-01,
+         -1.9055e-01,  6.2463e-02,  4.9710e-01,  6.6413e-01, -1.2193e+00,
+         -7.5995e-01,  1.1914e+00, -5.0798e-03, -7.6076e-03, -5.7233e-01,
+         -5.7443e-01,  4.2273e-01,  7.1485e-02, -4.1189e-01,  3.5460e-01,
+         -6.7798e-01, -1.2680e+00, -6.5361e-01,  7.6835e-01,  8.9665e-01,
+         -5.0035e-01,  1.0631e-01,  8.2272e-01,  1.8325e+00,  8.0111e-01,
+         -2.4224e-01, -4.4750e-01, -4.3873e-01,  3.5413e-01,  9.6047e-01,
+         -4.4461e-01, -4.5955e-01,  4.4361e-01,  7.5620e-01, -3.0593e-01,
+         -2.6154e-01,  5.9923e-01,  2.2267e-01, -8.2645e-01,  2.1011e-01,
+          9.4936e-01, -3.6755e-01, -1.9930e-01,  4.3162e-01, -1.0218e+00,
+          9.6713e-01,  1.6494e+00,  2.4206e-01, -3.9320e-01, -3.2703e-01,
+          8.2183e-01,  4.3381e-01,  3.0251e-02,  8.4313e-01, -1.7448e+00,
+          3.9759e-01,  3.6216e-01, -1.1021e+00,  2.3605e-01, -3.1720e-01,
+         -2.0022e+00, -2.3310e+00,  9.9953e-01, -8.5519e-01, -2.0730e+00,
+         -1.6531e+00,  7.7287e-01,  3.1795e-01, -9.9628e-01,  6.0382e-01,
+         -5.1290e-01, -4.6506e-01, -3.4594e-01, -7.4537e-01, -7.5967e-02,
+         -3.6659e-01,  3.7468e-01,  8.3924e-01, -3.1773e-01, -1.0420e+00,
+          4.9966e-01, -6.6588e-01, -2.5750e-01, -2.9709e+00,  1.2574e+00,
+         -3.5731e-01, -4.8655e-01, -4.8249e-01, -1.1307e+00, -2.9750e-02,
+         -1.5870e+00,  5.9637e-02, -1.7909e-01,  6.1030e-01,  6.5910e-01,
+         -4.5963e-01, -5.2525e-02,  7.4953e-01, -7.2478e-03, -5.4064e-01,
+          9.7136e-02,  8.7130e-01, -4.1656e-01, -7.1769e-01, -5.4666e-02,
+          2.0464e+00,  1.4173e+00, -1.2885e-01,  1.1901e-01, -1.0678e+00,
+          5.4064e-01,  4.9471e-01, -6.6469e-01, -2.9270e-01,  8.7610e-01,
+         -4.9644e-01, -3.8483e-01, -5.8687e-02,  1.3609e-01, -1.5492e-01,
+          1.0125e+00, -6.2630e-01,  7.6383e-01, -2.7331e-01, -7.6137e-01,
+          9.1030e-01,  1.1017e+00,  3.3450e-01,  5.8950e-01,  6.5643e-01,
+          4.0939e-01,  2.9196e-01, -2.5082e-01,  1.7208e+00,  3.1487e-01,
+          3.2712e-01,  5.8992e-01,  8.9243e-01, -2.4007e-01,  4.6560e-01,
+         -5.8472e-01, -1.2109e+00, -6.9805e-01, -2.2465e-01,  6.3318e-01,
+          1.7725e-01, -7.3745e-01,  1.7641e+00,  9.6645e-02,  6.4937e-03,
+         -1.1891e-01,  4.8954e-01,  1.5640e-01,  1.2476e-01,  1.5282e+00,
+          3.8717e-01,  4.3892e-01, -5.4581e-02, -2.9244e-01, -1.5993e+00,
+          8.2941e-01, -1.8160e+00, -8.9961e-01,  2.7121e-01, -5.5043e-01,
+         -4.4373e-01, -5.4099e-01, -5.7787e-01,  1.8372e+00, -4.5881e-01,
+         -7.1424e-01, -1.0763e+00, -3.4648e-01,  1.4664e-02,  4.0678e-01,
+         -8.4456e-01, -2.5652e-01,  4.8034e-01, -6.5535e-01, -4.0944e-02,
+          3.5053e-01,  1.4080e+00,  1.0351e+00, -1.8653e-01,  4.6054e-01,
+         -3.7751e-02, -6.9706e-01, -1.7872e-01, -1.8899e+00,  7.4991e-01,
+          1.4765e+00, -3.4634e-01,  8.3284e-02, -5.2292e-01, -4.0594e-01,
+          5.8082e-01, -6.6763e-01,  4.4188e-01, -5.0132e-01,  1.2265e+00,
+          1.4121e-01,  2.9375e-01,  1.8764e+00,  5.4309e-01, -1.4453e-01,
+         -2.8427e-01, -1.9991e-01, -2.1194e-01,  5.5494e-01, -1.2598e+00,
+         -8.5878e-01, -3.2394e-01, -4.0180e-01, -1.9010e-01,  4.2423e-01,
+         -5.4407e-01, -1.1354e+00,  1.1981e+00,  9.5252e-01, -6.6023e-01,
+          7.0692e-01, -1.2207e-01, -5.5430e-04,  1.5154e-01, -8.5813e-01,
+         -1.4299e+00,  2.5044e-01, -4.7223e-01,  9.8596e-01,  8.9382e-01,
+          1.7118e-01, -4.6269e-01,  4.0933e-01,  5.5163e-01, -5.7390e-01,
+          2.6532e-01]]), obj_idxes: tensor([0]), matched_gt_idxes: tensor([-1]), disappear_time: tensor([0]), iou: tensor([0.]), scores: tensor([0.8401]), track_scores: tensor([0.]), pred_boxes: tensor([[-4.4362e+00, -1.0457e+01, -5.7496e-01,  5.4815e-01, -1.9604e+00,
+          8.2555e-02,  2.6890e-02,  9.9731e-01, -1.2011e-03, -9.9059e-04]]), pred_logits: tensor([[ -6.4774,  -8.0849,  -7.5573, -11.3790,  -6.8656,  -5.9882,  -2.8453,
+           1.6590,  -5.5511,  -4.6095]]), mem_bank: tensor([[[ 0.0000,  0.0000,  0.0000,  ...,  0.0000,  0.0000,  0.0000],
+         [ 0.0000,  0.0000,  0.0000,  ...,  0.0000,  0.0000,  0.0000],
+         [ 0.0000,  0.0000,  0.0000,  ...,  0.0000,  0.0000,  0.0000],
+         [-0.5029, -0.2620,  0.0386,  ...,  0.0127,  0.3238, -0.2907]]]), mem_padding_mask: tensor([[ True,  True,  True, False]]), save_period: tensor([3.])])
+(Pdb) torch.Size([1, 512])
+(Pdb) torch.Size([1, 4, 256])
+(Pdb)   /Users/liangming.xu/code/UniAD/tools/test.py(274)<module>()
+-> main()
+  /Users/liangming.xu/code/UniAD/tools/test.py(230)main()
+-> result = model(return_loss=False, rescale=True, **data)
+  /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/module.py(1051)_call_impl()
+-> return forward_call(*input, **kwargs)
+  /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_e2e.py(83)forward()
+-> return self.forward_test(**kwargs)
+  /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_e2e.py(292)forward_test()
+-> result_track = self.simple_test_track(img, l2g_t, l2g_r_mat, img_metas, timestamp)
+  /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(753)simple_test_track()
+-> frame_res = self._forward_single_frame_inference(
+  /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(641)_forward_single_frame_inference()
+-> active_inst = track_instances[track_instances.obj_idxes >= 0]
+  /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/module.py(1051)_call_impl()
+-> return forward_call(*input, **kwargs)
+> /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/modules.py(250)forward()
+-> active_track_instances = self._update_track_embedding(
+  /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/modules.py(155)_update_track_embedding()
+-> out_embed = track_instances.output_embedding
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/module.py(1051)_call_impl()
+-> return forward_call(*input, **kwargs)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(641)_forward_single_frame_inference()
+-> active_inst = track_instances[track_instances.obj_idxes >= 0]
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(753)simple_test_track()
+-> frame_res = self._forward_single_frame_inference(
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(641)_forward_single_frame_inference()
+-> active_inst = track_instances[track_instances.obj_idxes >= 0]
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/module.py(1051)_call_impl()
+-> return forward_call(*input, **kwargs)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/modules.py(250)forward()
+-> active_track_instances = self._update_track_embedding(
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/module.py(1051)_call_impl()
+-> return forward_call(*input, **kwargs)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py(641)_forward_single_frame_inference()
+-> active_inst = track_instances[track_instances.obj_idxes >= 0]
+(Pdb) 636  	        img: B, num_cam, C, H, W = img.shape
+637  	        """
+638  	
+639  	        """ velo update """
+640  	        import pdb; pdb.set_trace()
+641  ->	        active_inst = track_instances[track_instances.obj_idxes >= 0]
+642  	        other_inst = track_instances[track_instances.obj_idxes < 0]
+643  	
+644  	        if l2g_r2 is not None and len(active_inst) > 0 and l2g_r1 is not None:
+645  	            ref_pts = active_inst.ref_pts
+646  	            velo = active_inst.pred_boxes[:, -2:]
+(Pdb) > /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/module.py(1051)_call_impl()
+-> return forward_call(*input, **kwargs)
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/modules.py(250)forward()
+-> active_track_instances = self._update_track_embedding(
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/modules.py(155)_update_track_embedding()
+-> out_embed = track_instances.output_embedding
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/modules.py(156)_update_track_embedding()
+-> query_pos = track_instances.query[:, :dim // 2]
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/modules.py(157)_update_track_embedding()
+-> query_feat = track_instances.query[:, dim // 2:]
+(Pdb) torch.Size([3, 256])
+(Pdb) 512
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/modules.py(158)_update_track_embedding()
+-> q = k = query_pos + out_embed
+(Pdb) torch.Size([3, 256])
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/modules.py(161)_update_track_embedding()
+-> tgt = out_embed
+(Pdb) > /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/modules.py(162)_update_track_embedding()
+-> tgt2 = self.self_attn(q[:, None], k[:, None], value=tgt[:, None])[0][:,
+(Pdb) Traceback (most recent call last):
+  File "./tools/test.py", line 274, in <module>
+    main()
+  File "./tools/test.py", line 230, in main
+    result = model(return_loss=False, rescale=True, **data)
+  File "/opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1051, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_e2e.py", line 83, in forward
+    return self.forward_test(**kwargs)
+  File "/Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_e2e.py", line 292, in forward_test
+    result_track = self.simple_test_track(img, l2g_t, l2g_r_mat, img_metas, timestamp)
+  File "/Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py", line 753, in simple_test_track
+    frame_res = self._forward_single_frame_inference(
+  File "/Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_track.py", line 641, in _forward_single_frame_inference
+    active_inst = track_instances[track_instances.obj_idxes >= 0]
+  File "/opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1051, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/modules.py", line 250, in forward
+    active_track_instances = self._update_track_embedding(
+  File "/Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/modules.py", line 162, in _update_track_embedding
+    tgt2 = self.self_attn(q[:, None], k[:, None], value=tgt[:, None])[0][:,
+  File "/Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/track_head_plugin/modules.py", line 162, in _update_track_embedding
+    tgt2 = self.self_attn(q[:, None], k[:, None], value=tgt[:, None])[0][:,
+  File "/opt/homebrew/anaconda3/envs/uniad/lib/python3.8/bdb.py", line 88, in trace_dispatch
+    return self.dispatch_line(frame)
+  File "/opt/homebrew/anaconda3/envs/uniad/lib/python3.8/bdb.py", line 113, in dispatch_line
+    if self.quitting: raise BdbQuit
+bdb.BdbQuit
