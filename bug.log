@@ -1,0 +1,41 @@
+(Pdb) attention_weights.shape
+torch.Size([8, 1, 40000, 16])
+(Pdb) tt = t.flatten(-2)
+(Pdb) tt.shape
+torch.Size([8, 32, 40000, 4])
+
+-> return self.forward_test(**kwargs)
+  /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/detectors/uniad_e2e.py(300)forward_test()
+-> result_seg =  self.seg_head.forward_test(bev_embed, gt_lane_labels, gt_lane_masks, img_metas, rescale)
+  /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/panseg_head.py(1013)forward_test()
+-> pred_seg_dict = self(pts_feats)
+  /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/module.py(1051)_call_impl()
+-> return forward_call(*input, **kwargs)
+  /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/runner/fp16_utils.py(186)new_func()
+-> return old_func(*args, **kwargs)
+  /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/panseg_head.py(226)forward()
+-> enc_outputs_class, enc_outputs_coord = self.transformer(
+  /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/module.py(1051)_call_impl()
+-> return forward_call(*input, **kwargs)
+  /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/runner/fp16_utils.py(186)new_func()
+-> return old_func(*args, **kwargs)
+  /Users/liangming.xu/code/UniAD/projects/mmdet3d_plugin/uniad/dense_heads/seg_head_plugin/seg_deformable_transformer.py(319)forward()
+-> memory = self.encoder(query=feat_flatten,
+  /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/module.py(1051)_call_impl()
+-> return forward_call(*input, **kwargs)
+  /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmdet/models/utils/transformer.py(118)forward()
+-> x = super(DetrTransformerEncoder, self).forward(*args, **kwargs)
+  /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(585)forward()
+-> query = layer(
+  /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/module.py(1051)_call_impl()
+-> return forward_call(*input, **kwargs)
+  /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/cnn/bricks/transformer.py(474)forward()
+-> query = self.attentions[attn_index](
+  /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/torch/nn/modules/module.py(1051)_call_impl()
+-> return forward_call(*input, **kwargs)
+  /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/utils/misc.py(340)new_func()
+-> output = old_func(*args, **kwargs)
+  /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/ops/multi_scale_deform_attn.py(350)forward()
+-> output = multi_scale_deformable_attn_pytorch(
+> /opt/homebrew/anaconda3/envs/uniad/lib/python3.8/site-packages/mmcv/ops/multi_scale_deform_attn.py(149)multi_scale_deformable_attn_pytorch()
+-> output = (torch.stack(sampling_value_list, dim=-2).flatten(-2) *
